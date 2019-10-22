@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pattern motion selectivity on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/pattern-motion-selectivity/</link>
+    <description>Recent content in pattern motion selectivity on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/pattern-motion-selectivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A GPU-accelerated cortical neural network model for visually guided robot navigation</title>
+      <link>https://bionicvisionlab.org/publication/2015-gpu-visually-guided-robot-navigation/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2015-gpu-visually-guided-robot-navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient spiking neural network model of pattern motion selectivity in visual cortex</title>
+      <link>https://bionicvisionlab.org/publication/2014-snn-pattern-motion/</link>
+      <pubDate>Wed, 05 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2014-snn-pattern-motion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

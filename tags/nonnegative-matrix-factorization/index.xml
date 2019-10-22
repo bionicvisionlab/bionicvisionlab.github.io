@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nonnegative matrix factorization on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/nonnegative-matrix-factorization/</link>
+    <description>Recent content in nonnegative matrix factorization on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/nonnegative-matrix-factorization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neural correlates of sparse coding and dimensionality reduction</title>
+      <link>https://bionicvisionlab.org/publication/2019-neural-correlates-sparse-coding-dimensionality-reduction/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-neural-correlates-sparse-coding-dimensionality-reduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D visual response properties of MSTd emerge from an efficient, sparse population code</title>
+      <link>https://bionicvisionlab.org/publication/2016-sparse-decomposition-model/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2016-sparse-decomposition-model/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

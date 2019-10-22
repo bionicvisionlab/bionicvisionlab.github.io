@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/</link>
+    <description>Recent content on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 10 Oct 2019 14:21:43 -0700</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Model-based recommendations for optimal surgical placement of epiretinal implants</title>
+      <link>https://bionicvisionlab.org/publication/2019-optimal-surgical-placement/</link>
+      <pubDate>Thu, 10 Oct 2019 14:21:43 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-optimal-surgical-placement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What would the world look like with a bionic eye?</title>
+      <link>https://bionicvisionlab.org/research/0-visual-modeling/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/0-visual-modeling/</guid>
+      <description>&lt;p&gt;Despite the increasing clinical and commercial use of retinal implants,
+the perceptual experience of sight recovery (SR) patients
+is surprisingly poorly understood.&lt;/p&gt;
+
+&lt;p&gt;A common misconception in the field is that each electrode in an array
+can be thought of as a ‘pixel’ in an image;
+to generate a complex visual experience,
+one then simply needs to turn on the right combination of pixels.&lt;/p&gt;
+
+&lt;p&gt;However, almost all SR technologies are likely to suffer
+from perceptual distortions and subsequent loss of information
+due to interactions between the technology and the underlying neurophysiology.&lt;/p&gt;
+
+&lt;p&gt;The goal of this project is to characterize these distortions psychophysically,
+and to develop a computational model that predicts what a patient should see
+for any given input stimulus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How can we design more effective stimulation strategies?</title>
+      <link>https://bionicvisionlab.org/research/1-optimize-stimulation/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/1-optimize-stimulation/</guid>
+      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions
+severely limits current stimulation protocols.
+For example, current Argus II protocols
+simply attempt to minimize electric field interactions
+by maximizing phase delays across electrodes using ‘time-multiplexing’.
+The assumption is that single-electrode percepts act as
+atomic ‘building blocks’ of patterned vision.
+However, these building blocks often fail to assemble
+into more complex percepts.&lt;/p&gt;
+
+&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies
+that minimize perceptual distortions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How can virtual patients improve performance of real sight recovery patients?</title>
+      <link>https://bionicvisionlab.org/research/2-virtual-patients/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/2-virtual-patients/</guid>
+      <description>&lt;p&gt;Embedding a computational model that can predict the perceptual distortions
+encountered by sight restoration (SR) patients in virtual reality (VR)
+will enable sighted subjects to act as virtual patients in real-world tasks.
+This will allow us to test novel stimulation strategies in high-throughput experiments.
+Strategies that result in good VR performance will then be validated in real SR patients.&lt;/p&gt;
+
+&lt;p&gt;For example, rather than aiming to ‘restore natural vision’,
+there is potential merit in borrowing computer vision algorithms
+as preprocessing techniques to maximize the usefulness of prosthetic vision.
+Edge enhancement and contrast maximization are already routinely used in Argus II.
+In the future, more sophisticated techniques such as low-level image enhancements
+and visual saliency based transforms could further improve visual performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data-driven models in human neuroscience and neuroengineering</title>
+      <link>https://bionicvisionlab.org/publication/2019-data-driven-models-human-neuroscience-neuroengineering/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-data-driven-models-human-neuroscience-neuroengineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCMag: Restoring vision with bionic eyes - no longer science fiction</title>
+      <link>https://bionicvisionlab.org/post/2019-07-pcmag/</link>
+      <pubDate>Tue, 09 Jul 2019 09:29:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/post/2019-07-pcmag/</guid>
+      <description>&lt;p&gt;A new article appeared in PCMag to celebrate the inauguration of the Bionic Vision Lab at UCSB:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bionic vision might sound like science fiction, but Dr. Michael Beyeler is working on just that.&lt;/p&gt;
+
+&lt;p&gt;Originally from Switzerland, Dr. Beyeler is wrapping up his postdoctoral fellow at the University of Washington before moving to the University of California Santa Barbara this fall to head up the newly formed Bionic Vision Lab in the Departments of Computer Science and Psychological &amp;amp; Brain Sciences.&lt;/p&gt;
+
+&lt;p&gt;We spoke with him about this &amp;ldquo;deep fascination with the brain&amp;rdquo; and how he hopes his work will eventually be able to restore vision to the blind. Here are edited and condensed excerpts from our conversation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Read the full article &lt;a href=&#34;https://www.pcmag.com/news/369401/restoring-vision-with-bionic-eyes-no-longer-science-fiction&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural correlates of sparse coding and dimensionality reduction</title>
+      <link>https://bionicvisionlab.org/publication/2019-neural-correlates-sparse-coding-dimensionality-reduction/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-neural-correlates-sparse-coding-dimensionality-reduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A model of ganglion axon pathways accounts for percepts elicited by retinal implants</title>
+      <link>https://bionicvisionlab.org/publication/2019-axon-map-model/</link>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-axon-map-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biophysical model of axonal stimulation in epiretinal visual prostheses</title>
+      <link>https://bionicvisionlab.org/publication/2019-biophysical-model-axonal-stimulation/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-biophysical-model-axonal-stimulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commentary: Detailed visual cortical responses generated by retinal sheet transplants in rats with severe retinal degeneration</title>
+      <link>https://bionicvisionlab.org/publication/2019-retinal-sheet-transplants/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2019-retinal-sheet-transplants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters</title>
+      <link>https://bionicvisionlab.org/publication/2018-carlsim4/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2018-carlsim4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies</title>
+      <link>https://bionicvisionlab.org/publication/2017-learning-to-see-again/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2017-learning-to-see-again/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
+      <link>https://bionicvisionlab.org/publication/2017-pulse2percept/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2017-pulse2percept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D visual response properties of MSTd emerge from an efficient, sparse population code</title>
+      <link>https://bionicvisionlab.org/publication/2016-sparse-decomposition-model/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2016-sparse-decomposition-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A GPU-accelerated cortical neural network model for visually guided robot navigation</title>
+      <link>https://bionicvisionlab.org/publication/2015-gpu-visually-guided-robot-navigation/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2015-gpu-visually-guided-robot-navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks</title>
+      <link>https://bionicvisionlab.org/publication/2015-carlsim3/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2015-carlsim3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision-based robust road lane detection in urban environments</title>
+      <link>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient spiking neural network model of pattern motion selectivity in visual cortex</title>
+      <link>https://bionicvisionlab.org/publication/2014-snn-pattern-motion/</link>
+      <pubDate>Wed, 05 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2014-snn-pattern-motion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPGPU accelerated simulation and parameter tuning for neuromorphic applications</title>
+      <link>https://bionicvisionlab.org/publication/2014-gpgpu-accelerated-simulation-parameter-tuning/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2014-gpgpu-accelerated-simulation-parameter-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like plasticity rule</title>
+      <link>https://bionicvisionlab.org/publication/2013-categorization-mnist-stdp/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2013-categorization-mnist-stdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring olfactory sensory networks: Simulations and hardware emulation</title>
+      <link>https://bionicvisionlab.org/publication/2010-exploring-olfactory-networks/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2010-exploring-olfactory-networks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
