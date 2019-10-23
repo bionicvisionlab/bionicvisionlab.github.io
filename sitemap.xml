@@ -96,13 +96,18 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
+    <loc>https://bionicvisionlab.org/research/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/research/</loc>
+    <loc>https://bionicvisionlab.org/research/0-visual-modeling/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -114,24 +119,43 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/research/0-visual-modeling/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/deep-learning/</loc>
-    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/research/1-optimize-stimulation/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/data-science/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/machine-learning/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/2-virtual-patients/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/augmented-reality/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/virtual-reality/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -155,12 +179,6 @@
   <url>
     <loc>https://bionicvisionlab.org/publication/2019-data-driven-models-human-neuroscience-neuroengineering/</loc>
     <lastmod>2019-07-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/data-science/</loc>
-    <lastmod>2019-07-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -472,12 +490,6 @@
   <url>
     <loc>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

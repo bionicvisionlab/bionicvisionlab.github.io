@@ -22,6 +22,27 @@
     </item>
     
     <item>
+      <title>How can we design more effective stimulation strategies?</title>
+      <link>https://bionicvisionlab.org/research/1-optimize-stimulation/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/1-optimize-stimulation/</guid>
+      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions
+severely limits current stimulation protocols.
+For example, current Argus II protocols
+simply attempt to minimize electric field interactions
+by maximizing phase delays across electrodes using ‘time-multiplexing’.
+The assumption is that single-electrode percepts act as
+atomic ‘building blocks’ of patterned vision.
+However, these building blocks often fail to assemble
+into more complex percepts.&lt;/p&gt;
+
+&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies
+that minimize perceptual distortions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data-driven models in human neuroscience and neuroengineering</title>
       <link>https://bionicvisionlab.org/publication/2019-data-driven-models-human-neuroscience-neuroengineering/</link>
       <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>

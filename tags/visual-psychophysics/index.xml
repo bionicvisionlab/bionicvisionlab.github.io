@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visual psychophysics on Bionic Vision Lab</title>
+    <title>visual psychophysics on Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/tags/visual-psychophysics/</link>
-    <description>Recent content in Visual psychophysics on Bionic Vision Lab</description>
+    <description>Recent content in visual psychophysics on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
@@ -34,6 +34,27 @@ due to interactions between the technology and the underlying neurophysiology.&l
 &lt;p&gt;The goal of this project is to characterize these distortions psychophysically,
 and to develop a computational model that predicts what a patient should see
 for any given input stimulus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How can virtual patients improve performance of real sight recovery patients?</title>
+      <link>https://bionicvisionlab.org/research/2-virtual-patients/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/2-virtual-patients/</guid>
+      <description>&lt;p&gt;Embedding a computational model that can predict the perceptual distortions
+encountered by sight restoration (SR) patients in virtual reality (VR)
+will enable sighted subjects to act as virtual patients in real-world tasks.
+This will allow us to test novel stimulation strategies in high-throughput experiments.
+Strategies that result in good VR performance will then be validated in real SR patients.&lt;/p&gt;
+
+&lt;p&gt;For example, rather than aiming to ‘restore natural vision’,
+there is potential merit in borrowing computer vision algorithms
+as preprocessing techniques to maximize the usefulness of prosthetic vision.
+Edge enhancement and contrast maximization are already routinely used in Argus II.
+In the future, more sophisticated techniques such as low-level image enhancements
+and visual saliency based transforms could further improve visual performance.&lt;/p&gt;
 </description>
     </item>
     
