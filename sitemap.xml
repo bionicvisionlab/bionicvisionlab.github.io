@@ -3,6 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/teaching/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/human-computer-interaction/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/neuroengineering/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/visual-psychophysics/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
     <lastmod>2019-10-10T14:21:43-07:00</lastmod>
   </url>
@@ -21,12 +68,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/</loc>
     <lastmod>2019-10-10T14:21:43-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -60,19 +101,7 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/neuroengineering/</loc>
     <lastmod>2019-10-10T14:21:43-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -104,18 +133,6 @@
   <url>
     <loc>https://bionicvisionlab.org/research/0-visual-modeling/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/visual-psychophysics/</loc>
-    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -604,6 +621,10 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/kasowski_justin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/lam_vy/</loc>
   </url>
   
   <url>
