@@ -18,24 +18,570 @@
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</guid>
-      <description>&lt;p&gt;&lt;em&gt;What would the world look like with a bionic eye?&lt;/em&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;em&gt;What would the world look like with a bionic eye?&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This graduate course will introduce students to the multidisciplinary field of bionic vision,
 with an emphasis on both the computer science and neuroscience of the field.&lt;/p&gt;
 
-&lt;p&gt;The course will give an overview of current bionic eye technology designed to restore vision
-to people living with incurable blindness.
-Students will be exposed to the neuroscience of the human visual system,
-key engineering concepts for designing a brain-computer interface,
-and computational principles underlying the encoding of a visual scene
-into an artificial stimulus that the brain can interpret.
-We will cover recent advances in theory and applications,
-and discuss outstanding challenges with existing devices.
-The course will conclude with a team project giving students the opportunity
-to gain hands-on experience of working on open problems in the field
+&lt;p&gt;The course will conclude with a &lt;a href=&#34;#final-project&#34;&gt;&lt;strong&gt;programming project&lt;/strong&gt;&lt;/a&gt; (teams of &amp;le; 2, any language/environment ok)
+in lieu of a final exam,
+giving students an opportunity to gain hands-on experience of working on open research problems
 using methods and tools best suited to their scientific background.&lt;/p&gt;
 
-&lt;p&gt;The course is targeted to a diverse audience spanning from computer science (human factors, computer vision, neural networks) to psychology (vision, psychophysics) and brain sciences (computational neuroscience, neuroengineering).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Instructor&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;../../authors/beyeler_michael&#34;&gt;Michael Beyeler&lt;/a&gt; (first initial last name at ucsb dot edu)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Class&lt;/td&gt;
+&lt;td&gt;WQ 2020, Tue/Thu 9:00 &amp;ndash; 10:50 am, Phelps 3526&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Office Hours&lt;/td&gt;
+&lt;td&gt;Tue 3:00 &amp;ndash; 4:00 pm or by appointment, &lt;a href=&#34;https://goo.gl/maps/FNqobRLFTjkUygPw8&#34; target=&#34;_blank&#34;&gt;Psych East&lt;/a&gt; 3822&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This website and the &lt;a href=&#34;https://piazza.com/class/k1s8n2w76i0q3&#34; target=&#34;_blank&#34;&gt;Piazza Forum&lt;/a&gt; will be used as centers for communication.
+Homework submission will occur through &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/course/view.php?id=65874&#34; target=&#34;_blank&#34;&gt;GauchoSpace&lt;/a&gt;.
+Make sure you are enrolled! (Come to class to get an add code.)&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
+
+&lt;p&gt;The course will give an overview of current bionic eye technology designed to restore vision
+to people living with incurable blindness.
+By the end of the course, you should be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Identify various types of bionic eye technologies, their differences and similarities&lt;/li&gt;
+&lt;li&gt;Have a basic understanding of the neuroscience of the human visual system&lt;/li&gt;
+&lt;li&gt;Be familiar with common preprocessing, encoding, and electrical stimulation methods&lt;/li&gt;
+&lt;li&gt;Understand the limitations of current bionic eye technologies&lt;/li&gt;
+&lt;li&gt;Have hands-on experience of working on open problems in the field&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The course is targeted to a diverse audience spanning from computer science (human factors, neural networks, computer vision)
+to psychology (vision, psychophysics) and brain sciences (computational neuroscience, neuroengineering).&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There are no official prerequisites for this course.
+The instructor will do his best to make the course content self-contained.&lt;/li&gt;
+&lt;li&gt;However, prior programming experience (e.g., Python, Matlab, C++) will be highly beneficial as
+&lt;strong&gt;Homework 2 (HW2) and the final project require programming&lt;/strong&gt;.
+Students will be introduced to &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34; target=&#34;_blank&#34;&gt;pulse2percept&lt;/a&gt;,
+a Python-based simulation framework for bionic vision, which will form the basis for HW2 and (optionally) the final project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;&lt;sup&gt;Import calendar: &lt;a href=&#34;http://bit.ly/cs291i-cal&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/sup&gt; &lt;br&gt;
+&lt;sup&gt;&lt;em&gt;Note: This schedule is subject to change over the course of the quarter.&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;table id=&#34;schedule&#34;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Wk&lt;/th&gt;
+            &lt;th colspan=&#34;2&#34;&gt;Date&lt;/th&gt;
+            &lt;th&gt;Reading&lt;/th&gt;
+            &lt;th&gt;Topics&lt;/th&gt;
+            &lt;th&gt;Handout&lt;/th&gt;
+            &lt;th&gt;HW out&lt;/th&gt;
+            &lt;th&gt;HW due&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;!-- Week 1 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;1&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Jan 7&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Introduction, motivation&lt;/li&gt;
+                    &lt;li&gt;Class requirements, policies&lt;/li&gt;
+                    &lt;li&gt;Bionic vision: then &amp;amp; now&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;H1, H2&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Jan 9&lt;/td&gt;
+            &lt;td&gt;H1, H2&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Current devices &amp;amp; challenges&lt;/li&gt;
+                    &lt;li&gt;Project ideas&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;HW1&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 2 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;2&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Jan 14&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Human visual system&lt;/li&gt;
+                    &lt;li&gt;Retinal degeneration&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Jan 16&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;b&gt;Students present tech overview&lt;/b&gt; &lt;br&gt;
+                &lt;small class=&#34;due&#34;&gt;
+                    &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                    Homework 1 (HW1) due by Sun, Jan 19, 11:59 pm.
+                &lt;/small&gt;
+                &lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;HW1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 3 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;3&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Jan 21&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Retinal prostheses: Alpha-IMS, PRIMA, Argus I/II&lt;/li&gt;
+                    &lt;li&gt;Evaluation: Visual psychophysics, behavioral tests&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Jan 23&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Introduction to pulse2percept in Python&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Students form teams&lt;/b&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;HW2&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 4 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;4&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Jan 28&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Computational models of the retina&lt;/li&gt;
+                    &lt;li&gt;Phosphene models: Scoreboard, axon map&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Jan 30&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;b&gt;Teams present their project ideas&lt;/b&gt; &lt;br&gt;
+                &lt;small class=&#34;due&#34;&gt;
+                    &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NnVyY2Y5cjJrdnBvcjh2aGtxcjY5c2JrcmUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                    Team &amp; project description (TPD) due by Sun, Feb 2, 11:59 pm.
+                &lt;/small&gt;
+                &lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34;&gt;TPD&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 5 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;5&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Feb 4&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Cortical implants: ORION&lt;/li&gt;
+                    &lt;li&gt;Phosphene models&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Feb 6&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Continued support for pulse2percept&lt;/li&gt;
+                    &lt;li&gt;Activity TBA&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 6 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;6&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Feb 11&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Optimizing visual outcomes with machine learning&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Feb 13&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;b&gt;Guest Visit: Jason Esterhuizen, ORION implantee&lt;/b&gt; (date tentative) &lt;br&gt;
+                &lt;small class=&#34;due&#34;&gt;
+                    &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                    Homework 2 (HW2) due by Sun, Feb 16, 11:59 pm.
+                &lt;/small&gt;
+                &lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;
+            &lt;/td&gt; 
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;HW2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 7 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;7&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Feb 18&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Rehabilitation&lt;/li&gt;
+                    &lt;li&gt;Perceptual learning&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Feb 20&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Activity TBA&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 8 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;8&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Feb 25&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Image preprocessing&lt;/li&gt;
+                    &lt;li&gt;Peripherals, accessories&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Feb 27&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;b&gt;Teams present project progress&lt;/b&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 9 --&gt;
+        &lt;tr class=&#34;gone&#34;&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;9&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Mar 3&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Teams work on projects -- Michael out of the country
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&#34;gone&#34;&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Mar 5&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Teams work on projects -- Michael out of the country
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 10 --&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34;&gt;10&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Mar 10&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;b&gt;Guest Lecture: Dr. Noelle Stiles, USC/Caltech&lt;/b&gt; (date tentative)
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Thu&lt;/td&gt;
+            &lt;td&gt;Mar 12&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Outlook: Future of bionic vision&lt;/li&gt;
+                    &lt;li&gt;Alternatives to brain-computer interfaces&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;small class=&#34;due&#34;&gt;
+                    &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmJmbTRoaDBxdjhmMWc4ZHJ2MzYzaTBnbHUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                    Project report (PR) &amp;amp; source code (SC) due Sun, Mar 15, 11:59 pm.
+                &lt;/small&gt;
+                &lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;PR&amp;amp;SC&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;!-- Week 11 --&gt;
+        &lt;tr class=&#34;finals&#34;&gt;
+            &lt;td&gt;11&lt;/td&gt;
+            &lt;td&gt;Tue&lt;/td&gt;
+            &lt;td&gt;Mar 17&lt;/td&gt;
+            &lt;td&gt;9a-12p&lt;/td&gt;
+            &lt;td&gt;Teams make their final project presentations (date tentative)&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;course-requirements-grading&#34;&gt;Course Requirements &amp;amp; Grading&lt;/h2&gt;
+
+&lt;p&gt;Your final grade will be determined as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15% Class participation and attendance:
+
+&lt;ul&gt;
+&lt;li&gt;Students are expected to attend all class sessions and actively participate in class discussions and activities.&lt;/li&gt;
+&lt;li&gt;If a student must miss a session, they should email the instructor &lt;strong&gt;beforehand&lt;/strong&gt;.
+Each student will be allowed 3 &lt;strong&gt;excused&lt;/strong&gt; absences (no detailed explanation required)
+before their absence will start to negatively affect their participation grade.&lt;/li&gt;
+&lt;li&gt;However, late arrivals and unexcused absences will most definitely have a negative effect on a student&amp;rsquo;s
+participation grade.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;30% Homework assignments:
+
+&lt;ul&gt;
+&lt;li&gt;10% Homework 1&lt;/li&gt;
+&lt;li&gt;20% Homework 2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;55% Final project implementation, documentation, and presentation
+
+&lt;ul&gt;
+&lt;li&gt;5% Project idea presentation (1 slide)&lt;/li&gt;
+&lt;li&gt;10% Project progress presentation (2 slides: what have you done, what&amp;rsquo;s left to do)&lt;/li&gt;
+&lt;li&gt;20% Project final presentation&lt;/li&gt;
+&lt;li&gt;20% Project final report&lt;/li&gt;
+&lt;li&gt;(+5% extra credit if project shows promise of turning into a publication)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lateness-policy&#34;&gt;Lateness Policy&lt;/h2&gt;
+
+&lt;p&gt;All assignments are due at 11:59:59 pm on the scheduled due date, typically a Sunday
+(timestamp of the online submission system).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Each student will be allowed 3 &amp;ldquo;late days&amp;rdquo; over the course of the quarter for which lateness will not be penalized.
+&lt;strong&gt;Late days cannot be applied to project deadlines.&lt;/strong&gt;
+Late days may be applied to one or both homework assignments: Anything turned in between 12:00:00 am and 11:59:59 pm
+the next day is one day late; every day thereafter that an assignment is late, including weekends and holidays, counts
+as an additional late day.&lt;/li&gt;
+&lt;li&gt;Absolutely no late work will be accepted after the deadline if you have used up all your late days.
+If you&amp;rsquo;re not done on time, you must turn in what you have to receive partial credit.
+There will be no exceptions from this rule.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No exceptions will be made for the final project report.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please make sure you understand this policy.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-project&#34;&gt;Final Project&lt;/h2&gt;
+
+&lt;p&gt;In lieu of a final exam, students will conduct a programming project (team size &amp;le; 2).
+The goal of the project is to gain hands-on experience working on open research questions in bionic vision
+using tools and methods best suited to their scientific background.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All projects must address a research question and have a programming component&lt;/strong&gt;.
+Students are free to use any programming language and development environment they choose.
+Building a project based on pulse2percept is encouraged (especially for students with relatively little programming
+experience) but is by no means required.
+Reproducing key research findings in the literature is allowed.
+No pure literature reviews, please.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Projects that show promise of turning into a publication will receive &lt;a href=&#34;#course-requirements-grading&#34;&gt;extra credit&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Students will present their project to the rest of the class during finals week.
+In addition, students will submit a write-up of their project and hand in their source code
+(see &lt;a href=&#34;#project-milestones&#34;&gt;Milestones&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The project will be evaluated based on the:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;originality/novelty of the idea&lt;/li&gt;
+&lt;li&gt;technical strength of the work (emphasis on the &lt;em&gt;research&lt;/em&gt;, not the programming expertise)&lt;/li&gt;
+&lt;li&gt;organization, clarity, and style of the project report&lt;/li&gt;
+&lt;li&gt;effort and completeness of the work (normalized by the number of team members)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;project-milestones&#34;&gt;Project Milestones&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Deliverable due&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Thu, Jan 23&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;Students start forming teams and discussing project ideas in class.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Thu, Jan 30&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;Teams present their project ideas in class.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sun, Feb 2&lt;/td&gt;
+&lt;td&gt;11:59 pm&lt;/td&gt;
+&lt;td&gt;Teams &lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34;&gt;submit a project title and 2-3 sentence project description&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Thu, Feb 27&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;Teams present their project progress in class.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sun, Mar 12&lt;/td&gt;
+&lt;td&gt;11:59 pm&lt;/td&gt;
+&lt;td&gt;Teams hand in their final project report and all source code.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tue, Mar 17&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;(date tentative) Teams make their final project presentations in class.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Students are encouraged to discuss ideas with the instructors, so that feedback can be incorporated early in the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Late days cannot be used on these project deadlines.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;project-presentation&#34;&gt;Project Presentation&lt;/h3&gt;
+
+&lt;p&gt;Teams will present their project in class during finals week.
+Each team will have 20 minutes to present (including start-up time). Every member of the group must speak.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;More details will be announced soon.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;project-report&#34;&gt;Project Report&lt;/h3&gt;
+
+&lt;p&gt;Each team will also submit a write-up of their project.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;More details will be announced soon.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;project-ideas&#34;&gt;Project Ideas&lt;/h3&gt;
+
+&lt;p&gt;Apart from the required programming component, students are free to choose a project best suited to their interests
+and expertise.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;More details will be announced soon.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Please choose a project topic that is related to your interests so that the project is fun for you!&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h2&gt;
+
+&lt;p&gt;The University of California has formal policies related to &lt;a href=&#34;http://studentconduct.sa.ucsb.edu/academic-integrity&#34; target=&#34;_blank&#34;&gt;academic integrity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Any act of academic dishonesty, such as cheating or plagiarism, will result in a University disciplinary action
+and an &amp;ldquo;F&amp;rdquo; in this course.
+In addition to academic integrity, I also expect everyone in this class to treat their fellow students and course staff
+with respect.&lt;/p&gt;
 </description>
     </item>
     
