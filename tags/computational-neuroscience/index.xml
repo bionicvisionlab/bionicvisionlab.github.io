@@ -136,11 +136,13 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;
                 &lt;ul&gt;
                     &lt;li&gt;Sight restoration approaches &amp;amp; challenges&lt;/li&gt;
-                    &lt;li&gt;Project ideas&lt;/li&gt;
+                    &lt;li&gt;Class discussion&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;HW1&lt;/td&gt;
+            &lt;td&gt;
+                &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1AZyc47L5LxMj2tSkARz6HjdJ8oI4vWZNbf1OSWpR2IU/edit?usp=sharing&#34;&gt;HW1&lt;/a&gt;
+            &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;!-- Week 2 --&gt;
@@ -164,7 +166,9 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;Jan 16&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
-                &lt;b&gt;Students present tech overview&lt;/b&gt; &lt;br&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Activity TBA&lt;/li&gt;
+                &lt;/ul&gt;
                 &lt;small class=&#34;due&#34;&gt;
                     &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
                     Homework 1 (HW1) due by Sun, Jan 19, 11:59 pm.
