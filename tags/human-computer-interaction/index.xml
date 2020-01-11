@@ -117,26 +117,25 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
-                    &lt;li&gt;Introduction, motivation&lt;/li&gt;
-                    &lt;li&gt;Class requirements, policies&lt;/li&gt;
+                    &lt;li&gt;Introduction: Class requirements, policies&lt;/li&gt;
                     &lt;li&gt;Bionic vision: then &amp;amp; now&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
-            &lt;td&gt;
-                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3010591&#34;&gt;H1&lt;/a&gt;,
-                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3010596&#34;&gt;H2&lt;/a&gt;
-            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;Thu&lt;/td&gt;
             &lt;td&gt;Jan 9&lt;/td&gt;
-            &lt;td&gt;H1, H2&lt;/td&gt;
+            &lt;td&gt;
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3010591&#34;&gt;R1&lt;/a&gt;,
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3010596&#34;&gt;R2&lt;/a&gt;
+            &lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
+                    &lt;li&gt;Blinding eye diseases&lt;/li&gt;
                     &lt;li&gt;Sight restoration approaches &amp;amp; challenges&lt;/li&gt;
-                    &lt;li&gt;Class discussion&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
@@ -153,8 +152,8 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
-                    &lt;li&gt;Human visual system&lt;/li&gt;
-                    &lt;li&gt;Retinal degeneration&lt;/li&gt;
+                    &lt;li&gt;Fundamentals of neuroscience&lt;/li&gt;
+                    &lt;li&gt;The visual system&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
@@ -167,7 +166,8 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
-                    &lt;li&gt;Activity TBA&lt;/li&gt;
+                    &lt;li&gt;Computational neuroscience&lt;/li&gt;
+                    &lt;li&gt;Introduction to Python&lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;small class=&#34;due&#34;&gt;
                     &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
@@ -187,8 +187,8 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
-                    &lt;li&gt;Retinal prostheses: Alpha-IMS, PRIMA, Argus I/II&lt;/li&gt;
-                    &lt;li&gt;Evaluation: Visual psychophysics, behavioral tests&lt;/li&gt;
+                    &lt;li&gt;Retina in health &amp;amp; disease&lt;/li&gt;
+                    &lt;li&gt;Retinal prostheses&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
@@ -202,7 +202,7 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;
                 &lt;ul&gt;
                     &lt;li&gt;Introduction to pulse2percept in Python&lt;/li&gt;
-                    &lt;li&gt;&lt;b&gt;Students form teams&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;Project ideas: Discussion &amp;amp; brainstorming&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
@@ -217,7 +217,7 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
-                    &lt;li&gt;Computational models of the retina&lt;/li&gt;
+                    &lt;li&gt;Visual psychophysics for retinal prostheses&lt;/li&gt;
                     &lt;li&gt;Phosphene models: Scoreboard, axon map&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/td&gt;
