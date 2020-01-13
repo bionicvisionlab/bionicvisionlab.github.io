@@ -103,7 +103,7 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;th colspan=&#34;2&#34;&gt;Date&lt;/th&gt;
             &lt;th&gt;Reading&lt;/th&gt;
             &lt;th&gt;Topics&lt;/th&gt;
-            &lt;th&gt;Handout&lt;/th&gt;
+            &lt;th&gt;Doing&lt;/th&gt;
             &lt;th&gt;HW out&lt;/th&gt;
             &lt;th&gt;HW due&lt;/th&gt;
         &lt;/tr&gt;
@@ -150,7 +150,8 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;Tue&lt;/td&gt;
             &lt;td&gt;Jan 14&lt;/td&gt;
             &lt;td&gt;
-                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3118481&#34;&gt;R3&lt;/a&gt;
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3118481&#34; target=&#34;_blank&#34;&gt;R3&lt;/a&gt;,
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3118556&#34; target=&#34;_blank&#34;&gt;R4&lt;/a&gt;
             &lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
@@ -186,7 +187,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td rowspan=&#34;2&#34;&gt;3&lt;/td&gt;
             &lt;td&gt;Tue&lt;/td&gt;
             &lt;td&gt;Jan 21&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3118561&#34; target=&#34;_blank&#34;&gt;R5&lt;/a&gt;,
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3118596&#34; target=&#34;_blank&#34;&gt;R6&lt;/a&gt;
+            &lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
                     &lt;li&gt;Retina in health &amp;amp; disease&lt;/li&gt;
@@ -200,7 +204,9 @@ a Python-based simulation framework for bionic vision, which will form the basis
         &lt;tr&gt;
             &lt;td&gt;Thu&lt;/td&gt;
             &lt;td&gt;Jan 23&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=3118606&#34; target=&#34;_blank&#34;&gt;R7&lt;/a&gt;
+            &lt;/td&gt;
             &lt;td&gt;
                 &lt;ul&gt;
                     &lt;li&gt;Introduction to pulse2percept in Python&lt;/li&gt;
