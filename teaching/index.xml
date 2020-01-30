@@ -237,7 +237,7 @@ a Python-based simulation framework for bionic vision, which will form the basis
                 &lt;/ul&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;HW2&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
@@ -253,7 +253,7 @@ a Python-based simulation framework for bionic vision, which will form the basis
                 &lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;HW2&lt;/td&gt;
             &lt;td&gt;&lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34;&gt;TPD&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;!-- Week 5 --&gt;
@@ -305,16 +305,11 @@ a Python-based simulation framework for bionic vision, which will form the basis
             &lt;td&gt;Feb 13&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;
-                &lt;b&gt;Guest Visit: Jason Esterhuizen, ORION implantee&lt;/b&gt; (date tentative) &lt;br&gt;
-                &lt;small class=&#34;due&#34;&gt;
-                    &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-                    Homework 2 (HW2) due by Sun, Feb 16, 11:59 pm.
-                &lt;/small&gt;
-                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;b&gt;Guest Visit: Jason Esterhuizen, ORION implantee&lt;/b&gt;
             &lt;/td&gt; 
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646&#34; target=&#34;_blank&#34;&gt;HW2&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;!-- Week 7 --&gt;
         &lt;tr&gt;
@@ -340,10 +335,15 @@ a Python-based simulation framework for bionic vision, which will form the basis
                 &lt;ul&gt;
                     &lt;li&gt;Activity TBA&lt;/li&gt;
                 &lt;/ul&gt;
+                &lt;small class=&#34;due&#34;&gt;
+                    &lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                    Homework 2 (HW2) due by Sun, Feb 23, 11:59 pm.
+                &lt;/small&gt;
+                &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
             &lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646&#34; target=&#34;_blank&#34;&gt;HW2&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;!-- Week 8 --&gt;
         &lt;tr&gt;
