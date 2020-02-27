@@ -599,16 +599,75 @@ In addition, students will submit a write-up of their project and hand in their 
 
 &lt;h3 id=&#34;project-presentation&#34;&gt;Project Presentation&lt;/h3&gt;
 
-&lt;p&gt;Teams will present their project in class during finals week.
-Each team will have 20 minutes to present (including start-up time). Every member of the group must speak.&lt;/p&gt;
+&lt;p&gt;Teams will present their project in class on Tue, Mar 17, 9a-12p in Phelps 3526.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;More details will be announced soon.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Each team will have 15 mins to present (+5 mins for Questions &amp;amp; Answers).
+There are at least two strategies to present your work:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Strategy A: Follow the outline of your report
+
+&lt;ul&gt;
+&lt;li&gt;Introduction, Methods, Results, Discussion&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Strategy B: Top-down
+
+&lt;ul&gt;
+&lt;li&gt;Give an overview of the project&amp;rsquo;s end result&lt;/li&gt;
+&lt;li&gt;Follow with a detailed discussion of the various features/techniques&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Make sure to address the challenges you faced and how you overcame them! What have you learned?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Every student in the team must say something.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;project-report&#34;&gt;Project Report&lt;/h3&gt;
 
-&lt;p&gt;Each team will also submit a write-up of their project.&lt;/p&gt;
+&lt;p&gt;Each team will also submit a write-up of their project:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;More details will be announced soon.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;a href=&#34;http://chi2020.acm.org/authors/chi-proceedings-format&#34; target=&#34;_blank&#34;&gt;CHI Extended Abstracts&lt;/a&gt; template&lt;/li&gt;
+&lt;li&gt;Structure your report like a short research paper (~4 pages):
+
+&lt;ul&gt;
+&lt;li&gt;Abstract: ~150 words&lt;/li&gt;
+&lt;li&gt;Introduction (1-2 paragraphs)
+
+&lt;ul&gt;
+&lt;li&gt;What did you study and why?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Related work (&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; page)
+
+&lt;ul&gt;
+&lt;li&gt;Brief summary of the relevant literature.&lt;/li&gt;
+&lt;li&gt;Make sure to point out gaps in the literature that your project is trying to address.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Methods (1-2 pages)
+
+&lt;ul&gt;
+&lt;li&gt;First paragraph: Describe the big-picture idea behind your system/model/approach.&lt;/li&gt;
+&lt;li&gt;Subsections: Walk the reader through all the steps/features (with pictures/schematics).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Results (1-2 pages)
+
+&lt;ul&gt;
+&lt;li&gt;Structure based on research question(s) and/or experiments.&lt;/li&gt;
+&lt;li&gt;Have 2-3 figures to support your claims. Explain each figure and summarize the findings.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Discussion (&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; page)
+
+&lt;ul&gt;
+&lt;li&gt;First sentence: Summarize your findings.&lt;/li&gt;
+&lt;li&gt;Discuss: What does it all mean? What have you learned? Future work?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you&amp;rsquo;re done, zip up the PDF/DOC together with all your source code and upload the zip file to
+&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968651&#34; target=&#34;_blank&#34;&gt;GauchoSpace&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t forget to submit your source code.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h2&gt;
 
