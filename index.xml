@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>CS 291I: Bionic Vision</title>
       <link>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</guid>
       <description>
@@ -831,6 +831,30 @@ and visual saliency based transforms could further improve visual performance.&l
       
       <guid>https://bionicvisionlab.org/publication/2019-retinal-sheet-transplants/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>PSY 130: Perception - Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2020-fall-psych130/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2020-fall-psych130/</guid>
+      <description>&lt;p&gt;&lt;em&gt;PSY 110A is the former number of PSY 130. Students who have completed PSY110A with a C- or below may take PSY 130 as a legal repeat.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Prerequisites: Open to Psychological &amp;amp; Brain Sciences, Biopsychology, and Interdisciplinary Studies majors only.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS 181: Introduction to Computer Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2021-winter-cs181/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2021-winter-cs181/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Same course as ECE 181. Not open for credit to students who have completed ECE/CMPSC 181B with a grade of C or better. ECE/CMPSC 181 is a legal repeat of ECE/CMPSC 181B.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Prerequisites: Upper-division standing in Electrical Engineering, Computer Engineering, Computer Science, Chemical Engineering or Mechanical Engineering.&lt;/p&gt;
+</description>
     </item>
     
     <item>
