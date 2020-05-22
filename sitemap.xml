@@ -8,19 +8,35 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
+    <lastmod>2020-05-01T09:29:13-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/</loc>
+    <lastmod>2020-05-01T09:29:13-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2020-05-01T09:29:13-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/post/</loc>
+    <lastmod>2020-05-01T09:29:13-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/post/2020-05-convergence/</loc>
+    <lastmod>2020-05-01T09:29:13-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
   </url>
   
   <url>
@@ -31,12 +47,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/ariel-rokem/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/</loc>
     <lastmod>2019-10-10T14:21:43-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -199,11 +209,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/post/2019-07-pcmag/</loc>
-    <lastmod>2019-07-09T09:29:13-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/post/</loc>
     <lastmod>2019-07-09T09:29:13-07:00</lastmod>
   </url>
   
