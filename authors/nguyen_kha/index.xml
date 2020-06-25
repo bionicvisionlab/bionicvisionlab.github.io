@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/authors/nguyen_kha/</link>
+    <description>Recent content on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    
+	    <atom:link href="https://bionicvisionlab.org/authors/nguyen_kha/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/authors/nguyen_kha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/nguyen_kha/</guid>
+      <description>&lt;p&gt;Kha Nguyen is an upcoming third-year transfer student in the Department of Bioengineering at the University of California, San Diego.&lt;/p&gt;
+
+&lt;p&gt;As part of the UC Leadership Excellence through Advanced DegreeS (UC LEADS) program, she is working with the Bionic Vision Lab to evaluate and improve existing phosphene models for retinal implants.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
