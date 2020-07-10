@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/authors/gao_ethan/</link>
+    <description>Recent content on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    
+	    <atom:link href="https://bionicvisionlab.org/authors/gao_ethan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/authors/gao_ethan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/gao_ethan/</guid>
+      <description>&lt;p&gt;Ethan Gao is a rising senior high school student at Ojai Valley School and will graduate in 2021. He has joined the lab as an RMP (Research Mentorship Program) student and brings a love of computer science and a curiosity about advanced programming techniques.&lt;/p&gt;
+
+&lt;p&gt;At School, he is heavily involved in computer science and math, being the team captain and programmer of the competitive robotics team and member of the competitive Math team.&lt;/p&gt;
+
+&lt;p&gt;At the Bionic Vision Lab, Ethan is helping develop a virtual reality model of retinal prosthesis.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
