@@ -628,11 +628,19 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/akkaraju_anvitha/</loc>
+    <loc>https://bionicvisionlab.org/alumni/gao_ethan/</loc>
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/gao_ethan/</loc>
+    <loc>https://bionicvisionlab.org/alumni/raghulan_rashi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/rohatgi_versha/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/akkaraju_anvitha/</loc>
   </url>
   
   <url>
@@ -660,14 +668,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/raghulan_rashi/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
   </url>
   
@@ -680,12 +680,32 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/gao_ethan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/raghulan_rashi/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

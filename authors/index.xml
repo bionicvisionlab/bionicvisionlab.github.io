@@ -236,20 +236,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/gao_ethan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/gao_ethan/</guid>
-      <description>&lt;p&gt;Ethan Gao is a rising senior high school student at Ojai Valley School and will graduate in 2021. He has joined the lab as an RMP (Research Mentorship Program) student and brings a love of computer science and a curiosity about advanced programming techniques.&lt;/p&gt;
-
-&lt;p&gt;At School, he is heavily involved in computer science and math, being the team captain and programmer of the competitive robotics team and member of the competitive Math team.&lt;/p&gt;
-
-&lt;p&gt;At the Bionic Vision Lab, Ethan is helping develop a virtual reality model of retinal prosthesis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -316,26 +302,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/raghulan_rashi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/raghulan_rashi/</guid>
-      <description>&lt;p&gt;Rashi Raghulan is an undergraduate student in the Department of Molecular, Cellular, and Development Biology at the University of California, Santa Barbara.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/authors/rohatgi_versha/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/rohatgi_versha/</guid>
-      <description>&lt;p&gt;Versha Rohatgi is a rising junior at Mountain View High School and is part of the Research Mentorship Program at UC Santa Barbara. Versha is interested in biomedical engineering and computer science.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/wu_nathan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -364,6 +330,33 @@
       <guid>https://bionicvisionlab.org/authors/yan_yusong/</guid>
       <description>&lt;p&gt;Yusong Yan is a third-year undergraduate student in the Department of Computer Science at the University of California, Santa Barbara.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>gao_ethan</title>
+      <link>https://bionicvisionlab.org/authors/gao_ethan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/gao_ethan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raghulan_rashi</title>
+      <link>https://bionicvisionlab.org/authors/raghulan_rashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/raghulan_rashi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rohatgi_versha</title>
+      <link>https://bionicvisionlab.org/authors/rohatgi_versha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/rohatgi_versha/</guid>
+      <description></description>
     </item>
     
   </channel>
