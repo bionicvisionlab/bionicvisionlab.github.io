@@ -628,7 +628,23 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/gao_ethan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/nguyen_kha/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/raghulan_rashi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/rohatgi_versha/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/yan_yusong/</loc>
   </url>
   
   <url>
@@ -636,11 +652,11 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/gao_ethan/</loc>
+    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
+    <loc>https://bionicvisionlab.org/authors/johnson_byron/</loc>
   </url>
   
   <url>
@@ -660,23 +676,11 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/nguyen_kha/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/authors/xu_aiwen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/yan_yusong/</loc>
   </url>
   
   <url>
@@ -694,7 +698,27 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/gao_ethan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/nguyen_kha/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/authors/raghulan_rashi/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/yan_yusong/</loc>
     <priority>0</priority>
   </url>
   
