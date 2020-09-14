@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/authors/granley_jacob/</link>
+    <description>Recent content on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    
+	    <atom:link href="https://bionicvisionlab.org/authors/granley_jacob/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/authors/granley_jacob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/granley_jacob/</guid>
+      <description>&lt;p&gt;Jacob Granley is a PhD student in the Department of Computer Science.&lt;/p&gt;
+
+&lt;p&gt;Prior to joining UCSB, he received his Masters and Bachelors in Computer Science from Colorado School of Mines. He is pursuing his PhD under Dr. Beyeler as part of the Bionic Vision lab, where he hopes to use Computer Science and Machine Learning methods to help improve artificial vision technologies with the ultimate goal of restoring sight to the blind.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
