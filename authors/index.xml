@@ -248,18 +248,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/hu_zuying/</guid>
-      <description>&lt;p&gt;Zuying Hu is an MS student at UC Santa Barbara and member of the Bionic Vision Lab. His interests lie in computer vision and machine learning.&lt;/p&gt;
-
-&lt;p&gt;He received his higher education in Guangzhou and Hong Kong. He received his BS in Information Engineering from the Chinese University of Hong Kong in 2017 and his MS in Big Data Technology at Hong Kong University of Science and Technology in 2018. With a passion for machine learning and computer vision, he decided to continue his study at UCSB and looks forward to applying his knowledge in daily use.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/johnson_byron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -284,16 +272,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/lin_dylan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/lin_dylan/</guid>
-      <description>&lt;p&gt;Dylan Lin is a second-year undergraduate student in the department of Computer Science at the University of California, Santa Barbara.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/mizrahi_ori/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -309,6 +287,18 @@
       
       <guid>https://bionicvisionlab.org/authors/neydavood_ryan/</guid>
       <description>&lt;p&gt;Ryan Neydavood is an undergraduate student at UC Santa Barbara, and is a Psychology &amp;amp; Brain Sciences Major. Ryan is interested in VR, neurophysiology, and advancing the field of bionic vision to help cure blindness.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/authors/qi_ziming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/qi_ziming/</guid>
+      <description>&lt;p&gt;Ziming Qi is a MS student at UC Santa Barbara and member of the Bionic Vision Lab. He is interested in computer vision and machine learning.&lt;/p&gt;
+
+&lt;p&gt;He received his BS degree in computer engineering at UCSB, and is currently pursuing his MS degree at UCSB as well. With passion to save people&amp;rsquo;s vision, he decided to apply his computer vision and machine learning skills in the area of biomedical image analysis.&lt;/p&gt;
 </description>
     </item>
     
@@ -345,11 +335,29 @@
     </item>
     
     <item>
+      <title>Hu_Zuying</title>
+      <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/hu_zuying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>gao_ethan</title>
       <link>https://bionicvisionlab.org/authors/gao_ethan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/gao_ethan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lin_dylan</title>
+      <link>https://bionicvisionlab.org/authors/lin_dylan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/lin_dylan/</guid>
       <description></description>
     </item>
     
