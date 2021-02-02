@@ -9,18 +9,105 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
-    <lastmod>2020-10-03T09:29:13-07:00</lastmod>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/xu_aiwen/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/authors/</loc>
-    <lastmod>2020-10-03T09:29:13-07:00</lastmod>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2020-10-03T09:29:13-07:00</lastmod>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication/2021-scene-simplification/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/devi-klein/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/nicole-han/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/sudhanshu-srivastava/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/deep-learning/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/retinal-implants/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/simulated-prosthetic-vision/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -42,12 +129,6 @@
   <url>
     <loc>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -74,29 +155,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/publication/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/tags/neuroengineering/</loc>
     <lastmod>2019-10-10T14:21:43-07:00</lastmod>
     <priority>0</priority>
@@ -104,18 +162,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/tags/retinal-implant-surgery/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/retinal-implants/</loc>
-    <lastmod>2019-10-10T14:21:43-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</loc>
     <lastmod>2019-10-10T14:21:43-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -146,12 +192,6 @@
   <url>
     <loc>https://bionicvisionlab.org/research/1-optimize-stimulation/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
-    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -714,10 +754,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/xu_aiwen/</loc>
   </url>
   
   <url>
