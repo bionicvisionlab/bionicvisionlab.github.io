@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,45 @@
     <item>
       <title>computational models</title>
       <link>https://bionicvisionlab.org/tags/computational-models/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/computational-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retinal implants</title>
+      <link>https://bionicvisionlab.org/tags/retinal-implants/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/retinal-implants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retinitis pigmentosa</title>
+      <link>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulated prosthetic vision</title>
+      <link>https://bionicvisionlab.org/tags/simulated-prosthetic-vision/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/simulated-prosthetic-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual reality</title>
+      <link>https://bionicvisionlab.org/tags/virtual-reality/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/virtual-reality/</guid>
       <description></description>
     </item>
     
@@ -36,33 +72,6 @@
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retinal implants</title>
-      <link>https://bionicvisionlab.org/tags/retinal-implants/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/retinal-implants/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retinitis pigmentosa</title>
-      <link>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>simulated prosthetic vision</title>
-      <link>https://bionicvisionlab.org/tags/simulated-prosthetic-vision/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/simulated-prosthetic-vision/</guid>
       <description></description>
     </item>
     
@@ -126,15 +135,6 @@
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/augmented-reality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>virtual reality</title>
-      <link>https://bionicvisionlab.org/tags/virtual-reality/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/virtual-reality/</guid>
       <description></description>
     </item>
     
