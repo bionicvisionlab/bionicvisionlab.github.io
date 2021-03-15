@@ -4,7 +4,18 @@
   
   <url>
     <loc>https://bionicvisionlab.org/teaching/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
+    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,12 +25,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/</loc>
-    <lastmod>2021-02-23T09:29:13-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/</loc>
     <lastmod>2021-02-23T09:29:13-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -701,6 +706,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/lin_dylan/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/mizrahi_ori/</loc>
   </url>
   
@@ -742,10 +751,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/johnson_byron/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/lin_dylan/</loc>
   </url>
   
   <url>
@@ -797,6 +802,11 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/gao_ethan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/lin_dylan/</loc>
     <priority>0</priority>
   </url>
   

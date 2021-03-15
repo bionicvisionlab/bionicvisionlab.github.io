@@ -7,10 +7,206 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 23 Feb 2021 09:29:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CS 291A: Bionic Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;What would the world look like with a bionic eye?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This graduate course will introduce students to the multidisciplinary field of bionic vision,
+with an emphasis on both the computer science and neuroscience of the field.&lt;/p&gt;
+
+&lt;p&gt;The course will conclude with a &lt;a href=&#34;#final-project&#34;&gt;&lt;strong&gt;programming project&lt;/strong&gt;&lt;/a&gt; (teams of &amp;le; 3, any language/environment ok)
+in lieu of a final exam,
+giving students an opportunity to gain hands-on experience of working on open research problems
+using methods and tools best suited to their scientific background.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Instructor&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;../../authors/beyeler_michael&#34;&gt;Michael Beyeler&lt;/a&gt; (first initial last name at ucsb dot edu)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Class&lt;/td&gt;
+&lt;td&gt;FQ 2021, Tue/Thu 9:00 &amp;ndash; 10:50 am, Location TBD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Office Hours&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
+
+&lt;p&gt;The course will give an overview of current bionic eye technology designed to restore vision
+to people living with incurable blindness.
+By the end of the course, you should be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Identify various types of bionic eye technologies, their differences and similarities&lt;/li&gt;
+&lt;li&gt;Have a basic understanding of the neuroscience of the human visual system&lt;/li&gt;
+&lt;li&gt;Be familiar with common preprocessing, encoding, and electrical stimulation methods&lt;/li&gt;
+&lt;li&gt;Understand the limitations of current bionic eye technologies&lt;/li&gt;
+&lt;li&gt;Have hands-on experience of working on open problems in the field&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The course is targeted to a diverse audience spanning from computer science (human factors, neural networks, computer vision)
+to psychology (vision, psychophysics) and brain sciences (computational neuroscience, neuroengineering).&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There are no official prerequisites for this course.
+The instructor will do his best to make the course content self-contained.&lt;/li&gt;
+&lt;li&gt;However, homeworks and final projects will require programming.
+Homeworks will be based around &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34; target=&#34;_blank&#34;&gt;pulse2percept&lt;/a&gt;,
+a Python-based simulation framework for bionic vision.
+Any programming language/framework is ok for the final project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;course-requirements-grading&#34;&gt;Course Requirements &amp;amp; Grading&lt;/h2&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;lateness-policy&#34;&gt;Lateness Policy&lt;/h2&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;final-project&#34;&gt;Final Project&lt;/h2&gt;
+
+&lt;p&gt;In lieu of a final exam, students will conduct a programming project (team size &amp;le; 3).
+The goal of the project is to gain hands-on experience working on open research questions in bionic vision
+using tools and methods best suited to their scientific background.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All projects must address a research question and have a programming component&lt;/strong&gt;.
+Students are free to use any programming language and development environment they choose.
+Building a project based on pulse2percept is encouraged (especially for students with relatively little programming
+experience) but is by no means required.
+Reproducing key research findings in the literature is allowed.
+No pure literature reviews, please.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Projects that show promise of turning into a publication will receive &lt;a href=&#34;#course-requirements-grading&#34;&gt;extra credit&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Students will present their project to the rest of the class during finals week.
+In addition, students will submit a write-up of their project and hand in their source code
+(see &lt;a href=&#34;#project-milestones&#34;&gt;Milestones&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The project will be evaluated based on the:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;originality/novelty of the idea&lt;/li&gt;
+&lt;li&gt;technical strength of the work (emphasis on the &lt;em&gt;research&lt;/em&gt;, not the programming expertise)&lt;/li&gt;
+&lt;li&gt;organization, clarity, and style of the project report&lt;/li&gt;
+&lt;li&gt;effort and completeness of the work (normalized by the number of team members)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;project-milestones&#34;&gt;Project Milestones&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Deliverable due&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;Students start forming teams and discussing project ideas in class.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;Teams present their project ideas in class.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;11:59 pm&lt;/td&gt;
+&lt;td&gt;Teams submit a project title and 2-3 sentence project description.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
+&lt;td&gt;Teams present their project progress in class.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;11:59 pm&lt;/td&gt;
+&lt;td&gt;Teams hand in their final project report and all source code.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Teams make their final project presentations in class.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Students are encouraged to discuss ideas with the instructors, so that feedback can be incorporated early in the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Late days cannot be used on these project deadlines.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;project-presentation&#34;&gt;Project Presentation&lt;/h3&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h3 id=&#34;project-report&#34;&gt;Project Report&lt;/h3&gt;
+
+&lt;p&gt;Each team will also submit a write-up of their project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t forget to submit your source code.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h2&gt;
+
+&lt;p&gt;The University of California has formal policies related to &lt;a href=&#34;http://studentconduct.sa.ucsb.edu/academic-integrity&#34; target=&#34;_blank&#34;&gt;academic integrity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Any act of academic dishonesty, such as cheating or plagiarism, will result in a University disciplinary action
+and an &amp;ldquo;F&amp;rdquo; in this course.
+In addition to academic integrity, I also expect everyone in this class to treat their fellow students and course staff
+with respect.&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-needs&#34;&gt;Basic Needs&lt;/h2&gt;
+
+&lt;p&gt;If you are facing any challenges securing food or housing and believe this may affect your performance in the class, you are urged to meet with a Food Security and Calfresh Advocate who is aware of the broad variety of resources that UCSB has to offer (see their drop-in hours at &lt;a href=&#34;https://food.ucsb.edu&#34; target=&#34;_blank&#34;&gt;food.ucsb.edu&lt;/a&gt;). You are also urged to contact the professor if you are comfortable doing so.&lt;/p&gt;
+
+&lt;p&gt;Please visit &lt;a href=&#34;https://food.ucsb.edu&#34; target=&#34;_blank&#34;&gt;food.ucsb.edu&lt;/a&gt; for additional resources including Calfresh, the AS Food Bank, and more.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PCMag: Building the bionic eye... with car tech?</title>
