@@ -62,11 +62,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/publication/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/tags/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -502,6 +497,11 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/publication/</loc>
+    <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication/2016-sparse-decomposition-model/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -763,6 +763,10 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/neydavood_ryan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/nguyen_bill/</loc>
   </url>
   
   <url>
