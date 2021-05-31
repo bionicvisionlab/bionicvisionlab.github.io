@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 23 Feb 2021 09:29:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://bionicvisionlab.org/authors/beyeler_michael/</link>
-      <pubDate>Tue, 23 Feb 2021 09:29:00 -0700</pubDate>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/beyeler_michael/</guid>
       <description>&lt;p&gt;Michael Beyeler directs the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
@@ -24,6 +24,15 @@
 
 &lt;p&gt;He is Associate Director of the UCSB Center for Virtual Environments and Behavior (ReCVEB) and recipient of the National Institutes of Health (NIH) Pathway to Independence Award.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Hu_Zuying</title>
+      <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/hu_zuying/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -66,15 +75,6 @@
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/devi-klein/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hu_Zuying</title>
-      <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/hu_zuying/</guid>
       <description></description>
     </item>
     

@@ -8,25 +8,78 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication/2021-explainable-ai/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/explainable-ai/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/retinal-implants/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
-    <lastmod>2021-02-23T09:29:13-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/</loc>
-    <lastmod>2021-02-23T09:29:13-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -50,44 +103,8 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/retinal-implants/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -119,17 +136,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/publication/2021-explainable-ai/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/nicole-han/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -149,12 +155,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/tags/deep-learning/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/explainable-ai/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
