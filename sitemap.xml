@@ -119,6 +119,17 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/publication/2021-explainable-ai/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/authors/nicole-han/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -138,6 +149,12 @@
   
   <url>
     <loc>https://bionicvisionlab.org/tags/deep-learning/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/explainable-ai/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -824,11 +841,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
     <priority>0</priority>
   </url>
   
