@@ -702,6 +702,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/han_lu/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/hu_zuying/</loc>
   </url>
   
@@ -747,10 +751,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/granley_jacob/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/han_lu/</loc>
   </url>
   
   <url>
@@ -838,6 +838,11 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/gao_ethan/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/han_lu/</loc>
     <priority>0</priority>
   </url>
   
