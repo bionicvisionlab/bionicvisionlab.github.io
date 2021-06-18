@@ -98,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
   </url>
@@ -115,6 +110,12 @@
   
   <url>
     <loc>https://bionicvisionlab.org/tags/virtual-reality/</loc>
+    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -735,6 +736,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/muttukuru_sairisheek/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/nguyen_kha/</loc>
   </url>
   
@@ -744,6 +749,14 @@
   
   <url>
     <loc>https://bionicvisionlab.org/alumni/rohatgi_versha/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/wu_nathan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/yan_kelly/</loc>
   </url>
   
   <url>
@@ -791,10 +804,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</loc>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/neydavood_ryan/</loc>
   </url>
   
@@ -828,10 +837,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/tharanipathy_archita/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/yan_kelly/</loc>
   </url>
   
   <url>
@@ -869,6 +874,11 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/authors/nguyen_kha/</loc>
     <priority>0</priority>
   </url>
@@ -880,6 +890,11 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/yan_kelly/</loc>
     <priority>0</priority>
   </url>
   

@@ -48,15 +48,12 @@
     </item>
     
     <item>
-      <title></title>
+      <title>wu_nathan</title>
       <link>https://bionicvisionlab.org/authors/wu_nathan/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/wu_nathan/</guid>
-      <description>&lt;p&gt;Nathan Wu is an undergraduate research assistant in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
-
-&lt;p&gt;He is a fourth-year undergraduate student in Computer Science as well as in Statistics and Data Science at UCSB. In the Bionic Vision Lab, he works on projects seeking to improve AR/VR for people with low vision.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -408,17 +405,6 @@ Her research will focus on how the severity of visual impairment affects quality
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</guid>
-      <description>&lt;p&gt;Sairisheek Muttukuru is currently a fourth-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is working on the Computer Vision team of the Bionic Vision Lab.
-When he is not coding he enjoys skateboarding, hiking/exploring new areas, and cooking lardy meals.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/neydavood_ryan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -514,16 +500,6 @@ When he is not coding he enjoys skateboarding, hiking/exploring new areas, and c
     </item>
     
     <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/authors/yan_kelly/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/yan_kelly/</guid>
-      <description>&lt;p&gt;Kelly Yan is an undergraduate research assistant in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>gao_ethan</title>
       <link>https://bionicvisionlab.org/authors/gao_ethan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -560,6 +536,15 @@ When he is not coding he enjoys skateboarding, hiking/exploring new areas, and c
     </item>
     
     <item>
+      <title>muttukuru_sairisheek</title>
+      <link>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>nguyen_kha</title>
       <link>https://bionicvisionlab.org/authors/nguyen_kha/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -583,6 +568,15 @@ When he is not coding he enjoys skateboarding, hiking/exploring new areas, and c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/rohatgi_versha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yan_kelly</title>
+      <link>https://bionicvisionlab.org/authors/yan_kelly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/yan_kelly/</guid>
       <description></description>
     </item>
     
