@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://bionicvisionlab.org/authors/beyeler_michael/</link>
-      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/beyeler_michael/</guid>
       <description>&lt;p&gt;Michael Beyeler directs the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
@@ -27,11 +27,41 @@
     </item>
     
     <item>
-      <title>Hu_Zuying</title>
-      <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
+      <title></title>
+      <link>https://bionicvisionlab.org/authors/granley_jacob/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/granley_jacob/</guid>
+      <description>&lt;p&gt;Jacob Granley is a PhD student in the Department of Computer Science.&lt;/p&gt;
+
+&lt;p&gt;Prior to joining UCSB, he received his Masters and Bachelors in Computer Science from Colorado School of Mines. He is pursuing his PhD under Dr. Beyeler as part of the Bionic Vision lab, where he hopes to use Computer Science and Machine Learning methods to help improve artificial vision technologies with the ultimate goal of restoring sight to the blind.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shuyun Tang</title>
+      <link>https://bionicvisionlab.org/authors/shuyun-tang/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/shuyun-tang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ziming Qi</title>
+      <link>https://bionicvisionlab.org/authors/ziming-qi/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/ziming-qi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zuying Hu</title>
+      <link>https://bionicvisionlab.org/authors/zuying-hu/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/authors/hu_zuying/</guid>
+      <guid>https://bionicvisionlab.org/authors/zuying-hu/</guid>
       <description></description>
     </item>
     
@@ -48,11 +78,11 @@
     </item>
     
     <item>
-      <title>wu_nathan</title>
-      <link>https://bionicvisionlab.org/authors/wu_nathan/</link>
+      <title>Nathan Wu</title>
+      <link>https://bionicvisionlab.org/authors/nathan-wu/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/authors/wu_nathan/</guid>
+      <guid>https://bionicvisionlab.org/authors/nathan-wu/</guid>
       <description></description>
     </item>
     
@@ -325,30 +355,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/dabit_rami/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/dabit_rami/</guid>
-      <description>&lt;p&gt;Rami Dabit is currently a fourth-year undergraduate student pursuing a Computer Engineering degree at UC Santa Barbara. He is working on reconstructing a 3D model of the retina using OCT images.&lt;/p&gt;
-
-&lt;p&gt;When he is not studying, he enjoys watching basketball or listening to music. He is also a volunteer tutor at Goleta Valley Junior High where he helps math and science students struggling with distanced learning.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/authors/granley_jacob/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/granley_jacob/</guid>
-      <description>&lt;p&gt;Jacob Granley is a PhD student in the Department of Computer Science.&lt;/p&gt;
-
-&lt;p&gt;Prior to joining UCSB, he received his Masters and Bachelors in Computer Science from Colorado School of Mines. He is pursuing his PhD under Dr. Beyeler as part of the Bionic Vision lab, where he hopes to use Computer Science and Machine Learning methods to help improve artificial vision technologies with the ultimate goal of restoring sight to the blind.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/hou_yuchen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -425,40 +431,6 @@ Her research will focus on how the severity of visual impairment affects quality
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/olmos_ruben/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/olmos_ruben/</guid>
-      <description>&lt;p&gt;Ruben Olmos is a research assistant and computer programmer in the Bionic Vision Lab at UC Santa Barbara (UCSB).&lt;/p&gt;
-
-&lt;p&gt;He is completing his undergraduate education in Statistics and Data Science (B.S) at UCSB. Prior to joining the Bionic Vision Lab, he worked as part of the UCSB Baseball Data Analytics organization conducting application based statistical research, modeling &amp;amp; analysis and developing data intensive software programs.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/authors/qi_ziming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/qi_ziming/</guid>
-      <description>&lt;p&gt;Ziming Qi is a MS student at UC Santa Barbara and member of the Bionic Vision Lab. He is interested in computer vision and machine learning.&lt;/p&gt;
-
-&lt;p&gt;He received his BS degree in computer engineering at UCSB, and is currently pursuing his MS degree at UCSB as well. With passion to save people&amp;rsquo;s vision, he decided to apply his computer vision and machine learning skills in the area of biomedical image analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/authors/qubadi_fatima/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/qubadi_fatima/</guid>
-      <description>&lt;p&gt;Fatima Qubadi is a third year student at UC Santa Barbara. She&amp;rsquo;s interested in research about restoring vision in patients with retinal degenerative diseases and the use of retinal implants.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/solares_angel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -479,24 +451,30 @@ Her research will focus on how the severity of visual impairment affects quality
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/tang_shuyun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/tang_shuyun/</guid>
-      <description>&lt;p&gt;Shuyun Tang is an undergraduate research assistant in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
-
-&lt;p&gt;He is a fourth-year undergraduate student in Statistics and Data Science at UCSB. In the Bionic Vision Lab, he works with Ziming Qi in biomedical image analysis projects that seeking to save people’s vision.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/tharanipathy_archita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/tharanipathy_archita/</guid>
       <description>&lt;p&gt;Archita Tharanipathy is currently a third-year undergraduate student pursuing a Biochemistry and Molecular Biology degree at the University of California, Santa Barbara.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Hu_Zuying</title>
+      <link>https://bionicvisionlab.org/authors/hu_zuying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/hu_zuying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dabit_rami</title>
+      <link>https://bionicvisionlab.org/authors/dabit_rami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/dabit_rami/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -554,6 +532,33 @@ Her research will focus on how the severity of visual impairment affects quality
     </item>
     
     <item>
+      <title>olmos_ruben</title>
+      <link>https://bionicvisionlab.org/authors/olmos_ruben/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/olmos_ruben/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qi_ziming</title>
+      <link>https://bionicvisionlab.org/authors/qi_ziming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/qi_ziming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qubadi_fatima</title>
+      <link>https://bionicvisionlab.org/authors/qubadi_fatima/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/qubadi_fatima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>raghulan_rashi</title>
       <link>https://bionicvisionlab.org/authors/raghulan_rashi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -568,6 +573,24 @@ Her research will focus on how the severity of visual impairment affects quality
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/rohatgi_versha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tang_shuyun</title>
+      <link>https://bionicvisionlab.org/authors/tang_shuyun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/tang_shuyun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wu_nathan</title>
+      <link>https://bionicvisionlab.org/authors/wu_nathan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/wu_nathan/</guid>
       <description></description>
     </item>
     

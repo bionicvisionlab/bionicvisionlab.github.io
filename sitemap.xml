@@ -9,24 +9,117 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/beyeler_michael/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/granley_jacob/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/authors/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/shuyun-tang/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication/2021-hba-u-net/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/ziming-qi/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/biomedical-image-analysis/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/deep-learning/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/diabetic-retinopathy/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/glaucoma/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/retinal-implants/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,43 +129,13 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
+    <loc>https://bionicvisionlab.org/authors/zuying-hu/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/tags/explainable-ai/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/retinal-implants/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -98,6 +161,12 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/nathan-wu/</loc>
+    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
   </url>
@@ -110,12 +179,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/tags/virtual-reality/</loc>
-    <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -144,18 +207,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/sudhanshu-srivastava/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/tags/deep-learning/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -516,7 +567,7 @@
   
   <url>
     <loc>https://bionicvisionlab.org/publication/</loc>
-    <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -716,6 +767,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/dabit_rami/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/gao_ethan/</loc>
   </url>
   
@@ -744,11 +799,27 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/olmos_ruben/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/qi_ziming/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/qubadi_fatima/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/raghulan_rashi/</loc>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/alumni/rohatgi_versha/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/tang_shuyun/</loc>
   </url>
   
   <url>
@@ -773,14 +844,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/brydon_annika/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/dabit_rami/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/granley_jacob/</loc>
   </url>
   
   <url>
@@ -812,27 +875,11 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/olmos_ruben/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/qi_ziming/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/qubadi_fatima/</loc>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/solares_angel/</loc>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/authors/steinhart_yuval/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/tang_shuyun/</loc>
   </url>
   
   <url>
@@ -850,7 +897,17 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/hu_zuying/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/dabit_rami/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -884,12 +941,37 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/olmos_ruben/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/qi_ziming/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/qubadi_fatima/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/authors/raghulan_rashi/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/tang_shuyun/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/wu_nathan/</loc>
     <priority>0</priority>
   </url>
   
