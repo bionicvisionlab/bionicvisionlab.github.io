@@ -567,7 +567,7 @@
   
   <url>
     <loc>https://bionicvisionlab.org/publication/</loc>
-    <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2017-01-01T00:00:00-08:00</lastmod>
   </url>
   
   <url>
@@ -819,6 +819,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/solares_angel/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/tang_shuyun/</loc>
   </url>
   
@@ -872,10 +876,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/nguyen_bill/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/solares_angel/</loc>
   </url>
   
   <url>
@@ -962,6 +962,11 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/rohatgi_versha/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/solares_angel/</loc>
     <priority>0</priority>
   </url>
   
