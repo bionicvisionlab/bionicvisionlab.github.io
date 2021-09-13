@@ -387,18 +387,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/authors/mochizuki_rachel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/mochizuki_rachel/</guid>
-      <description>&lt;p&gt;Rachel Mochizuki is currently a fourth-year undergraduate student pursuing a Biopsychology degree at UC Santa Barbara.
-She joined the lab in January 2021 to conduct her senior honors thesis.
-Her research will focus on how the severity of visual impairment affects quality of life.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/authors/moininazeri_iris/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -426,16 +414,6 @@ Her research will focus on how the severity of visual impairment affects quality
       
       <guid>https://bionicvisionlab.org/authors/nguyen_bill/</guid>
       <description>&lt;p&gt;Bill Nguyen is an undergraduate student in the Departments of Psychological &amp;amp; Brain Sciences (PBS) and Mathematics at UC Santa Barbara. He is interested in the exciting potential of neural prostheses, both on a technological and clinical level.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/authors/steinhart_yuval/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/authors/steinhart_yuval/</guid>
-      <description>&lt;p&gt;Yuval Steinhart is currently a third-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is interested in Computer Vision and applications of Machine Learning.&lt;/p&gt;
 </description>
     </item>
     
@@ -500,6 +478,15 @@ Her research will focus on how the severity of visual impairment affects quality
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/mizrahi_ori/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mochizuki_rachel</title>
+      <link>https://bionicvisionlab.org/authors/mochizuki_rachel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/mochizuki_rachel/</guid>
       <description></description>
     </item>
     
@@ -572,6 +559,15 @@ Her research will focus on how the severity of visual impairment affects quality
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/authors/solares_angel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>steinhart_yuval</title>
+      <link>https://bionicvisionlab.org/authors/steinhart_yuval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/authors/steinhart_yuval/</guid>
       <description></description>
     </item>
     

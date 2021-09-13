@@ -791,6 +791,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/mochizuki_rachel/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/muttukuru_sairisheek/</loc>
   </url>
   
@@ -820,6 +824,10 @@
   
   <url>
     <loc>https://bionicvisionlab.org/alumni/solares_angel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/steinhart_yuval/</loc>
   </url>
   
   <url>
@@ -863,10 +871,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/mochizuki_rachel/</loc>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/moininazeri_iris/</loc>
   </url>
   
@@ -876,10 +880,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/nguyen_bill/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/authors/steinhart_yuval/</loc>
   </url>
   
   <url>
@@ -931,6 +931,11 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/authors/mochizuki_rachel/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/authors/muttukuru_sairisheek/</loc>
     <priority>0</priority>
   </url>
@@ -967,6 +972,11 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/solares_angel/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/steinhart_yuval/</loc>
     <priority>0</priority>
   </url>
   
