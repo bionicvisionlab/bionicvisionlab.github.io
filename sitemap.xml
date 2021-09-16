@@ -4,7 +4,18 @@
   
   <url>
     <loc>https://bionicvisionlab.org/teaching/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -25,12 +36,6 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/</loc>
-    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -138,11 +143,6 @@
     <loc>https://bionicvisionlab.org/tags/explainable-ai/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -795,6 +795,10 @@
   </url>
   
   <url>
+    <loc>https://bionicvisionlab.org/alumni/moininazeri_iris/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/muttukuru_sairisheek/</loc>
   </url>
   
@@ -871,10 +875,6 @@
   </url>
   
   <url>
-    <loc>https://bionicvisionlab.org/authors/moininazeri_iris/</loc>
-  </url>
-  
-  <url>
     <loc>https://bionicvisionlab.org/authors/neydavood_ryan/</loc>
   </url>
   
@@ -932,6 +932,11 @@
   
   <url>
     <loc>https://bionicvisionlab.org/authors/mochizuki_rachel/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/authors/moininazeri_iris/</loc>
     <priority>0</priority>
   </url>
   

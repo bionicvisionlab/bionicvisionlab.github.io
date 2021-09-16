@@ -7,50 +7,22 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
-      <link>https://bionicvisionlab.org/publication/2021-hba-u-net/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publication/2021-hba-u-net/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A computational model of phosphene appearance for epiretinal prostheses</title>
-      <link>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</link>
-      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures</title>
-      <link>https://bionicvisionlab.org/publication/2021-explainable-ai/</link>
-      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publication/2021-explainable-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CS 291A: Bionic Vision</title>
       <link>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</link>
-      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;What would the world look like with a bionic eye?&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;This graduate course will introduce students to the multidisciplinary field of bionic vision,
-with an emphasis on both the computer science and neuroscience of the field.&lt;/p&gt;
+&lt;p&gt;This graduate course will introduce students to the multidisciplinary field of bionic vision viewed through the lens of computer science, neuroscience, and human-computer interaction.&lt;/p&gt;
 
 &lt;p&gt;The course will conclude with a &lt;a href=&#34;#final-project&#34;&gt;&lt;strong&gt;programming project&lt;/strong&gt;&lt;/a&gt; (teams of &amp;le; 3, any language/environment ok)
 in lieu of a final exam,
@@ -73,15 +45,21 @@ using methods and tools best suited to their scientific background.&lt;/p&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Class&lt;/td&gt;
-&lt;td&gt;FQ 2021, Tue/Thu 9:00 &amp;ndash; 10:50 am, Location TBD&lt;/td&gt;
+&lt;td&gt;F21, Tue/Thu 9:00 &amp;ndash; 10:50 am, Phelps 3526&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Office Hours&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Tue 2&amp;ndash;3 pm (3201B BioEngineering), 3&amp;ndash;4pm Zoom (&lt;a href=&#34;https://shoreline.ucsb.edu/meetings/1335298/f21-cs291a-bionic-vision&#34;&gt;schedule a meeting&lt;/a&gt;)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2021-09-15: Posted initial schedule&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
 HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
@@ -93,38 +71,493 @@ to people living with incurable blindness.
 By the end of the course, you should be able to:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Identify various types of bionic eye technologies, their differences and similarities&lt;/li&gt;
-&lt;li&gt;Have a basic understanding of the neuroscience of the human visual system&lt;/li&gt;
-&lt;li&gt;Be familiar with common preprocessing, encoding, and electrical stimulation methods&lt;/li&gt;
-&lt;li&gt;Understand the limitations of current bionic eye technologies&lt;/li&gt;
-&lt;li&gt;Have hands-on experience of working on open problems in the field&lt;/li&gt;
+&lt;li&gt;identify various types of bionic eye technologies, their differences and similarities&lt;/li&gt;
+&lt;li&gt;explain how the retina and visual cortex support our sense of seeing&lt;/li&gt;
+&lt;li&gt;apply common computer vision &amp;amp; machine learning techniques for stimulus encoding&lt;/li&gt;
+&lt;li&gt;give a nuanced review of the HCI &amp;amp; ethics issues associated with implantable neurotechnology&lt;/li&gt;
+&lt;li&gt;demonstrate your hands-on experience of working on open problems in the field&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The course is targeted to a diverse audience spanning from computer science (human factors, neural networks, computer vision)
+&lt;p&gt;The course is targeted to a diverse audience spanning computer science (computer vision, human factors, deep learning)
 to psychology (vision, psychophysics) and brain sciences (computational neuroscience, neuroengineering).&lt;/p&gt;
 
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;There are no official prerequisites for this course.
-The instructor will do his best to make the course content self-contained.&lt;/li&gt;
+The instructor will do his best to make the course content self-contained, including a crash course in neuroscience &amp;amp; computational vision.&lt;/li&gt;
 &lt;li&gt;However, homeworks and final projects will require programming.
 Homeworks will be based around &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34; target=&#34;_blank&#34;&gt;pulse2percept&lt;/a&gt;,
 a Python-based simulation framework for bionic vision.
-Any programming language/framework is ok for the final project.&lt;/li&gt;
+Any suitable programming language/framework is ok for the final project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Will classes be in person?&lt;/strong&gt; Yes, and you are strongly encouraged to attend.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What about office hours?&lt;/strong&gt; I will offer both in-person and virtual office hours.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do instructors and students need to wear a mask in class?&lt;/strong&gt; Yes. There will be no exceptions to this policy. Sure, it&amp;rsquo;ll be a little weird at first, but I&amp;rsquo;m sure we&amp;rsquo;ll all adjust pretty quickly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What if I can&amp;rsquo;t make a lecture?&lt;/strong&gt; Send me a quick email &lt;em&gt;before&lt;/em&gt; the lecture. You don&amp;rsquo;t need a reason for your first 3 absences. I will do my best to record the lectures and upload them to GauchoCast for those who cannot make a lecture, but I am unable to make any remote accommodations beyond that.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What if I&amp;rsquo;m sick or need to quarantine or isolate?&lt;/strong&gt; Now more important than ever, do &lt;em&gt;not&lt;/em&gt; come in if you feel under the weather. Email me, then follow UCSB testing &amp;amp; quarantine protocol.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What if the instructor needs to quarantine?&lt;/strong&gt; In this case we will temporarily shift to remote instruction.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What if my question isn&amp;rsquo;t answered here?&lt;/strong&gt; I&amp;rsquo;m happy to answer your question via email.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 
-&lt;p&gt;TBD&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;&lt;em&gt;Note: This schedule is subject to slight change over the course of the quarter.&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;table id=&#34;schedule&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Wk&lt;/th&gt;
+      &lt;th colspan=&#34;2&#34;&gt;Date&lt;/th&gt;
+      &lt;th&gt;Reading&lt;/th&gt;
+      &lt;th&gt;Topics&lt;/th&gt;
+      &lt;th&gt;Action&lt;/th&gt;
+      &lt;th&gt;HWout&lt;/th&gt;
+      &lt;th&gt;HWdue&lt;/th&gt;
+      &lt;th&gt;Quiz&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;!-- Week 0 --&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Sep 23&lt;/td&gt;
+      &lt;td&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=7819662&#34;&gt;R1&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Introduction: Class requirements &amp; policies&lt;/li&gt;
+          &lt;li&gt;Bionic vision: then &amp; now&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 1 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;1&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Sep 28&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Foundations of vision&lt;/li&gt;
+          &lt;li&gt;Sight restoration: approaches &amp; challenges&lt;/li&gt;
+        &lt;/ul&gt;        
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Sep 30&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Computational neuroscience&lt;/li&gt;
+          &lt;li&gt;Introduction to Google Colab &amp; Python&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+          Quiz 1 (Q1) due by Sun, Oct 3, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;A1&lt;/td&gt;
+      &lt;td&gt;HW1&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752&#34; target=&#34;_blank&#34;&gt;Q1&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 2 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;2&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Oct 5&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;b&gt;Guest lecture by Aiwen Xu&lt;/b&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Retina in health &amp; disease&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Oct 7&lt;/td&gt;
+      &lt;td&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Retinal prostheses: approaches &amp; challenges&lt;/li&gt;
+          &lt;li&gt;Argus II, PRIMA, BVT-44&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+          Homework 1 (HW1) due by Sun, Oct 10, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871&#34; target=&#34;_blank&#34;&gt;HW1&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 3 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;3&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Oct 12&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Computational models of bionic vision&lt;/li&gt;
+          &lt;li&gt;Phosphene models: scoreboard &amp; axon map model&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Oct 14&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Introduction to pulse2percept in Python&lt;/li&gt;
+          &lt;li&gt;Project ideas: Discussion &amp; brainstorming&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+          Quiz 2 (Q2) due by Sun, Oct 17, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;A2&lt;/td&gt;
+      &lt;td&gt;HW2&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815&#34; target=&#34;_blank&#34;&gt;Q2&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 4 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;4&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Oct 19&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;The role of machine learning in bionic vision&lt;/li&gt;
+          &lt;li&gt;Advanced stimulation strategies&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Oct 21&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Optimizing electrical stimulation in an artificial retina&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+          Homework 2 (HW2) due by Sun, Oct 24, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920&#34; target=&#34;_blank&#34;&gt;HW2&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 5 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;5&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Oct 26&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Bionic Vision XR&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Oct 28&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;b&gt;Teams present their project proposal&lt;/b&gt; &lt;br&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;
+          Team &amp; project description (TPD) due by Sun, Oct 31, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;        
+      &lt;/td&gt; 
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;TPD&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 6 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;6&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Nov 2&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;The role of image processing in bionic vision&lt;/li&gt;
+          &lt;li&gt;Scene representation &amp; simplification&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Nov 4&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Semantic segmentation for bionic vision&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+          Quiz 3 (Q3) due by Sun, Nov 7, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829&#34; target=&#34;_blank&#34;&gt;Q3&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 7 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;7&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Nov 9&lt;/td&gt;
+      &lt;td&gt;Erickson, Peli&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Cortical prostheses: approaches &amp; challenges&lt;/li&gt;
+          &lt;li&gt;Phosphene models for cortical prostheses&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gone&#34;&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Nov 11&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        Veterans&#39; Day
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 8 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;8&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Nov 16&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Learning to see again with a bionic eye&lt;/li&gt;
+          &lt;li&gt;Visual rehabilitation&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Nov 18&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;b&gt;Guest Visit: Jason Esterhuizen, ORION implantee&lt;/b&gt; &lt;br/&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+          Quiz 4 (Q4) due by Sun, Nov 21, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;a href=&#34;https://docs.google.com/document/d/1H6h5S9LCH9pq9clyTF31T2aOghM1eivo6m5UnCYqvFI/edit?usp=sharing&#34;&gt;
+          A3
+        &lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857&#34; target=&#34;_blank&#34;&gt;Q4&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 9 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;9&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Nov 23&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;b&gt;Teams present project progress&lt;/b&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gone&#34;&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Nov 25&lt;/td&gt;
+      &lt;td&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        Thanksgiving Day
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 10 --&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;10&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Nov 30&lt;/td&gt;
+      &lt;td&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Outlook: Future of bionic vision&lt;/li&gt;
+          &lt;li&gt;Alternatives to brain-computer interfaces&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thu&lt;/td&gt;
+      &lt;td&gt;Dec 2&lt;/td&gt;
+      &lt;td&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Quarter review&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;small class=&#34;due&#34;&gt;
+          &lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;
+          Project report (PR) &amp;amp; source code (SC) due Sun, Dec 5, 11:59 pm.
+        &lt;/small&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        A4
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948&#34; target=&#34;_blank&#34;&gt;PR&amp;amp;SC&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;!-- Week 11 --&gt;
+    &lt;tr class=&#34;finals&#34;&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;Tue&lt;/td&gt;
+      &lt;td&gt;Dec 7&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;Teams make their final project presentations&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&#34;course-requirements-grading&#34;&gt;Course Requirements &amp;amp; Grading&lt;/h2&gt;
 
-&lt;p&gt;TBD&lt;/p&gt;
+&lt;p&gt;Your final grade will be determined as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;20% Homework assignments:
+
+&lt;ul&gt;
+&lt;li&gt;10% Homework 1&lt;/li&gt;
+&lt;li&gt;10% Homework 2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;30% &amp;ldquo;Check Your Knowledge&amp;rdquo; quizzes
+
+&lt;ul&gt;
+&lt;li&gt;10% per quiz&lt;/li&gt;
+&lt;li&gt;Lowest-scoring quiz will be dropped&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;50% Final project implementation, documentation, and presentation
+
+&lt;ul&gt;
+&lt;li&gt;5% Project proposal presentation (1 slide)&lt;/li&gt;
+&lt;li&gt;5% Project progress presentation (2 slides: what have you done, what&amp;rsquo;s left to do)&lt;/li&gt;
+&lt;li&gt;20% Project final presentation&lt;/li&gt;
+&lt;li&gt;20% Project final report&lt;/li&gt;
+&lt;li&gt;(+5% extra credit if project shows promise of turning into a publication)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;lateness-policy&#34;&gt;Lateness Policy&lt;/h2&gt;
 
-&lt;p&gt;TBD&lt;/p&gt;
+&lt;p&gt;All assignments are due at 11:59:59 pm on the scheduled due date, typically a Sunday
+(timestamp of the online submission system).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Each student will be allowed 3 &amp;ldquo;late days&amp;rdquo; over the course of the quarter for which lateness will not be penalized.
+&lt;strong&gt;Late days cannot be applied to project deadlines.&lt;/strong&gt;
+Late days may be applied to the quizzes and homework assignments:
+Anything turned in between 12:00:00 am and 11:59:59 pm the next day is one day late; every day thereafter that an assignment is late, including weekends and holidays, counts as an additional late day.&lt;/li&gt;
+&lt;li&gt;No late work will be accepted after the deadline if you have used up all your late days.
+If you&amp;rsquo;re not done on time, you should turn in what you have to receive partial credit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No exceptions will be made for the final project report.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please make sure you understand this policy.&lt;/p&gt;
+
+&lt;h2 id=&#34;check-your-knowledge-quizzes&#34;&gt;&amp;ldquo;Check Your Knowledge&amp;rdquo; Quizzes&lt;/h2&gt;
+
+&lt;p&gt;We will have 4 GauchoSpace quizzes over the quarter that test your theoretical/conceptual knowledge of the course content (this includes lectures and assigned reading materials).&lt;/p&gt;
+
+&lt;p&gt;The following rules apply:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quizzes must be completed by Sunday 11:59 pm of the respective week (lateness policy applies)&lt;/li&gt;
+&lt;li&gt;You have 30 mins per attempt&lt;/li&gt;
+&lt;li&gt;A quiz can be taken twice. If you decide to take the quiz again, only your second attempt will be counted (that is, the score from your first attempt will be dropped, this is called &amp;ldquo;grading method: last attempt&amp;rdquo; on GauchoSpace)&lt;/li&gt;
+&lt;li&gt;At the end of the quarter, the lowest-scoring quiz will be dropped. (Each of the 3 highest-scoring quizzes will thus account for 10% of your grade)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;final-project&#34;&gt;Final Project&lt;/h2&gt;
 
@@ -167,38 +600,38 @@ In addition, students will submit a write-up of their project and hand in their 
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Thu, Oct 14&lt;/td&gt;
 &lt;td&gt;9:00 am&lt;/td&gt;
 &lt;td&gt;Students start forming teams and discussing project ideas in class.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Thu, Oct 28&lt;/td&gt;
 &lt;td&gt;9:00 am&lt;/td&gt;
 &lt;td&gt;Teams present their project ideas in class.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Sun, Oct 31&lt;/td&gt;
 &lt;td&gt;11:59 pm&lt;/td&gt;
 &lt;td&gt;Teams submit a project title and 2-3 sentence project description.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Tue, Nov 23&lt;/td&gt;
 &lt;td&gt;9:00 am&lt;/td&gt;
 &lt;td&gt;Teams present their project progress in class.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Sun, Dec 5&lt;/td&gt;
 &lt;td&gt;11:59 pm&lt;/td&gt;
 &lt;td&gt;Teams hand in their final project report and all source code.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Tue, Dec 7&lt;/td&gt;
+&lt;td&gt;9:00 am&lt;/td&gt;
 &lt;td&gt;Teams make their final project presentations in class.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -210,11 +643,13 @@ In addition, students will submit a write-up of their project and hand in their 
 
 &lt;h3 id=&#34;project-presentation&#34;&gt;Project Presentation&lt;/h3&gt;
 
-&lt;p&gt;TBD&lt;/p&gt;
+&lt;p&gt;Each team will present their project on Tue, Dec 7.
+More info coming soon.&lt;/p&gt;
 
 &lt;h3 id=&#34;project-report&#34;&gt;Project Report&lt;/h3&gt;
 
-&lt;p&gt;Each team will also submit a write-up of their project.&lt;/p&gt;
+&lt;p&gt;Each team will also submit a write-up of their project.
+More info coming soon.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t forget to submit your source code.&lt;/strong&gt;&lt;/p&gt;
 
@@ -233,6 +668,33 @@ with respect.&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://food.ucsb.edu&#34; target=&#34;_blank&#34;&gt;food.ucsb.edu&lt;/a&gt; for additional resources including Calfresh, the AS Food Bank, and more.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
+      <link>https://bionicvisionlab.org/publication/2021-hba-u-net/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2021-hba-u-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A computational model of phosphene appearance for epiretinal prostheses</title>
+      <link>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures</title>
+      <link>https://bionicvisionlab.org/publication/2021-explainable-ai/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publication/2021-explainable-ai/</guid>
+      <description></description>
     </item>
     
     <item>

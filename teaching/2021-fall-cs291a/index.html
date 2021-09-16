@@ -24,7 +24,7 @@
   
     
   
-  <meta name="description" content="This graduate course will introduce students to the multidisciplinary field of bionic vision, with an emphasis on both the computer science and neuroscience of the field.">
+  <meta name="description" content="This graduate course will introduce students to the multidisciplinary field of bionic vision viewed through the lens of computer science, neuroscience, and human-computer interaction.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/teaching/2021-fall-cs291a/">
@@ -119,12 +119,12 @@
   <meta property="og:site_name" content="Bionic Vision Lab">
   <meta property="og:url" content="https://bionicvisionlab.org/teaching/2021-fall-cs291a/">
   <meta property="og:title" content="CS 291A: Bionic Vision | Bionic Vision Lab">
-  <meta property="og:description" content="This graduate course will introduce students to the multidisciplinary field of bionic vision, with an emphasis on both the computer science and neuroscience of the field."><meta property="og:image" content="https://bionicvisionlab.org/img/icon-192.png">
+  <meta property="og:description" content="This graduate course will introduce students to the multidisciplinary field of bionic vision viewed through the lens of computer science, neuroscience, and human-computer interaction."><meta property="og:image" content="https://bionicvisionlab.org/img/icon-192.png">
   <meta property="twitter:image" content="https://bionicvisionlab.org/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-03-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2021-08-15T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-03-15T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2021-08-15T00:00:00&#43;00:00">
   
 
   
@@ -475,8 +475,8 @@
 
 
 
-<meta content="2021-03-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-03-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2021-08-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-08-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -500,7 +500,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-date">
-    <time>TBD</time>
+    <time>Phelps 3526</time>
   </span>
     
   
@@ -556,8 +556,7 @@
 
 <p><em>What would the world look like with a bionic eye?</em></p>
 
-<p>This graduate course will introduce students to the multidisciplinary field of bionic vision,
-with an emphasis on both the computer science and neuroscience of the field.</p>
+<p>This graduate course will introduce students to the multidisciplinary field of bionic vision viewed through the lens of computer science, neuroscience, and human-computer interaction.</p>
 
 <p>The course will conclude with a <a href="#final-project"><strong>programming project</strong></a> (teams of &le; 3, any language/environment ok)
 in lieu of a final exam,
@@ -580,15 +579,21 @@ using methods and tools best suited to their scientific background.</p>
 
 <tr>
 <td>Class</td>
-<td>FQ 2021, Tue/Thu 9:00 &ndash; 10:50 am, Location TBD</td>
+<td>F21, Tue/Thu 9:00 &ndash; 10:50 am, Phelps 3526</td>
 </tr>
 
 <tr>
 <td>Office Hours</td>
-<td>TBD</td>
+<td>Tue 2&ndash;3 pm (3201B BioEngineering), 3&ndash;4pm Zoom (<a href="https://shoreline.ucsb.edu/meetings/1335298/f21-cs291a-bionic-vision">schedule a meeting</a>)</td>
 </tr>
 </tbody>
 </table>
+
+<p>Changelog:</p>
+
+<ul>
+<li>2021-09-15: Posted initial schedule</li>
+</ul>
 
 <p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
@@ -597,9 +602,11 @@ using methods and tools best suited to their scientific background.</p>
 <ul>
 <li><a href="#course-objectives">Course Objectives</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#faq">FAQ</a></li>
 <li><a href="#schedule">Schedule</a></li>
 <li><a href="#course-requirements-grading">Course Requirements &amp; Grading</a></li>
 <li><a href="#lateness-policy">Lateness Policy</a></li>
+<li><a href="#check-your-knowledge-quizzes">&ldquo;Check Your Knowledge&rdquo; Quizzes</a></li>
 <li><a href="#final-project">Final Project</a>
 <ul>
 <li><a href="#project-milestones">Project Milestones</a></li>
@@ -619,38 +626,493 @@ to people living with incurable blindness.
 By the end of the course, you should be able to:</p>
 
 <ul>
-<li>Identify various types of bionic eye technologies, their differences and similarities</li>
-<li>Have a basic understanding of the neuroscience of the human visual system</li>
-<li>Be familiar with common preprocessing, encoding, and electrical stimulation methods</li>
-<li>Understand the limitations of current bionic eye technologies</li>
-<li>Have hands-on experience of working on open problems in the field</li>
+<li>identify various types of bionic eye technologies, their differences and similarities</li>
+<li>explain how the retina and visual cortex support our sense of seeing</li>
+<li>apply common computer vision &amp; machine learning techniques for stimulus encoding</li>
+<li>give a nuanced review of the HCI &amp; ethics issues associated with implantable neurotechnology</li>
+<li>demonstrate your hands-on experience of working on open problems in the field</li>
 </ul>
 
-<p>The course is targeted to a diverse audience spanning from computer science (human factors, neural networks, computer vision)
+<p>The course is targeted to a diverse audience spanning computer science (computer vision, human factors, deep learning)
 to psychology (vision, psychophysics) and brain sciences (computational neuroscience, neuroengineering).</p>
 
 <h2 id="prerequisites">Prerequisites</h2>
 
 <ul>
 <li>There are no official prerequisites for this course.
-The instructor will do his best to make the course content self-contained.</li>
+The instructor will do his best to make the course content self-contained, including a crash course in neuroscience &amp; computational vision.</li>
 <li>However, homeworks and final projects will require programming.
 Homeworks will be based around <a href="https://github.com/pulse2percept/pulse2percept" target="_blank">pulse2percept</a>,
 a Python-based simulation framework for bionic vision.
-Any programming language/framework is ok for the final project.</li>
+Any suitable programming language/framework is ok for the final project.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<ul>
+<li><strong>Will classes be in person?</strong> Yes, and you are strongly encouraged to attend.</li>
+<li><strong>What about office hours?</strong> I will offer both in-person and virtual office hours.</li>
+<li><strong>Do instructors and students need to wear a mask in class?</strong> Yes. There will be no exceptions to this policy. Sure, it&rsquo;ll be a little weird at first, but I&rsquo;m sure we&rsquo;ll all adjust pretty quickly.</li>
+<li><strong>What if I can&rsquo;t make a lecture?</strong> Send me a quick email <em>before</em> the lecture. You don&rsquo;t need a reason for your first 3 absences. I will do my best to record the lectures and upload them to GauchoCast for those who cannot make a lecture, but I am unable to make any remote accommodations beyond that.</li>
+<li><strong>What if I&rsquo;m sick or need to quarantine or isolate?</strong> Now more important than ever, do <em>not</em> come in if you feel under the weather. Email me, then follow UCSB testing &amp; quarantine protocol.</li>
+<li><strong>What if the instructor needs to quarantine?</strong> In this case we will temporarily shift to remote instruction.</li>
+<li><strong>What if my question isn&rsquo;t answered here?</strong> I&rsquo;m happy to answer your question via email.</li>
 </ul>
 
 <h2 id="schedule">Schedule</h2>
 
-<p>TBD</p>
+<p><sup><em>Note: This schedule is subject to slight change over the course of the quarter.</em></sup></p>
+
+<table id="schedule">
+  <thead>
+    <tr>
+      <th>Wk</th>
+      <th colspan="2">Date</th>
+      <th>Reading</th>
+      <th>Topics</th>
+      <th>Action</th>
+      <th>HWout</th>
+      <th>HWdue</th>
+      <th>Quiz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Week 0 -->
+    <tr>
+      <td>0</td>
+      <td>Thu</td>
+      <td>Sep 23</td>
+      <td>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=7819662">R1</a>
+      </td>
+      <td>
+        <ul>
+          <li>Introduction: Class requirements & policies</li>
+          <li>Bionic vision: then & now</li>
+        </ul>
+      </td>
+      <td></td>
+      <td>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Week 1 -->
+    <tr>
+      <td rowspan="2">1</td>
+      <td>Tue</td>
+      <td>Sep 28</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Foundations of vision</li>
+          <li>Sight restoration: approaches & challenges</li>
+        </ul>        
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Sep 30</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Computational neuroscience</li>
+          <li>Introduction to Google Colab & Python</li>
+        </ul>
+        <small class="due"><i class="fas fa-calendar"></i>          
+          Quiz 1 (Q1) due by Sun, Oct 3, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752" target="_blank"><i class="fas fa-edit"></i></a>
+      </td>
+      <td>A1</td>
+      <td>HW1</td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752" target="_blank">Q1</a></td>
+    </tr>
+    <!-- Week 2 -->
+    <tr>
+      <td rowspan="2">2</td>
+      <td>Tue</td>
+      <td>Oct 5</td>
+      <td></td>
+      <td>
+        <b>Guest lecture by Aiwen Xu</b>
+        <ul>
+          <li>Retina in health & disease</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Oct 7</td>
+      <td>
+      </td>
+      <td>
+        <ul>
+          <li>Retinal prostheses: approaches & challenges</li>
+          <li>Argus II, PRIMA, BVT-44</li>
+        </ul>
+        <small class="due"><i class="fas fa-calendar"></i>          
+          Homework 1 (HW1) due by Sun, Oct 10, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871" target="_blank"><i class="fas fa-upload"></i></a>
+      </td>
+      <td></td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871" target="_blank">HW1</a></td>
+      <td></td>
+    </tr>
+    <!-- Week 3 -->
+    <tr>
+      <td rowspan="2">3</td>
+      <td>Tue</td>
+      <td>Oct 12</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Computational models of bionic vision</li>
+          <li>Phosphene models: scoreboard & axon map model</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Oct 14</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Introduction to pulse2percept in Python</li>
+          <li>Project ideas: Discussion & brainstorming</li>
+        </ul>
+        <small class="due"><i class="fas fa-calendar"></i>          
+          Quiz 2 (Q2) due by Sun, Oct 17, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815" target="_blank"><i class="fas fa-edit"></i></a>
+      </td>
+      <td>A2</td>
+      <td>HW2</td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815" target="_blank">Q2</a></td>
+    </tr>
+    <!-- Week 4 -->
+    <tr>
+      <td rowspan="2">4</td>
+      <td>Tue</td>
+      <td>Oct 19</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>The role of machine learning in bionic vision</li>
+          <li>Advanced stimulation strategies</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Oct 21</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Optimizing electrical stimulation in an artificial retina</li>
+        </ul>
+        <small class="due"><i class="fas fa-calendar"></i>          
+          Homework 2 (HW2) due by Sun, Oct 24, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920" target="_blank"><i class="fas fa-upload"></i></a>
+      </td>
+      <td></td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920" target="_blank">HW2</a></td>
+      <td></td>
+    </tr>
+    <!-- Week 5 -->
+    <tr>
+      <td rowspan="2">5</td>
+      <td>Tue</td>
+      <td>Oct 26</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Bionic Vision XR</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Oct 28</td>
+      <td></td>
+      <td>
+        <b>Teams present their project proposal</b> <br>
+        <small class="due"><i class="fas fa-calendar"></i>
+          Team & project description (TPD) due by Sun, Oct 31, 11:59 pm.
+        </small>
+        <a href="https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing" target="_blank"><i class="fas fa-upload"></i></a>        
+      </td> 
+      <td></td>
+      <td></td>
+      <td><a href="https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing" target="_blank">TPD</a></td>
+      <td></td>
+    </tr>
+    <!-- Week 6 -->
+    <tr>
+      <td rowspan="2">6</td>
+      <td>Tue</td>
+      <td>Nov 2</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>The role of image processing in bionic vision</li>
+          <li>Scene representation & simplification</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Nov 4</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Semantic segmentation for bionic vision</li>
+        </ul>
+        <small class="due"><i class="fas fa-calendar"></i>          
+          Quiz 3 (Q3) due by Sun, Nov 7, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829" target="_blank"><i class="fas fa-edit"></i></a>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829" target="_blank">Q3</a></td>
+    </tr>
+    <!-- Week 7 -->
+    <tr>
+      <td rowspan="2">7</td>
+      <td>Tue</td>
+      <td>Nov 9</td>
+      <td>Erickson, Peli</td>
+      <td>
+        <ul>
+          <li>Cortical prostheses: approaches & challenges</li>
+          <li>Phosphene models for cortical prostheses</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="gone">
+      <td>Thu</td>
+      <td>Nov 11</td>
+      <td></td>
+      <td>
+        Veterans' Day
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Week 8 -->
+    <tr>
+      <td rowspan="2">8</td>
+      <td>Tue</td>
+      <td>Nov 16</td>
+      <td></td>
+      <td>
+        <ul>
+          <li>Learning to see again with a bionic eye</li>
+          <li>Visual rehabilitation</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Nov 18</td>
+      <td></td>
+      <td>
+        <b>Guest Visit: Jason Esterhuizen, ORION implantee</b> <br/>
+        <small class="due"><i class="fas fa-calendar"></i>          
+          Quiz 4 (Q4) due by Sun, Nov 21, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857" target="_blank"><i class="fas fa-edit"></i></a>
+      </td>
+      <td>
+        <a href="https://docs.google.com/document/d/1H6h5S9LCH9pq9clyTF31T2aOghM1eivo6m5UnCYqvFI/edit?usp=sharing">
+          A3
+        </a>
+      </td>
+      <td></td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857" target="_blank">Q4</a></td>
+    </tr>
+    <!-- Week 9 -->
+    <tr>
+      <td rowspan="2">9</td>
+      <td>Tue</td>
+      <td>Nov 23</td>
+      <td></td>
+      <td>
+        <b>Teams present project progress</b>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="gone">
+      <td>Thu</td>
+      <td>Nov 25</td>
+      <td>
+      </td>
+      <td>
+        Thanksgiving Day
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Week 10 -->
+    <tr>
+      <td rowspan="2">10</td>
+      <td>Tue</td>
+      <td>Nov 30</td>
+      <td>
+      </td>
+      <td>
+        <ul>
+          <li>Outlook: Future of bionic vision</li>
+          <li>Alternatives to brain-computer interfaces</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>Dec 2</td>
+      <td>
+      </td>
+      <td>
+        <ul>
+          <li>Quarter review</li>
+        </ul>
+        <small class="due">
+          <i class="fas fa-calendar"></i>
+          Project report (PR) &amp; source code (SC) due Sun, Dec 5, 11:59 pm.
+        </small>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948" target="_blank"><i class="fas fa-upload"></i></a>
+      </td>
+      <td>
+        A4
+      </td>
+      <td></td>
+      <td><a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948" target="_blank">PR&amp;SC</a></td>
+      <td></td>
+    </tr>
+    <!-- Week 11 -->
+    <tr class="finals">
+      <td>11</td>
+      <td>Tue</td>
+      <td>Dec 7</td>
+      <td></td>
+      <td>Teams make their final project presentations</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="course-requirements-grading">Course Requirements &amp; Grading</h2>
 
-<p>TBD</p>
+<p>Your final grade will be determined as follows:</p>
+
+<ul>
+<li>20% Homework assignments:
+
+<ul>
+<li>10% Homework 1</li>
+<li>10% Homework 2</li>
+</ul></li>
+<li>30% &ldquo;Check Your Knowledge&rdquo; quizzes
+
+<ul>
+<li>10% per quiz</li>
+<li>Lowest-scoring quiz will be dropped</li>
+</ul></li>
+<li>50% Final project implementation, documentation, and presentation
+
+<ul>
+<li>5% Project proposal presentation (1 slide)</li>
+<li>5% Project progress presentation (2 slides: what have you done, what&rsquo;s left to do)</li>
+<li>20% Project final presentation</li>
+<li>20% Project final report</li>
+<li>(+5% extra credit if project shows promise of turning into a publication)</li>
+</ul></li>
+</ul>
 
 <h2 id="lateness-policy">Lateness Policy</h2>
 
-<p>TBD</p>
+<p>All assignments are due at 11:59:59 pm on the scheduled due date, typically a Sunday
+(timestamp of the online submission system).</p>
+
+<ul>
+<li>Each student will be allowed 3 &ldquo;late days&rdquo; over the course of the quarter for which lateness will not be penalized.
+<strong>Late days cannot be applied to project deadlines.</strong>
+Late days may be applied to the quizzes and homework assignments:
+Anything turned in between 12:00:00 am and 11:59:59 pm the next day is one day late; every day thereafter that an assignment is late, including weekends and holidays, counts as an additional late day.</li>
+<li>No late work will be accepted after the deadline if you have used up all your late days.
+If you&rsquo;re not done on time, you should turn in what you have to receive partial credit.</li>
+<li><strong>No exceptions will be made for the final project report.</strong></li>
+</ul>
+
+<p>Please make sure you understand this policy.</p>
+
+<h2 id="check-your-knowledge-quizzes">&ldquo;Check Your Knowledge&rdquo; Quizzes</h2>
+
+<p>We will have 4 GauchoSpace quizzes over the quarter that test your theoretical/conceptual knowledge of the course content (this includes lectures and assigned reading materials).</p>
+
+<p>The following rules apply:</p>
+
+<ul>
+<li>Quizzes must be completed by Sunday 11:59 pm of the respective week (lateness policy applies)</li>
+<li>You have 30 mins per attempt</li>
+<li>A quiz can be taken twice. If you decide to take the quiz again, only your second attempt will be counted (that is, the score from your first attempt will be dropped, this is called &ldquo;grading method: last attempt&rdquo; on GauchoSpace)</li>
+<li>At the end of the quarter, the lowest-scoring quiz will be dropped. (Each of the 3 highest-scoring quizzes will thus account for 10% of your grade)</li>
+</ul>
 
 <h2 id="final-project">Final Project</h2>
 
@@ -693,38 +1155,38 @@ In addition, students will submit a write-up of their project and hand in their 
 
 <tbody>
 <tr>
-<td>TBD</td>
+<td>Thu, Oct 14</td>
 <td>9:00 am</td>
 <td>Students start forming teams and discussing project ideas in class.</td>
 </tr>
 
 <tr>
-<td>TBD</td>
+<td>Thu, Oct 28</td>
 <td>9:00 am</td>
 <td>Teams present their project ideas in class.</td>
 </tr>
 
 <tr>
-<td>TBD</td>
+<td>Sun, Oct 31</td>
 <td>11:59 pm</td>
 <td>Teams submit a project title and 2-3 sentence project description.</td>
 </tr>
 
 <tr>
-<td>TBD</td>
+<td>Tue, Nov 23</td>
 <td>9:00 am</td>
 <td>Teams present their project progress in class.</td>
 </tr>
 
 <tr>
-<td>TBD</td>
+<td>Sun, Dec 5</td>
 <td>11:59 pm</td>
 <td>Teams hand in their final project report and all source code.</td>
 </tr>
 
 <tr>
-<td>TBD</td>
-<td></td>
+<td>Tue, Dec 7</td>
+<td>9:00 am</td>
 <td>Teams make their final project presentations in class.</td>
 </tr>
 </tbody>
@@ -736,11 +1198,13 @@ In addition, students will submit a write-up of their project and hand in their 
 
 <h3 id="project-presentation">Project Presentation</h3>
 
-<p>TBD</p>
+<p>Each team will present their project on Tue, Dec 7.
+More info coming soon.</p>
 
 <h3 id="project-report">Project Report</h3>
 
-<p>Each team will also submit a write-up of their project.</p>
+<p>Each team will also submit a write-up of their project.
+More info coming soon.</p>
 
 <p><strong>Don&rsquo;t forget to submit your source code.</strong></p>
 
