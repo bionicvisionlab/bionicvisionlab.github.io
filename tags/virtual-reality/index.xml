@@ -7,18 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/virtual-reality/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Furthering visual accessibility with extended reality (XR): a systematic review</title>
+      <link>https://bionicvisionlab.org/publications/2021-xr-visual-accessibility/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2021-xr-visual-accessibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Towards immersive virtual reality simulations of bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</link>
+      <link>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</guid>
-      <description></description>
+      <guid>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</guid>
+      <description>&lt;p&gt;Bionic vision is a rapidly advancing field aimed at developing visual neuroprostheses (&amp;lsquo;bionic eyes&amp;rsquo;) to restore useful vision to people who are blind. However, a major outstanding challenge is predicting what people &amp;lsquo;see&amp;rsquo; when they use their devices. The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. In addition, many computational models of bionic vision lack biological realism. To address these challenges, we propose to embed biologically realistic models of simulated prosthetic vision (SPV) in immersive virtual reality (VR) so that sighted subjects can act as &amp;lsquo;virtual patients&amp;rsquo; in real-world tasks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -32,10 +42,9 @@ encountered by sight restoration (SR) patients in virtual reality (VR)
 will enable sighted subjects to act as virtual patients in real-world tasks.
 This will allow us to test novel stimulation strategies in high-throughput experiments.
 Strategies that result in good VR performance will then be validated in real SR patients.&lt;/p&gt;
-
-&lt;p&gt;For example, rather than aiming to ‘restore natural vision’,
-there is potential merit in borrowing computer vision algorithms
-as preprocessing techniques to maximize the usefulness of prosthetic vision.
+&lt;p&gt;For example, rather than aiming to ‘restore natural vision’, 
+there is potential merit in borrowing computer vision algorithms 
+as preprocessing techniques to maximize the usefulness of prosthetic vision. 
 Edge enhancement and contrast maximization are already routinely used in Argus II.
 In the future, more sophisticated techniques such as low-level image enhancements
 and visual saliency based transforms could further improve visual performance.&lt;/p&gt;

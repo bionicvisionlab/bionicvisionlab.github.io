@@ -14,19 +14,19 @@
     
     <item>
       <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
-      <link>https://bionicvisionlab.org/publication/2021-hba-u-net/</link>
+      <link>https://bionicvisionlab.org/publications/2021-hba-u-net/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-hba-u-net/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-hba-u-net/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning-based scene simplification for bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2021-scene-simplification/</link>
+      <link>https://bionicvisionlab.org/publications/2021-scene-simplification/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-scene-simplification/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-scene-simplification/</guid>
       <description></description>
     </item>
     
@@ -36,16 +36,15 @@
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/1-optimize-stimulation/</guid>
-      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions
+      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions 
 severely limits current stimulation protocols.
-For example, current Argus II protocols
-simply attempt to minimize electric field interactions
-by maximizing phase delays across electrodes using ‘time-multiplexing’.
-The assumption is that single-electrode percepts act as
+For example, current Argus II protocols 
+simply attempt to minimize electric field interactions 
+by maximizing phase delays across electrodes using ‘time-multiplexing’. 
+The assumption is that single-electrode percepts act as 
 atomic ‘building blocks’ of patterned vision.
-However, these building blocks often fail to assemble
+However, these building blocks often fail to assemble 
 into more complex percepts.&lt;/p&gt;
-
 &lt;p&gt;The goal of this project is therefore to develop new stimulation strategies
 that minimize perceptual distortions.&lt;/p&gt;
 </description>
@@ -53,10 +52,10 @@ that minimize perceptual distortions.&lt;/p&gt;
     
     <item>
       <title>Vision-based robust road lane detection in urban environments</title>
-      <link>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</link>
+      <link>https://bionicvisionlab.org/publications/2014-vision-road-lane-detection/</link>
       <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</guid>
+      <guid>https://bionicvisionlab.org/publications/2014-vision-road-lane-detection/</guid>
       <description></description>
     </item>
     

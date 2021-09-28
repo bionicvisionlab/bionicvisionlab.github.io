@@ -1,15 +1,312 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alumnis on Bionic Vision Lab</title>
+    <title>Alumni on Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/alumni/</link>
-    <description>Recent content in Alumnis on Bionic Vision Lab</description>
+    <description>Recent content in Alumni on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
     
 	    <atom:link href="https://bionicvisionlab.org/alumni/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/brydon_annika/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/brydon_annika/</guid>
+      <description>&lt;p&gt;Annika Brydon is currently a first-year undergraduate student pursuing an Environmental Studies degree at UC Santa Barbara. She is working on developing questions to understand how low vision impacts quality of life.&lt;/p&gt;
+&lt;p&gt;When she is not developing research questions, she enjoys walking on the beach and baking delicious treats.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/dabit_rami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/dabit_rami/</guid>
+      <description>&lt;p&gt;Rami Dabit is currently a fourth-year undergraduate student pursuing a Computer Engineering degree at UC Santa Barbara. He is working on reconstructing a 3D model of the retina using OCT images.&lt;/p&gt;
+&lt;p&gt;When he is not studying, he enjoys watching basketball or listening to music. He is also a volunteer tutor at Goleta Valley Junior High where he helps math and science students struggling with distanced learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/gao_emma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/gao_emma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/gao_ethan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/gao_ethan/</guid>
+      <description>&lt;p&gt;Ethan Gao is a rising senior high school student at Ojai Valley School and will graduate in 2021. He has joined the lab as an RMP (Research Mentorship Program) student and brings a love of computer science and a curiosity about advanced programming techniques.&lt;/p&gt;
+&lt;p&gt;At School, he is heavily involved in computer science and math, being the team captain and programmer of the competitive robotics team and member of the competitive Math team.&lt;/p&gt;
+&lt;p&gt;At the Bionic Vision Lab, Ethan is helping develop a virtual reality model of retinal prosthesis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/han_lu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/han_lu/</guid>
+      <description>&lt;p&gt;Lu Han is currently a fourth-year undergraduate student pursuing a Computer Engineering degree at UC Santa Barbara. She is interested in exploring more usage of human-computer interaction and data analytics in the field of cognitive learning and healthcare.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/htun_chitsein/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/htun_chitsein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/hu_zuying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/hu_zuying/</guid>
+      <description>&lt;p&gt;Zuying Hu is an MS student at UC Santa Barbara and member of the Bionic Vision Lab. His interests lie in computer vision and machine learning.&lt;/p&gt;
+&lt;p&gt;He received his higher education in Guangzhou and Hong Kong. He received his BS in Information Engineering from the Chinese University of Hong Kong in 2017 and his MS in Big Data Technology at Hong Kong University of Science and Technology in 2018. With a passion for machine learning and computer vision, he decided to continue his study at UCSB and looks forward to applying his knowledge in daily use.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/jain_yash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/jain_yash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/jasper_surya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/jasper_surya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/kolhatkar_rucha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/kolhatkar_rucha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/li_lisa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/li_lisa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/lin_dylan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/lin_dylan/</guid>
+      <description>&lt;p&gt;Dylan Lin is a third-year undergraduate student in the department of Computer Science at the University of California, Santa Barbara.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/mao_andre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/mao_andre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/mizrahi_ori/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/mizrahi_ori/</guid>
+      <description>&lt;p&gt;Ori Mizrahi is a fourth-year undergraduate student studying Computer Science at the University of California, Santa Barbara. He is interested in applying computational science to the development and advancement of useful sight restoration technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/mochizuki_rachel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/mochizuki_rachel/</guid>
+      <description>&lt;p&gt;Rachel Mochizuki is currently a fourth-year undergraduate student pursuing a Biopsychology degree at UC Santa Barbara.
+She joined the lab in January 2021 to conduct her senior honors thesis.
+Her research will focus on how the severity of visual impairment affects quality of life.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/moininazeri_iris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/moininazeri_iris/</guid>
+      <description>&lt;p&gt;Iris Moini-Nazeri is currently a fourth-year undergraduate student pursuing a BS/MS Computer Science degree at UC Santa Barbara. She is interested in exploring various topics in Computer Science, including computer vision, operating systems, programming languages, security, and CS education and diveristy efforts.&lt;/p&gt;
+&lt;p&gt;Iris has a passion for helping others learn how to code, especially those with no prior programming experience and works as an ungergraduate learning assistant for the CS department. In her spare time she loves creating and admiring art, listening to music, meeting new people, and listening to different perspectives.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/muttukuru_sairisheek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/muttukuru_sairisheek/</guid>
+      <description>&lt;p&gt;Sairisheek Muttukuru is currently a fourth-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is working on the Computer Vision team of the Bionic Vision Lab.
+When he is not coding he enjoys skateboarding, hiking/exploring new areas, and cooking lardy meals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/nguyen_kha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/nguyen_kha/</guid>
+      <description>&lt;p&gt;Kha Nguyen is an upcoming third-year transfer student in the Department of Bioengineering at the University of California, San Diego.&lt;/p&gt;
+&lt;p&gt;As part of the UC Leadership Excellence through Advanced DegreeS (UC LEADS) program, she is working with the Bionic Vision Lab to evaluate and improve existing phosphene models for retinal implants.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/olmos_ruben/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/olmos_ruben/</guid>
+      <description>&lt;p&gt;Ruben Olmos is a research assistant and computer programmer in the Bionic Vision Lab at UC Santa Barbara (UCSB).&lt;/p&gt;
+&lt;p&gt;He is completing his undergraduate education in Statistics and Data Science (B.S) at UCSB. Prior to joining the Bionic Vision Lab, he worked as part of the UCSB Baseball Data Analytics organization conducting application based statistical research, modeling &amp;amp; analysis and developing data intensive software programs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/qi_ziming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/qi_ziming/</guid>
+      <description>&lt;p&gt;Ziming Qi is a MS student at UC Santa Barbara and member of the Bionic Vision Lab. He is interested in computer vision and machine learning.&lt;/p&gt;
+&lt;p&gt;He received his BS degree in computer engineering at UCSB, and is currently pursuing his MS degree at UCSB as well. With passion to save people&amp;rsquo;s vision, he decided to apply his computer vision and machine learning skills in the area of biomedical image analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/qubadi_fatima/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/qubadi_fatima/</guid>
+      <description>&lt;p&gt;Fatima Qubadi is a third year student at UC Santa Barbara. She&amp;rsquo;s interested in research about restoring vision in patients with retinal degenerative diseases and the use of retinal implants.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/raghulan_rashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/raghulan_rashi/</guid>
+      <description>&lt;p&gt;Rashi Raghulan is an undergraduate student in the Department of Molecular, Cellular, and Development Biology at the University of California, Santa Barbara.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/rohatgi_versha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/rohatgi_versha/</guid>
+      <description>&lt;p&gt;Versha Rohatgi is a rising junior at Mountain View High School and is part of the Research Mentorship Program at UC Santa Barbara. Versha is interested in biomedical engineering and computer science.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/solares_angel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/solares_angel/</guid>
+      <description>&lt;p&gt;Angel Solares is a senior in Psychological &amp;amp; Brain Sciences at UC Santa Barbara. He is interested in getting his foot in the door of research in nueropsychology and related fields. He worked as a behavioral technician before transferring to UCSB, and is a Packers fan through and through.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/steinhart_yuval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/steinhart_yuval/</guid>
+      <description>&lt;p&gt;Yuval Steinhart is currently a third-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is interested in Computer Vision and applications of Machine Learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/tang_shuyun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/tang_shuyun/</guid>
+      <description>&lt;p&gt;Shuyun Tang is an undergraduate research assistant in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
+&lt;p&gt;He is a fourth-year undergraduate student in Statistics and Data Science at UCSB. In the Bionic Vision Lab, he works with Ziming Qi in biomedical image analysis projects that seeking to save people’s vision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/wu_nathan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/wu_nathan/</guid>
+      <description>&lt;p&gt;Nathan Wu is an undergraduate research assistant in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
+&lt;p&gt;He is a fourth-year undergraduate student in Computer Science as well as in Statistics and Data Science at UCSB. In the Bionic Vision Lab, he works on projects seeking to improve AR/VR for people with low vision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/yan_kelly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/yan_kelly/</guid>
+      <description>&lt;p&gt;Kelly Yan is an undergraduate research assistant in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/yan_yusong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/yan_yusong/</guid>
+      <description>&lt;p&gt;Yusong Yan is a third-year undergraduate student in the Department of Computer Science at the University of California, Santa Barbara.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

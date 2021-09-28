@@ -23,10 +23,9 @@ encountered by sight restoration (SR) patients in virtual reality (VR)
 will enable sighted subjects to act as virtual patients in real-world tasks.
 This will allow us to test novel stimulation strategies in high-throughput experiments.
 Strategies that result in good VR performance will then be validated in real SR patients.&lt;/p&gt;
-
-&lt;p&gt;For example, rather than aiming to ‘restore natural vision’,
-there is potential merit in borrowing computer vision algorithms
-as preprocessing techniques to maximize the usefulness of prosthetic vision.
+&lt;p&gt;For example, rather than aiming to ‘restore natural vision’, 
+there is potential merit in borrowing computer vision algorithms 
+as preprocessing techniques to maximize the usefulness of prosthetic vision. 
 Edge enhancement and contrast maximization are already routinely used in Argus II.
 In the future, more sophisticated techniques such as low-level image enhancements
 and visual saliency based transforms could further improve visual performance.&lt;/p&gt;

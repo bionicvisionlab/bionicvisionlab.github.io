@@ -14,82 +14,83 @@
     
     <item>
       <title>A computational model of phosphene appearance for epiretinal prostheses</title>
-      <link>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</link>
+      <link>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</link>
       <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures</title>
-      <link>https://bionicvisionlab.org/publication/2021-explainable-ai/</link>
+      <link>https://bionicvisionlab.org/publications/2021-explainable-ai/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-explainable-ai/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-explainable-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards immersive virtual reality simulations of bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</link>
+      <link>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</guid>
-      <description></description>
+      <guid>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</guid>
+      <description>&lt;p&gt;Bionic vision is a rapidly advancing field aimed at developing visual neuroprostheses (&amp;lsquo;bionic eyes&amp;rsquo;) to restore useful vision to people who are blind. However, a major outstanding challenge is predicting what people &amp;lsquo;see&amp;rsquo; when they use their devices. The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. In addition, many computational models of bionic vision lack biological realism. To address these challenges, we propose to embed biologically realistic models of simulated prosthetic vision (SPV) in immersive virtual reality (VR) so that sighted subjects can act as &amp;lsquo;virtual patients&amp;rsquo; in real-world tasks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Deep learning-based scene simplification for bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2021-scene-simplification/</link>
+      <link>https://bionicvisionlab.org/publications/2021-scene-simplification/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-scene-simplification/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-scene-simplification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model-based recommendations for optimal surgical placement of epiretinal implants</title>
-      <link>https://bionicvisionlab.org/publication/2019-optimal-surgical-placement/</link>
+      <link>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</link>
       <pubDate>Thu, 10 Oct 2019 14:21:43 -0700</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2019-optimal-surgical-placement/</guid>
+      <guid>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A model of ganglion axon pathways accounts for percepts elicited by retinal implants</title>
-      <link>https://bionicvisionlab.org/publication/2019-axon-map-model/</link>
+      <link>https://bionicvisionlab.org/publications/2019-axon-map-model/</link>
       <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2019-axon-map-model/</guid>
+      <guid>https://bionicvisionlab.org/publications/2019-axon-map-model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Biophysical model of axonal stimulation in epiretinal visual prostheses</title>
-      <link>https://bionicvisionlab.org/publication/2019-biophysical-model-axonal-stimulation/</link>
+      <link>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2019-biophysical-model-axonal-stimulation/</guid>
+      <guid>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies</title>
-      <link>https://bionicvisionlab.org/publication/2017-learning-to-see-again/</link>
+      <link>https://bionicvisionlab.org/publications/2017-learning-to-see-again/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2017-learning-to-see-again/</guid>
+      <guid>https://bionicvisionlab.org/publications/2017-learning-to-see-again/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2017-pulse2percept/</link>
+      <link>https://bionicvisionlab.org/publications/2017-pulse2percept/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2017-pulse2percept/</guid>
+      <guid>https://bionicvisionlab.org/publications/2017-pulse2percept/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,21 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 23 Feb 2021 09:29:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 09:29:00 -0700</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Will it ever be possible to upload information to my brain?</title>
+      <link>https://bionicvisionlab.org/post/2021-09-giz-asks/</link>
+      <pubDate>Mon, 20 Sep 2021 09:29:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/post/2021-09-giz-asks/</guid>
+      <description>&lt;p&gt;Prof. Beyeler was part of the Giz Asks series, where the focused turned to the prospect of using brain-machine interface technology to directly write in information to the brain.&lt;/p&gt;
+&lt;p&gt;Read the full interview &lt;a href=&#34;https://gizmodo.com/will-it-be-possible-to-upload-information-to-my-brain-1847698784&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PCMag: Building the bionic eye... with car tech?</title>
@@ -19,9 +30,7 @@
       
       <guid>https://bionicvisionlab.org/post/2021-02-pcmag/</guid>
       <description>&lt;p&gt;Over the years, cyberpunk tales and sci-fi series have featured characters with cybernetic vision—most recently Star Trek Discovery&amp;rsquo;s Lieutenant Keyla Detmer and her ocular implants. In the real world, restoring “natural” vision is still a complex puzzle, though researchers at UC Santa Barbara are developing a smart prosthesis that provides cues to the visually impaired, much like a computer vision system talks to a self-driving car.&lt;/p&gt;
-
 &lt;p&gt;Today, over 10 million people worldwide are living with profound visual impairment, many due to retinal degeneration diseases. Ahead of this week&amp;rsquo;s Augmented Humans International Conference, we spoke with Dr. Michael Beyeler, Assistant Professor in Computer Science and Psychological &amp;amp; Brain Sciences at UCSB, who is forging ahead with synthetic sight trials at his Bionic Vision Lab and will be presenting a paper at the conference.&lt;/p&gt;
-
 &lt;p&gt;Read the full interview &lt;a href=&#34;https://www.pcmag.com/news/building-the-bionic-eyewith-car-tech&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -33,9 +42,7 @@
       
       <guid>https://bionicvisionlab.org/post/2020-10-scisection/</guid>
       <description>&lt;p&gt;Dr. Beyeler sat down with Luming Cao from SciSection&amp;rsquo;s Human and Science platform to talk about how bionic vision, as sci-fi as it sounds, is already helping to restore vision to the blind.&lt;/p&gt;
-
 &lt;p&gt;The transcript of this informal interview is now available, and a podcast will follow soon.&lt;/p&gt;
-
 &lt;p&gt;Read the full interview &lt;a href=&#34;https://www.humansandscience.com/post/interview-with-dr-beyeler&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -47,13 +54,12 @@
       
       <guid>https://bionicvisionlab.org/post/2020-05-convergence/</guid>
       <description>&lt;p&gt;Michael Beyeler and the Bionic Vision Lab are featured heavily in the Spring Edition of UCSB&amp;rsquo;s College of Engineering Convergence Magazine:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;There is research to try to understand the brain—how it works on a mechanistic and algorithmic level—and then there&amp;rsquo;s applying that to an engineered system that can interface with the brain,&amp;rdquo; says Michael Beyeler, an assistant professor in Computer Science and Psychological &amp;amp; Brain Sciences, in providing context for his research, which lies in the emerging interdisciplinary field of neuroengineering.&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;“Brain-computer interfaces can be used both for treating neurological and mental disorders as well as for understanding brain function,” he says. “Eventually, they should also allow us to restore vision to the blind.”&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Read the full article &lt;a href=&#34;https://engineering.ucsb.edu/convergence/spring-2020&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -65,15 +71,15 @@
       
       <guid>https://bionicvisionlab.org/post/2019-07-pcmag/</guid>
       <description>&lt;p&gt;A new article appeared in PCMag to celebrate the inauguration of the Bionic Vision Lab at UCSB:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;Bionic vision might sound like science fiction, but Dr. Michael Beyeler is working on just that.&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;Originally from Switzerland, Dr. Beyeler is wrapping up his postdoctoral fellow at the University of Washington before moving to the University of California Santa Barbara this fall to head up the newly formed Bionic Vision Lab in the Departments of Computer Science and Psychological &amp;amp; Brain Sciences.&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;We spoke with him about this &amp;ldquo;deep fascination with the brain&amp;rdquo; and how he hopes his work will eventually be able to restore vision to the blind. Here are edited and condensed excerpts from our conversation.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Read the full article &lt;a href=&#34;https://www.pcmag.com/news/369401/restoring-vision-with-bionic-eyes-no-longer-science-fiction&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

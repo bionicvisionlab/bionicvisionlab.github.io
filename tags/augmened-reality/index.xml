@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>augmened reality on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/augmened-reality/</link>
+    <description>Recent content in augmened reality on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/augmened-reality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Furthering visual accessibility with extended reality (XR): a systematic review</title>
+      <link>https://bionicvisionlab.org/publications/2021-xr-visual-accessibility/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2021-xr-visual-accessibility/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

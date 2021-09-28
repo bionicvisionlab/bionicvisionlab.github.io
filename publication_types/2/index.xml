@@ -14,127 +14,128 @@
     
     <item>
       <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
-      <link>https://bionicvisionlab.org/publication/2021-hba-u-net/</link>
+      <link>https://bionicvisionlab.org/publications/2021-hba-u-net/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-hba-u-net/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-hba-u-net/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A computational model of phosphene appearance for epiretinal prostheses</title>
-      <link>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</link>
+      <link>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</link>
       <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-biphasic-axon-map/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures</title>
-      <link>https://bionicvisionlab.org/publication/2021-explainable-ai/</link>
+      <link>https://bionicvisionlab.org/publications/2021-explainable-ai/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-explainable-ai/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-explainable-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards immersive virtual reality simulations of bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</link>
+      <link>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-towards-immersive-vr/</guid>
-      <description></description>
+      <guid>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</guid>
+      <description>&lt;p&gt;Bionic vision is a rapidly advancing field aimed at developing visual neuroprostheses (&amp;lsquo;bionic eyes&amp;rsquo;) to restore useful vision to people who are blind. However, a major outstanding challenge is predicting what people &amp;lsquo;see&amp;rsquo; when they use their devices. The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. In addition, many computational models of bionic vision lack biological realism. To address these challenges, we propose to embed biologically realistic models of simulated prosthetic vision (SPV) in immersive virtual reality (VR) so that sighted subjects can act as &amp;lsquo;virtual patients&amp;rsquo; in real-world tasks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Deep learning-based scene simplification for bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2021-scene-simplification/</link>
+      <link>https://bionicvisionlab.org/publications/2021-scene-simplification/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2021-scene-simplification/</guid>
+      <guid>https://bionicvisionlab.org/publications/2021-scene-simplification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model-based recommendations for optimal surgical placement of epiretinal implants</title>
-      <link>https://bionicvisionlab.org/publication/2019-optimal-surgical-placement/</link>
+      <link>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</link>
       <pubDate>Thu, 10 Oct 2019 14:21:43 -0700</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2019-optimal-surgical-placement/</guid>
+      <guid>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Biophysical model of axonal stimulation in epiretinal visual prostheses</title>
-      <link>https://bionicvisionlab.org/publication/2019-biophysical-model-axonal-stimulation/</link>
+      <link>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2019-biophysical-model-axonal-stimulation/</guid>
+      <guid>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters</title>
-      <link>https://bionicvisionlab.org/publication/2018-carlsim4/</link>
+      <link>https://bionicvisionlab.org/publications/2018-carlsim4/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2018-carlsim4/</guid>
+      <guid>https://bionicvisionlab.org/publications/2018-carlsim4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
-      <link>https://bionicvisionlab.org/publication/2017-pulse2percept/</link>
+      <link>https://bionicvisionlab.org/publications/2017-pulse2percept/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2017-pulse2percept/</guid>
+      <guid>https://bionicvisionlab.org/publications/2017-pulse2percept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks</title>
-      <link>https://bionicvisionlab.org/publication/2015-carlsim3/</link>
+      <link>https://bionicvisionlab.org/publications/2015-carlsim3/</link>
       <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2015-carlsim3/</guid>
+      <guid>https://bionicvisionlab.org/publications/2015-carlsim3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vision-based robust road lane detection in urban environments</title>
-      <link>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</link>
+      <link>https://bionicvisionlab.org/publications/2014-vision-road-lane-detection/</link>
       <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2014-vision-road-lane-detection/</guid>
+      <guid>https://bionicvisionlab.org/publications/2014-vision-road-lane-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficient spiking neural network model of pattern motion selectivity in visual cortex</title>
-      <link>https://bionicvisionlab.org/publication/2014-snn-pattern-motion/</link>
+      <link>https://bionicvisionlab.org/publications/2014-snn-pattern-motion/</link>
       <pubDate>Wed, 05 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2014-snn-pattern-motion/</guid>
+      <guid>https://bionicvisionlab.org/publications/2014-snn-pattern-motion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPGPU accelerated simulation and parameter tuning for neuromorphic applications</title>
-      <link>https://bionicvisionlab.org/publication/2014-gpgpu-accelerated-simulation-parameter-tuning/</link>
+      <link>https://bionicvisionlab.org/publications/2014-gpgpu-accelerated-simulation-parameter-tuning/</link>
       <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2014-gpgpu-accelerated-simulation-parameter-tuning/</guid>
+      <guid>https://bionicvisionlab.org/publications/2014-gpgpu-accelerated-simulation-parameter-tuning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploring olfactory sensory networks: Simulations and hardware emulation</title>
-      <link>https://bionicvisionlab.org/publication/2010-exploring-olfactory-networks/</link>
+      <link>https://bionicvisionlab.org/publications/2010-exploring-olfactory-networks/</link>
       <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publication/2010-exploring-olfactory-networks/</guid>
+      <guid>https://bionicvisionlab.org/publications/2010-exploring-olfactory-networks/</guid>
       <description></description>
     </item>
     
