@@ -7,10 +7,53 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PSY-221F: Computational Neuroscience</title>
+      <link>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</guid>
+      <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;p&gt;This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.&lt;/p&gt;
+&lt;p&gt;By the end of the course, you should be able to stimulate model neurons and neural networks as well as analyze basic spike train data.
+More generally, you should gain the ability to produce a simple model of a dynamical biological system with appropriate differential equations, to write code that will solve the model through time, and interpret the meaning &amp;amp; relevance of the resulting outputs.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;p&gt;The formal prerequisite is PSY-221B, but the only part of that course that is
+necessary is the introduction to matrix algebra.&lt;/p&gt;
+&lt;p&gt;The actual necessary background includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;calculus,&lt;/li&gt;
+&lt;li&gt;some prior exposure to matrix algebra,&lt;/li&gt;
+&lt;li&gt;some prior exposure to Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Desirable, but not strictly necessary:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prior exposure to differential equations,&lt;/li&gt;
+&lt;li&gt;basic knowledge of neuroscience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;syllabus&#34;&gt;Syllabus&lt;/h3&gt;
+&lt;p&gt;This is a work in progress. We may draw material from &lt;a href=&#34;http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf&#34; target=&#34;_blank&#34;&gt;Dayan &amp;amp; Abbott (2001)&lt;/a&gt; and &lt;a href=&#34;https://academy.neuromatch.io/nma2020/course-materials&#34; target=&#34;_blank&#34;&gt;Neuromatch Academy&lt;/a&gt;, tailored to PBS.&lt;/p&gt;
+&lt;p&gt;Things that will definitely be covered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intro to CompNeuro: concepts, properties of neurons, cell types, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Single neuron models: Perceptron, firing rate model, spiking neurons, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Network models: 80-20 nets, Hopfield nets, liquid state machines, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Plasticity &amp;amp; learning: short &amp;amp; long-term plasticity, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Deep learning: CNNs, RNNs, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Applications: vision, language, decision-making, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There will be some light Python programming (example applications, maybe a homework or two). 
+The beginning of the course will see some programming &amp;amp; math tutorials to get everyone up to speed.&lt;/p&gt;
+&lt;p&gt;I have yet to decide whether there will be a final project or a final exam.&lt;/p&gt;
+&lt;p&gt;Expect more updates in W2022.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CS-291A: Bionic Vision</title>
@@ -49,6 +92,7 @@ using methods and tools best suited to their scientific background.&lt;/p&gt;
 &lt;small&gt;
 Changelog:
 &lt;ul&gt;
+&lt;li&gt;2021-10-09: Switched order of mid-quarter content&lt;/li&gt;
 &lt;li&gt;2021-09-27: Updated office hours and assigned reading for Week 1&lt;/li&gt;
 &lt;li&gt;2021-09-15: Posted initial schedule&lt;/li&gt;
 &lt;/ul&gt;
@@ -111,8 +155,8 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;/td&gt;
       &lt;td&gt;
         &lt;ul&gt;
-          &lt;li&gt;Introduction: Class requirements &amp; policies&lt;/li&gt;
-          &lt;li&gt;Bionic vision: then &amp; now&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8332625&#34;&gt;L1 - Introduction&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8332631&#34;&gt;L2 - Bionic Vision: Then &amp; Now&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -129,8 +173,8 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8414705&#34;&gt;R2&lt;/a&gt;, &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8415821&#34;&gt;R3&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;ul&gt;
-          &lt;li&gt;Sight restoration: approaches &amp; challenges&lt;/li&gt;
-          &lt;li&gt;Foundations of vision&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8353961&#34;&gt;L3 - Sight Recovery Technologies&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8353937&#34;&gt;L4 - Foundations of Vision&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;        
       &lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -144,8 +188,8 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;ul&gt;
-          &lt;li&gt;Computational neuroscience&lt;/li&gt;
-          &lt;li&gt;Introduction to Google Colab &amp; Python&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355959&#34;&gt;L5 - Computational Neuroscience&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355971&#34;&gt;A1 - Introduction to Google Colab &amp; Python&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
           Quiz 1 (Q1) due by Sun, Oct 3, 11:59 pm.
@@ -166,7 +210,7 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td&gt;
         &lt;b&gt;Guest lecture by Aiwen Xu&lt;/b&gt;
         &lt;ul&gt;
-          &lt;li&gt;Retina in health &amp; disease&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8353997&#34;&gt;L6 - Retina in Health &amp; Disease&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -180,8 +224,7 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8469781&#34; target=&#34;_blank&#34;&gt;R5&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;ul&gt;
-          &lt;li&gt;Retinal prostheses: approaches &amp; challenges&lt;/li&gt;
-          &lt;li&gt;Argus II, PRIMA, BVT-44&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8354033&#34;&gt;L7 - Retinal Prostheses&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
           Homework 1 (HW1) due by Sun, Oct 10, 11:59 pm.
@@ -198,11 +241,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td rowspan=&#34;2&#34;&gt;3&lt;/td&gt;
       &lt;td&gt;Tue&lt;/td&gt;
       &lt;td&gt;Oct 12&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8469795&#34; target=&#34;_blank&#34;&gt;R6&lt;/a&gt;, &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8503577&#34; target=&#34;_blank&#34;&gt;R7&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8469795&#34; target=&#34;_blank&#34;&gt;R6&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;ul&gt;
-          &lt;li&gt;Computational models of bionic vision&lt;/li&gt;
-          &lt;li&gt;Phosphene models: scoreboard &amp; axon map model&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503878&#34;&gt;L8 - Computational Models of Bionic Vision&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -213,19 +255,19 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
     &lt;tr&gt;
       &lt;td&gt;Thu&lt;/td&gt;
       &lt;td&gt;Oct 14&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8469809&#34; target=&#34;_blank&#34;&gt;R8&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/resource/view.php?id=8469809&#34; target=&#34;_blank&#34;&gt;R7&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;ul&gt;
-          &lt;li&gt;Introduction to pulse2percept in Python&lt;/li&gt;
-          &lt;li&gt;Project ideas: Discussion &amp; brainstorming&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503885&#34;&gt;A2 - Introduction to pulse2percept in Python&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503906&#34;&gt;A3 - Group Project Discussion&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
           Quiz 2 (Q2) due by Sun, Oct 17, 11:59 pm.
         &lt;/small&gt;
         &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
-      &lt;td&gt;A2&lt;/td&gt;
-      &lt;td&gt;HW2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503885&#34;&gt;A2&lt;/a&gt;, &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503906&#34;&gt;A3&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920&#34;&gt;HW2&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815&#34; target=&#34;_blank&#34;&gt;Q2&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
