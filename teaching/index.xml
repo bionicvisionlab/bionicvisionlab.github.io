@@ -63,7 +63,7 @@ The beginning of the course will see some programming &amp;amp; math tutorials t
       <guid>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</guid>
       <description>&lt;p&gt;&lt;em&gt;What would the world look like with a bionic eye?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This graduate course will introduce students to the multidisciplinary field of bionic vision viewed through the lens of computer science, neuroscience, and human-computer interaction.&lt;/p&gt;
-&lt;p&gt;The course will conclude with a &lt;a href=&#34;#final-project&#34;&gt;&lt;strong&gt;programming project&lt;/strong&gt;&lt;/a&gt; (teams of ≤ 3, any language/environment ok)
+&lt;p&gt;The course will conclude with a &lt;a href=&#34;#final-project&#34;&gt;&lt;strong&gt;programming project&lt;/strong&gt;&lt;/a&gt; (teams of ≤ 4, any language/environment ok)
 in lieu of a final exam,
 giving students an opportunity to gain hands-on experience of working on open research problems
 using methods and tools best suited to their scientific background.&lt;/p&gt;
@@ -565,7 +565,7 @@ If you&amp;rsquo;re not done on time, you should turn in what you have to receiv
 &lt;li&gt;At the end of the quarter, the lowest-scoring quiz will be dropped. (Each of the 3 highest-scoring quizzes will thus account for 10% of your grade)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;final-project&#34;&gt;Final Project&lt;/h2&gt;
-&lt;p&gt;In lieu of a final exam, students will conduct a programming project (team size ≤ 3).
+&lt;p&gt;In lieu of a final exam, students will conduct a programming project (team size ≤ 4).
 The goal of the project is to gain hands-on experience working on open research questions in bionic vision
 using tools and methods best suited to their scientific background.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;All projects must address a research question and have a programming component&lt;/strong&gt;.
