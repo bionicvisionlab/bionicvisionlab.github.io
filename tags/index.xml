@@ -7,10 +7,91 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>computational models</title>
+      <link>https://bionicvisionlab.org/tags/computational-models/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/computational-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retinal implants</title>
+      <link>https://bionicvisionlab.org/tags/retinal-implants/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/retinal-implants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retinitis pigmentosa</title>
+      <link>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>age-related macular degeneration</title>
+      <link>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biomedical image analysis</title>
+      <link>https://bionicvisionlab.org/tags/biomedical-image-analysis/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/biomedical-image-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer vision</title>
+      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://bionicvisionlab.org/tags/deep-learning/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diabetic retinopathy</title>
+      <link>https://bionicvisionlab.org/tags/diabetic-retinopathy/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/diabetic-retinopathy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>glaucoma</title>
+      <link>https://bionicvisionlab.org/tags/glaucoma/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/glaucoma/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>augmened reality</title>
@@ -45,87 +126,6 @@
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/visual-accessibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>age-related macular degeneration</title>
-      <link>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>biomedical image analysis</title>
-      <link>https://bionicvisionlab.org/tags/biomedical-image-analysis/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/biomedical-image-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer vision</title>
-      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://bionicvisionlab.org/tags/deep-learning/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diabetic retinopathy</title>
-      <link>https://bionicvisionlab.org/tags/diabetic-retinopathy/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/diabetic-retinopathy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>glaucoma</title>
-      <link>https://bionicvisionlab.org/tags/glaucoma/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/glaucoma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computational models</title>
-      <link>https://bionicvisionlab.org/tags/computational-models/</link>
-      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computational-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retinal implants</title>
-      <link>https://bionicvisionlab.org/tags/retinal-implants/</link>
-      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/retinal-implants/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retinitis pigmentosa</title>
-      <link>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</link>
-      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/retinitis-pigmentosa/</guid>
       <description></description>
     </item>
     

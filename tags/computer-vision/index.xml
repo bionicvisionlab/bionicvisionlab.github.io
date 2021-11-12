@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
       <link>https://bionicvisionlab.org/publications/2021-hba-u-net/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2021-hba-u-net/</guid>
       <description></description>
