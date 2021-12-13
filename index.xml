@@ -36,17 +36,15 @@
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/</guid>
-      <description>&lt;h3&gt;Towards a Smart Bionic Eye: Artificial Vision for the Treatment of Incurable Blindness&lt;/h3&gt;
-&lt;p&gt;How can we return a functional form of sight to people who are living with incurable blindness? Few disabilities affect human life more than the loss of the ability to see. Although some affected individuals can be treated with surgery or medication, and recent advances in gene and stem cell therapies are showing great promise, there are no effective treatments for many people blinded by severe degeneration or damage to the retina, the optic nerve, or cortex. In such cases, an electronic visual prosthesis (&amp;ldquo;bionic eye&amp;rdquo;) may be the only option.&lt;/p&gt;
-&lt;!-- Analogous to cochlear implants, these devices electrically stimulate surviving retinal cells to evoke visual percepts (&#34;phosphenes&#34;).
-Existing devices generally provide an improved ability to localize high-contrast objects and perform basic orientation &amp; mobility tasks. --&gt;
-&lt;p&gt;However, the quality of current prosthetic vision is still rudimentary.
-A major outstanding challenge is translating electrode stimulation into a code that the brain can understand.
-Interactions between the device electronics and the retinal neurophysiology lead to distortions that can severely limit the quality of the generated visual experience.&lt;/p&gt;
-&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
-Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
-&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
-Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
+      <description>&lt;p&gt;How can we return a functional form of sight to people who are living with incurable blindness?&lt;/p&gt;
+&lt;div class=&#34;d-none d-sm-block float-right col-5 m-0 ml-2&#34;&gt;
+    &lt;img class=&#34;m-0 mb-2 subtle-black-shadow&#34; src=&#34;https://bionicvisionlab.org/img/visual-prostheses.jpg&#34;/&gt;
+    &lt;p class=&#34;mb-1&#34; style=&#34;line-height: 100%&#34;&gt;&lt;small&gt;Main approaches for the design of a visual prosthesis &lt;a href=&#34;https://doi.org/10.1186/s42234-018-0013-8&#34; target=&#34;_blank&#34;&gt;(Fernandez, 2018)&lt;/a&gt; include retinal (A), optic nerve (B), lateral geniculate nucleus (LGN, C), and cortical approaches (D).&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Few disabilities affect human life more than the loss of the ability to see. Although some affected individuals can be treated with surgery or medication, there are no effective treatments for many people blinded by severe degeneration or damage to the retina, the optic nerve, or cortex. In such cases, a visual prosthesis (&amp;ldquo;bionic eye&amp;rdquo;) may be the only option.&lt;/p&gt;
+&lt;p&gt;However, the quality of current prosthetic vision is still rudimentary and does not differ much across different device technologies &lt;a href=&#34;https://doi.org/10.1088/1741-2552/aa795e&#34; target=&#34;_blank&#34;&gt;(Beyeler et al., 2017)&lt;/a&gt;.
+A major outstanding challenge is translating electrode stimulation into a code that the brain can understand.&lt;/p&gt;
+&lt;p&gt;The goal of our research is thus to address fundamental questions at the intersection of neuroscience, computer science, and human-computer interaction that will enable the development of a bionic eye capable of restoring high-quality vision to people who are blind.&lt;/p&gt;
 </description>
     </item>
     
