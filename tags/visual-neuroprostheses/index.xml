@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Neuroprostheses on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/visual-neuroprostheses/</link>
+    <description>Recent content in Visual Neuroprostheses on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/visual-neuroprostheses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Towards a Smart Bionic Eye</title>
+      <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
+      <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
+&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
+Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Visual Outcomes for Retinal Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;For retinal implants, modeling the retinal response to electrical stimulation at a biophysical level (&amp;ldquo;bottom-up&amp;rdquo;) is challenging due to the complexity and variability of retinal circuitry in the presence of degeneration. 
+In contrast, phosphene models are phenomenological (&amp;ldquo;top-down&amp;rdquo;) models constrained by behavioral data that predict visual perception directly from electrical stimuli.&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>End-to-End Optimization of Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/end-to-end-optimization/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
+      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
+&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
+One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
+&lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
+This is technically challenging, because a phosphene model must be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
+&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
+&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Visual Outcomes for Cortical Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;Instead of seeing focal spots of light, current cortical implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
+Furthermore, phosphenes appear fundamentally different depending on whether they are generated with cortical surface electrodes (e.g., via ORION, Second Sight Medical Products) or with intracortical electrodes (e.g., via CORTIVIS, Universidad Miguel Hernandez, Spain).&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pulse2percept: A Python-Based Simulation Framework for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/pulse2percept/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/pulse2percept/</guid>
+      <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;
+&lt;p&gt;Built on the NumPy and SciPy stacks, as well as contributions from the broader Python community, &lt;em&gt;pulse2percept&lt;/em&gt; provides an open-source implementation of several phosphene models for a wide range of state-of-the-art retinal prostheses, to provide insight into the visual experience provided by these devices.&lt;/p&gt;
+&lt;p&gt;As &lt;em&gt;pulse2percept&lt;/em&gt; continues to be adopted by several research labs around the globe, we continue to improve its functionality and performance as well as add new implants, models, and datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

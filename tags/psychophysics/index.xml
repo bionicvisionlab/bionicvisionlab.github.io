@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psychophysics on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/psychophysics/</link>
+    <description>Recent content in Psychophysics on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/psychophysics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Predicting Visual Outcomes for Retinal Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;For retinal implants, modeling the retinal response to electrical stimulation at a biophysical level (&amp;ldquo;bottom-up&amp;rdquo;) is challenging due to the complexity and variability of retinal circuitry in the presence of degeneration. 
+In contrast, phosphene models are phenomenological (&amp;ldquo;top-down&amp;rdquo;) models constrained by behavioral data that predict visual perception directly from electrical stimuli.&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Immersive Virtual Reality Simulations of Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</guid>
+      <description>&lt;p&gt;Due to the unique requirements of working with bionic eye recipients (e.g., required assistance, increased setup time, travel cost), experimentation with different encoding methods remains challenging and expensive.&lt;/p&gt;
+&lt;p&gt;Instead, embedding simulated prosthetic vision (SPV) models in immersive virtual reality (VR) allows sighted subjects to act as virtual patients by &amp;ldquo;seeing&amp;rdquo; through the eyes of the patient, taking into account their head and eye movements as they explore an immersive virtual environment.&lt;/p&gt;
+&lt;p&gt;This can speed up the development process by allowing us to test theoretical predictions in high-throughput experiments, the best of which can be validated and improved upon in an iterative process with the bionic eye recipient in the loop.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Visual Outcomes for Cortical Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;Instead of seeing focal spots of light, current cortical implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
+Furthermore, phosphenes appear fundamentally different depending on whether they are generated with cortical surface electrodes (e.g., via ORION, Second Sight Medical Products) or with intracortical electrodes (e.g., via CORTIVIS, Universidad Miguel Hernandez, Spain).&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simulating Visual Impairment</title>
+      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
+      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
+&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
+&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Navigation Under High-Stress Conditions</title>
+      <link>https://bionicvisionlab.org/research/hight-stress-navigation/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/hight-stress-navigation/</guid>
+      <description>&lt;p&gt;There are known individual differences in both ability to learn the layout of novel environments and flexibility of strategies for navigating known environments.
+It is unclear, however, how navigational abilities and situational awareness are impacted by high-stress scenarios and whether augmented reality (AR) could be employed to enhance performance and situational awareness.&lt;/p&gt;
+&lt;p&gt;This project will investigate three core questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How does a person&amp;rsquo;s navigational abilities change in extreme situations?&lt;/li&gt;
+&lt;li&gt;How can we best train them for these situations?&lt;/li&gt;
+&lt;li&gt;How can vision augmentation be employed to improve situational awareness?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

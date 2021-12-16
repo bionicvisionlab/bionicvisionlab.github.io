@@ -7,113 +7,10 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/computational-models/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A computational model of phosphene appearance for epiretinal prostheses</title>
-      <link>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures</title>
-      <link>https://bionicvisionlab.org/publications/2021-explainable-ai/</link>
-      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2021-explainable-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards immersive virtual reality simulations of bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</link>
-      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep learning-based scene simplification for bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2021-scene-simplification/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2021-scene-simplification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model-based recommendations for optimal surgical placement of epiretinal implants</title>
-      <link>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</link>
-      <pubDate>Thu, 10 Oct 2019 14:21:43 -0700</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>What would the world look like with a bionic eye?</title>
-      <link>https://bionicvisionlab.org/research/0-visual-modeling/</link>
-      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/0-visual-modeling/</guid>
-      <description>&lt;p&gt;Despite the increasing clinical and commercial use of retinal implants, 
-the perceptual experience of sight recovery (SR) patients 
-is surprisingly poorly understood.&lt;/p&gt;
-&lt;p&gt;A common misconception in the field is that each electrode in an array 
-can be thought of as a ‘pixel’ in an image; 
-to generate a complex visual experience, 
-one then simply needs to turn on the right combination of pixels.&lt;/p&gt;
-&lt;p&gt;However, almost all SR technologies are likely to suffer 
-from perceptual distortions and subsequent loss of information
-due to interactions between the technology and the underlying neurophysiology.&lt;/p&gt;
-&lt;p&gt;The goal of this project is to characterize these distortions psychophysically,
-and to develop a computational model that predicts what a patient should see
-for any given input stimulus.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data-driven models in human neuroscience and neuroengineering</title>
-      <link>https://bionicvisionlab.org/publications/2019-data-driven-models-human-neuroscience-neuroengineering/</link>
-      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2019-data-driven-models-human-neuroscience-neuroengineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neural correlates of sparse coding and dimensionality reduction</title>
-      <link>https://bionicvisionlab.org/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/</link>
-      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A model of ganglion axon pathways accounts for percepts elicited by retinal implants</title>
-      <link>https://bionicvisionlab.org/publications/2019-axon-map-model/</link>
-      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2019-axon-map-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biophysical model of axonal stimulation in epiretinal visual prostheses</title>
-      <link>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters</title>
@@ -121,33 +18,6 @@ for any given input stimulus.&lt;/p&gt;
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2018-carlsim4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2017-pulse2percept/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2017-pulse2percept/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3D visual response properties of MSTd emerge from an efficient, sparse population code</title>
-      <link>https://bionicvisionlab.org/publications/2016-sparse-decomposition-model/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2016-sparse-decomposition-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A GPU-accelerated cortical neural network model for visually guided robot navigation</title>
-      <link>https://bionicvisionlab.org/publications/2015-gpu-visually-guided-robot-navigation/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2015-gpu-visually-guided-robot-navigation/</guid>
       <description></description>
     </item>
     

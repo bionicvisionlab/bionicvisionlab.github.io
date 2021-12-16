@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Vision on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/computational-vision/</link>
+    <description>Recent content in Computational Vision on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/computational-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Predicting Visual Outcomes for Retinal Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;For retinal implants, modeling the retinal response to electrical stimulation at a biophysical level (&amp;ldquo;bottom-up&amp;rdquo;) is challenging due to the complexity and variability of retinal circuitry in the presence of degeneration. 
+In contrast, phosphene models are phenomenological (&amp;ldquo;top-down&amp;rdquo;) models constrained by behavioral data that predict visual perception directly from electrical stimuli.&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Immersive Virtual Reality Simulations of Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</guid>
+      <description>&lt;p&gt;Due to the unique requirements of working with bionic eye recipients (e.g., required assistance, increased setup time, travel cost), experimentation with different encoding methods remains challenging and expensive.&lt;/p&gt;
+&lt;p&gt;Instead, embedding simulated prosthetic vision (SPV) models in immersive virtual reality (VR) allows sighted subjects to act as virtual patients by &amp;ldquo;seeing&amp;rdquo; through the eyes of the patient, taking into account their head and eye movements as they explore an immersive virtual environment.&lt;/p&gt;
+&lt;p&gt;This can speed up the development process by allowing us to test theoretical predictions in high-throughput experiments, the best of which can be validated and improved upon in an iterative process with the bionic eye recipient in the loop.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Visual Outcomes for Cortical Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;Instead of seeing focal spots of light, current cortical implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
+Furthermore, phosphenes appear fundamentally different depending on whether they are generated with cortical surface electrodes (e.g., via ORION, Second Sight Medical Products) or with intracortical electrodes (e.g., via CORTIVIS, Universidad Miguel Hernandez, Spain).&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pulse2percept: A Python-Based Simulation Framework for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/pulse2percept/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/pulse2percept/</guid>
+      <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;
+&lt;p&gt;Built on the NumPy and SciPy stacks, as well as contributions from the broader Python community, &lt;em&gt;pulse2percept&lt;/em&gt; provides an open-source implementation of several phosphene models for a wide range of state-of-the-art retinal prostheses, to provide insight into the visual experience provided by these devices.&lt;/p&gt;
+&lt;p&gt;As &lt;em&gt;pulse2percept&lt;/em&gt; continues to be adopted by several research labs around the globe, we continue to improve its functionality and performance as well as add new implants, models, and datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computational Models of the Early Visual System</title>
+      <link>https://bionicvisionlab.org/research/computational-models-early-visual-system/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/computational-models-early-visual-system/</guid>
+      <description>&lt;p&gt;Understanding the early visual system in health and disease is a key issue for neuroscience and neuroengineering applications such as visual prostheses.&lt;/p&gt;
+&lt;p&gt;Although the processing of visual information in the healthy retina and early visual cortex (EVC) has been studied in detail, no comprehensive computational model exists that captures the many cell-level and network-level biophysical changes common to retinal degenerative diseases and other sources of visual impairment.&lt;/p&gt;
+&lt;p&gt;To address this challenge, we are developing computational models of the retina and EVC to elucidate the neural code of vision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cortical Visual Processing for Navigation</title>
+      <link>https://bionicvisionlab.org/research/mouse-visual-navigation/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/mouse-visual-navigation/</guid>
+      <description>&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
+&lt;p&gt;Most studies of central visual processing are focused on detection or discrimination of specific features of simple artificial stimuli (e.g., orientation, direction of motion, object identity).
+However, navigation through the environment involves a very different set of computational goals, such as identifying landmarks and using optic flow to avoid obstacles. Furthermore, these computations occur under a very different stimulus regime, with the animal actively sampling a complex and continually moving sensory scene.&lt;/p&gt;
+&lt;p&gt;Our goal is to determine how the brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and develop (deep) predictive models of brain activity based on visual input and several behavioral variables. The data includes one-of-a-kind measures of neural activity in mice navigating through real-world and virtual environments, collected using 2-photon imaging and electrophysiology by our collaborators Spencer Smith, Michael Goard, and Cris Niell.&lt;/p&gt;
+&lt;p&gt;The results of this project will provide knowledge about normal visual function and insights for treating impaired vision via prosthetic or assistive devices.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

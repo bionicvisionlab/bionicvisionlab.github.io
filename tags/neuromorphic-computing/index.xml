@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neuromorphic Computing on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/neuromorphic-computing/</link>
+    <description>Recent content in Neuromorphic Computing on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/neuromorphic-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computational Models of the Early Visual System</title>
+      <link>https://bionicvisionlab.org/research/computational-models-early-visual-system/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/computational-models-early-visual-system/</guid>
+      <description>&lt;p&gt;Understanding the early visual system in health and disease is a key issue for neuroscience and neuroengineering applications such as visual prostheses.&lt;/p&gt;
+&lt;p&gt;Although the processing of visual information in the healthy retina and early visual cortex (EVC) has been studied in detail, no comprehensive computational model exists that captures the many cell-level and network-level biophysical changes common to retinal degenerative diseases and other sources of visual impairment.&lt;/p&gt;
+&lt;p&gt;To address this challenge, we are developing computational models of the retina and EVC to elucidate the neural code of vision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event-Based Vision at the Edge</title>
+      <link>https://bionicvisionlab.org/research/event-based-vision/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/event-based-vision/</guid>
+      <description>&lt;p&gt;Neuromorphic event‐based vision sensors are poised to dramatically improve the latency, robustness and power in applications ranging from smart sensing to autonomous driving and assistive technologies for people who are blind.&lt;/p&gt;
+&lt;p&gt;Soon these sensors may power low vision aids and retinal implants, where the visual scene has to be processed quickly and efficiently before it is displayed. However, novel methods are needed to process the unconventional out-put of these sensors in order to unlock their potential.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML/AI on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/ml/ai/</link>
+    <description>Recent content in ML/AI on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/ml/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Towards a Smart Bionic Eye</title>
+      <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
+      <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
+&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
+Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>End-to-End Optimization of Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/end-to-end-optimization/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
+      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
+&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
+One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
+&lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
+This is technically challenging, because a phosphene model must be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
+&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
+&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cortical Visual Processing for Navigation</title>
+      <link>https://bionicvisionlab.org/research/mouse-visual-navigation/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/mouse-visual-navigation/</guid>
+      <description>&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
+&lt;p&gt;Most studies of central visual processing are focused on detection or discrimination of specific features of simple artificial stimuli (e.g., orientation, direction of motion, object identity).
+However, navigation through the environment involves a very different set of computational goals, such as identifying landmarks and using optic flow to avoid obstacles. Furthermore, these computations occur under a very different stimulus regime, with the animal actively sampling a complex and continually moving sensory scene.&lt;/p&gt;
+&lt;p&gt;Our goal is to determine how the brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and develop (deep) predictive models of brain activity based on visual input and several behavioral variables. The data includes one-of-a-kind measures of neural activity in mice navigating through real-world and virtual environments, collected using 2-photon imaging and electrophysiology by our collaborators Spencer Smith, Michael Goard, and Cris Niell.&lt;/p&gt;
+&lt;p&gt;The results of this project will provide knowledge about normal visual function and insights for treating impaired vision via prosthetic or assistive devices.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event-Based Vision at the Edge</title>
+      <link>https://bionicvisionlab.org/research/event-based-vision/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/event-based-vision/</guid>
+      <description>&lt;p&gt;Neuromorphic event‐based vision sensors are poised to dramatically improve the latency, robustness and power in applications ranging from smart sensing to autonomous driving and assistive technologies for people who are blind.&lt;/p&gt;
+&lt;p&gt;Soon these sensors may power low vision aids and retinal implants, where the visual scene has to be processed quickly and efficiently before it is displayed. However, novel methods are needed to process the unconventional out-put of these sensors in order to unlock their potential.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

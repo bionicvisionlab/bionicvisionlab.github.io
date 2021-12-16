@@ -22,18 +22,9 @@
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>https://bionicvisionlab.org/post/</link>
-      <pubDate>Mon, 20 Sep 2021 09:29:00 -0700</pubDate>
-      
-      <guid>https://bionicvisionlab.org/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Research</title>
       <link>https://bionicvisionlab.org/research/</link>
-      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/</guid>
       <description>&lt;p&gt;How can we return a functional form of sight to people who are living with incurable blindness?&lt;/p&gt;
@@ -46,6 +37,15 @@
 A major outstanding challenge is translating electrode stimulation into a code that the brain can understand.&lt;/p&gt;
 &lt;p&gt;The goal of our research is thus to address fundamental questions at the intersection of neuroscience, computer science, and human-computer interaction that will enable the development of a bionic eye capable of restoring high-quality vision to people who are blind.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://bionicvisionlab.org/post/</link>
+      <pubDate>Mon, 20 Sep 2021 09:29:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/post/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -67,11 +67,29 @@ A major outstanding challenge is translating electrode stimulation into a code t
     </item>
     
     <item>
+      <title>Collaborators</title>
+      <link>https://bionicvisionlab.org/collaborators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/collaborators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact Us</title>
       <link>https://bionicvisionlab.org/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grants</title>
+      <link>https://bionicvisionlab.org/grants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/grants/</guid>
       <description></description>
     </item>
     
