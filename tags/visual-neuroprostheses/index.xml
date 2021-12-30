@@ -26,14 +26,14 @@ Once the quality of the generated artificial vision reaches a certain threshold,
     </item>
     
     <item>
-      <title>Predicting Visual Outcomes for Retinal Prostheses</title>
-      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</link>
+      <title>Predicting Visual Outcomes for Visual Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-retinal-prostheses/</guid>
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</guid>
       <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
-&lt;p&gt;For retinal implants, modeling the retinal response to electrical stimulation at a biophysical level (&amp;ldquo;bottom-up&amp;rdquo;) is challenging due to the complexity and variability of retinal circuitry in the presence of degeneration. 
-In contrast, phosphene models are phenomenological (&amp;ldquo;top-down&amp;rdquo;) models constrained by behavioral data that predict visual perception directly from electrical stimuli.&lt;/p&gt;
+&lt;p&gt;Instead of seeing focal spots of light, current visual implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
+Furthermore, phosphenes appear fundamentally different depending on whether they are generated with retinal or cortical implants.&lt;/p&gt;
 &lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
 </description>
     </item>
@@ -58,22 +58,9 @@ This is technically challenging, because a phosphene model must be:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Predicting Visual Outcomes for Cortical Prostheses</title>
-      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-cortical-prostheses/</guid>
-      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
-&lt;p&gt;Instead of seeing focal spots of light, current cortical implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
-Furthermore, phosphenes appear fundamentally different depending on whether they are generated with cortical surface electrodes (e.g., via ORION, Second Sight Medical Products) or with intracortical electrodes (e.g., via CORTIVIS, Universidad Miguel Hernandez, Spain).&lt;/p&gt;
-&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>pulse2percept: A Python-Based Simulation Framework for Bionic Vision</title>
       <link>https://bionicvisionlab.org/research/pulse2percept/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/pulse2percept/</guid>
       <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;

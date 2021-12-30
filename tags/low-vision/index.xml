@@ -7,15 +7,26 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/low-vision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Understanding the Information Needs of People Who Are Blind or Have Low Vision</title>
+      <link>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</guid>
+      <description>&lt;p&gt;The goal of this project is to obtain a nuanced understanding of the strategies that people who are blind or have low vision (BVL) employ to perform different instrumental activities of daily living (iADLs).&lt;/p&gt;
+&lt;p&gt;Identifying useful and relevant visual cues that could support these iADLs, especially when the task involves some level of scene understanding, orientation, and mobility, will be essential to the success of near-future visual accessibility aids.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Simulating Visual Impairment</title>
       <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
       <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;

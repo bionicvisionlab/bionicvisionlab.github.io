@@ -31,20 +31,29 @@
     </item>
     
     <item>
-      <title>Computational Vision</title>
-      <link>https://bionicvisionlab.org/tags/computational-vision/</link>
-      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Low Vision</title>
+      <link>https://bionicvisionlab.org/tags/low-vision/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/computational-vision/</guid>
+      <guid>https://bionicvisionlab.org/tags/low-vision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychophysics</title>
       <link>https://bionicvisionlab.org/tags/psychophysics/</link>
-      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/psychophysics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational Vision</title>
+      <link>https://bionicvisionlab.org/tags/computational-vision/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/computational-vision/</guid>
       <description></description>
     </item>
     
@@ -103,18 +112,9 @@
     </item>
     
     <item>
-      <title>Low Vision</title>
-      <link>https://bionicvisionlab.org/tags/low-vision/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/low-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Computational Neuroscience</title>
       <link>https://bionicvisionlab.org/tags/computational-neuroscience/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/computational-neuroscience/</guid>
       <description></description>
@@ -123,7 +123,7 @@
     <item>
       <title>Neuromorphic Computing</title>
       <link>https://bionicvisionlab.org/tags/neuromorphic-computing/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/neuromorphic-computing/</guid>
       <description></description>
