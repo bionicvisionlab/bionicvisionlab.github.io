@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>Deep learning-based perceptual stimulus encoder for bionic vision</title>
       <link>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Immersive virtual reality simulations of bionic vision</title>
+      <link>https://bionicvisionlab.org/publications/2022-immersive-vr/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2022-immersive-vr/</guid>
       <description></description>
     </item>
     
