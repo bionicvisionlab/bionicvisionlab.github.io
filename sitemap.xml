@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/teaching/2023-winter-cs281b/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/teaching/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/teaching/2022-fall-cs181/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</loc>
@@ -18,9 +27,6 @@
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/teaching/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publication_types/1/</loc>

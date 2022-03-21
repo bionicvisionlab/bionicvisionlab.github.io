@@ -7,10 +7,31 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CS/ECE-281B: Advanced Topics in Computer Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2023-winter-cs281b/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2023-winter-cs281b/</guid>
+      <description>&lt;p&gt;More info coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS/ECE-181: Introduction to Computer Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2022-fall-cs181/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2022-fall-cs181/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Same course as ECE 181. Not open for credit to students who have completed ECE/CMPSC 181B with a grade of C or better. ECE/CMPSC 181 is a legal repeat of ECE/CMPSC 181B.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Prerequisites: Upper-division standing in Electrical Engineering, Computer Engineering, Computer Science, Chemical Engineering or Mechanical Engineering.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PSY-221F: Computational Neuroscience</title>
