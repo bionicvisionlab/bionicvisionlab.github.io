@@ -24,7 +24,7 @@
   
     
   
-  <meta name="description" content="Overview of computer vision problems and techniques for analyzing the content of images and video. Topics include image formation, edge detection, image segmentation, pattern recognition, texture analysis, optical flow, stereo vision, shape representation and recovery techniques, issues in object recognition, and case studies of practical vision systems.">
+  <meta name="description" content="A lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system. We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning).">
 
   
   <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/teaching/2022-spring-psy221f/">
@@ -119,7 +119,7 @@
   <meta property="og:site_name" content="Bionic Vision Lab">
   <meta property="og:url" content="https://bionicvisionlab.org/teaching/2022-spring-psy221f/">
   <meta property="og:title" content="PSY-221F: Computational Neuroscience | Bionic Vision Lab">
-  <meta property="og:description" content="Overview of computer vision problems and techniques for analyzing the content of images and video. Topics include image formation, edge detection, image segmentation, pattern recognition, texture analysis, optical flow, stereo vision, shape representation and recovery techniques, issues in object recognition, and case studies of practical vision systems."><meta property="og:image" content="https://bionicvisionlab.org/img/icon-192.png">
+  <meta property="og:description" content="A lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system. We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning)."><meta property="og:image" content="https://bionicvisionlab.org/img/icon-192.png">
   <meta property="twitter:image" content="https://bionicvisionlab.org/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2022-03-01T00:00:00&#43;00:00">
@@ -452,7 +452,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-date">
-    <time>Lectures: M/W 3.30-4.45p / Lab: Tr 3.00-4.50p</time>
+    <time>Lectures: M/W 3.30-4.45p / Lab: Tr 3-4.50p</time>
   </span>
   
   
@@ -501,6 +501,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="button" href="https://gauchospace.ucsb.edu/courses/course/view.php?id=10610" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -512,9 +553,16 @@
     <div class="article-style" itemprop="articleBody">
       <p><em>PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby</em></p>
 <h3 id="course-description">Course Description</h3>
-<p>This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.</p>
-<p>By the end of the course, you should be able to stimulate model neurons and neural networks as well as analyze basic spike train data.
-More generally, you should gain the ability to produce a simple model of a dynamical biological system with appropriate differential equations, to write code that will solve the model through time, and interpret the meaning &amp; relevance of the resulting outputs.</p>
+<p>This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.
+We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning).</p>
+<p>By the end of this course, you should be able to:</p>
+<ul>
+<li>describe how the brain &ldquo;computes&rdquo;,</li>
+<li>describe different methods that computational neuroscientists use to model neural coding,</li>
+<li>computationally model the biophysics of single neurons and the dynamics of neural networks,</li>
+<li>fit a computational model to experimental data.</li>
+</ul>
+<p>You will gain experience both conceptually and practically, by homework assignments that involve solving problems and implementing computational models. However, this is not primarily a programming course - that is, the main goal is to learn the concepts, not to learn a programming language or particular programming techniques.  However, coding examples of the concepts is the best way to demonstrate (and facilitate) your knowledge of them. Lab sections will feature Python &amp; math tutorials, hands-on examples, and guided programming sessions.</p>
 <h3 id="prerequisites">Prerequisites</h3>
 <p>The formal prerequisite is PSY-221B, but the only part of that course that is
 necessary is the introduction to matrix algebra.</p>
@@ -529,22 +577,22 @@ necessary is the introduction to matrix algebra.</p>
 <li>prior exposure to differential equations,</li>
 <li>basic knowledge of neuroscience.</li>
 </ul>
-<h3 id="syllabus">Syllabus</h3>
-<p>GauchoSpace page will be up by March 25, 2022.</p>
+<h3 id="content">Content</h3>
 <p>Textbook: <a href="http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf" target="_blank">Dayan &amp; Abbott (2001)</a></p>
 <p>Topics to be covered:</p>
 <ul>
-<li>Intro to CompNeuro: concepts, properties of neurons, cell types, &hellip;</li>
-<li>Single neuron models: firing rate model, spiking neurons, Hodgkin-Huxley, &hellip;</li>
-<li>Network models: 80-20 nets, Hopfield nets, liquid state machines, &hellip;</li>
-<li>Plasticity &amp; learning: short &amp; long-term plasticity, reinforcement learning, &hellip;</li>
-<li>Machine and deep learning: model fitting, GLM, CNN, &hellip;</li>
-<li>Applications: vision, language, decision-making, &hellip;</li>
+<li>Intro to CompNeuro: concepts, properties of neurons, cell types</li>
+<li>Neural encoding: spike trains and firing rates, early visual system</li>
+<li>Neuroelectronics: Electrical properties of neurons, Nernst equation</li>
+<li>Point neuron models: LIF, Izhikevich neurons, Hodgkin-Huxley neurons</li>
+<li>Morphological neuron models: synaptic conducances, cable equation, multi-compartment models</li>
+<li>Network models: firing rate models, feedforward/recurrent models, stochastic networks</li>
+<li>Plasticity &amp; learning: short &amp; long-term plasticity, reinforcement learning</li>
+<li>Machine and deep learning: model fitting, GLM, CNN, RNN</li>
+<li>Applications: sensory systems, language, decision-making, &hellip;</li>
 </ul>
-<p>There will be some light Python programming (example applications, maybe a homework or two). 
-The beginning of the course will see some programming &amp; math tutorials to get everyone up to speed.
-The lab will cover Python scripts that provide hands-on examples of the more theoretical topics covered during the lecture. The first lab section will provide an introduction to Python and Jupyter Notebooks (Google Colab).</p>
-<p>We will have a midterm and a final exam.</p>
+<p>Your grade will be determined by biweekly quizzes, homework assignments (drop the lowest) and a take-home final exam.</p>
+<p>More information at: <a href="https://gauchospace.ucsb.edu/courses/course/view.php?id=10610">https://gauchospace.ucsb.edu/courses/course/view.php?id=10610</a>.</p>
 
     </div>
 

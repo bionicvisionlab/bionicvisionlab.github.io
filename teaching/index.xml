@@ -41,9 +41,16 @@
       <guid>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</guid>
       <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
-&lt;p&gt;This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.&lt;/p&gt;
-&lt;p&gt;By the end of the course, you should be able to stimulate model neurons and neural networks as well as analyze basic spike train data.
-More generally, you should gain the ability to produce a simple model of a dynamical biological system with appropriate differential equations, to write code that will solve the model through time, and interpret the meaning &amp;amp; relevance of the resulting outputs.&lt;/p&gt;
+&lt;p&gt;This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.
+We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning).&lt;/p&gt;
+&lt;p&gt;By the end of this course, you should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;describe how the brain &amp;ldquo;computes&amp;rdquo;,&lt;/li&gt;
+&lt;li&gt;describe different methods that computational neuroscientists use to model neural coding,&lt;/li&gt;
+&lt;li&gt;computationally model the biophysics of single neurons and the dynamics of neural networks,&lt;/li&gt;
+&lt;li&gt;fit a computational model to experimental data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will gain experience both conceptually and practically, by homework assignments that involve solving problems and implementing computational models. However, this is not primarily a programming course - that is, the main goal is to learn the concepts, not to learn a programming language or particular programming techniques.  However, coding examples of the concepts is the best way to demonstrate (and facilitate) your knowledge of them. Lab sections will feature Python &amp;amp; math tutorials, hands-on examples, and guided programming sessions.&lt;/p&gt;
 &lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
 &lt;p&gt;The formal prerequisite is PSY-221B, but the only part of that course that is
 necessary is the introduction to matrix algebra.&lt;/p&gt;
@@ -58,22 +65,22 @@ necessary is the introduction to matrix algebra.&lt;/p&gt;
 &lt;li&gt;prior exposure to differential equations,&lt;/li&gt;
 &lt;li&gt;basic knowledge of neuroscience.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;syllabus&#34;&gt;Syllabus&lt;/h3&gt;
-&lt;p&gt;GauchoSpace page will be up by March 25, 2022.&lt;/p&gt;
+&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
 &lt;p&gt;Textbook: &lt;a href=&#34;http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf&#34; target=&#34;_blank&#34;&gt;Dayan &amp;amp; Abbott (2001)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics to be covered:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Intro to CompNeuro: concepts, properties of neurons, cell types, &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Single neuron models: firing rate model, spiking neurons, Hodgkin-Huxley, &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Network models: 80-20 nets, Hopfield nets, liquid state machines, &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Plasticity &amp;amp; learning: short &amp;amp; long-term plasticity, reinforcement learning, &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Machine and deep learning: model fitting, GLM, CNN, &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Applications: vision, language, decision-making, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Intro to CompNeuro: concepts, properties of neurons, cell types&lt;/li&gt;
+&lt;li&gt;Neural encoding: spike trains and firing rates, early visual system&lt;/li&gt;
+&lt;li&gt;Neuroelectronics: Electrical properties of neurons, Nernst equation&lt;/li&gt;
+&lt;li&gt;Point neuron models: LIF, Izhikevich neurons, Hodgkin-Huxley neurons&lt;/li&gt;
+&lt;li&gt;Morphological neuron models: synaptic conducances, cable equation, multi-compartment models&lt;/li&gt;
+&lt;li&gt;Network models: firing rate models, feedforward/recurrent models, stochastic networks&lt;/li&gt;
+&lt;li&gt;Plasticity &amp;amp; learning: short &amp;amp; long-term plasticity, reinforcement learning&lt;/li&gt;
+&lt;li&gt;Machine and deep learning: model fitting, GLM, CNN, RNN&lt;/li&gt;
+&lt;li&gt;Applications: sensory systems, language, decision-making, &amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;There will be some light Python programming (example applications, maybe a homework or two). 
-The beginning of the course will see some programming &amp;amp; math tutorials to get everyone up to speed.
-The lab will cover Python scripts that provide hands-on examples of the more theoretical topics covered during the lecture. The first lab section will provide an introduction to Python and Jupyter Notebooks (Google Colab).&lt;/p&gt;
-&lt;p&gt;We will have a midterm and a final exam.&lt;/p&gt;
+&lt;p&gt;Your grade will be determined by biweekly quizzes, homework assignments (drop the lowest) and a take-home final exam.&lt;/p&gt;
+&lt;p&gt;More information at: &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/course/view.php?id=10610&#34;&gt;https://gauchospace.ucsb.edu/courses/course/view.php?id=10610&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
