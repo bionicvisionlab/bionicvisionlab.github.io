@@ -14,37 +14,64 @@
     
     <item>
       <title>Greedy optimization of electrode arrangement for epiretinal prostheses</title>
-      <link>https://bionicvisionlab.org/publications/2022-epiretinal-design/</link>
+      <link>https://bionicvisionlab.org/publications/2022-09-epiretinal-design/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2022-epiretinal-design/</guid>
+      <guid>https://bionicvisionlab.org/publications/2022-09-epiretinal-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules</title>
+      <link>https://bionicvisionlab.org/publications/2022-06-motion-perception-stdp-h/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2022-06-motion-perception-stdp-h/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness</title>
+      <link>https://bionicvisionlab.org/publications/2022-06-smart-bionic-eye/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2022-06-smart-bionic-eye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition</title>
-      <link>https://bionicvisionlab.org/publications/2022-spike-latency-winner-take-all/</link>
+      <link>https://bionicvisionlab.org/publications/2022-06-spike-latency-winner-take-all/</link>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2022-spike-latency-winner-take-all/</guid>
+      <guid>https://bionicvisionlab.org/publications/2022-06-spike-latency-winner-take-all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A hybrid neural autoencoder for sensory neuroprostheses and its applications in bionic vision</title>
+      <link>https://bionicvisionlab.org/publications/2022-05-hybrid-autoencoder/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2022-05-hybrid-autoencoder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning-based perceptual stimulus encoder for bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</link>
+      <link>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</guid>
+      <guid>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immersive virtual reality simulations of bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2022-immersive-vr/</link>
+      <link>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2022-immersive-vr/</guid>
+      <guid>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</guid>
       <description></description>
     </item>
     

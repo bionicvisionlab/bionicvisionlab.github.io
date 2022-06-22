@@ -91,7 +91,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.e3598e37c6c007169b7a2186e15ed029.css">
+    <link rel="stylesheet" href="/css/academic.1ce0a2c51bb8057cd358d0a4c2bc427c.css">
   
 
   
@@ -662,8 +662,10 @@
     
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Simulating large-scale models of biological motion perception is challenging, due to the required memory to store the network structure and the computational power needed to quickly solve the neuronal dynamics. A low-cost yet high-performance approach to simulating large-scale neural network models in real-time is to leverage the parallel processing capability of graphics processing units (GPUs). Based on this approach, we present a two-stage model of visual area MT that we believe to be the first large-scale spiking network to demonstrate pattern direction selectivity. In this model, component-direction-selective (CDS) cells in MT linearly combine inputs from V1 cells that have spatiotemporal receptive fields according to the motion energy model of Simoncelli and Heeger. Pattern-direction-selective (PDS) cells in MT are constructed by pooling over MT CDS cells with a wide range of preferred directions. Responses of our model neurons are comparable to electrophysiological results for grating and plaid stimuli as well as speed tuning. The behavioral response of the network in a motion discrimination task is in agreement with psychophysical data. Moreover, our implementation outperforms a previous implementation of the motion energy model by orders of magnitude in terms of computational speed and memory usage. The full network, which comprises 153,216 neurons and approximately 40 million synapses, processes 20 frames per second of a 40 × 40 input video in real-time using a single off-the-shelf GPU. To promote the use of this algorithm among neuroscientists and computer vision researchers, the source code for the simulator, the network, and analysis scripts are publicly available.</p>
+      <div class="row">
+        <h3>Abstract</h3>
+        <p class="pub-abstract" itemprop="text">Simulating large-scale models of biological motion perception is challenging, due to the required memory to store the network structure and the computational power needed to quickly solve the neuronal dynamics. A low-cost yet high-performance approach to simulating large-scale neural network models in real-time is to leverage the parallel processing capability of graphics processing units (GPUs). Based on this approach, we present a two-stage model of visual area MT that we believe to be the first large-scale spiking network to demonstrate pattern direction selectivity. In this model, component-direction-selective (CDS) cells in MT linearly combine inputs from V1 cells that have spatiotemporal receptive fields according to the motion energy model of Simoncelli and Heeger. Pattern-direction-selective (PDS) cells in MT are constructed by pooling over MT CDS cells with a wide range of preferred directions. Responses of our model neurons are comparable to electrophysiological results for grating and plaid stimuli as well as speed tuning. The behavioral response of the network in a motion discrimination task is in agreement with psychophysical data. Moreover, our implementation outperforms a previous implementation of the motion energy model by orders of magnitude in terms of computational speed and memory usage. The full network, which comprises 153,216 neurons and approximately 40 million synapses, processes 20 frames per second of a 40 × 40 input video in real-time using a single off-the-shelf GPU. To promote the use of this algorithm among neuroscientists and computer vision researchers, the source code for the simulator, the network, and analysis scripts are publicly available.</p>
+      </div>
     
 
     <div class="article-style"></div>
@@ -734,7 +736,10 @@
 
 
 
-    <div class="mt-4">
+    
+
+
+    <div class="row mt-4">
       <a href="../" class="button">Back to all publications</a>
     </div>
 
@@ -801,7 +806,7 @@
         'no_results': "No results found"
       };
       const content_type = {
-        'post': "In the News",
+        'news': "In the News",
         'project': "Projects",
         'publication' : "Publications",
         'talk' : "Talks"

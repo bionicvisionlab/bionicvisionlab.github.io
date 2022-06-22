@@ -7,10 +7,21 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PSY-132: Visual Neuroscience</title>
+      <link>https://bionicvisionlab.org/teaching/2023-spring-psych132/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2023-spring-psych132/</guid>
+      <description>&lt;p&gt;Prerequisites: PSY 111; open to Psychological &amp;amp; Brain Sciences, Biopsychology, and Interdisciplinary Studies majors only.&lt;/p&gt;
+&lt;p&gt;An overview of theory and research in visual neuroscience. Topics may include: a focus on mammalian vision considering evidence from behavioral and biological approaches.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CS/ECE-281B: Advanced Topics in Computer Vision</title>

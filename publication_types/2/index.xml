@@ -7,26 +7,35 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Greedy optimization of electrode arrangement for epiretinal prostheses</title>
+      <link>https://bionicvisionlab.org/publications/2022-09-epiretinal-design/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2022-09-epiretinal-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep learning-based perceptual stimulus encoder for bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</link>
+      <link>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2022-deep-stimulus-encoder/</guid>
+      <guid>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immersive virtual reality simulations of bionic vision</title>
-      <link>https://bionicvisionlab.org/publications/2022-immersive-vr/</link>
+      <link>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2022-immersive-vr/</guid>
+      <guid>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</guid>
       <description></description>
     </item>
     
@@ -36,15 +45,6 @@
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
-      <link>https://bionicvisionlab.org/publications/2021-hba-u-net/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2021-hba-u-net/</guid>
       <description></description>
     </item>
     
