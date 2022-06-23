@@ -26,6 +26,21 @@
     </item>
     
     <item>
+      <title>Are we witnessing the dawn of post-theory science?</title>
+      <link>https://bionicvisionlab.org/news/2022-01-guardian/</link>
+      <pubDate>Sun, 09 Jan 2022 09:29:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2022-01-guardian/</guid>
+      <description>&lt;p&gt;Prof. Beyeler was mentioned in a recent article by The Guardian that discusses recent advances in machine learning and what data-driven discovery means for the classic methodology of hypothesizing, predicting, and testing.&lt;/p&gt;
+&lt;blockquote&gt;
+A tougher obstacle to the new science may be our human need to explain the world – to talk in terms of cause and effect. In 2019, neuroscientists Bingni Brunton and Michael Beyeler of the University of Washington, Seattle, wrote that this need for interpretability may have prevented scientists from making novel insights about the brain, of the kind that only emerges from large datasets. But they also sympathised. If those insights are to be translated into useful things such as drugs and devices, they wrote, “it is imperative that computational models yield insights that are explainable to, and trusted by, clinicians, end-users and industry”.
+&lt;cite&gt;Laura Spinny, The Guardian&lt;/cite&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The full article can be read &lt;a href=&#34;https://www.theguardian.com/technology/2022/jan/09/are-we-witnessing-the-dawn-of-post-theory-science&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Will it ever be possible to upload information to my brain?</title>
       <link>https://bionicvisionlab.org/news/2021-09-giz-asks/</link>
       <pubDate>Mon, 20 Sep 2021 09:29:00 -0700</pubDate>
@@ -34,6 +49,16 @@
       <description>&lt;p&gt;Prof. Beyeler was part of the Giz Asks series, where the focused turned to the prospect of using brain-machine interface technology to directly write in information to the brain.&lt;/p&gt;
 &lt;p&gt;Read the full interview &lt;a href=&#34;https://gizmodo.com/will-it-be-possible-to-upload-information-to-my-brain-1847698784&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Bionic Vision Lab featured in NVIDIA&#39;s I AM AI trailer</title>
+      <link>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</link>
+      <pubDate>Wed, 21 Apr 2021 09:29:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</guid>
+      <description>&lt;p&gt;Research by the Bionic Vision Lab was featured in &lt;a href=&#34;https://www.nvidia.com/en-us/about-nvidia/i-am-ai/&#34; target=&#34;_blank&#34;&gt;NVIDIA&amp;rsquo;s I AM AI trailer&lt;/a&gt;, which was premiered at NVIDIA GTC 2021:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zNX1knTo2F4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
@@ -68,10 +93,7 @@
       <guid>https://bionicvisionlab.org/news/2020-05-convergence/</guid>
       <description>&lt;p&gt;Michael Beyeler and the Bionic Vision Lab are featured heavily in the Spring Edition of UCSB&amp;rsquo;s College of Engineering Convergence Magazine:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;There is research to try to understand the brain—how it works on a mechanistic and algorithmic level—and then there&amp;rsquo;s applying that to an engineered system that can interface with the brain,&amp;rdquo; says Michael Beyeler, an assistant professor in Computer Science and Psychological &amp;amp; Brain Sciences, in providing context for his research, which lies in the emerging interdisciplinary field of neuroengineering.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Brain-computer interfaces can be used both for treating neurological and mental disorders as well as for understanding brain function,” he says. “Eventually, they should also allow us to restore vision to the blind.”&lt;/p&gt;
+There is research to try to understand the brain—how it works on a mechanistic and algorithmic level—and then there&#39;s applying that to an engineered system that can interface with the brain. Brain-computer interfaces can be used both for treating neurological and mental disorders as well as for understanding brain function.
 &lt;/blockquote&gt;
 &lt;p&gt;Read the full article &lt;a href=&#34;https://engineering.ucsb.edu/convergence/spring-2020&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
