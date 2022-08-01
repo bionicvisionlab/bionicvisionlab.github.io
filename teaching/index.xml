@@ -41,6 +41,7 @@
       <guid>https://bionicvisionlab.org/teaching/2022-fall-cs181/</guid>
       <description>&lt;p&gt;&lt;em&gt;Same course as ECE 181. This year, CS/ECE 181 will be offered twice: in Fall 2022 and Winter 2023.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Prerequisites: Upper-division standing in Electrical Engineering, Computer Engineering, Computer Science, Chemical Engineering or Mechanical Engineering.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The first in-person lecture will take place on Tuesday, September 27, 2-3.15pm in GIRV 1004. There will be no class on Thursday, September 22 - watch the video lecture instead.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Overview of computer vision problems and techniques for analyzing the content of images and video. Topics include image formation, alignment and warping; stereo vision; feature extraction, matching, and tracking; deep learning-based object detection, recognition, and segmentation; and case studies of practical vision systems.&lt;/p&gt;
 &lt;p&gt;After taking CS 181, students should be able to:&lt;/p&gt;
 &lt;ul&gt;

@@ -34,27 +34,6 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/people/arenberg_nick/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/arenberg_nick/</guid>
-      <description>&lt;p&gt;Nick Arenberg is currently a fourth-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is working on improving pulse2percept with new features an optimizations and is interested in scientific computing and software engineering.&lt;/p&gt;
-&lt;p&gt;When he is not coding, he enjoys playing ice hockey on the UCSB club team, going to concerts, and cooking.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/people/bhatia_tanya/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/bhatia_tanya/</guid>
-      <description>&lt;p&gt;Tanya Bhatia is an undergraduate research assistant pursuing a degree in biopsychology. She is interested in better understanding and improving the perceptual experience of sight recovery patients and the clinical applications of computational neuroscience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/people/bodolay_alec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -153,8 +132,7 @@ In her free time, she enjoys hiking, camping and reading.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/hou_yuchen/</guid>
-      <description>&lt;p&gt;Yuchen Hou is a project scientist in the Bionic Vision Lab with a BS in Psychological &amp;amp; Brain Scieces from UCSB.&lt;/p&gt;
-&lt;p&gt;In Fall 2022, she will continue in the Bionic Vision Lab as a PhD student in Computer Science.&lt;/p&gt;
+      <description>&lt;p&gt;Yuchen Hou is a PhD student in the Bionic Vision Lab with a BS in Psychological &amp;amp; Brain Scieces from UCSB.&lt;/p&gt;
 </description>
     </item>
     
@@ -216,16 +194,6 @@ He is interested in applications of game development for the benefit of society.
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/people/mahes_ananth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/mahes_ananth/</guid>
-      <description>&lt;p&gt;Ananth Mahes is an undergraduate student pursuing a degree in Biopsychology at the University of California, Santa Barbara.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/people/naik_sahil/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -237,43 +205,11 @@ He also really loves the beach and beach games like die and spikeball.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/people/neydavood_ryan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/neydavood_ryan/</guid>
-      <description>&lt;p&gt;Ryan Neydavood is a staff scientist, research coordinator, and lab manager of the Bionic Vision Lab.&lt;/p&gt;
-&lt;p&gt;He graduated from UC Santa Barbara in 2021 with a degree in Psychology &amp;amp; Brain Sciences. He was born and raised in Los Angeles, California where he developed a commitment to healthcare. Ryan is interested in Virtual Reality, neurophysiology, and advancing the field of bionic vision to help cure blindness.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://bionicvisionlab.org/people/nguyen_bill/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/nguyen_bill/</guid>
       <description>&lt;p&gt;Bill Nguyen is an undergraduate student in the Departments of Psychological &amp;amp; Brain Sciences (PBS) and Mathematics at UC Santa Barbara. He is interested in the exciting potential of neural prostheses, both on a technological and clinical level.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/people/rasla_alex/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/rasla_alex/</guid>
-      <description>&lt;p&gt;Alex Rasla is currently a first-year graduate student in the B.S/M.S. program pursuing a Computer Science degree at UC Santa Barbara. He is interested in Machine Learning, Computer Vision, AR/VR, and autonomous systems.&lt;/p&gt;
-&lt;p&gt;In his free time, Alex enjoys playing the piano or guitar, and producing music. Some of his other hobbies include hanging out at the beach, reading books, and playing sports. Once he graduates, Alex wants to work for a company that makes the world a better place.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/people/relic_lucas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/relic_lucas/</guid>
-      <description>&lt;p&gt;Lucas Relic is currently a Master&amp;rsquo;s Student in the Computer Science Department at UC Santa Barbara.&lt;/p&gt;
 </description>
     </item>
     
@@ -373,16 +309,6 @@ For this, he is performing data-driven statistical analyses and developing (deep
       
       <guid>https://bionicvisionlab.org/people/varshney_apurv/</guid>
       <description>&lt;p&gt;Apurv Varshney is currently a first-year graduate student pursuing a Master&amp;rsquo;s in Computer Science degree at UC Santa Barbara. He is interested in improving Bionic Vision using Computer vision and human computer interaction (HCI) techniques. In his free time he enjoys hiking and playing Tennis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://bionicvisionlab.org/people/wei_francie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/people/wei_francie/</guid>
-      <description>&lt;p&gt;Francie Wei is currently a fourth-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. She is interested in machine learning behind artificial vision.&lt;/p&gt;
 </description>
     </item>
     
