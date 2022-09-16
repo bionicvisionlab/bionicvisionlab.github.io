@@ -22,6 +22,7 @@
 &lt;p&gt;Our latest work on deep learning-based stimulus optimization was featured in a news article by TechXplore.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;We started working on this project in an attempt to solve the long-standing problem of stimulus optimization in visual prostheses,&amp;rdquo; &lt;a href=&#34;https://bionicvisionlab.org/people/granley_jacob&#34;&gt;Jacob Granley&lt;/a&gt;, one of the researchers who carried out the study, told TechXplore. &amp;ldquo;One of the likely causes for the poor results achieved by visual prostheses is the naive stimulus encoding strategy that devices conventionally use. Previous works have suggested encoding strategies, but many are unrealistic, and none have given a general solution that could work across implants and patients.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Read the full article at &lt;a href=&#34;https://techxplore.com/news/2022-06-neural-autoencoder-sensory-neuroprostheses.html&#34; target=&#34;_blank&#34;&gt;techxplore.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The paper has been accepted at NeurIPS &amp;lsquo;22.&lt;/p&gt;
 </description>
     </item>
     
