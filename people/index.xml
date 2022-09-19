@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>People on Bionic Vision Lab</title>
+    <title>Lab Members on Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/people/</link>
-    <description>Recent content in People on Bionic Vision Lab</description>
+    <description>Recent content in Lab Members on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
@@ -13,13 +13,306 @@
     
     <item>
       <title></title>
-      <link>https://bionicvisionlab.org/people/beyeler_michael/</link>
+      <link>https://bionicvisionlab.org/people/afshari_kimia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/people/beyeler_michael/</guid>
-      <description>&lt;p&gt;Michael Beyeler directs the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
-&lt;p&gt;He received a PhD in Computer Science from UC Irvine as well as a BS in Electrical Engineering and a MS in Biomedical Engineering from ETH Zurich, Switzerland. Prior to joining UCSB in 2019, he completed a postdoctoral fellowship in the labs of Ione Fine (Psychology, Institute for Neuroengineering) and Ariel Rokem (eScience Institute) at the University of Washington, where he developed computational models of bionic vision.&lt;/p&gt;
-&lt;p&gt;He is Associate Director of the UCSB Center for Virtual Environments and Behavior (ReCVEB) and recipient of the National Institutes of Health (NIH) K99/R00 Pathway to Independence Award.&lt;/p&gt;
+      <guid>https://bionicvisionlab.org/people/afshari_kimia/</guid>
+      <description>&lt;p&gt;Kimia Afshari is a MS Student in Computer Science and a member of the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/aluru_sriya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/aluru_sriya/</guid>
+      <description>&lt;p&gt;Sriya Aluru is currently a third-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara, and a scholar in the Early Research Scholars Program (ERSP). She is interested in Deep Learning and Computational Neuroscience.&lt;/p&gt;
+&lt;p&gt;She loves hanging out at the beach, trying new places to eat, and playing tennis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/eckhardt_lauren/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/eckhardt_lauren/</guid>
+      <description>&lt;p&gt;Lauren Eckhardt is currently a third-year undergraduate student pursuing a Biopsychology degree at UC Santa Barbara. She is interested in neuroprosthetics and computational neuroscience.
+In her free time, she enjoys hiking, camping and reading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/gee_robert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/gee_robert/</guid>
+      <description>&lt;p&gt;Robert Gee is currently a third-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/giduthuri_anand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/giduthuri_anand/</guid>
+      <description>&lt;p&gt;Anand Giduthuri is currently a second-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. His interests include computer vision and deep learning.&lt;/p&gt;
+&lt;p&gt;In his free time, he likes to spend time at the beach and play badminton.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/granley_jacob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/granley_jacob/</guid>
+      <description>&lt;p&gt;Jacob Granley is a PhD student in the Department of Computer Science.&lt;/p&gt;
+&lt;p&gt;Prior to joining UCSB, he received his Masters and Bachelors in Computer Science from Colorado School of Mines. He is pursuing his PhD under Dr. Beyeler as part of the Bionic Vision lab, where he hopes to use Computer Science and Machine Learning methods to help improve artificial vision technologies with the ultimate goal of restoring sight to the blind.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/hou_yuchen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/hou_yuchen/</guid>
+      <description>&lt;p&gt;Yuchen Hou is a PhD student in the Bionic Vision Lab with a BS in Psychological &amp;amp; Brain Scieces from UCSB.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/jha_rutvik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/jha_rutvik/</guid>
+      <description>&lt;p&gt;Rutvik Jha is currently a third-year undergraduate student pursuing a Computer Engineering degree at UC Santa Barbara. He is working on event-based deep learning models and is interested in deploying cutting-edge deep learning techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/johnson_byron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/johnson_byron/</guid>
+      <description>&lt;p&gt;Byron is a PhD student in the Department of Psychological &amp;amp; Brain Sciences. He was born and raised in St. Louis, Missouri. He moved to New York City to study psychology, where he received a BA in Psychology from St. John’s University (2015) and then a MA in Behavioral Neuroscience from Queens College (2017). Byron worked as a Research Operations Manager at a start-up company that develops assistive products for blind and low vision individuals (2017 - 2020).&lt;/p&gt;
+&lt;p&gt;Byron&amp;rsquo;s main research interest is studying how image processing and psychophysics can be used to understand how low vision conditions affect visual tasks. Specifically, how combining computational models with simulated low vision impairment conditions can help inform and enhance individualized vision capabilities.&lt;/p&gt;
+&lt;p&gt;Byron is supervised by Dr. Michael Beyeler in the Bionic Vision Lab and Dr. Miguel Eckstein in the Vision and Image Understanding Lab.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/kasowski_justin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/kasowski_justin/</guid>
+      <description>&lt;p&gt;Justin Kasowksi transferred to UC Santa Barbara in 2016 after receiving associates degrees in Biological Sciences and Chemistry from Santa Barbara City College. In 2018, he graduated UCSB with a degree in Molecular, Cellular, and Developmental Biology.&lt;/p&gt;
+&lt;p&gt;He is pursuing his PhD under Dr. Michael Beyeler in the Bionic Vision Lab, where he utilizes virtual reality and computer vision to model the perceptual experience of retinal prosthesis patients.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/kumar_kyle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/kumar_kyle/</guid>
+      <description>&lt;p&gt;Kyle Kumar is a BS student in the Department of Computer Science.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/liu_anderson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/liu_anderson/</guid>
+      <description>&lt;p&gt;Anderson Liu is currently a first-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. 
+He is interested in applications of game development for the benefit of society.&lt;/p&gt;
+&lt;p&gt;In his free time, he enjoys playing badminton.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/naik_sahil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/naik_sahil/</guid>
+      <description>&lt;p&gt;Sahil Naik is currently a third-year undergraduate student pursuing a Computer Engineering degree at UC Santa Barbara. He is currently interested in Computational Neuroscience and Artificial Intelligence but hopes to delve more into deep learning in the future.
+He also really loves the beach and beach games like die and spikeball.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/nguyen_bill/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/nguyen_bill/</guid>
+      <description>&lt;p&gt;Bill Nguyen is an undergraduate student in the Departments of Psychological &amp;amp; Brain Sciences (PBS) and Mathematics at UC Santa Barbara. He is interested in the exciting potential of neural prostheses, both on a technological and clinical level.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/palmer_caroline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/palmer_caroline/</guid>
+      <description>&lt;p&gt;Caroline Palmer is a BS Student in Psychological &amp;amp; Brain Sciences, majoring in Biopsychology.&lt;/p&gt;
+&lt;p&gt;Before joining the Bionic Vision Lab, Caroline was a research assistant in the laboratory of Prof. Douglas Nitz at UC San Diego.&lt;/p&gt;
+&lt;p&gt;Caroline was also the Captain of La Jolla High&amp;rsquo;s Varsity Basketball team, and was selected to represent her high school in the city&amp;rsquo;s All League Basketball Team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/pogoncheff_galen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/pogoncheff_galen/</guid>
+      <description>&lt;p&gt;Galen Pogoncheff is a PhD student in the Department of Computer Science.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/pullela_laya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/pullela_laya/</guid>
+      <description>&lt;p&gt;Laya Pullela is a BS Student in the College of Creative Studies and a member of the Bionic Vision Lab at UC Santa Barbara.
+She is interested in applying machine learning and computational biology to medical applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/quan_yuying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/quan_yuying/</guid>
+      <description>&lt;p&gt;Yuying (Carina) Quan is a MS student in the Department of Computer Science.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/sama_shivani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/sama_shivani/</guid>
+      <description>&lt;p&gt;Shivani Sama is a student at Tesla STEM High School in Redmond, WA.&lt;/p&gt;
+&lt;p&gt;She is participating in the Central Sound Regional Science and Engineering Fair at Bellevue College, to be held in March 2023. 
+For this project she is interested in researching brain computer interfaces (specifically deep brain stimulation) and how they can be used to induce neuroplasticity and neuron regrowth to treat various types of neurodegenerative diseases and paralysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/sanchez_garcia_melani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/sanchez_garcia_melani/</guid>
+      <description>&lt;p&gt;Melani Sanchez Garica is a Postdoctoral Researcher in the Department of Computer Science at UCSB.&lt;/p&gt;
+&lt;p&gt;Prior to joining UCSB, she received a PhD in Computer Science and Systems Engineering from Universidad de Zaragoza, Spain, as well as a BS in Chemical Engineering and a MS in Chemical Engineering from Universidad de Valencia, Spain.&lt;/p&gt;
+&lt;p&gt;Melani&amp;rsquo;s main research interests lie in Computer Vision and Deep Learning. She is particularly excited about conducting research in simulated prosthetic vision (SPV) and building immersive virtual reality (VR) systems of SPV that combine computational modeling of the brain with different computer vision algorithms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/sista_shivani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/sista_shivani/</guid>
+      <description>&lt;p&gt;Shivani Sista is currently a second-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara, and a scholar in the Early Research Scholars Program (ERSP). She is interested in deep learning, computer vision, and computational neuroscience. In her free time, she enjoys playing the violin, drawing, and watching TV.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/teshome_eyob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/teshome_eyob/</guid>
+      <description>&lt;p&gt;Eyob Teshome is currently a first-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is a Black Researchers Advancing Intelligence in Neurocomputation (BRAIN) Scholar, and is interested in Artificial Intelligence, Virtual Reality, and Computer Vision.&lt;/p&gt;
+&lt;p&gt;When he is not studying in the library, he enjoys working out, playing soccer, and watching movies with his friends.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/turkstra_lily/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/turkstra_lily/</guid>
+      <description>&lt;p&gt;Lily Turkstra is an incoming Junior Specialist and lab manager in the Bionic Vision Lab at UC Santa Barbara.&lt;/p&gt;
+&lt;p&gt;She has extensive research experience with human psychophysics, has worked with clinical populations, and is well versed in statistical software analysis and programming.&lt;/p&gt;
+&lt;p&gt;Lily was previously a behavioral interventionist at California PsychCare/Behavioral Health 360, where she used a combination of speech, occupational, and play therapies to create and employ therapeutic plans for individuals with autism and other developmental disorders.
+Most recently, she has been a Software Quality Assurance specialist at Tapestry Solutions (a Beoing company) and a Behavioral Health and Performance Intern at NASA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/vahid_amirali/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/vahid_amirali/</guid>
+      <description>&lt;p&gt;Amirali Vahid is a Postdoctoral Researcher at UC Santa Barbara.
+He received his PhD in Psychology from Technische Universität Dresden, Germany, as well as a BS and MS in Electrical Engineering from the University of Tehran, Iran.&lt;/p&gt;
+&lt;p&gt;He is interested in applying machine learning models and computer vision to biological and biomedical applications.
+In particular, his research focuses on determining how the mouse brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and to investigate how the neural representations of these features can support visual navigation.
+For this, he is performing data-driven statistical analyses and developing (deep) predictive models of brain activity based on visual input and several behavioral variables.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/vanos_lexie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/vanos_lexie/</guid>
+      <description>&lt;p&gt;Lexie Van Os is currently a third-year undergraduate student pursuing Psychological &amp;amp; Brain Sciences and Communication degrees at UC Santa Barbara. She is interested cognitive neuroscience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/varshney_apurv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/varshney_apurv/</guid>
+      <description>&lt;p&gt;Apurv Varshney is currently a first-year graduate student pursuing a Master&amp;rsquo;s in Computer Science degree at UC Santa Barbara. He is interested in improving Bionic Vision using Computer vision and human computer interaction (HCI) techniques. In his free time he enjoys hiking and playing Tennis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/wang_yilin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/wang_yilin/</guid>
+      <description>&lt;p&gt;Yilin (Michael) Wang is a BS student in the Department of Computer Science.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/people/xu_aiwen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/people/xu_aiwen/</guid>
+      <description>&lt;p&gt;Aiwen Xu is a PhD student in Computer Science. Prior to UC Santa Barbara, she received a BS in Computer Science and a BS in Mathematics from New York University Shanghai. She hopes to utilize mathematical modeling and machine learning techniques to improve bionic vision.&lt;/p&gt;
 </description>
     </item>
     
