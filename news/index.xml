@@ -7,10 +7,35 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 21 Jun 2022 09:29:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Sep 2022 01:29:00 -0700</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Greedy optimization of electrode arrangement for epiretinal prostheses</title>
+      <link>https://bionicvisionlab.org/news/2022-09-miccai-daily/</link>
+      <pubDate>Mon, 19 Sep 2022 01:29:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2022-09-miccai-daily/</guid>
+      <description>&lt;p&gt;&lt;i&gt;The work of Ashley Bruce, CS&amp;rsquo;s Outstanding MS Student of the Year awardee, was highlighted in MICCAI Daily magazine.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Current epiretinal implants arrange their electrodes on a rectangular grid.
+&lt;i&gt;&amp;ldquo;Some people have looked at where to place the whole implant on the retina&amp;rdquo;&lt;/i&gt;, says Prof. Beyeler. &lt;i&gt;&amp;ldquo;Ashley was the first to ask, what if we moved every individual electrode around
+based on what we know about how these electrodes produce artificial vision?&amp;quot;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;However, moving every electrode presents the problem of
+combinatorial explosion. Even in current devices with only 60
+electrodes, there are many possibilities for arranging them. It is not
+usually technically feasible to find a solution.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&amp;ldquo;Ashley approached this as a greedy optimization problem, where one
+electrode is placed after another&amp;rdquo;&lt;/i&gt;, explains Prof. Beyeler.
+&lt;i&gt;&amp;ldquo;We used a
+computational model of bionic vision to help predict what the vision
+would look like for a given electrode placement. By iterating over that,
+Ashley found a mathematically proven optimal solution.&amp;quot;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Read the full article at &lt;a href=&#34;https://www.rsipvision.com/MICCAI2022-Monday/16/&#34; target=&#34;_blank&#34;&gt;rsipvision.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The paper has been accepted at MICCAI &amp;lsquo;22.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A neural autoencoder to enhance sensory neuroprostheses</title>
