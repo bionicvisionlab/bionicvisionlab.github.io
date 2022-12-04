@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition</title>
+      <link>https://bionicvisionlab.org/publications/2022-11-snn-stdp-wta/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2022-11-snn-stdp-wta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The relative importance of depth cues and semantic edges for indoor mobility using simulated prosthetic vision in immersive virtual reality</title>
       <link>https://bionicvisionlab.org/publications/2022-11-indoor-mobility/</link>
       <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
@@ -42,7 +51,7 @@
     <item>
       <title>Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness</title>
       <link>https://bionicvisionlab.org/publications/2022-11-smart-bionic-eye/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2022-11-smart-bionic-eye/</guid>
       <description></description>
