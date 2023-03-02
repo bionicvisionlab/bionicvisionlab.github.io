@@ -12,6 +12,20 @@
     
     
     <item>
+      <title>BionicVisionXR: An Open-Source Virtual Reality Toolbox for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/code/bionicvisionxr/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/bionicvisionxr/</guid>
+      <description>&lt;p&gt;A major outstanding challenge in the field of bionic vision is predicting what people “see” when they use their devices.
+The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. 
+In addition, many computational models of bionic vision lack biological realism.&lt;/p&gt;
+&lt;p&gt;To address these challenges, we present &lt;em&gt;BionicVisionXR&lt;/em&gt;, an open-source virtual reality toolbox for simulated prosthetic vision that uses a psychophysically validated computational model to allow sighted participants to “see through the eyes” of a bionic
+eye user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Towards a Smart Bionic Eye</title>
       <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>

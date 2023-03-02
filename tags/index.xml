@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Neuroprostheses</title>
+      <link>https://bionicvisionlab.org/tags/visual-neuroprostheses/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/visual-neuroprostheses/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assistive Technologies</title>
@@ -18,15 +27,6 @@
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/assistive-technologies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Neuroprostheses</title>
-      <link>https://bionicvisionlab.org/tags/visual-neuroprostheses/</link>
-      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/visual-neuroprostheses/</guid>
       <description></description>
     </item>
     

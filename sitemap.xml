@@ -86,7 +86,19 @@
     <loc>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/code/bionicvisionxr/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/code/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/visual-neuroprostheses/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2022-01-guardian/</loc>
@@ -101,13 +113,7 @@
     <loc>https://bionicvisionlab.org/research/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
-    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/research/smart-bionic-eye/</loc>
-    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/visual-neuroprostheses/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/low-vision/</loc>
@@ -179,7 +185,7 @@
     <loc>https://bionicvisionlab.org/publications/2021-explainable-ai/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/pulse2percept/</loc>
+    <loc>https://bionicvisionlab.org/code/pulse2percept/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</loc>
@@ -543,8 +549,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/</loc>
   </url><url>
-    <loc>https://bionicvisionlab.org/contact/</loc>
-  </url><url>
     <loc>https://bionicvisionlab.org/grants/2021-r01-mouse/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/grants/2021-ucsb-academic-senate/</loc>
@@ -554,6 +558,8 @@
     <loc>https://bionicvisionlab.org/join/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/contact/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/ml/ai/</loc>
   </url><url>

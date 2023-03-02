@@ -31,6 +31,17 @@
     </item>
     
     <item>
+      <title>Code</title>
+      <link>https://bionicvisionlab.org/code/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/</guid>
+      <description>&lt;p&gt;To the best of our ability, we practice open science. The idea is not to simply tick a box of &amp;ldquo;open science&amp;rdquo;, but to make the stimuli, data, and analyses that accompany a publication readable and usable for reviewers and other researchers.
+In addition, we have also developed a number of open-source software tools in support of our research goals:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Research</title>
       <link>https://bionicvisionlab.org/research/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
@@ -72,15 +83,6 @@ A major outstanding challenge is translating electrode stimulation into a code t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/collaborators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact Us</title>
-      <link>https://bionicvisionlab.org/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/contact/</guid>
       <description></description>
     </item>
     
@@ -341,6 +343,15 @@ We currently do not have any capacity to accommodate postdocs, exchange students
 &lt;/div&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Location</title>
+      <link>https://bionicvisionlab.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/contact/</guid>
+      <description></description>
     </item>
     
     <item>
