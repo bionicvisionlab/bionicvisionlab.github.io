@@ -2,8 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bionicvisionlab.org/publication_types/1/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2023-04-snn-stdp-wta/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2023-spring-psych132/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
@@ -16,15 +25,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2023-02-explainable-thresholds/</loc>
     <lastmod>2023-02-10T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
-    <lastmod>2023-02-10T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/1/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publications/2023-02-snn-stdp-wta/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2023-01-retinal-degeneration/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
