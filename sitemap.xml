@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bionicvisionlab.org/publication_types/11/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2023-04-neuromorphic-lstm/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publication_types/1/</loc>
     <lastmod>2023-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2023-04-xr-systematic-review/</loc>
-    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
     <lastmod>2023-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2023-04-snn-stdp-wta/</loc>
@@ -41,11 +47,11 @@
     <loc>https://bionicvisionlab.org/publications/2022-12-brain-like-phosphene-model/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/publications/2022-11-indoor-mobility/</loc>
+    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2022-11-28T00:00:00+00:00</lastmod>
+    <loc>https://bionicvisionlab.org/publications/2022-11-indoor-mobility/</loc>
+    <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
