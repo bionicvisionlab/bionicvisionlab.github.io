@@ -24,6 +24,15 @@
     </item>
     
     <item>
+      <title>U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina</title>
+      <link>https://bionicvisionlab.org/publications/2021-hba-u-net/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2021-hba-u-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Simulating Visual Impairment</title>
       <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>

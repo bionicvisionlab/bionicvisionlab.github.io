@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Software Engineering</title>
+      <link>https://bionicvisionlab.org/tags/software-engineering/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Visual Neuroprostheses</title>
       <link>https://bionicvisionlab.org/tags/visual-neuroprostheses/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
@@ -58,56 +67,20 @@
     </item>
     
     <item>
-      <title>age-related macular degeneration</title>
-      <link>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <title>NeuroAI</title>
+      <link>https://bionicvisionlab.org/tags/neuroai/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/age-related-macular-degeneration/</guid>
+      <guid>https://bionicvisionlab.org/tags/neuroai/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>biomedical image analysis</title>
+      <title>Biomedical Image Analysis</title>
       <link>https://bionicvisionlab.org/tags/biomedical-image-analysis/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/biomedical-image-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer vision</title>
-      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://bionicvisionlab.org/tags/deep-learning/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diabetic retinopathy</title>
-      <link>https://bionicvisionlab.org/tags/diabetic-retinopathy/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/diabetic-retinopathy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>glaucoma</title>
-      <link>https://bionicvisionlab.org/tags/glaucoma/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/glaucoma/</guid>
       <description></description>
     </item>
     
@@ -198,6 +171,15 @@
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/spiking-neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer vision</title>
+      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
       <description></description>
     </item>
     

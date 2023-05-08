@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Engineering on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/software-engineering/</link>
+    <description>Recent content in Software Engineering on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BionicVisionXR: An Open-Source Virtual Reality Toolbox for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/code/bionicvisionxr/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/bionicvisionxr/</guid>
+      <description>&lt;p&gt;A major outstanding challenge in the field of bionic vision is predicting what people “see” when they use their devices.
+The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. 
+In addition, many computational models of bionic vision lack biological realism.&lt;/p&gt;
+&lt;p&gt;To address these challenges, we present &lt;em&gt;BionicVisionXR&lt;/em&gt;, an open-source virtual reality toolbox for simulated prosthetic vision that uses a psychophysically validated computational model to allow sighted participants to “see through the eyes” of a bionic
+eye user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pulse2percept: A Python-Based Simulation Framework for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/code/pulse2percept/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/pulse2percept/</guid>
+      <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;
+&lt;p&gt;Built on the NumPy and SciPy stacks, as well as contributions from the broader Python community, &lt;em&gt;pulse2percept&lt;/em&gt; provides an open-source implementation of several phosphene models for a wide range of state-of-the-art retinal prostheses, to provide insight into the visual experience provided by these devices.&lt;/p&gt;
+&lt;p&gt;As &lt;em&gt;pulse2percept&lt;/em&gt; continues to be adopted by several research labs around the globe, we continue to improve its functionality and performance as well as add new implants, models, and datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
