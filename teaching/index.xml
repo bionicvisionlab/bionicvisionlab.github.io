@@ -7,10 +7,83 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PSY-221F: Computational Neuroscience</title>
+      <link>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</guid>
+      <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;p&gt;This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.
+We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning).&lt;/p&gt;
+&lt;p&gt;By the end of this course, you should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;describe how the brain &amp;ldquo;computes&amp;rdquo;,&lt;/li&gt;
+&lt;li&gt;describe different methods that computational neuroscientists use to model neural coding,&lt;/li&gt;
+&lt;li&gt;computationally model the biophysics of single neurons and the dynamics of neural networks,&lt;/li&gt;
+&lt;li&gt;fit a computational model to experimental data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will gain experience both conceptually and practically, by homework assignments that involve solving problems and implementing computational models. However, this is not primarily a programming course - that is, the main goal is to learn the concepts, not to learn a programming language or particular programming techniques.  Nevertheless, coding examples of the concepts is the best way to demonstrate (and facilitate) your knowledge of them. Lab sections will feature Python &amp;amp; math tutorials, hands-on examples, and guided programming sessions.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;p&gt;The formal prerequisite is PSY-221B, but the only part of that course that is
+necessary is the introduction to matrix algebra.&lt;/p&gt;
+&lt;p&gt;The actual necessary background includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;calculus,&lt;/li&gt;
+&lt;li&gt;some prior exposure to matrix algebra,&lt;/li&gt;
+&lt;li&gt;some prior exposure to Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Desirable, but not strictly necessary:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prior exposure to differential equations,&lt;/li&gt;
+&lt;li&gt;basic knowledge of neuroscience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS-165A: Introduction to Artificial Intelligence</title>
+      <link>https://bionicvisionlab.org/teaching/2024-winter-cs165a/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2024-winter-cs165a/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Prerequisite: CS-130A&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Artificial Intelligence is about building and understanding intelligent systems. AI means different
+things to different people. People have approached the study of AI from various perspectives:
+philosophy, neurophysiology, mathematics, linguistics, psychology, control systems, and computer
+science, to name a few. Part of what makes it so interesting is the range of activities, from trying to
+understand minds in the abstract, to building creatures that run around and do things. AI has made
+steady progress and contributed to much of what is now standard computer science and cognitive
+science. It has spawned several sub-areas (e.g., natural language processing, speech recognition,
+computer vision, robotics, expert systems, and machine learning).&lt;/p&gt;
+&lt;p&gt;This is an introductory course in artificial intelligence offered as part of a computer science
+curriculum, so we are not primarily concerned with the approaches of philosophy, cognitive science,
+etc., although we will come back to them from time to time. We will cover the following technical
+topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problem solving and intelligent agents&lt;/li&gt;
+&lt;li&gt;Introduction to machine learning (classification)&lt;/li&gt;
+&lt;li&gt;Probabilistic modeling and inference (Bayesian networks)&lt;/li&gt;
+&lt;li&gt;Problem solving and search (blind, informed, adversarial)&lt;/li&gt;
+&lt;li&gt;Introduction to reinforcement learning (Bandits, MDPs and Reinforcement Learning)&lt;/li&gt;
+&lt;li&gt;Knowledge Representation and Reasoning (logic)&lt;/li&gt;
+&lt;li&gt;Responsible AI (fairness, privacy, AI for social good)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Differences from CS165B:&lt;/strong&gt; Note that CS165B is about machine learning (ML). In CS165A, we
+take a broader view of AI and cover a complementary set of topics (each one of them may have a
+learning component). There isn’t a right order in taking these two courses. You can go either way.
+You will have more ideas on applications of ML for decision making if you have completed CS165A
+when taking CS165B; meanwhile you will gain deeper understanding in CS165A topics if you have
+taken CS165B.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PSY-132: Visual Neuroscience</title>
