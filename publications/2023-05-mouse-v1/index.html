@@ -24,10 +24,10 @@
   
     
   
-  <meta name="description" content="What is the required stimulus to produce a desired percept? Here we frame this as an end-to-end optimization problem, where a deep neural network encoder is trained to invert a known, fixed forward model that approximates the underlying biological system.">
+  <meta name="description" content="We introduce a multimodal recurrent neural network that integrates gaze-contingent visual input with behavioral and temporal dynamics to explain V1 activity in freely moving mice.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/">
+  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/publications/2023-05-mouse-v1/">
 
   
 
@@ -104,7 +104,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/">
+  <link rel="canonical" href="https://bionicvisionlab.org/publications/2023-05-mouse-v1/">
 
   
   
@@ -118,14 +118,14 @@
   <meta property="twitter:creator" content="@bionicvisionlab">
   
   <meta property="og:site_name" content="Bionic Vision Lab">
-  <meta property="og:url" content="https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/">
-  <meta property="og:title" content="Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses | Bionic Vision Lab">
-  <meta property="og:description" content="What is the required stimulus to produce a desired percept? Here we frame this as an end-to-end optimization problem, where a deep neural network encoder is trained to invert a known, fixed forward model that approximates the underlying biological system."><meta property="og:image" content="https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/featured.png">
-  <meta property="twitter:image" content="https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://bionicvisionlab.org/publications/2023-05-mouse-v1/">
+  <meta property="og:title" content="Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice | Bionic Vision Lab">
+  <meta property="og:description" content="We introduce a multimodal recurrent neural network that integrates gaze-contingent visual input with behavioral and temporal dynamics to explain V1 activity in freely moving mice."><meta property="og:image" content="https://bionicvisionlab.org/publications/2023-05-mouse-v1/featured.png">
+  <meta property="twitter:image" content="https://bionicvisionlab.org/publications/2023-05-mouse-v1/featured.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2022-11-28T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-05-30T18:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2022-11-28T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2023-05-30T18:00:00&#43;00:00">
   
 
   
@@ -170,7 +170,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
-  <title>Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses | Bionic Vision Lab</title>
+  <title>Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice | Bionic Vision Lab</title>
 
 </head>
 
@@ -434,12 +434,10 @@
 
   
   
-    
-  
 
 
 <div class="container pt-3 px-4 px-sm-0">
-  <h2 class="section-title" itemprop="name">Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses</h2>
+  <h2 class="section-title" itemprop="name">Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice</h2>
 
   
 
@@ -447,15 +445,13 @@
 
 
 
-<meta content="2022-11-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2022-11-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2023-05-30 18:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-05-30 18:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="m-0 p-0">
   <p class="m-0"><small>
   
   
-  
-    <i class="fa fa-microphone mr-1" alt="News coverage"></i>
   
   
   
@@ -469,7 +465,8 @@
 
 
   <span itemprop="author name" itemtype="http://schema.org/Person">
-        <a href="/people/granley_jacob/">Jacob Granley</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lucas Relic</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
+        <a href="/people/xu_aiwen/">Aiwen Xu</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">
+        <a href="/people/hou_yuchen/">Yuchen Hou</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Cristopher M. Neill</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
         <a href="/people/beyeler_michael/">Michael Beyeler</a></span>
 
   </span>
@@ -484,7 +481,7 @@
     
       
     
-    <time>November 2022</time>
+    <time>May 2023</time>
   </span>
   
   
@@ -495,7 +492,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      36th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;22
+      bioRxiv
     
   </span>
   
@@ -524,7 +521,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/&amp;text=Hybrid%20neural%20autoencoders%20for%20stimulus%20encoding%20in%20visual%20and%20other%20sensory%20neuroprostheses" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://bionicvisionlab.org/publications/2023-05-mouse-v1/&amp;text=Multimodal%20deep%20learning%20model%20unveils%20behavioral%20dynamics%20of%20V1%20activity%20in%20freely%20moving%20mice" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -537,7 +534,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/&amp;t=Hybrid%20neural%20autoencoders%20for%20stimulus%20encoding%20in%20visual%20and%20other%20sensory%20neuroprostheses" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://bionicvisionlab.org/publications/2023-05-mouse-v1/&amp;t=Multimodal%20deep%20learning%20model%20unveils%20behavioral%20dynamics%20of%20V1%20activity%20in%20freely%20moving%20mice" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -550,7 +547,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Hybrid%20neural%20autoencoders%20for%20stimulus%20encoding%20in%20visual%20and%20other%20sensory%20neuroprostheses&amp;body=https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Multimodal%20deep%20learning%20model%20unveils%20behavioral%20dynamics%20of%20V1%20activity%20in%20freely%20moving%20mice&amp;body=https://bionicvisionlab.org/publications/2023-05-mouse-v1/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -563,7 +560,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/&amp;title=Hybrid%20neural%20autoencoders%20for%20stimulus%20encoding%20in%20visual%20and%20other%20sensory%20neuroprostheses" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://bionicvisionlab.org/publications/2023-05-mouse-v1/&amp;title=Multimodal%20deep%20learning%20model%20unveils%20behavioral%20dynamics%20of%20V1%20activity%20in%20freely%20moving%20mice" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -576,7 +573,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Hybrid%20neural%20autoencoders%20for%20stimulus%20encoding%20in%20visual%20and%20other%20sensory%20neuroprostheses%20https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Multimodal%20deep%20learning%20model%20unveils%20behavioral%20dynamics%20of%20V1%20activity%20in%20freely%20moving%20mice%20https://bionicvisionlab.org/publications/2023-05-mouse-v1/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -589,7 +586,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/&amp;title=Hybrid%20neural%20autoencoders%20for%20stimulus%20encoding%20in%20visual%20and%20other%20sensory%20neuroprostheses" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://bionicvisionlab.org/publications/2023-05-mouse-v1/&amp;title=Multimodal%20deep%20learning%20model%20unveils%20behavioral%20dynamics%20of%20V1%20activity%20in%20freely%20moving%20mice" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -608,7 +605,7 @@
 
 <div class="container px-4 px-sm-0 mt-5">
   <div class="row">
-    <img src="/publications/2022-11-hybrid-neural-autoencoder/featured_hu8ec43c8e64ab02242f8ac2c162b39385_1341146_720x0_resize_lanczos_3.png" alt="Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses" class="mx-auto h-25 bg-white"/>
+    <img src="/publications/2023-05-mouse-v1/featured.png" alt="Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice" class="mx-auto h-25 bg-white"/>
     
   </div>
 </div>
@@ -624,7 +621,7 @@
     
       <div class="row">
         <h3>Abstract</h3>
-        <p class="pub-abstract" itemprop="text">Sensory neuroprostheses are emerging as a promising technology to restore lost sensory function or augment human capacities. However, sensations elicited by current devices often appear artificial and distorted. Although current models can often predict the neural or perceptual response to an electrical stimulus, an optimal stimulation strategy solves the inverse problem: what is the required stimulus to produce a desired response? Here we frame this as an end-to-end optimization problem, where a deep neural network encoder is trained to invert a known, fixed forward model that approximates the underlying biological system. As a proof of concept, we demonstrate the effectiveness of our hybrid neural autoencoder (HNA) on the use case of visual neuroprostheses. We found that HNA is able to produce high-fidelity stimuli from the MNIST and COCO datasets that outperform conventional encoding strategies and surrogate techniques across all tested conditions. Overall this is an important step towards the long-standing challenge of restoring high-quality vision to people living with incurable blindness and may prove a promising solution for a variety of neuroprosthetic technologies.</p>
+        <p class="pub-abstract" itemprop="text">Despite their immense success as a model of macaque visual cortex, deep convolutional neural networks (CNNs) have struggled to predict activity in visual cortex of the mouse, which is thought to be strongly dependent on the animal&rsquo;s behavioral state. Furthermore, most computational models focus on predicting neural responses to static images presented under head fixation, which are dramatically different from the dynamic, continuous visual stimuli that arise during movement in the real world. Consequently, it is still unknown how natural visual input and different behavioral variables may integrate over time to generate responses in primary visual cortex (V1). To address this, we introduce a multimodal recurrent neural network that integrates gaze-contingent visual input with behavioral and temporal dynamics to explain V1 activity in freely moving mice. We show that the model achieves state-of-the-art predictions of V1 activity during free exploration and demonstrate the importance of each component in an extensive ablation study. Analyzing our model using maximally activating stimuli and saliency maps, we reveal new insights into cortical function, including the prevalence of mixed selectivity for behavioral variables in mouse V1. In summary, our model offers a comprehensive deep-learning framework for exploring the computational principles underlying V1 neurons in freely-moving animals engaged in natural behavior.</p>
       </div>
     
 
@@ -650,20 +647,12 @@
 
 
 
-  
-  
-    
-  
-<a class="button" href="https://papers.nips.cc/paper_files/paper/2022/hash/8e9a6582caa59fda0302349702965171-Abstract-Conference.html" target="_blank" rel="noopener">
-  DOI
-</a>
-
 
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2205.13623" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/10.1101/2023.05.30.542912v1" target="_blank" rel="noopener">
   Preprint
 </a>
 
@@ -674,7 +663,7 @@
 
 
 
-<a class="button" href="/publications/2022-11-hybrid-neural-autoencoder/2022-neurips-granley.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-05-mouse-v1/2023-xu-mouse-v1.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -690,30 +679,18 @@
 
 
 
-  
-  
-    
-  
-<a class="button" href="https://neurips.cc/media/PosterPDFs/NeurIPS%202022/52906.png?t=1669149608.18866" target="_blank" rel="noopener">
-  Poster
+
+
+
+
+
+
+<a class="button" href="https://doi.org/10.1101/2023.05.30.542912" target="_blank" rel="noopener">
+  DOI
 </a>
 
 
 
-
-
-  
-  
-    
-  
-<a class="button" href="https://neurips.cc/virtual/2022/poster/52906" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
 </div>
 
 
@@ -724,139 +701,6 @@
 
 
 
-    
-      <div class="row mt-3">
-        <h3 class="fill-width"><i class="fa fa-microphone mr-2" alt="News coverage"></i>In the News</h3>
-        
-          
-          
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="media mb-4" itemscope itemtype="http://schema.org/BlogPosting">
-  
-  <div class="col-12 col-md-8">
-  
-  
-    <h3 class="m-0" itemprop="name">
-    <a href="/news/2022-06-techxplore/"  itemprop="url">A neural autoencoder to enhance sensory neuroprostheses</a>
-    </h3>
-
-    
-    <div itemprop="articleBody">
-      <p class="m-0">What is the required stimulus to produce a desired percept? Our latest work on deep learning-based stimulus optimization was featured in a news article by TechXplore.</p>
-    </div>
-    
-
-    <div>
-      
-      <div itemprop="author">
-        
-          
-
-
-
-<meta content="2022-06-21 09:29:00 -0700 PDT" itemprop="datePublished">
-<meta content="2022-06-21 09:29:00 -0700 PDT" itemprop="dateModified">
-
-<div class="m-0 p-0">
-  <p class="m-0"><small>
-  
-  
-  
-  
-  
-  
-  
-  
-  <span itemprop="authors">
-    
-
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">
-        <a href="/people/granley_jacob/">Jacob Granley</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lucas Relic</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
-        <a href="/people/beyeler_michael/">Michael Beyeler</a></span>
-
-  </span>
-  <span class="middot-divider"></span>
-  
-  
-
-  
-  
-  <span class="">
-    
-    
-      
-    
-    <time>Jun 21, 2022</time>
-  </span>
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  </small></p>
-</div>
-
-        
-      </div>
-    </div>
-
-    
-  </div>
-  
-  <div class="col-md-4 hidden-sm d-none d-sm-block">
-    
-    <a href="/news/2022-06-techxplore/" >
-      <img src="/news/2022-06-techxplore/featured_hu1229242c5ab1c84911e51087e05e1104_297381_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
-  </div>
-  
-</div>
-
-            
-          
-        
-      </div>
     
 
     <div class="row mt-4">
