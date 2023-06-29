@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We propose a personalized stimulus encoding strategy that combines state-of-the-art deep stimulus encoding with preferential Bayesian optimization.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0e1111">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Century751:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.7fbe49c899d29b45e85b03caabc96137.css">
+
+  
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.b272e4a5ed9e48b47b4d60371bc909e3.css">
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bionicvisionlab">
+  <meta property="twitter:creator" content="@bionicvisionlab">
+  
+  <meta property="og:site_name" content="Bionic Vision Lab">
+  <meta property="og:url" content="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/">
+  <meta property="og:title" content="Human-in-the-loop optimization for deep stimulus encoding in visual prostheses | Bionic Vision Lab">
+  <meta property="og:description" content="We propose a personalized stimulus encoding strategy that combines state-of-the-art deep stimulus encoding with preferential Bayesian optimization."><meta property="og:image" content="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/featured.jpg">
+  <meta property="twitter:image" content="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/featured.jpg"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2023-06-16T18:49:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2023-06-16T18:49:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#0e1111",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#0e1111"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="/css/gallery.css"/>
+  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/js/load-photoswipe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+  <title>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses | Bionic Vision Lab</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"><img src="/img/bvl-title-dark.png" alt="Bionic Vision Lab"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#intro"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/code"><span>Code</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Contact</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/join"><span>Join Us</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/contact"><span>Location</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+<div class="container px-4 px-sm-0">
+  <div class="row mt-2">
+    <h2>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</h2>
+    
+    
+
+
+
+
+<meta content="2023-06-16 18:49:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-06-16 18:49:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">
+        <a href="/people/granley_jacob/">Jacob Granley</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tristan Fauvel</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matthew Chalk</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
+        <a href="/people/beyeler_michael/">Michael Beyeler</a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>June 2023</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      arXiv:2306.13104
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;text=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;t=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses&amp;body=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;title=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses%20https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;title=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+  </small></p>
+</div>
+
+  </div>
+  <div class="row m-0">
+    
+    
+    
+  </div>      
+  <div class="row m-0" style="margin-left: -15px !important">
+    <div class="col-md-8 pr-4">
+      
+      <div class="row">
+        <h3 class="mt-2">Abstract</h3>
+        <p class="pub-abstract" itemprop="text">Neuroprostheses show potential in restoring lost sensory function and enhancing human capabilities, but the sensations produced by current devices often seem unnatural or distorted. Exact placement of implants and differences in individual perception lead to significant variations in stimulus response, making personalized stimulus optimization a key challenge. Bayesian optimization could be used to optimize patient-specific stimulation parameters with limited noisy observations, but is not feasible for high-dimensional stimuli. Alternatively, deep learning models can optimize stimulus encoding strategies, but typically assume perfect knowledge of patient-specific variations. Here we propose a novel, practically feasible approach that overcomes both of these fundamental limitations. First, a deep encoder network is trained to produce optimal stimuli for any individual patient by inverting a forward model mapping electrical stimuli to visual percepts. Second, a preferential Bayesian optimization strategy utilizes this encoder to optimize patient-specific parameters for a new patient, using a minimal number of pairwise comparisons between candidate stimuli. We demonstrate the viability of this approach on a novel, state-of-the-art visual prosthesis model. We show that our approach quickly learns a personalized stimulus encoder, leads to dramatic improvements in the quality of restored vision, and is robust to noisy patient feedback and misspecifications in the underlying forward model. Overall, our results suggest that combining the strengths of deep learning and Bayesian optimization could significantly improve the perceptual experience of patients fitted with visual prostheses and may prove a viable solution for a range of neuroprosthetic technologies.</p>
+      </div>
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="button" href="https://arxiv.org/abs/2306.13104" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+  
+
+
+
+<a class="button" href="/publications/2023-06-hilo-stimulus-encoding/2023-06-granley-hilo-dse.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+<a class="button" href="https://doi.org/10.48550/arXiv.2306.13104" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+      
+      
+      <div class="text-center">
+        <img class="mt-4 mb-2 subtle-black-shadow" style="width:100%" src="featured.jpg" />
+      </div>
+      
+
+      
+    </div>
+    
+    
+  </div>
+
+  
+
+
+
+  
+
+  <div class="row mt-4">
+    <a href="../" class="button">All publications</a>
+  </div>
+
+</div>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'news': "In the News",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer mt-5 pt-0">
+  <div class="row featurette">
+    <div class="col-6 col-sm-5">
+      <div class="featurette-icon">
+        <a href="https://cs.ucsb.edu" target="_blank"><img src="/img/ucsb-cs-logo.png"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-5">
+      <div class="featurette-icon">
+        <a href="https://psych.ucsb.edu" target="_blank"><img src="/img/ucsb-psych-logo.svg"></a>
+      </div>
+    </div>
+    <div class="col-sm-2 d-none d-sm-block">
+      <div class="featurette-icon">
+        <a href="https://ucsb.edu" target="_blank"><img src="/img/ucsb-enlightened.png" style="filter:invert(1)"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-sm-2 d-none d-sm-block">
+    </div>
+    <div class="col-6 col-sm-3">
+      <div class="featurette-icon">
+        <a href="https://bioengineering.ucsb.edu" target="_blank"><img src="/img/ucsb-bioeng-logo.png" style="padding: 5% 0"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-2 d-flex align-items-center">
+      <div class="featurette-icon">
+        <a href="https://dyns.ucsb.edu" target="_blank"><img src="/img/ucsb-dyns-logo.png"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-3" style>
+      <div class="featurette-icon">
+        <a href="https://nri.ucsb.edu" target="_blank"><img src="/img/ucsb-nri-logo.svg" style="padding: 6% 0"></a>
+      </div>
+    </div>
+  </div>
+
+  <p class="h6 mt-4">
+    © 2023 Bionic Vision Lab.
+    All rights reserved.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
