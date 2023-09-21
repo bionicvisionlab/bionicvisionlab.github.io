@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>Explaining V1 properties with a biologically constrained deep learning architecture</title>
+      <link>https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/</link>
+      <pubDate>Tue, 28 Nov 2023 19:48:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</title>
+      <link>https://bionicvisionlab.org/publications/2023-11-hilo-stimulus-encoding/</link>
+      <pubDate>Tue, 28 Nov 2023 18:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2023-11-hilo-stimulus-encoding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice</title>
+      <link>https://bionicvisionlab.org/publications/2023-11-v1-mouse/</link>
+      <pubDate>Tue, 28 Nov 2023 18:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2023-11-v1-mouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EyeTTS: Evaluating and Calibrating Eye Tracking for Mixed-Reality Locomotion</title>
       <link>https://bionicvisionlab.org/publications/2023-08-eye-tracking-suite/</link>
       <pubDate>Fri, 25 Aug 2023 08:49:00 +0000</pubDate>
@@ -27,33 +54,6 @@
       <pubDate>Wed, 26 Jul 2023 08:49:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2023-07-argus-pairs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</title>
-      <link>https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/</link>
-      <pubDate>Fri, 16 Jun 2023 18:49:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice</title>
-      <link>https://bionicvisionlab.org/publications/2023-05-mouse-v1/</link>
-      <pubDate>Tue, 30 May 2023 18:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2023-05-mouse-v1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explaining V1 properties with a biologically constrained deep learning architecture</title>
-      <link>https://bionicvisionlab.org/publications/2023-05-brain-like-v1/</link>
-      <pubDate>Thu, 18 May 2023 19:48:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2023-05-brain-like-v1/</guid>
       <description></description>
     </item>
     

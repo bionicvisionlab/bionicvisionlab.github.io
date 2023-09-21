@@ -24,10 +24,10 @@
   
     
   
-  <meta name="description" content="We propose a personalized stimulus encoding strategy that combines state-of-the-art deep stimulus encoding with preferential Bayesian optimization.">
+  <meta name="description" content="We systematically incorporated neuroscience-derived architectural components into CNNs to identify a set of mechanisms and architectures that comprehensively explain neural activity in V1.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/">
+  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/">
 
   
 
@@ -104,7 +104,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/">
+  <link rel="canonical" href="https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/">
 
   
   
@@ -118,14 +118,14 @@
   <meta property="twitter:creator" content="@bionicvisionlab">
   
   <meta property="og:site_name" content="Bionic Vision Lab">
-  <meta property="og:url" content="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/">
-  <meta property="og:title" content="Human-in-the-loop optimization for deep stimulus encoding in visual prostheses | Bionic Vision Lab">
-  <meta property="og:description" content="We propose a personalized stimulus encoding strategy that combines state-of-the-art deep stimulus encoding with preferential Bayesian optimization."><meta property="og:image" content="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/featured.jpg">
-  <meta property="twitter:image" content="https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/">
+  <meta property="og:title" content="Explaining V1 properties with a biologically constrained deep learning architecture | Bionic Vision Lab">
+  <meta property="og:description" content="We systematically incorporated neuroscience-derived architectural components into CNNs to identify a set of mechanisms and architectures that comprehensively explain neural activity in V1."><meta property="og:image" content="https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/featured.jpg">
+  <meta property="twitter:image" content="https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/featured.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2023-06-16T18:49:00&#43;00:00">
+  <meta property="article:published_time" content="2023-11-28T19:48:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2023-06-16T18:49:00&#43;00:00">
+  <meta property="article:modified_time" content="2023-11-28T19:48:00&#43;00:00">
   
 
   
@@ -172,7 +172,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
-  <title>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses | Bionic Vision Lab</title>
+  <title>Explaining V1 properties with a biologically constrained deep learning architecture | Bionic Vision Lab</title>
 
 </head>
 
@@ -416,15 +416,15 @@
 
 <div class="container px-4 px-sm-0">
   <div class="row mt-2">
-    <h2>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</h2>
+    <h2>Explaining V1 properties with a biologically constrained deep learning architecture</h2>
     
     
 
 
 
 
-<meta content="2023-06-16 18:49:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2023-06-16 18:49:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2023-11-28 19:48:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-11-28 19:48:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="m-0 p-0">
   
@@ -440,7 +440,8 @@
 
 
   <span itemprop="author name" itemtype="http://schema.org/Person">
-        <a href="/people/granley_jacob/">Jacob Granley</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tristan Fauvel</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matthew Chalk</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
+        <a href="/people/pogoncheff_galen/">Galen Pogoncheff</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">
+        <a href="/people/granley_jacob/">Jacob Granley</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person">
         <a href="/people/beyeler_michael/">Michael Beyeler</a></span>
 
   </span>
@@ -455,7 +456,7 @@
     
       
     
-    <time>June 2023</time>
+    <time>November 2023</time>
   </span>
   
   
@@ -466,7 +467,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      arXiv:2306.13104
+      37th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;23
     
   </span>
   
@@ -495,7 +496,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;text=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/&amp;text=Explaining%20V1%20properties%20with%20a%20biologically%20constrained%20deep%20learning%20architecture" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -508,7 +509,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;t=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/&amp;t=Explaining%20V1%20properties%20with%20a%20biologically%20constrained%20deep%20learning%20architecture" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -521,7 +522,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses&amp;body=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Explaining%20V1%20properties%20with%20a%20biologically%20constrained%20deep%20learning%20architecture&amp;body=https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -534,7 +535,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;title=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/&amp;title=Explaining%20V1%20properties%20with%20a%20biologically%20constrained%20deep%20learning%20architecture" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -547,7 +548,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses%20https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Explaining%20V1%20properties%20with%20a%20biologically%20constrained%20deep%20learning%20architecture%20https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -560,7 +561,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://bionicvisionlab.org/publications/2023-06-hilo-stimulus-encoding/&amp;title=Human-in-the-loop%20optimization%20for%20deep%20stimulus%20encoding%20in%20visual%20prostheses" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/&amp;title=Explaining%20V1%20properties%20with%20a%20biologically%20constrained%20deep%20learning%20architecture" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -584,7 +585,7 @@
       
       <div class="row">
         <h3 class="mt-2">Abstract</h3>
-        <p class="pub-abstract" itemprop="text">Neuroprostheses show potential in restoring lost sensory function and enhancing human capabilities, but the sensations produced by current devices often seem unnatural or distorted. Exact placement of implants and differences in individual perception lead to significant variations in stimulus response, making personalized stimulus optimization a key challenge. Bayesian optimization could be used to optimize patient-specific stimulation parameters with limited noisy observations, but is not feasible for high-dimensional stimuli. Alternatively, deep learning models can optimize stimulus encoding strategies, but typically assume perfect knowledge of patient-specific variations. Here we propose a novel, practically feasible approach that overcomes both of these fundamental limitations. First, a deep encoder network is trained to produce optimal stimuli for any individual patient by inverting a forward model mapping electrical stimuli to visual percepts. Second, a preferential Bayesian optimization strategy utilizes this encoder to optimize patient-specific parameters for a new patient, using a minimal number of pairwise comparisons between candidate stimuli. We demonstrate the viability of this approach on a novel, state-of-the-art visual prosthesis model. We show that our approach quickly learns a personalized stimulus encoder, leads to dramatic improvements in the quality of restored vision, and is robust to noisy patient feedback and misspecifications in the underlying forward model. Overall, our results suggest that combining the strengths of deep learning and Bayesian optimization could significantly improve the perceptual experience of patients fitted with visual prostheses and may prove a viable solution for a range of neuroprosthetic technologies.</p>
+        <p class="pub-abstract" itemprop="text">Convolutional neural networks (CNNs) have recently emerged as promising models of the ventral visual stream, despite their lack of biological specificity. While current state-of-the-art models of the primary visual cortex (V1) have surfaced from training with adversarial examples and extensively augmented data, these models are still unable to explain key neural properties observed in V1 that arise from biological circuitry. To address this gap, we systematically incorporated neuroscience-derived architectural components into CNNs to identify a set of mechanisms and architectures that comprehensively explain neural activity in V1. We show drastic improvements in model-V1 alignment driven by the integration of architectural components that simulate center-surround antagonism, local receptive fields, tuned normalization, and cortical magnification. Upon enhancing task-driven CNNs with a collection of these specialized components, we uncover models with latent representations that yield state-of-the-art explanation of V1 neural activity and tuning properties. Our results highlight an important advancement in the field of NeuroAI, as we systematically establish a set of architectural components that contribute to unprecedented explanation of V1. The neuroscience insights that could be gleaned from increasingly accurate in-silico models of the brain have the potential to greatly advance the fields of both neuroscience and artificial intelligence.</p>
       </div>
       
       
@@ -615,7 +616,7 @@
   
     
   
-<a class="button" href="https://arxiv.org/abs/2306.13104" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2305.11275" target="_blank" rel="noopener">
   Preprint
 </a>
 
@@ -626,7 +627,7 @@
 
 
 
-<a class="button" href="/publications/2023-06-hilo-stimulus-encoding/2023-06-granley-hilo-dse.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-11-v1-monkey-neuroai/2023-pogoncheff-brain-like-v1.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -648,7 +649,7 @@
 
 
 
-<a class="button" href="https://doi.org/10.48550/arXiv.2306.13104" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.48550/arXiv.2305.11275" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -667,6 +668,10 @@
       
     </div>
     
+    
+    <div class="col-4 d-none d-sm-block">
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 New <a href="https://twitter.com/hashtag/NeuroAI?src=hash&amp;ref_src=twsrc%5Etfw">#NeuroAI</a> <a href="https://twitter.com/hashtag/tweeprint?src=hash&amp;ref_src=twsrc%5Etfw">#tweeprint</a> 📢<a href="https://t.co/UOsDTdZeOk">https://t.co/UOsDTdZeOk</a><br><br>What makes a good model of V1 activity?<br><br>Neuroscientists know it&#39;s all about center-surround antagonism, divisive normalization, and cortical magnification. However, top <a href="https://twitter.com/brain_score?ref_src=twsrc%5Etfw">@brain_score</a> models have little in common with these... <a href="https://t.co/s6fWOjSs38">pic.twitter.com/s6fWOjSs38</a></p>&mdash; Michael Beyeler (@ProfBeyeler) <a href="https://twitter.com/ProfBeyeler/status/1664371629311373313?ref_src=twsrc%5Etfw">June 1, 2023</a></blockquote>
+    </div>
     
   </div>
 

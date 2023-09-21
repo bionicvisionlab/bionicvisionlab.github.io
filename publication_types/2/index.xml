@@ -7,10 +7,37 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 25 Aug 2023 08:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 19:48:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Explaining V1 properties with a biologically constrained deep learning architecture</title>
+      <link>https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/</link>
+      <pubDate>Tue, 28 Nov 2023 19:48:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</title>
+      <link>https://bionicvisionlab.org/publications/2023-11-hilo-stimulus-encoding/</link>
+      <pubDate>Tue, 28 Nov 2023 18:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2023-11-hilo-stimulus-encoding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice</title>
+      <link>https://bionicvisionlab.org/publications/2023-11-v1-mouse/</link>
+      <pubDate>Tue, 28 Nov 2023 18:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2023-11-v1-mouse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EyeTTS: Evaluating and Calibrating Eye Tracking for Mixed-Reality Locomotion</title>
