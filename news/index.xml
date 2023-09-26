@@ -24,7 +24,7 @@
 &lt;p&gt;PhD students &lt;a href=&#34;https://bionicvisionlab.org/people/aiwen_xu&#34;&gt;Aiwen Xu&lt;/a&gt; and &lt;a href=&#34;https://bionicvisionlab.org/people/yuchen_hou&#34;&gt;Yuchen Hou&lt;/a&gt; developed a multimodal recurrent neural net 
 that well describes V1 activity in freely moving mice, revealing how some neurons lack pronounced visual RFs and that 
 most neurons exhibit mixed selectivity:&lt;/p&gt;
-&lt;p&gt;A Xu, Y Hou, CM Niell, M Beyeler (2023). &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-11-v1-mouse/&#34;&gt;Multimodal deep learning model unveils behavioral 
+&lt;p&gt;A Xu, Y Hou, CM Niell, M Beyeler (2023). &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-12-v1-mouse/&#34;&gt;Multimodal deep learning model unveils behavioral 
 dynamics of V1 activity in freely moving mice&lt;/a&gt;. 
 &lt;em&gt;37th Conference on Neural Information Processing Systems (NeurIPS) &amp;lsquo;23&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -32,14 +32,14 @@ dynamics of V1 activity in freely moving mice&lt;/a&gt;.
 &lt;p&gt;The latest work by PhD students &lt;a href=&#34;https://bionicvisionlab.org/people/galen_pogoncheff&#34;&gt;Galen Pogoncheff&lt;/a&gt; and &lt;a href=&#34;https://bionicvisionlab.org/people/jacob_granley&#34;&gt;Jacob Granley&lt;/a&gt;
 enriches ResNet50 (the previously best V1-aligned deep net) with layers that simulate the processing hallmarks of the 
 early visual system and assesses how they affect model-brain alignment:&lt;/p&gt;
-&lt;p&gt;G Pogoncheff, J Granley, M Beyeler (2023). &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-11-v1-monkey-neuroai/&#34;&gt;Explaining V1 properties with a biologically constrained deep learning 
+&lt;p&gt;G Pogoncheff, J Granley, M Beyeler (2023). &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-12-v1-monkey-neuroai/&#34;&gt;Explaining V1 properties with a biologically constrained deep learning 
 architecture&lt;/a&gt;. &lt;em&gt;37th Conference on Neural Information Processing Systems (NeurIPS) &amp;lsquo;23&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;And last but not least, &lt;a href=&#34;https://bionicvisionlab.org/people/jacob_granley&#34;&gt;Jacob Granley&lt;/a&gt; (in collab w/ Tristan Fauvel &amp;amp; Matthew Chalk from Sorbonne University)
 combined deep stimulus encoding with preferential Bayesian optimization to develop personalized stimulation strategies for 
 neural prostheses:&lt;/p&gt;
-&lt;p&gt;J Granley, T Fauvel, M Chalk, M Beyeler (2023). &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-11-hilo-stimulus-encoding/&#34;&gt;Human-in-the-loop optimization for deep stimulus encoding in visual 
+&lt;p&gt;J Granley, T Fauvel, M Chalk, M Beyeler (2023). &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-12-hilo-stimulus-encoding/&#34;&gt;Human-in-the-loop optimization for deep stimulus encoding in visual 
 prostheses&lt;/a&gt;. &lt;em&gt;37th Conference on Neural Information Processing Systems (NeurIPS) &amp;lsquo;23&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
