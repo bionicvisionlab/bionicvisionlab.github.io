@@ -116,16 +116,8 @@ US citizens and permanent residents may apply for a &lt;a href=&#34;https://www.
 &lt;p&gt;&lt;small&gt;&lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
 Please note that we get a lot of emails from prospective PhD students, so Michael will not be able to respond to messages that aren&amp;rsquo;t clearly tailored to the lab&amp;rsquo;s vision, especially if it is apparent that the same &amp;ldquo;boilerplate&amp;rdquo; message is being sent to many different labs.
 You can make your application stand out by demonstrating that you have spent time on our website, &lt;i&gt;seen this message&lt;/i&gt;, and thought hard about why our lab is a good fit for your skills and interests.&lt;/small&gt;&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;Research Assistants (RAs) for Fall 2023&lt;/h3&gt;
-&lt;p&gt;We are looking for PSY-99/199 students who would like to participate in our &lt;a href=&#34;https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/&#34;&gt;virtual reality&lt;/a&gt; studies and assist with data collection.
-If interested, please reach out to our &lt;a href=&#34;https://bionicvisionlab.org/people&#34;&gt;Lab Manager&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In addition, we often accept students through the following competitive programs:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;In Computer Science (CS): &lt;a href=&#34;https://cs.ucsb.edu/education/undergraduate/special-programs&#34; target=&#34;_blank&#34;&gt;Distinction in the Major Program (DIMAP)&lt;/a&gt; and &lt;a href=&#34;https://ersp.cs.ucsb.edu/&#34; target=&#34;_blank&#34;&gt;Early Research Scholars Program (ERSP)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In Psychological &amp;amp; Brain Sciences (PBS): &lt;a href=&#34;https://psych.ucsb.edu/undergraduate/honors-program&#34; target=&#34;_blank&#34;&gt;PBS Honors Program&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In the College of Engineering (CoE): &lt;a href=&#34;https://engineering.ucsb.edu/undergraduate/college-engineering-honors-program&#34; target=&#34;_blank&#34;&gt;CoE Honors Program&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Across campus: &lt;a href=&#34;https://cbsr.ucsb.edu/seeds&#34; target=&#34;_blank&#34;&gt;Student Engagement and Enrichment in Data Science (SEEDS)&lt;/a&gt; and &lt;a href=&#34;https://blacksinneurocomp.com/&#34; target=&#34;_blank&#34;&gt;Black Researchers Advancing Neuroscience (BRAIN)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 class=&#34;fill-width&#34;&gt;All Other Positions&lt;/h3&gt;
+&lt;p&gt;We are completely full. Undergraduate students, please check back in January 2024 for Winter Quarter positions.&lt;/p&gt;
 &lt;!--
 
 &lt;h2&gt;Postdocs&lt;/h2&gt;
@@ -137,20 +129,6 @@ in a high-quality international conference (computer science)
 or journal (neuroscience) 
 and you need to have a reasonable chance of getting a fellowship
 to support your stay at UCSB.
-&lt;h3 class=&#34;fill-width&#34;&gt;PhD Students&lt;/h3&gt;
-&lt;i class=&#34;fas fa-brain&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; We are looking to fill an NIH-funded PhD position in computational neuroscience. The project involves developing computational and data-driven models of the mouse visual cortex in collaboration with Spencer Smith (UCSB), Michael Goard (UCSB), and Cris Niell (U Oregon). Best to apply through DYNS. &lt;a href=&#34;../people/beyeler_michael&#34;&gt;Contact Michael&lt;/a&gt; for more info.
-For all other positions, please first apply to one of the following Graduate programs:
-- &lt;a href=&#34;https://cs.ucsb.edu/education/grad/admissions&#34;&gt;Department of Computer Science (CS)&lt;/a&gt;:
-  Best for people interested in obtaining a formal background in 
-  human-computer interaction, computer vision, and/or machine learning.
-- &lt;a href=&#34;https://psych.ucsb.edu/prospective-students-0&#34;&gt;Department of Psychological &amp; Brain Sciences (PBS)&lt;/a&gt;:
-  best for vision science, psychology, cognition &amp; perception
-- &lt;a href=&#34;https://ece.ucsb.edu&#34;&gt;Department of Electrical &amp; Computer Engineering (ECE)&lt;/a&gt;: best for brain-inspired computing and neuromorphic engineering
-- &lt;a href=&#34;https://bioengineering.ucsb.edu/academics/graduate&#34;&gt;Graduate Program in Biological Engineering (BioE)&lt;/a&gt;: best for neural engineering and computational biology
-- &lt;a href=&#34;https://www.dyns.ucsb.edu/graduate/admissions&#34;&gt;Graduate Program in Dynamical Neuroscience (DYNS)&lt;/a&gt;:
-  best for computational neuroscience, computational vision, and brain-computer interfaces
-You will then be able to indicate your wish to work with Michael in the &#34;Major and Degree Objective&#34; tab under 
-&#34;Faculty Interests&#34;.
 &lt;h3 class=&#34;fill-width&#34;&gt;CS/ECE Master&#39;s Students&lt;/h3&gt;
 We have several MS positions available for Fall 2021:
 We are looking for students interested in applying their methodological skills to research problems in bionic vision. 
@@ -165,7 +143,6 @@ We are looking for students interested in applying their methodological skills t
   &lt;a href=&#34;https://githb.com/pulse2percept/pulse2percept&#34;&gt;pulse2percept&lt;/a&gt;, our open-source Python-based simulation 
   framework (Python, Cython, SciPy, OpenMP, GPGPU, JAX).
 Please &lt;a href=&#34;../people/beyeler_michael&#34;&gt;contact Michael&lt;/a&gt; to set up a time to meet.
-We are completely full. Please check back in December for Winter Quarter positions.
 Typical responsibilities include one or more of the following:
 - Assist in running behavioral studies (typically PSY-99 / 199)
 - Develop applications for &lt;a href=&#34;https://githb.com/pulse2percept/pulse2percept&#34;&gt;pulse2percept&lt;/a&gt; (typically CS-196)
@@ -174,7 +151,13 @@ Typical responsibilities include one or more of the following:
 - Perform literature reviews
 - Attend weekly lab meetings and present once a quarter
 &lt;h3 class=&#34;fill-width&#34;&gt;Undergraduate Students&lt;/h3&gt;
-We currently do not have any capacity to accommodate postdocs, exchange students, or interns - be it over the summer or remote, at the graduate, undergraduate, or high school level.
+We are looking for PSY-99/199 students who would like to participate in our &lt;a href=&#34;https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/&#34;&gt;virtual reality&lt;/a&gt; studies and assist with data collection.
+If interested, please reach out to our &lt;a href=&#34;https://bionicvisionlab.org/people&#34;&gt;Lab Manager&lt;/a&gt;.
+In addition, we often accept students through the following competitive programs:
+- In Computer Science (CS): &lt;a href=&#34;https://cs.ucsb.edu/education/undergraduate/special-programs&#34; target=&#34;_blank&#34;&gt;Distinction in the Major Program (DIMAP)&lt;/a&gt; and &lt;a href=&#34;https://ersp.cs.ucsb.edu/&#34; target=&#34;_blank&#34;&gt;Early Research Scholars Program (ERSP)&lt;/a&gt; 
+- In Psychological &amp; Brain Sciences (PBS): &lt;a href=&#34;https://psych.ucsb.edu/undergraduate/honors-program&#34; target=&#34;_blank&#34;&gt;PBS Honors Program&lt;/a&gt;
+- In the College of Engineering (CoE): &lt;a href=&#34;https://engineering.ucsb.edu/undergraduate/college-engineering-honors-program&#34; target=&#34;_blank&#34;&gt;CoE Honors Program&lt;/a&gt;
+- Across campus: &lt;a href=&#34;https://cbsr.ucsb.edu/seeds&#34; target=&#34;_blank&#34;&gt;Student Engagement and Enrichment in Data Science (SEEDS)&lt;/a&gt; and &lt;a href=&#34;https://blacksinneurocomp.com/&#34; target=&#34;_blank&#34;&gt;Black Researchers Advancing Neuroscience (BRAIN)&lt;/a&gt;
 --&gt;
 &lt;p&gt;
 
