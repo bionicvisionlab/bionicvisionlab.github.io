@@ -103,23 +103,22 @@ A major outstanding challenge is translating electrode stimulation into a code t
       <guid>https://bionicvisionlab.org/join/</guid>
       <description>&lt;p&gt;In general, we are looking for enthusiastic, computationally minded individuals with a shared passion for bionic vision.
 If you are interested in joining us, make sure we have open positions (see below) and check out our &lt;a href=&#34;https://docs.google.com/document/d/1Y1wzFVdp-FCoGM47okaW5eYdOOfpgXD5nM9Q7DpwAMo/edit?usp=sharing&#34;&gt;Lab Manual&lt;/a&gt; to familiarize yourself with our lab culture, policies, and expectations.&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;PhD Positions for Fall 2024&lt;/h3&gt;
-&lt;p&gt;We have a limited number of opportunities to join us as a PhD student in Fall 2024. The deadline is December 2023.
-We are especially looking for (but not limited to):&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://cs.ucsb.edu&#34; target=&#34;_blank&#34;&gt;CS&lt;/a&gt;/&lt;a href=&#34;https://ece.ucsb.edu&#34; target=&#34;_blank&#34;&gt;ECE&lt;/a&gt;: Computer vision (CV) / human-computer interaction (HCI) students interested in &lt;a href=&#34;https://bionicvisionlab.org/research/information-needs-blind-low-vision/&#34;&gt;assistive technologies&lt;/a&gt; and/or &lt;a href=&#34;https://bionicvisionlab.org/research/event-based-vision/&#34;&gt;Edge AI&lt;/a&gt;. You may develop novel scene understanding algorithms, event-based CV systems, and/or prototypes of near-future accessibility aids. Your goal will be to publish at top-tier venues such as CVPR, ASSETS, or CHI.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://psych.ucsb.edu&#34; target=&#34;_blank&#34;&gt;PBS&lt;/a&gt;: Vision science students interested in working with real &lt;a href=&#34;https://bionicvisionlab.org/research/information-needs-blind-low-vision/&#34;&gt;low vision&lt;/a&gt; and &lt;a href=&#34;https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/&#34;&gt;bionic eye patients&lt;/a&gt;. You may run behavioral studies and/or develop computational models to further our understanding of the neural code of vision in health and disease. You don&amp;rsquo;t need a CS background for this, but should have some experience with vision/cognition, psychophysics, and/or clinical populations.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Please apply through the &lt;a href=&#34;https://www.graddiv.ucsb.edu/how-apply/application-and-admission-checklist&#34; target=&#34;_blank&#34;&gt;Grad Admissions Portal&lt;/a&gt;.
-You will then be able to indicate your wish to work with us in the &amp;ldquo;Major and Degree Objective&amp;rdquo; tab under &amp;ldquo;Faculty Interests&amp;rdquo;. 
-US citizens and permanent residents may apply for a &lt;a href=&#34;https://www.graddiv.ucsb.edu/how-apply/faqs-applicants#Graduate-Fee&#34;&gt;fee waiver&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;&lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-Please note that we get a lot of emails from prospective PhD students, so Michael will not be able to respond to messages that aren&amp;rsquo;t clearly tailored to the lab&amp;rsquo;s vision, especially if it is apparent that the same &amp;ldquo;boilerplate&amp;rdquo; message is being sent to many different labs.
-You can make your application stand out by demonstrating that you have spent time on our website, &lt;i&gt;seen this message&lt;/i&gt;, and thought hard about why our lab is a good fit for your skills and interests.&lt;/small&gt;&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;All Other Positions&lt;/h3&gt;
-&lt;p&gt;We are completely full. Undergraduate students, please check back in January 2024 for Winter Quarter positions.&lt;/p&gt;
+&lt;h3 class=&#34;fill-width&#34;&gt;All Positions&lt;/h3&gt;
+&lt;p&gt;We are completely full at the moment. Check back in Spring &amp;lsquo;24.&lt;/p&gt;
 &lt;!--
-
+&lt;h3 class=&#34;fill-width&#34;&gt;PhD Positions for Fall 2024&lt;/h3&gt;
+We have a limited number of opportunities to join us as a PhD student in Fall 2024. The deadline is December 2023.
+We are especially looking for (but not limited to):
+1. &lt;a href=&#34;https://cs.ucsb.edu&#34; target=&#34;_blank&#34;&gt;CS&lt;/a&gt;/&lt;a href=&#34;https://ece.ucsb.edu&#34; target=&#34;_blank&#34;&gt;ECE&lt;/a&gt;: Computer vision (CV) / human-computer interaction (HCI) students interested in &lt;a href=&#34;https://bionicvisionlab.org/research/information-needs-blind-low-vision/&#34;&gt;assistive technologies&lt;/a&gt; and/or &lt;a href=&#34;https://bionicvisionlab.org/research/event-based-vision/&#34;&gt;Edge AI&lt;/a&gt;. You may develop novel scene understanding algorithms, event-based CV systems, and/or prototypes of near-future accessibility aids. Your goal will be to publish at top-tier venues such as CVPR, ASSETS, or CHI.
+2. &lt;a href=&#34;https://psych.ucsb.edu&#34; target=&#34;_blank&#34;&gt;PBS&lt;/a&gt;: Vision science students interested in working with real &lt;a href=&#34;https://bionicvisionlab.org/research/information-needs-blind-low-vision/&#34;&gt;low vision&lt;/a&gt; and &lt;a href=&#34;https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/&#34;&gt;bionic eye patients&lt;/a&gt;. You may run behavioral studies and/or develop computational models to further our understanding of the neural code of vision in health and disease. You don&#39;t need a CS background for this, but should have some experience with vision/cognition, psychophysics, and/or clinical populations.
+Please apply through the &lt;a href=&#34;https://www.graddiv.ucsb.edu/how-apply/application-and-admission-checklist&#34; target=&#34;_blank&#34;&gt;Grad Admissions Portal&lt;/a&gt;.
+You will then be able to indicate your wish to work with us in the &#34;Major and Degree Objective&#34; tab under &#34;Faculty Interests&#34;. 
+US citizens and permanent residents may apply for a &lt;a href=&#34;https://www.graddiv.ucsb.edu/how-apply/faqs-applicants#Graduate-Fee&#34;&gt;fee waiver&lt;/a&gt;.
+&lt;small&gt;&lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+Please note that we get a lot of emails from prospective PhD students, so Michael will not be able to respond to messages that aren&#39;t clearly tailored to the lab&#39;s vision, especially if it is apparent that the same &#34;boilerplate&#34; message is being sent to many different labs.
+You can make your application stand out by demonstrating that you have spent time on our website, &lt;i&gt;seen this message&lt;/i&gt;, and thought hard about why our lab is a good fit for your skills and interests.&lt;/small&gt;
+&lt;h3 class=&#34;fill-width&#34;&gt;All Other Positions&lt;/h3&gt;
+We are completely full. Undergraduate students, please check back in January 2024 for Winter Quarter positions.
 &lt;h2&gt;Postdocs&lt;/h2&gt;
 Please &lt;a href=&#34;../people/beyeler_michael&#34;&gt;contact Michael&lt;/a&gt; with your CV and a brief statement
 of research accomplishments, interests, and career plans.
