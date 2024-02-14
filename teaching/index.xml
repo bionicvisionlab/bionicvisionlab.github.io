@@ -20,31 +20,57 @@
       <guid>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</guid>
       <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
-&lt;p&gt;This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.
-We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning).&lt;/p&gt;
-&lt;p&gt;By the end of this course, you should be able to:&lt;/p&gt;
+&lt;p&gt;This is (primarily) a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.&lt;/p&gt;
+&lt;p&gt;In this new iteration of the course, we will visit different brain areas to learn about the computational principles that may underlie their function.
+This may include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual cortex: classical/extraclassical receptive fields, tuning curves, population codes, object recognition&lt;/li&gt;
+&lt;li&gt;Auditory cortex: spiking models, tonotopic maps, coincidence detection, predictive coding&lt;/li&gt;
+&lt;li&gt;Hippocampus (memory &amp;amp; learning): spike-timing dependent plasticity, pattern completion/separation&lt;/li&gt;
+&lt;li&gt;Hippocampal-entorhinal complex (spatial navigation): place cells, grid cells, head direction cells&lt;/li&gt;
+&lt;li&gt;Basal ganglia: Reward signaling and reinforcement learning, actor-critic model&lt;/li&gt;
+&lt;li&gt;Prefrontal cortex: (Bayesian) decision making, attractor networks, rule-based learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the beginning of the quarter, students will need to subscribe to one of two tracks:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Track I (Concept-Focused):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;suitable for students from a broad range of backgrounds, including biology, psychology, and cognitive science&lt;/li&gt;
+&lt;li&gt;focuses on the conceptual understanding of computational models and principles in neuroscience&lt;/li&gt;
+&lt;li&gt;offers a ligher homework load, with assignments designed to reinforce understanding of key concepts and theories without extensive mathematical analysis&lt;/li&gt;
+&lt;li&gt;offers a math refresher and intro to Python programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Track II (Comprehensive):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;suitable for students eager to dive deep into the mathematical and computational foundations of neuroscience&lt;/li&gt;
+&lt;li&gt;is ideal for those with a strong background in math, physics, engineering, computer science, or related field (&lt;strong&gt;mandatory for DYNS students&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;offers a comprehensive coverage of mathematical concepts and computational models underlying brain function&lt;/li&gt;
+&lt;li&gt;includes hands-on programming and data analysis assignments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will gain experience both conceptually and practically, by homework assignments that involve solving problems and implementing computational models.
+&lt;strong&gt;Yes, there will be math. Yes, there will be programming.&lt;/strong&gt;
+However, this is not primarily a programming course - the goal is to get experience with the computational models.
+Students with little programming experience are encouraged to take advantage of the math refresher/programming intro.&lt;/p&gt;
+&lt;p&gt;By the end of this course, students should be able to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;describe how the brain &amp;ldquo;computes&amp;rdquo;,&lt;/li&gt;
 &lt;li&gt;describe different methods that computational neuroscientists use to model neural coding,&lt;/li&gt;
 &lt;li&gt;computationally model the biophysics of single neurons and the dynamics of neural networks,&lt;/li&gt;
 &lt;li&gt;fit a computational model to experimental data.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You will gain experience both conceptually and practically, by homework assignments that involve solving problems and implementing computational models. However, this is not primarily a programming course - that is, the main goal is to learn the concepts, not to learn a programming language or particular programming techniques.  Nevertheless, coding examples of the concepts is the best way to demonstrate (and facilitate) your knowledge of them. Lab sections will feature Python &amp;amp; math tutorials, hands-on examples, and guided programming sessions.&lt;/p&gt;
+&lt;p&gt;The course will feature a few homework assignments, in-class presentations, and a final (group) project.&lt;/p&gt;
 &lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
-&lt;p&gt;The formal prerequisite is PSY-221B, but the only part of that course that is
-necessary is the introduction to matrix algebra.&lt;/p&gt;
+&lt;p&gt;The formal prerequisites are PSY-221A and PSY-221B, but exceptions will be considered on a case-by-case basis (send me your transcripts).&lt;/p&gt;
 &lt;p&gt;The actual necessary background includes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;calculus,&lt;/li&gt;
+&lt;li&gt;calculus (differential, integral) and statistics,&lt;/li&gt;
 &lt;li&gt;some prior exposure to matrix algebra,&lt;/li&gt;
 &lt;li&gt;some prior exposure to Python.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Desirable, but not strictly necessary:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;prior exposure to differential equations,&lt;/li&gt;
+&lt;li&gt;prior exposure to probability theory,&lt;/li&gt;
 &lt;li&gt;basic knowledge of neuroscience.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;More information coming soon.&lt;/p&gt;
 </description>
     </item>
     
