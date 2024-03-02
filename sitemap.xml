@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bionicvisionlab.org/publication_types/3/</loc>
+    <lastmod>2024-05-11T08:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2024-05-beyond-sight-blind-v1-alignment/</loc>
+    <lastmod>2024-05-11T08:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2024-05-11T08:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2024-05-11T08:49:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publication_types/2/</loc>
     <lastmod>2024-03-16T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2024-03-16T18:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/publications/2024-03-eye-tracking-mixed-reality/</loc>
-    <lastmod>2024-03-16T18:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
     <lastmod>2024-03-16T18:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publication_types/1/</loc>
@@ -79,9 +85,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2023-winter-cs281b/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/3/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2022-12-brain-like-phosphene-model/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
