@@ -7,10 +7,35 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 21 Sep 2023 09:59:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 09:59:00 -0700</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Towards a Smart Bionic Eye</title>
+      <link>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</link>
+      <pubDate>Wed, 28 Feb 2024 09:59:00 -0700</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</guid>
+      <description>&lt;p&gt;“There’s up to six million people worldwide who live with profound blindness,” Prof. Beyeler explains in the newly released video, “and the idea of a visual prosthesis is to replace lost functionality with an implant. Even though these devices are already out there, the vision they provide is rather limited.”&lt;/p&gt;
+&lt;p&gt;With current visual prostheses, blind users are able to see something but not know what it is that they’re looking at. Beyeler’s work intends to fill these gaps, integrating AI and object recognition technology into the devices to let the user know, for example, whether the object they’re looking at is another human or a car or a trash can or something else.&lt;/p&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;450&#34; src=&#34;https://www.youtube.com/embed/m2WXEjewqho?si=ZmUSoFthe7Mptz2P&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;“If a smart bionic eye gets developed through this research, It’s going to change the lives of millions of people around the world, not just myself,” says Jason Esterhuizen, a bionic eye user. “Blindness will not be an issue any more.”&lt;/p&gt;
+&lt;p&gt;“It’s my life’s work,” adds UCSB PhD student Lucas Gil Nadolskis. “It’s more than research. For a lot of people working with this, it’s a cool little project. For me it’s deeply personal. It’s the goal of my life.”&lt;/p&gt;
+&lt;p&gt;An audio-described version of the video is available below:&lt;/p&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;450&#34; src=&#34;https://www.youtube.com/embed/vlpG_WRLfw0?si=XRN3XxdEmBbficr9&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;An extended version is available as a &lt;a href=&#34;https://www.nnlm.gov/podcast/towards-a-smart-bionic-eye&#34;&gt;NNLM Discovery Podcast&lt;/a&gt; episode below (&lt;a href=&#34;https://www.nnlm.gov/podcast/towards-a-smart-bionic-eye&#34;&gt;transcript&lt;/a&gt;):&lt;/p&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;450&#34; src=&#34;https://www.youtube.com/embed/AhEEEyYAegA?si=Ja3SRnQKwJMoHvi3&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Related coverage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NNLM Podcast: &lt;a href=&#34;https://www.nnlm.gov/podcast/towards-a-smart-bionic-eye&#34;&gt;https://www.nnlm.gov/podcast/towards-a-smart-bionic-eye&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CS@UCSB: &lt;a href=&#34;https://cs.ucsb.edu/happenings/news/towards-smart-bionic-eye&#34;&gt;https://cs.ucsb.edu/happenings/news/towards-smart-bionic-eye&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Daily Nexus: &lt;a href=&#34;https://dailynexus.com/2023-07-07/ucsb-professor-receives-nih-directors-new-innovator-award/&#34;&gt;https://dailynexus.com/2023-07-07/ucsb-professor-receives-nih-directors-new-innovator-award/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UCSB Current: &lt;a href=&#34;https://news.ucsb.edu/2022/020732/clear-vision&#34;&gt;https://news.ucsb.edu/2022/020732/clear-vision&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>3 papers accepted at NeurIPS &#39;23</title>
