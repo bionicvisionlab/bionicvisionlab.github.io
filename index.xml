@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 11 May 2024 08:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Teaching</title>
       <link>https://bionicvisionlab.org/teaching/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/teaching/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>In the News</title>
       <link>https://bionicvisionlab.org/news/</link>
-      <pubDate>Wed, 28 Feb 2024 09:59:00 -0700</pubDate>
+      <pubDate>Wed, 28 Feb 2024 09:59:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/</guid>
       <description></description>
@@ -242,13 +242,13 @@ In addition, we often accept students through the following competitive programs
 				&lt;/div&gt;
 				&lt;div class=&#34;box&#34;&gt;
 				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://bionicvisionlab.org/img/gallery//005%20Prof.%20Beyeler%20presenting%20at%20the%20University%20Miguel%20Hernandez%20in%20Elche%20Spain.jpg&#39;);&#34; &gt;
-				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://bionicvisionlab.org/img/gallery//005%20Prof.%20Beyeler%20presenting%20at%20the%20University%20Miguel%20Hernandez%20in%20Elche%20Spain.jpg&#34; alt=&#34;005 prof&#34; /&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://bionicvisionlab.org/img/gallery//005%20Dr%20Justin%20Kasowski%20getting%20hooded%20at%20the%202023%20Commencement%20Ceremony.jpg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://bionicvisionlab.org/img/gallery//005%20Dr%20Justin%20Kasowski%20getting%20hooded%20at%20the%202023%20Commencement%20Ceremony.jpg&#34; alt=&#34;005 dr justin kasowski getting hooded at the 2023 commencement ceremony&#34; /&gt;
 				    &lt;/div&gt;
 			      &lt;figcaption&gt;
-		          &lt;p&gt;005 prof&lt;/p&gt;
+		          &lt;p&gt;005 dr justin kasowski getting hooded at the 2023 commencement ceremony&lt;/p&gt;
 			      &lt;/figcaption&gt;
-				    &lt;a href=&#34;https://bionicvisionlab.org/img/gallery//005%20Prof.%20Beyeler%20presenting%20at%20the%20University%20Miguel%20Hernandez%20in%20Elche%20Spain.jpg&#34; itemprop=&#34;contentUrl&#34; alt=&#34;005 prof&#34;&gt;&lt;/a&gt;
+				    &lt;a href=&#34;https://bionicvisionlab.org/img/gallery//005%20Dr%20Justin%20Kasowski%20getting%20hooded%20at%20the%202023%20Commencement%20Ceremony.jpg&#34; itemprop=&#34;contentUrl&#34; alt=&#34;005 dr justin kasowski getting hooded at the 2023 commencement ceremony&#34;&gt;&lt;/a&gt;
 				  &lt;/figure&gt;
 				&lt;/div&gt;
 				&lt;div class=&#34;box&#34;&gt;
@@ -308,13 +308,13 @@ In addition, we often accept students through the following competitive programs
 				&lt;/div&gt;
 				&lt;div class=&#34;box&#34;&gt;
 				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://bionicvisionlab.org/img/gallery//011%20Apurv%20Varshney%20presenting%20his%20work%20on%20stressful%20navigation%20at%20VSS%202023.jpg&#39;);&#34; &gt;
-				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://bionicvisionlab.org/img/gallery//011%20Apurv%20Varshney%20presenting%20his%20work%20on%20stressful%20navigation%20at%20VSS%202023.jpg&#34; alt=&#34;011 apurv varshney presenting his work on stressful navigation at vss 2023&#34; /&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://bionicvisionlab.org/img/gallery//011%20Galen%20Pogoncheff%20using%20the%20Bionic%20Vision%20XR%20Simulator.jpg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://bionicvisionlab.org/img/gallery//011%20Galen%20Pogoncheff%20using%20the%20Bionic%20Vision%20XR%20Simulator.jpg&#34; alt=&#34;011 galen pogoncheff using the bionic vision xr simulator&#34; /&gt;
 				    &lt;/div&gt;
 			      &lt;figcaption&gt;
-		          &lt;p&gt;011 apurv varshney presenting his work on stressful navigation at vss 2023&lt;/p&gt;
+		          &lt;p&gt;011 galen pogoncheff using the bionic vision xr simulator&lt;/p&gt;
 			      &lt;/figcaption&gt;
-				    &lt;a href=&#34;https://bionicvisionlab.org/img/gallery//011%20Apurv%20Varshney%20presenting%20his%20work%20on%20stressful%20navigation%20at%20VSS%202023.jpg&#34; itemprop=&#34;contentUrl&#34; alt=&#34;011 apurv varshney presenting his work on stressful navigation at vss 2023&#34;&gt;&lt;/a&gt;
+				    &lt;a href=&#34;https://bionicvisionlab.org/img/gallery//011%20Galen%20Pogoncheff%20using%20the%20Bionic%20Vision%20XR%20Simulator.jpg&#34; itemprop=&#34;contentUrl&#34; alt=&#34;011 galen pogoncheff using the bionic vision xr simulator&#34;&gt;&lt;/a&gt;
 				  &lt;/figure&gt;
 				&lt;/div&gt;
 				&lt;div class=&#34;box&#34;&gt;

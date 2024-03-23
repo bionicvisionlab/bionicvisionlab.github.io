@@ -7,10 +7,84 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PSY-132: Visual Neuroscience</title>
+      <link>https://bionicvisionlab.org/teaching/2025-spring-psych132/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2025-spring-psych132/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Prerequisites: PSY 111; open to Psychological &amp;amp; Brain Sciences, Biopsychology, and Interdisciplinary Studies majors only.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This course will focus on the biological basis of vision, including both the theory and recent research in visual neuroscience, with a focus on the retina and the early visual cortex. In specific, we will cover how the retinal image is represented by the neural response within the visual pathways, considering evidence from behavioral and biological approaches.&lt;/p&gt;
+&lt;p&gt;Understanding how the visual system encodes light has implications for everything else the visual pathways do.  Our understanding of the neural representation is based on work in several different disciplines. Throughout this course we will see that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;there are many anatomically distinct types of neurons with various distinct functions,&lt;/li&gt;
+&lt;li&gt;the different anatomical types of neurons respond to light stimulation in different ways and their signals are communicated to different destinations,&lt;/li&gt;
+&lt;li&gt;the microcircuitry of the local neural connections is very precise, and not at all random.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS-291A: Bionic Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2025-winter-cs291a/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2025-winter-cs291a/</guid>
+      <description>&lt;p&gt;&lt;em&gt;What would the world look like with a bionic eye?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This graduate course will introduce students to the multidisciplinary field of bionic vision viewed through the lens of computer science, neuroscience, and human-computer interaction.&lt;/p&gt;
+&lt;p&gt;The course will conclude with a &lt;strong&gt;programming project&lt;/strong&gt; (teams of ≤ 3, any language/environment ok)
+in lieu of a final exam,
+giving students an opportunity to gain hands-on experience of working on open research problems
+using methods and tools best suited to their scientific background.&lt;/p&gt;
+&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
+&lt;p&gt;The course will give an overview of current bionic eye technology designed to restore vision 
+to people living with incurable blindness. 
+By the end of the course, you should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;identify various types of bionic eye technologies, their differences and similarities&lt;/li&gt;
+&lt;li&gt;explain how the retina and visual cortex support our sense of seeing&lt;/li&gt;
+&lt;li&gt;apply common computer vision &amp;amp; machine learning techniques for stimulus encoding&lt;/li&gt;
+&lt;li&gt;give a nuanced review of the HCI &amp;amp; ethics issues associated with implantable neurotechnology&lt;/li&gt;
+&lt;li&gt;demonstrate your hands-on experience of working on open problems in the field&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The course is targeted to a diverse audience spanning computer science (computer vision, human factors, deep learning)
+to psychology (vision, psychophysics) and brain sciences (computational neuroscience, neuroengineering).&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There are no official prerequisites for this course.
+The instructor will do his best to make the course content self-contained, including a crash course in neuroscience &amp;amp; computational vision.&lt;/li&gt;
+&lt;li&gt;However, homeworks and final projects will require programming.
+Homeworks will be based around &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34;&gt;pulse2percept&lt;/a&gt;,
+a Python-based simulation framework for bionic vision.
+Any suitable programming language/framework is ok for the final project.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS/ECE-181: Introduction to Computer Vision</title>
+      <link>https://bionicvisionlab.org/teaching/2024-fall-cs181/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2024-fall-cs181/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Same course as ECE 181.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Prerequisites: Upper-division standing in Electrical Engineering, Computer Engineering, Computer Science, Chemical Engineering or Mechanical Engineering.&lt;/p&gt;
+&lt;p&gt;Overview of computer vision problems and techniques for analyzing the content of images and video. Topics include image formation, alignment and warping; stereo vision; feature extraction, matching, and tracking; deep learning-based object detection, recognition, and segmentation; and case studies of practical vision systems.&lt;/p&gt;
+&lt;p&gt;After taking CS 181, students should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;explain &amp;amp; apply the fundamentals of image formation, alignment, and warping&lt;/li&gt;
+&lt;li&gt;explain &amp;amp; apply the fundamentals of projective and epipolar geometry&lt;/li&gt;
+&lt;li&gt;process image features using traditional &amp;amp; modern approaches&lt;/li&gt;
+&lt;li&gt;summarize current approaches to object recognition, detection, and segmentation&lt;/li&gt;
+&lt;li&gt;demonstrate expertise towards the implementation and programming practices of effective computer vision applications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>PSY-221F: Computational Neuroscience</title>

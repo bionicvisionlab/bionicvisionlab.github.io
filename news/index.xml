@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 28 Feb 2024 09:59:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 09:59:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/news/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Towards a Smart Bionic Eye</title>
       <link>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</link>
-      <pubDate>Wed, 28 Feb 2024 09:59:00 -0700</pubDate>
+      <pubDate>Wed, 28 Feb 2024 09:59:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</guid>
       <description>&lt;p&gt;“There’s up to six million people worldwide who live with profound blindness,” Prof. Beyeler explains in the newly released video, “and the idea of a visual prosthesis is to replace lost functionality with an implant. Even though these devices are already out there, the vision they provide is rather limited.”&lt;/p&gt;
@@ -74,7 +74,7 @@ prostheses&lt;/a&gt;. &lt;em&gt;37th Conference on Neural Information Processing
     <item>
       <title>Towards a &lt;i&gt;Smart Bionic Eye&lt;/i&gt;</title>
       <link>https://bionicvisionlab.org/news/2022-10-new-innovator/</link>
-      <pubDate>Tue, 04 Oct 2022 09:59:00 -0700</pubDate>
+      <pubDate>Tue, 04 Oct 2022 09:59:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2022-10-new-innovator/</guid>
       <description>&lt;p&gt;Prof. Beyeler aims to bring to the mainstream an artificial intelligence (AI)-powered bionic eye that can generate artificial vision, in an effort to increase the quality of life for patients who are blind or visually impaired.&lt;/p&gt;
@@ -88,7 +88,7 @@ prostheses&lt;/a&gt;. &lt;em&gt;37th Conference on Neural Information Processing
     <item>
       <title>Greedy optimization of electrode arrangement for epiretinal prostheses</title>
       <link>https://bionicvisionlab.org/news/2022-09-miccai-daily/</link>
-      <pubDate>Mon, 19 Sep 2022 01:29:00 -0700</pubDate>
+      <pubDate>Mon, 19 Sep 2022 01:29:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2022-09-miccai-daily/</guid>
       <description>&lt;p&gt;Current epiretinal implants arrange their electrodes on a rectangular grid.
@@ -135,7 +135,7 @@ We are fortunate to have Yuchen continue as Ph.D. student in the lab.&lt;/p&gt;
     <item>
       <title>A neural autoencoder to enhance sensory neuroprostheses</title>
       <link>https://bionicvisionlab.org/news/2022-06-techxplore/</link>
-      <pubDate>Tue, 21 Jun 2022 09:29:00 -0700</pubDate>
+      <pubDate>Tue, 21 Jun 2022 09:29:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2022-06-techxplore/</guid>
       <description>&lt;p&gt;&amp;ldquo;We started working on this project in an attempt to solve the long-standing problem of stimulus optimization in visual prostheses,&amp;rdquo; &lt;a href=&#34;https://bionicvisionlab.org/people/granley_jacob&#34;&gt;Jacob Granley&lt;/a&gt;, one of the researchers who carried out the study, told TechXplore. &amp;ldquo;One of the likely causes for the poor results achieved by visual prostheses is the naive stimulus encoding strategy that devices conventionally use. Previous works have suggested encoding strategies, but many are unrealistic, and none have given a general solution that could work across implants and patients.&amp;rdquo;&lt;/p&gt;
@@ -162,7 +162,7 @@ A tougher obstacle to the new science may be our human need to explain the world
     <item>
       <title>Will it ever be possible to upload information to my brain?</title>
       <link>https://bionicvisionlab.org/news/2021-09-giz-asks/</link>
-      <pubDate>Mon, 20 Sep 2021 09:29:00 -0700</pubDate>
+      <pubDate>Mon, 20 Sep 2021 09:29:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2021-09-giz-asks/</guid>
       <description>&lt;p&gt;Prof. Beyeler was part of the Giz Asks series, where the focused turned to the prospect of using brain-machine interface technology to directly write in information to the brain.&lt;/p&gt;
@@ -173,7 +173,7 @@ A tougher obstacle to the new science may be our human need to explain the world
     <item>
       <title>Bionic Vision Lab featured in NVIDIA&#39;s I AM AI trailer</title>
       <link>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</link>
-      <pubDate>Wed, 21 Apr 2021 09:29:00 -0700</pubDate>
+      <pubDate>Wed, 21 Apr 2021 09:29:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</guid>
       <description>&lt;p&gt;Research by the Bionic Vision Lab was featured in &lt;a href=&#34;https://www.nvidia.com/en-us/about-nvidia/i-am-ai/&#34; target=&#34;_blank&#34;&gt;NVIDIA&amp;rsquo;s I AM AI trailer&lt;/a&gt;, which was premiered at NVIDIA GTC 2021:&lt;/p&gt;
@@ -195,7 +195,7 @@ A tougher obstacle to the new science may be our human need to explain the world
     <item>
       <title>SciSection: Interview with Michael Beyeler</title>
       <link>https://bionicvisionlab.org/news/2020-10-scisection/</link>
-      <pubDate>Sat, 03 Oct 2020 09:29:00 -0700</pubDate>
+      <pubDate>Sat, 03 Oct 2020 09:29:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2020-10-scisection/</guid>
       <description>&lt;p&gt;Dr. Beyeler sat down with Luming Cao from SciSection&amp;rsquo;s Human and Science platform to talk about how bionic vision, as sci-fi as it sounds, is already helping to restore vision to the blind.&lt;/p&gt;
@@ -221,7 +221,7 @@ There is research to try to understand the brain—how it works on a mechanistic
     <item>
       <title>PCMag: Restoring vision with bionic eyes - no longer science fiction</title>
       <link>https://bionicvisionlab.org/news/2019-07-pcmag/</link>
-      <pubDate>Tue, 09 Jul 2019 09:29:00 -0700</pubDate>
+      <pubDate>Tue, 09 Jul 2019 09:29:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/news/2019-07-pcmag/</guid>
       <description>&lt;p&gt;A new article appeared in PCMag to celebrate the inauguration of the Bionic Vision Lab at UCSB:&lt;/p&gt;
