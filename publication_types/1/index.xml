@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 08:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 08:49:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Axonal stimulation affects the linear summation of single-point perception in three Argus II users</title>
+      <link>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</link>
+      <pubDate>Wed, 10 Apr 2024 08:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Stress affects navigation strategies in immersive virtual reality</title>
@@ -18,15 +27,6 @@
       <pubDate>Mon, 11 Mar 2024 08:49:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2024-03-stress-affects-navigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Axonal stimulation affects the linear summation of single-point perception in three Argus II users</title>
-      <link>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</link>
-      <pubDate>Fri, 08 Mar 2024 08:49:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</guid>
       <description></description>
     </item>
     
