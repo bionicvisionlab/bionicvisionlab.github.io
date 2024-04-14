@@ -58,6 +58,15 @@
     </item>
     
     <item>
+      <title>computer vision</title>
+      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Computational Vision</title>
       <link>https://bionicvisionlab.org/tags/computational-vision/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
@@ -76,18 +85,9 @@
     </item>
     
     <item>
-      <title>Biomedical Image Analysis</title>
-      <link>https://bionicvisionlab.org/tags/biomedical-image-analysis/</link>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/biomedical-image-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Computational Neuroscience</title>
       <link>https://bionicvisionlab.org/tags/computational-neuroscience/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/computational-neuroscience/</guid>
       <description></description>
@@ -96,9 +96,18 @@
     <item>
       <title>Neuromorphic Computing</title>
       <link>https://bionicvisionlab.org/tags/neuromorphic-computing/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/neuromorphic-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biomedical Image Analysis</title>
+      <link>https://bionicvisionlab.org/tags/biomedical-image-analysis/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/biomedical-image-analysis/</guid>
       <description></description>
     </item>
     
@@ -171,15 +180,6 @@
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/spiking-neural-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer vision</title>
-      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
       <description></description>
     </item>
     

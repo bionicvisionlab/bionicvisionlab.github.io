@@ -50,14 +50,13 @@ Once the quality of the generated artificial vision reaches a certain threshold,
     </item>
     
     <item>
-      <title>Immersive Virtual Reality Simulations of Bionic Vision</title>
-      <link>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Assistive Technologies for People Who Are Blind</title>
+      <link>https://bionicvisionlab.org/research/assistive-technologies-blind/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</guid>
-      <description>&lt;p&gt;Due to the unique requirements of working with bionic eye recipients (e.g., required assistance, increased setup time, travel cost), experimentation with different encoding methods remains challenging and expensive.&lt;/p&gt;
-&lt;p&gt;Instead, embedding simulated prosthetic vision (SPV) models in immersive virtual reality (VR) allows sighted subjects to act as virtual patients by &amp;ldquo;seeing&amp;rdquo; through the eyes of the patient, taking into account their head and eye movements as they explore an immersive virtual environment.&lt;/p&gt;
-&lt;p&gt;This can speed up the development process by allowing us to test theoretical predictions in high-throughput experiments, the best of which can be validated and improved upon in an iterative process with the bionic eye recipient in the loop.&lt;/p&gt;
+      <guid>https://bionicvisionlab.org/research/assistive-technologies-blind/</guid>
+      <description>&lt;p&gt;Globally, millions of individuals with visual impairments face significant challenges in navigation and independence. Traditional white canes, while helpful, offer limited assistance in complex environments. Accessible tech, once effective, often turns commercial with hefty prices. This hits harder due to the high unemployment rate among the visually impaired.&lt;/p&gt;
+&lt;p&gt;Our goal is to leverage computer vision and AI to co-design the next-generation of accessible technologies with people who are blind, focusing on affordable design and open-source software, thereby enabling community-driven development and widespread impact.&lt;/p&gt;
 </description>
     </item>
     

@@ -37,18 +37,6 @@ Furthermore, phosphenes appear fundamentally different depending on whether they
     </item>
     
     <item>
-      <title>Immersive Virtual Reality Simulations of Bionic Vision</title>
-      <link>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</guid>
-      <description>&lt;p&gt;Due to the unique requirements of working with bionic eye recipients (e.g., required assistance, increased setup time, travel cost), experimentation with different encoding methods remains challenging and expensive.&lt;/p&gt;
-&lt;p&gt;Instead, embedding simulated prosthetic vision (SPV) models in immersive virtual reality (VR) allows sighted subjects to act as virtual patients by &amp;ldquo;seeing&amp;rdquo; through the eyes of the patient, taking into account their head and eye movements as they explore an immersive virtual environment.&lt;/p&gt;
-&lt;p&gt;This can speed up the development process by allowing us to test theoretical predictions in high-throughput experiments, the best of which can be validated and improved upon in an iterative process with the bionic eye recipient in the loop.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Simulating Visual Impairment</title>
       <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>

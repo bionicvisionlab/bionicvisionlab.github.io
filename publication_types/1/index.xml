@@ -7,17 +7,26 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 10 Apr 2024 08:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 08:49:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Axonal stimulation affects the linear summation of single-point perception in three Argus II users</title>
-      <link>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</link>
-      <pubDate>Wed, 10 Apr 2024 08:49:00 +0000</pubDate>
+      <link>https://bionicvisionlab.org/publications/2024-04-argus-pairs/</link>
+      <pubDate>Mon, 08 Apr 2024 08:49:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</guid>
+      <guid>https://bionicvisionlab.org/publications/2024-04-argus-pairs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explainable machine learning predictions of perceptual sensitivity for retinal prostheses</title>
+      <link>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</link>
+      <pubDate>Tue, 19 Mar 2024 10:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</guid>
       <description></description>
     </item>
     
@@ -27,15 +36,6 @@
       <pubDate>Mon, 11 Mar 2024 08:49:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2024-03-stress-affects-navigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explainable machine learning predictions of perceptual sensitivity for retinal prostheses</title>
-      <link>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</link>
-      <pubDate>Thu, 07 Mar 2024 10:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</guid>
       <description></description>
     </item>
     

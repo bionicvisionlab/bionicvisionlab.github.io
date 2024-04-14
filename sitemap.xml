@@ -27,10 +27,13 @@
     <lastmod>2024-05-11T08:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publication_types/1/</loc>
-    <lastmod>2024-04-10T08:49:00+00:00</lastmod>
+    <lastmod>2024-04-08T08:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/publications/2024-03-argus-pairs/</loc>
-    <lastmod>2024-04-10T08:49:00+00:00</lastmod>
+    <loc>https://bionicvisionlab.org/publications/2024-04-argus-pairs/</loc>
+    <lastmod>2024-04-08T08:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</loc>
+    <lastmod>2024-03-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publication_types/2/</loc>
     <lastmod>2024-03-16T18:00:00+00:00</lastmod>
@@ -46,9 +49,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2024-03-stress-affects-navigation/</loc>
     <lastmod>2024-03-11T08:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</loc>
-    <lastmod>2024-03-07T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
@@ -194,6 +194,12 @@
     <loc>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/research/assistive-technologies-blind/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/tags/computational-vision/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -203,11 +209,17 @@
     <loc>https://bionicvisionlab.org/research/end-to-end-optimization/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/immersive-virtual-reality-simulations/</loc>
-    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/tags/neuroai/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
+    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/neuroai-models-visual-system/</loc>
+    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/neuromorphic-computing/</loc>
+    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/biomedical-image-analysis/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
@@ -220,15 +232,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/research/computational-models-visual-system/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/neuromorphic-computing/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/research/simulated-visual-impairment/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
@@ -343,9 +346,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2015-carlsim3/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/driver-information-systems/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
@@ -578,6 +578,8 @@
     <loc>https://bionicvisionlab.org/collaborators/grafton_scott/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/hegarty_mary/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/collaborators/hollerer_tobias/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/montezuma_sandra/</loc>
   </url><url>
