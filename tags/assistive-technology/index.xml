@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assistive Technologies on Bionic Vision Lab</title>
-    <link>https://bionicvisionlab.org/tags/assistive-technologies/</link>
-    <description>Recent content in Assistive Technologies on Bionic Vision Lab</description>
+    <title>Assistive Technology on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/assistive-technology/</link>
+    <description>Recent content in Assistive Technology on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://bionicvisionlab.org/tags/assistive-technologies/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://bionicvisionlab.org/tags/assistive-technology/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Towards a Smart Bionic Eye</title>
-      <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
-      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
-      <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
-Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
-&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
-Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Understanding the Information Needs of People Who Are Blind or Visually Impaired</title>
       <link>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</guid>
       <description>&lt;p&gt;The goal of this project is to obtain a nuanced understanding of the strategies that people who are blind or visually impaired (BVI) employ to perform different instrumental activities of daily living (iADLs).&lt;/p&gt;

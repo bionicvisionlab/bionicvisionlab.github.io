@@ -31,20 +31,29 @@
     </item>
     
     <item>
-      <title>Assistive Technologies</title>
-      <link>https://bionicvisionlab.org/tags/assistive-technologies/</link>
+      <title>computer vision</title>
+      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/assistive-technologies/</guid>
+      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Low Vision</title>
-      <link>https://bionicvisionlab.org/tags/low-vision/</link>
+      <title>Visual Prosthesis</title>
+      <link>https://bionicvisionlab.org/tags/visual-prosthesis/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/visual-prosthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://bionicvisionlab.org/tags/machine-learning/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/low-vision/</guid>
+      <guid>https://bionicvisionlab.org/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -58,47 +67,29 @@
     </item>
     
     <item>
-      <title>computer vision</title>
-      <link>https://bionicvisionlab.org/tags/computer-vision/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computational Vision</title>
-      <link>https://bionicvisionlab.org/tags/computational-vision/</link>
-      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computational-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NeuroAI</title>
-      <link>https://bionicvisionlab.org/tags/neuroai/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/neuroai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Computational Neuroscience</title>
       <link>https://bionicvisionlab.org/tags/computational-neuroscience/</link>
-      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/computational-neuroscience/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Neuromorphic Computing</title>
-      <link>https://bionicvisionlab.org/tags/neuromorphic-computing/</link>
-      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Assistive Technology</title>
+      <link>https://bionicvisionlab.org/tags/assistive-technology/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/neuromorphic-computing/</guid>
+      <guid>https://bionicvisionlab.org/tags/assistive-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blindness &amp; Low Vision</title>
+      <link>https://bionicvisionlab.org/tags/blindness-low-vision/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/blindness-low-vision/</guid>
       <description></description>
     </item>
     
@@ -108,6 +99,42 @@
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/biomedical-image-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low Vision</title>
+      <link>https://bionicvisionlab.org/tags/low-vision/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/low-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Perception</title>
+      <link>https://bionicvisionlab.org/tags/visual-perception/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/visual-perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeuroAI</title>
+      <link>https://bionicvisionlab.org/tags/neuroai/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/neuroai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational Vision</title>
+      <link>https://bionicvisionlab.org/tags/computational-vision/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/computational-vision/</guid>
       <description></description>
     </item>
     
@@ -283,11 +310,11 @@
     </item>
     
     <item>
-      <title>ML/AI</title>
-      <link>https://bionicvisionlab.org/tags/ml/ai/</link>
+      <title>Immersive Technology (VR/AR/MR)</title>
+      <link>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/ml/ai/</guid>
+      <guid>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</guid>
       <description></description>
     </item>
     

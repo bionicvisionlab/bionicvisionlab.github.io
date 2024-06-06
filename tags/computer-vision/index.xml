@@ -7,10 +7,23 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Towards a Smart Bionic Eye</title>
+      <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
+      <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
+&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
+Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Assistive Technologies for People Who Are Blind</title>
@@ -20,6 +33,17 @@
       <guid>https://bionicvisionlab.org/research/assistive-technologies-blind/</guid>
       <description>&lt;p&gt;Globally, millions of individuals with visual impairments face significant challenges in navigation and independence. Traditional white canes, while helpful, offer limited assistance in complex environments. Accessible tech, once effective, often turns commercial with hefty prices. This hits harder due to the high unemployment rate among the visually impaired.&lt;/p&gt;
 &lt;p&gt;Our goal is to leverage computer vision and AI to co-design the next-generation of accessible technologies with people who are blind, focusing on affordable design and open-source software, thereby enabling community-driven development and widespread impact.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event-Based Vision at the Edge</title>
+      <link>https://bionicvisionlab.org/research/event-based-vision/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/event-based-vision/</guid>
+      <description>&lt;p&gt;Neuromorphic event‐based vision sensors are poised to dramatically improve the latency, robustness and power in applications ranging from smart sensing to autonomous driving and assistive technologies for people who are blind.&lt;/p&gt;
+&lt;p&gt;Soon these sensors may power low vision aids and retinal implants, where the visual scene has to be processed quickly and efficiently before it is displayed. However, novel methods are needed to process the unconventional output of these sensors in order to unlock their potential.&lt;/p&gt;
 </description>
     </item>
     

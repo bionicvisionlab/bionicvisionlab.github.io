@@ -26,9 +26,41 @@ Once the quality of the generated artificial vision reaches a certain threshold,
     </item>
     
     <item>
+      <title>End-to-End Optimization of Bionic Vision</title>
+      <link>https://bionicvisionlab.org/research/end-to-end-optimization/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
+      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
+&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
+One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
+&lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
+This is technically challenging, because a phosphene model must be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
+&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
+&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Visual Outcomes for Visual Prostheses</title>
+      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</guid>
+      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+&lt;p&gt;Instead of seeing focal spots of light, current visual implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
+Furthermore, phosphenes appear fundamentally different depending on whether they are generated with retinal or cortical implants.&lt;/p&gt;
+&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Understanding the Information Needs of People Who Are Blind or Visually Impaired</title>
       <link>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</guid>
       <description>&lt;p&gt;The goal of this project is to obtain a nuanced understanding of the strategies that people who are blind or visually impaired (BVI) employ to perform different instrumental activities of daily living (iADLs).&lt;/p&gt;
@@ -48,58 +80,26 @@ Once the quality of the generated artificial vision reaches a certain threshold,
     </item>
     
     <item>
-      <title>Predicting Visual Outcomes for Visual Prostheses</title>
-      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</link>
-      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Simulating Visual Impairment</title>
+      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</guid>
-      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
-&lt;p&gt;Instead of seeing focal spots of light, current visual implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
-Furthermore, phosphenes appear fundamentally different depending on whether they are generated with retinal or cortical implants.&lt;/p&gt;
-&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>End-to-End Optimization of Bionic Vision</title>
-      <link>https://bionicvisionlab.org/research/end-to-end-optimization/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
-      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
-&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
-One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
-&lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
-This is technically challenging, because a phosphene model must be:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
-&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
-&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
-&lt;/ol&gt;
+      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
+      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
+&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
+&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>NeuroAI Models of the Visual System</title>
       <link>https://bionicvisionlab.org/research/neuroai-models-visual-system/</link>
-      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/neuroai-models-visual-system/</guid>
       <description>&lt;p&gt;Understanding the early visual system in health and disease is a key issue for neuroscience and neuroengineering applications such as visual prostheses.&lt;/p&gt;
 &lt;p&gt;Although the processing of visual information in the healthy retina and early visual cortex (EVC) has been studied in detail, no comprehensive computational model exists that captures the many cell-level and network-level biophysical changes common to retinal degenerative diseases and other sources of visual impairment.&lt;/p&gt;
 &lt;p&gt;To address this challenge, we are developing computational models of the retina and EVC to elucidate the neural code of vision.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simulating Visual Impairment</title>
-      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
-      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
-&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
-&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Perception on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/visual-perception/</link>
+    <description>Recent content in Visual Perception on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/visual-perception/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simulating Visual Impairment</title>
+      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
+      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
+&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
+&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Navigation Under High-Stress Conditions</title>
+      <link>https://bionicvisionlab.org/research/high-stress-navigation/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/high-stress-navigation/</guid>
+      <description>&lt;p&gt;There are known individual differences in both ability to learn the layout of novel environments and flexibility of strategies for navigating known environments.
+It is unclear, however, how navigational abilities and situational awareness are impacted by high-stress scenarios and whether augmented reality (AR) could be employed to enhance performance and situational awareness.&lt;/p&gt;
+&lt;p&gt;This project will investigate three core questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How does a person&amp;rsquo;s navigational abilities change in extreme situations?&lt;/li&gt;
+&lt;li&gt;How can we best train them for these situations?&lt;/li&gt;
+&lt;li&gt;How can vision augmentation be employed to improve situational awareness?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

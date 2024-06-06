@@ -1,40 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VR/AR/MR on Bionic Vision Lab</title>
-    <link>https://bionicvisionlab.org/tags/vr/ar/mr/</link>
-    <description>Recent content in VR/AR/MR on Bionic Vision Lab</description>
+    <title>Immersive Technology (VR/AR/MR) on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</link>
+    <description>Recent content in Immersive Technology (VR/AR/MR) on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
     
-	    <atom:link href="https://bionicvisionlab.org/tags/vr/ar/mr/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>SimpleXR: An open-source Unity toolbox for simplified XR development</title>
-      <link>https://bionicvisionlab.org/code/simplexr/</link>
-      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/code/simplexr/</guid>
-      <description>&lt;p&gt;Extended reality (XR) is a powerful tool for human behavioral research. The ability to create 3D visual scenes and measure responses to arbitrary visual stimuli enables the behavioral researcher to test hypotheses in a well-controlled environment. However, software packages such as SteamVR, OpenXR, and ARKit have been developed for game designers rather than behavioral researchers. While Unity is considered the most beginner-friendly platform, barriers still exist for inexperienced programmers. Toolboxes such as VREX and USE have focused on simplifying experimental design and remote data collection, but no tools currently exist to help with all aspects of an experiment.&lt;/p&gt;
-&lt;p&gt;To address this challenge, we have developed SimpleXR (sXR), an open-source Unity package that allows for creating complex experiments with relatively little code. The toolbox contains a plethora of tools that are particularly useful for the visual sciences, such as creating dynamic scenes, randomizing object locations, accessing eye-tracker data, and applying full-screen shader effects (e.g., blurring, gaze-contingent scotomas, edge detection) either in virtual reality (VR) or to the pass-through camera for augmented reality (AR) tasks. sXR also provides one-line commands for interacting with virtual objects, displaying stimuli and instructions, using timers, and much more. Additionally, it automatically switches between desktop and immersive VR modes. sXR creates separate user interfaces for the experimenter and participant, allowing the experimenter to track performance and monitor for anomalies. By using Unity’s Universal Rendering Pipeline, sXR allows researchers to develop across platforms, including VR headsets, AR glasses, and smartphones.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BionicVisionXR: An Open-Source Virtual Reality Toolbox for Bionic Vision</title>
-      <link>https://bionicvisionlab.org/code/bionicvisionxr/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/code/bionicvisionxr/</guid>
-      <description>&lt;p&gt;A major outstanding challenge in the field of bionic vision is predicting what people “see” when they use their devices.
-The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. 
-In addition, many computational models of bionic vision lack biological realism.&lt;/p&gt;
-&lt;p&gt;To address these challenges, we present &lt;em&gt;BionicVisionXR&lt;/em&gt;, an open-source virtual reality toolbox for simulated prosthetic vision that uses a psychophysically validated computational model to allow sighted participants to “see through the eyes” of a bionic
-eye user.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Towards a Smart Bionic Eye</title>
