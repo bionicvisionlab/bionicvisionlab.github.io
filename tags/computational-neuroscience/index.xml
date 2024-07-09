@@ -45,7 +45,11 @@ Furthermore, phosphenes appear fundamentally different depending on whether they
       <guid>https://bionicvisionlab.org/code/pulse2percept/</guid>
       <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;
 &lt;p&gt;Built on the NumPy and SciPy stacks, as well as contributions from the broader Python community, &lt;em&gt;pulse2percept&lt;/em&gt; provides an open-source implementation of several phosphene models for a wide range of state-of-the-art retinal prostheses, to provide insight into the visual experience provided by these devices.&lt;/p&gt;
+&lt;p&gt;The project started at the University of Washington under the guidance of &lt;a href=&#34;https://psych.uw.edu/people/2400/ione-fine&#34; target=&#34;_blank&#34;&gt;Ione Fine&lt;/a&gt;, &lt;a href=&#34;https://psych.uw.edu/people/3572/geoffrey-boynton&#34; target=&#34;_blank&#34;&gt;Geoff Boynton&lt;/a&gt;, and &lt;a href=&#34;https://psych.uw.edu/people/8823/ariel-rokem&#34; target=&#34;_blank&#34;&gt;Ariel Rokem&lt;/a&gt;.
+It has since been repackaged to run on both CPU and GPU backends, extended to support both retinal and cortical prostheses, and upgraded to be compatible with the Open Neural Network Exchange (ONNX) standard.&lt;/p&gt;
 &lt;p&gt;As &lt;em&gt;pulse2percept&lt;/em&gt; continues to be adopted by several research labs around the globe, we continue to improve its functionality and performance as well as add new implants, models, and datasets.&lt;/p&gt;
+&lt;p&gt;Documentation is available at &lt;a href=&#34;https://pulse2percept.readthedocs.io&#34;&gt;https://pulse2percept.readthedocs.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contribute at &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34;&gt;https://github.com/pulse2percept/pulse2percept&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe width=&#34;760&#34; height=&#34;427&#34; src=&#34;https://www.youtube.com/embed/KxsNAa-P2X4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
