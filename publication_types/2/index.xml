@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 08:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 08:49:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VisionAI - Shopping Assistance for People with Vision Impairments</title>
+      <link>https://bionicvisionlab.org/publications/2024-10-ismar-vision-ai/</link>
+      <pubDate>Mon, 21 Oct 2024 08:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2024-10-ismar-vision-ai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Predicting the temporal dynamics of prosthetic vision</title>
