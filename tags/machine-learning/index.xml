@@ -37,8 +37,7 @@ This is technically challenging, because a phosphene model must be:&lt;/p&gt;
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/mouse-visual-navigation/</guid>
-      <description>&lt;p&gt;&lt;i&gt;Join us! We have an &lt;a href=&#34;https://bionicvisionlab.org/join&#34;&gt;open postdoc position&lt;/a&gt; for this project&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
+      <description>&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
 &lt;p&gt;Most studies of central visual processing are focused on detection or discrimination of specific features of simple artificial stimuli (e.g., orientation, direction of motion, object identity).
 However, navigation through the environment involves a very different set of computational goals, such as identifying landmarks and using optic flow to avoid obstacles. Furthermore, these computations occur under a very different stimulus regime, with the animal actively sampling a complex and continually moving sensory scene.&lt;/p&gt;
 &lt;p&gt;Our goal is to determine how the brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and develop (deep) predictive models of brain activity based on visual input and several behavioral variables. The data includes one-of-a-kind measures of neural activity in mice navigating through real-world and virtual environments, collected using 2-photon imaging and electrophysiology by our collaborators Spencer Smith, Michael Goard, and Cris Niell.&lt;/p&gt;
