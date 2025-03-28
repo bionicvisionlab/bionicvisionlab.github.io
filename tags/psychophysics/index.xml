@@ -83,22 +83,5 @@ It has since been repackaged to run on both CPU and GPU backends, extended to su
 &lt;iframe width=&#34;760&#34; height=&#34;427&#34; src=&#34;https://www.youtube.com/embed/KxsNAa-P2X4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
-    <item>
-      <title>Visual Navigation Under High-Stress Conditions</title>
-      <link>https://bionicvisionlab.org/research/high-stress-navigation/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/high-stress-navigation/</guid>
-      <description>&lt;p&gt;There are known individual differences in both ability to learn the layout of novel environments and flexibility of strategies for navigating known environments.
-It is unclear, however, how navigational abilities and situational awareness are impacted by high-stress scenarios and whether augmented reality (AR) could be employed to enhance performance and situational awareness.&lt;/p&gt;
-&lt;p&gt;This project will investigate three core questions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;How does a person&amp;rsquo;s navigational abilities change in extreme situations?&lt;/li&gt;
-&lt;li&gt;How can we best train them for these situations?&lt;/li&gt;
-&lt;li&gt;How can vision augmentation be employed to improve situational awareness?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
