@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
+    <lastmod>2025-06-21T18:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/</loc>
+    <lastmod>2025-06-21T18:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/</loc>
+    <lastmod>2025-06-21T18:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2025-06-isca-single-spike-anns/</loc>
+    <lastmod>2025-06-21T18:49:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publication_types/1/</loc>
     <lastmod>2025-03-03T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-03-assistive-technology-domestic-activities/</loc>
-    <lastmod>2025-03-03T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/</loc>
-    <lastmod>2025-03-03T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/</loc>
     <lastmod>2025-03-03T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2025-spring-psych132/</loc>
@@ -43,9 +49,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/news/2024-11-beyeler-plous-award/</loc>
     <lastmod>2024-11-01T09:59:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2024-10-21T08:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2024-10-ismar-vision-ai/</loc>
     <lastmod>2024-10-21T08:49:00+00:00</lastmod>
