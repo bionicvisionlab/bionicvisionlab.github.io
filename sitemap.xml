@@ -1,724 +1,1344 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://bionicvisionlab.org/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2026-spring-psy221f/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2026-winter-cs181/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2026-winter-cs281b/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/2/</loc>
     <lastmod>2025-07-14T18:49:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-07-gaussian-process-thresholds/</loc>
     <lastmod>2025-07-14T18:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/</loc>
     <lastmod>2025-07-14T18:49:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-07-hilo-personalization-sighted/</loc>
     <lastmod>2025-07-14T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-06-isca-single-spike-anns/</loc>
     <lastmod>2025-06-21T18:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/1/</loc>
     <lastmod>2025-06-10T08:49:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-06-perceptual-learning-video-game-training/</loc>
     <lastmod>2025-06-10T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/6/</loc>
     <lastmod>2025-05-29T18:49:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-05-bird/</loc>
     <lastmod>2025-05-29T18:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-01-raster-patterns/</loc>
     <lastmod>2025-05-18T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-04-beyond-physical-reach/</loc>
     <lastmod>2025-04-27T18:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2025-03-assistive-technology-domestic-activities/</loc>
     <lastmod>2025-03-03T08:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2025-spring-psych132/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2025-winter-cs291a/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-11-implant-expectations/</loc>
     <lastmod>2024-11-21T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/</loc>
     <lastmod>2024-11-01T09:59:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2024-11-beyeler-plous-award/</loc>
     <lastmod>2024-11-01T09:59:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-10-ismar-vision-ai/</loc>
     <lastmod>2024-10-21T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2024-10-unity-sentis/</loc>
     <lastmod>2024-10-17T09:59:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2024-fall-cs181/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-07-predicting-temporal-dynamics/</loc>
     <lastmod>2024-07-15T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/3/</loc>
     <lastmod>2024-05-11T08:49:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-05-beyond-sight-blind-v1-alignment/</loc>
     <lastmod>2024-05-11T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-04-argus-pairs/</loc>
     <lastmod>2024-04-08T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-03-explainable-thresholds/</loc>
     <lastmod>2024-03-19T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-03-eye-tracking-mixed-reality/</loc>
     <lastmod>2024-03-16T18:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2024-03-stress-affects-navigation/</loc>
     <lastmod>2024-03-11T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</loc>
     <lastmod>2024-02-28T09:59:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2024-winter-cs165a/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-12-v1-monkey-neuroai/</loc>
     <lastmod>2023-12-10T19:48:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-12-hilo-stimulus-encoding/</loc>
     <lastmod>2023-12-10T18:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-12-v1-mouse/</loc>
     <lastmod>2023-12-10T18:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2023-09-neurips/</loc>
     <lastmod>2023-09-21T09:59:00-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-08-eye-tracking-suite/</loc>
     <lastmod>2023-08-25T08:49:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-05-retinal-degeneration/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-05-xr-systematic-review/</loc>
     <lastmod>2023-05-04T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/11/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-04-neuromorphic-lstm/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2023-04-snn-stdp-wta/</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2023-spring-psych132/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2023-winter-cs281b/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-12-brain-like-phosphene-model/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-11-indoor-mobility/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-11-hybrid-neural-autoencoder/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-11-smart-bionic-eye/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2022-10-new-innovator/</loc>
     <lastmod>2022-10-04T09:59:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2022-09-miccai-daily/</loc>
     <lastmod>2022-09-19T01:29:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-09-epiretinal-design/</loc>
     <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2022-fall-cs181/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-08-factors-two-point-argus/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2022-08-awards/</loc>
     <lastmod>2022-08-01T01:29:00-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-06-motion-perception-stdp-h/</loc>
     <lastmod>2022-06-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2022-06-techxplore/</loc>
     <lastmod>2022-06-21T09:29:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-06-spike-latency-winner-take-all/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/code/</loc>
     <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</loc>
+    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/code/simplexr/</loc>
     <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/software-engineering/</loc>
     <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/</loc>
     <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/code/bionicvisionxr/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2022-01-guardian/</loc>
     <lastmod>2022-01-09T09:29:00-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2021-learning-to-see-again/</loc>
     <lastmod>2021-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
-    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/smart-bionic-eye/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
+    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/end-to-end-optimization/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/machine-learning/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/psychophysics/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/assistive-technology/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/blindness-low-vision/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/assistive-technologies-blind/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/biomedical-image-analysis/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/low-vision/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2021-hba-u-net/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2021-09-giz-asks/</loc>
     <lastmod>2021-09-20T09:29:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/simulated-visual-impairment/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/visual-perception/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/neuroai/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/neuroai-models-visual-system/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2021-explainable-ai/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/code/pulse2percept/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</loc>
     <lastmod>2021-04-21T09:29:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2021-02-pcmag/</loc>
     <lastmod>2021-02-23T09:29:00-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2021-towards-immersive-vr/</loc>
     <lastmod>2021-02-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2021-scene-simplification/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2021-winter-cs181/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2020-10-scisection/</loc>
     <lastmod>2020-10-03T09:29:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2020-fall-psych130/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2020-05-convergence/</loc>
     <lastmod>2020-05-01T09:29:00-07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/mouse-visual-navigation/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/research/event-based-vision/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</loc>
     <lastmod>2019-10-10T14:21:43+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publication_types/5/</loc>
     <lastmod>2019-07-17T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2019-data-driven-models-human-neuroscience-neuroengineering/</loc>
     <lastmod>2019-07-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/news/2019-07-pcmag/</loc>
     <lastmod>2019-07-09T09:29:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2019-axon-map-model/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2019-biophysical-model-axonal-stimulation/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2019-retinal-sheet-transplants/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/neuroengineering/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/retinal-sheet-transplants/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/c&#43;&#43;/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/carlsim/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2018-carlsim4/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/gpu/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/parallel-programming/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/spiking-neural-networks/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2017-learning-to-see-again/</loc>
     <lastmod>2017-08-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2017-pulse2percept/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2016-sparse-decomposition-model/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2015-gpu-visually-guided-robot-navigation/</loc>
     <lastmod>2015-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2015-carlsim3/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/driver-information-systems/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/image-segmentation/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/intelligent-transportation-systems/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/kitti/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/object-detection/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/road-traffic/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2014-vision-road-lane-detection/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/driver-information-systems/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/image-segmentation/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/intelligent-transportation-systems/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/object-detection/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/road-traffic/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2014-snn-pattern-motion/</loc>
     <lastmod>2014-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/evolutionary-algorithms/</loc>
-    <lastmod>2014-01-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2014-gpgpu-accelerated-simulation-parameter-tuning/</loc>
     <lastmod>2014-01-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/tags/evolutionary-algorithms/</loc>
+    <lastmod>2014-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/neuromorphic-engineering/</loc>
     <lastmod>2014-01-20T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2013-categorization-mnist-stdp/</loc>
     <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/mnist/</loc>
     <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/synaptic-plasticity/</loc>
     <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/publications/2010-exploring-olfactory-networks/</loc>
     <lastmod>2010-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/tags/olfaction/</loc>
     <lastmod>2010-11-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/adimulam_kartik/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/afshari_kimia/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/aguilar_fatima/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/akkaraju_anvitha2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/alanis_alyssa/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/aluru_sriya/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/bhatia_tanya2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/bruce_ashley/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/carter_anissa/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/chan_cheng/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/chou_juliana/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/chung_justin/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/chung_yongtak/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/ding_edward/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/eckhardt_lauren2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/gangaswamy_harshita/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/gao_emma/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/gao_ethan/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/garg_umang/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/gee_robert/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/gonzalez_isabella/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/guo_lixing/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/hoffman_isaac/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/htun_chitsein/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/hu_zuying/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/huang_william/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/iyer_nandini/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/jain_yash/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/jasper_surya/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/kasowski_justin/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/khachatryan_mari/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/kunapuli_sangita2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/lapsekili_deniz/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/levier_tori2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/levier_tori/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/li_lisa/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/li_luke/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/liang_andrew/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/liu_anderson/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/lobko_dariya/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/lu_xiankun/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/mahmoud_nancy/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/makineni_meghana/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/mao_andre/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/meade_ethan/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/mihlar_khalid/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/mochizuki_rachel/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/neydavood_ryan2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/nguyen_bill/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/nguyen_kha/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/novick_julia/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/ondo_megumi/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/pullela_laya/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/qi_ziming/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/rasla_alex/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/relic_lucas/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/rohatgi_versha/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/roma_ethan/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/sama_shivani/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/sanchez_garcia_melani/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/sardina_callie/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/shen_emma/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/sista_shivani/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/spiker_madori/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/su_jiaxin2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/tang_molly/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/tanna_avani/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/tapia_dharynka/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://bionicvisionlab.org/alumni/teshome_eyob/</loc>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/toor_sukhi/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/turkstra_lily2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/vahid_amirali/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/vanos_lexie/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/varesio_wade/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/wang_alvin2/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/wang_ivy/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/wu_nathan/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/xu_aiwen/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/yoffe_luke/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/zhao_kyle/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/zhong_wanqian/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/zhu_jennifer/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/boynton_geoff/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/brunton_bing/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/dagnelie_gislin/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/eckstein_miguel/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/fernandez_eduardo/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/fine_ione/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/giesbrecht_barry/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/goard_michael/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/grafton_scott/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/hegarty_mary/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/hollerer_tobias/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/montezuma_sandra/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/niell_cris/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/open_postdoc/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/open_ra/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/open_student/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/rokem_ariel/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/second_sight/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/smith_spencer/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/weiland_jim/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/ahmed_raiyah/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/arora_kanav/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/basnayake_hasith/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/beyeler_michael/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/cao_ruyi/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/chu_ally/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/coe_catrina/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/dhulipala_krishna/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/granley_jacob/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/he_yolanda/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/hou_yuchen/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/johnson_byron/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/joyce_emily/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/nadolskis_lucas/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/peng_jing/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/pogoncheff_galen/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/rastogi_adyah/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/sadeghi_roksana/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/saur_magnolia/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/schneider_marius/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/schoinas_eirini/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/stone_hannah/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/su_jiaxin/</loc>
-  </url><url>
-    <loc>https://bionicvisionlab.org/people/teshome_eyob/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/turkstra_lily/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/varshney_apurv/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/wong_jianna/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/alumni/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/collaborators/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/grants/2021-r01-mouse/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/grants/2021-ucsb-academic-senate/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/grants/</loc>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/join/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/contact/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/people/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/talk/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/grants/2022-dp2-new-innovator/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/grants/2020-r00-virtual-prototyping/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bionicvisionlab.org/grants/2021-icb-army/</loc>
   </url>
+  
 </urlset>

@@ -19,8 +19,10 @@
       
       <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</guid>
       <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+
 &lt;p&gt;Instead of seeing focal spots of light, current visual implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
 Furthermore, phosphenes appear fundamentally different depending on whether they are generated with retinal or cortical implants.&lt;/p&gt;
+
 &lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
 </description>
     </item>
@@ -32,7 +34,9 @@ Furthermore, phosphenes appear fundamentally different depending on whether they
       
       <guid>https://bionicvisionlab.org/research/neuroai-models-visual-system/</guid>
       <description>&lt;p&gt;Understanding the early visual system in health and disease is a key issue for neuroscience and neuroengineering applications such as visual prostheses.&lt;/p&gt;
+
 &lt;p&gt;Although the processing of visual information in the healthy retina and early visual cortex (EVC) has been studied in detail, no comprehensive computational model exists that captures the many cell-level and network-level biophysical changes common to retinal degenerative diseases and other sources of visual impairment.&lt;/p&gt;
+
 &lt;p&gt;To address this challenge, we are developing computational models of the retina and EVC to elucidate the neural code of vision.&lt;/p&gt;
 </description>
     </item>
@@ -44,13 +48,20 @@ Furthermore, phosphenes appear fundamentally different depending on whether they
       
       <guid>https://bionicvisionlab.org/code/pulse2percept/</guid>
       <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;
+
 &lt;p&gt;Built on the NumPy and SciPy stacks, as well as contributions from the broader Python community, &lt;em&gt;pulse2percept&lt;/em&gt; provides an open-source implementation of several phosphene models for a wide range of state-of-the-art retinal prostheses, to provide insight into the visual experience provided by these devices.&lt;/p&gt;
+
 &lt;p&gt;The project started at the University of Washington under the guidance of &lt;a href=&#34;https://psych.uw.edu/people/2400/ione-fine&#34; target=&#34;_blank&#34;&gt;Ione Fine&lt;/a&gt;, &lt;a href=&#34;https://psych.uw.edu/people/3572/geoffrey-boynton&#34; target=&#34;_blank&#34;&gt;Geoff Boynton&lt;/a&gt;, and &lt;a href=&#34;https://psych.uw.edu/people/8823/ariel-rokem&#34; target=&#34;_blank&#34;&gt;Ariel Rokem&lt;/a&gt;.
 It has since been repackaged to run on both CPU and GPU backends, extended to support both retinal and cortical prostheses, and upgraded to be compatible with the Open Neural Network Exchange (ONNX) standard.&lt;/p&gt;
+
 &lt;p&gt;As &lt;em&gt;pulse2percept&lt;/em&gt; continues to be adopted by several research labs around the globe, we continue to improve its functionality and performance as well as add new implants, models, and datasets.&lt;/p&gt;
-&lt;p&gt;Documentation is available at &lt;a href=&#34;https://pulse2percept.readthedocs.io&#34;&gt;https://pulse2percept.readthedocs.io&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Contribute at &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34;&gt;https://github.com/pulse2percept/pulse2percept&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width=&#34;760&#34; height=&#34;427&#34; src=&#34;https://www.youtube.com/embed/KxsNAa-P2X4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+
+&lt;p&gt;Documentation is available at &lt;a href=&#34;https://pulse2percept.readthedocs.io&#34; target=&#34;_blank&#34;&gt;https://pulse2percept.readthedocs.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Contribute at &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34; target=&#34;_blank&#34;&gt;https://github.com/pulse2percept/pulse2percept&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&#34;760&#34; height=&#34;427&#34; src=&#34;https://www.youtube.com/embed/KxsNAa-P2X4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -60,9 +71,12 @@ It has since been repackaged to run on both CPU and GPU backends, extended to su
       
       <guid>https://bionicvisionlab.org/research/mouse-visual-navigation/</guid>
       <description>&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
+
 &lt;p&gt;Most studies of central visual processing are focused on detection or discrimination of specific features of simple artificial stimuli (e.g., orientation, direction of motion, object identity).
 However, navigation through the environment involves a very different set of computational goals, such as identifying landmarks and using optic flow to avoid obstacles. Furthermore, these computations occur under a very different stimulus regime, with the animal actively sampling a complex and continually moving sensory scene.&lt;/p&gt;
+
 &lt;p&gt;Our goal is to determine how the brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and develop (deep) predictive models of brain activity based on visual input and several behavioral variables. The data includes one-of-a-kind measures of neural activity in mice navigating through real-world and virtual environments, collected using 2-photon imaging and electrophysiology by our collaborators Spencer Smith, Michael Goard, and Cris Niell.&lt;/p&gt;
+
 &lt;p&gt;The results of this project will provide knowledge about normal visual function and insights for treating impaired vision via prosthetic or assistive devices.&lt;/p&gt;
 </description>
     </item>

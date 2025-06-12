@@ -19,15 +19,15 @@
       
       <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
       <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
+
 &lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
 One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
+
 &lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
-This is technically challenging, because a phosphene model must be:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
-&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
-&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
-&lt;/ol&gt;
+This is technically challenging, because a phosphene model must be:
+1. simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,
+2. complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and
+3. amenable to an efficient implementation such that the training of the network is feasible.&lt;/p&gt;
 </description>
     </item>
     
@@ -38,9 +38,12 @@ This is technically challenging, because a phosphene model must be:&lt;/p&gt;
       
       <guid>https://bionicvisionlab.org/research/mouse-visual-navigation/</guid>
       <description>&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
+
 &lt;p&gt;Most studies of central visual processing are focused on detection or discrimination of specific features of simple artificial stimuli (e.g., orientation, direction of motion, object identity).
 However, navigation through the environment involves a very different set of computational goals, such as identifying landmarks and using optic flow to avoid obstacles. Furthermore, these computations occur under a very different stimulus regime, with the animal actively sampling a complex and continually moving sensory scene.&lt;/p&gt;
+
 &lt;p&gt;Our goal is to determine how the brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and develop (deep) predictive models of brain activity based on visual input and several behavioral variables. The data includes one-of-a-kind measures of neural activity in mice navigating through real-world and virtual environments, collected using 2-photon imaging and electrophysiology by our collaborators Spencer Smith, Michael Goard, and Cris Niell.&lt;/p&gt;
+
 &lt;p&gt;The results of this project will provide knowledge about normal visual function and insights for treating impaired vision via prosthetic or assistive devices.&lt;/p&gt;
 </description>
     </item>

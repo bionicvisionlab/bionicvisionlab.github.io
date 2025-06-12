@@ -19,8 +19,9 @@
       
       <guid>https://bionicvisionlab.org/code/bionicvisionxr/</guid>
       <description>&lt;p&gt;A major outstanding challenge in the field of bionic vision is predicting what people “see” when they use their devices.
-The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen. 
+The limited field of view of current devices necessitates head movements to scan the scene, which is difficult to simulate on a computer screen.
 In addition, many computational models of bionic vision lack biological realism.&lt;/p&gt;
+
 &lt;p&gt;To address these challenges, we present &lt;em&gt;BionicVisionXR&lt;/em&gt;, an open-source virtual reality toolbox for simulated prosthetic vision that uses a psychophysically validated computational model to allow sighted participants to “see through the eyes” of a bionic
 eye user.&lt;/p&gt;
 </description>
@@ -34,6 +35,7 @@ eye user.&lt;/p&gt;
       <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
       <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
 Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
+
 &lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
 Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
 </description>
@@ -46,15 +48,15 @@ Once the quality of the generated artificial vision reaches a certain threshold,
       
       <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
       <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
+
 &lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
 One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
+
 &lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
-This is technically challenging, because a phosphene model must be:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
-&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
-&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
-&lt;/ol&gt;
+This is technically challenging, because a phosphene model must be:
+1. simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,
+2. complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and
+3. amenable to an efficient implementation such that the training of the network is feasible.&lt;/p&gt;
 </description>
     </item>
     
@@ -65,8 +67,10 @@ This is technically challenging, because a phosphene model must be:&lt;/p&gt;
       
       <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</guid>
       <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
+
 &lt;p&gt;Instead of seeing focal spots of light, current visual implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
 Furthermore, phosphenes appear fundamentally different depending on whether they are generated with retinal or cortical implants.&lt;/p&gt;
+
 &lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
 </description>
     </item>
@@ -78,13 +82,20 @@ Furthermore, phosphenes appear fundamentally different depending on whether they
       
       <guid>https://bionicvisionlab.org/code/pulse2percept/</guid>
       <description>&lt;p&gt;&lt;em&gt;pulse2percept&lt;/em&gt; is a BSD-licensed, open-source Python package for simulated prosthetic vision (SPV).&lt;/p&gt;
+
 &lt;p&gt;Built on the NumPy and SciPy stacks, as well as contributions from the broader Python community, &lt;em&gt;pulse2percept&lt;/em&gt; provides an open-source implementation of several phosphene models for a wide range of state-of-the-art retinal prostheses, to provide insight into the visual experience provided by these devices.&lt;/p&gt;
+
 &lt;p&gt;The project started at the University of Washington under the guidance of &lt;a href=&#34;https://psych.uw.edu/people/2400/ione-fine&#34; target=&#34;_blank&#34;&gt;Ione Fine&lt;/a&gt;, &lt;a href=&#34;https://psych.uw.edu/people/3572/geoffrey-boynton&#34; target=&#34;_blank&#34;&gt;Geoff Boynton&lt;/a&gt;, and &lt;a href=&#34;https://psych.uw.edu/people/8823/ariel-rokem&#34; target=&#34;_blank&#34;&gt;Ariel Rokem&lt;/a&gt;.
 It has since been repackaged to run on both CPU and GPU backends, extended to support both retinal and cortical prostheses, and upgraded to be compatible with the Open Neural Network Exchange (ONNX) standard.&lt;/p&gt;
+
 &lt;p&gt;As &lt;em&gt;pulse2percept&lt;/em&gt; continues to be adopted by several research labs around the globe, we continue to improve its functionality and performance as well as add new implants, models, and datasets.&lt;/p&gt;
-&lt;p&gt;Documentation is available at &lt;a href=&#34;https://pulse2percept.readthedocs.io&#34;&gt;https://pulse2percept.readthedocs.io&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Contribute at &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34;&gt;https://github.com/pulse2percept/pulse2percept&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width=&#34;760&#34; height=&#34;427&#34; src=&#34;https://www.youtube.com/embed/KxsNAa-P2X4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+
+&lt;p&gt;Documentation is available at &lt;a href=&#34;https://pulse2percept.readthedocs.io&#34; target=&#34;_blank&#34;&gt;https://pulse2percept.readthedocs.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Contribute at &lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34; target=&#34;_blank&#34;&gt;https://github.com/pulse2percept/pulse2percept&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&#34;760&#34; height=&#34;427&#34; src=&#34;https://www.youtube.com/embed/KxsNAa-P2X4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
     </item>
     
   </channel>
