@@ -29,6 +29,12 @@
     <loc>https://bionicvisionlab.org/publications/2025-07-hilo-personalization-sighted/</loc>
     <lastmod>2025-07-14T08:49:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/1/</loc>
+    <lastmod>2025-07-02T08:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2025-07-checkerboard-raster/</loc>
+    <lastmod>2025-07-02T08:49:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publication_types/6/</loc>
     <lastmod>2025-06-25T09:49:00+00:00</lastmod>
   </url><url>
@@ -38,17 +44,11 @@
     <loc>https://bionicvisionlab.org/publications/2025-06-isca-single-spike-anns/</loc>
     <lastmod>2025-06-20T18:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/1/</loc>
-    <lastmod>2025-06-10T08:49:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-06-perceptual-learning-video-game-training/</loc>
     <lastmod>2025-06-10T08:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-05-bird/</loc>
     <lastmod>2025-05-29T18:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publications/2025-01-raster-patterns/</loc>
-    <lastmod>2025-05-18T08:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2025-05-wypl-fm-eye-on-vision/</loc>
     <lastmod>2025-05-09T09:59:00+00:00</lastmod>
@@ -635,6 +635,8 @@
   </url><url>
     <loc>https://bionicvisionlab.org/people/granley_jacob/</loc>
   </url><url>
+    <loc>https://bionicvisionlab.org/people/herbelin_luke/</loc>
+  </url><url>
     <loc>https://bionicvisionlab.org/people/hou_yuchen/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/johnson_byron/</loc>
@@ -657,11 +659,15 @@
   </url><url>
     <loc>https://bionicvisionlab.org/people/schoinas_eirini/</loc>
   </url><url>
+    <loc>https://bionicvisionlab.org/people/singh_shivam/</loc>
+  </url><url>
     <loc>https://bionicvisionlab.org/people/stone_hannah/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/turkstra_lily/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/varshney_apurv/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/people/vissapragada_tejas/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/alumni/</loc>
   </url><url>
