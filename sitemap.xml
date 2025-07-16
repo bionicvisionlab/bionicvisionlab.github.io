@@ -17,14 +17,20 @@
     <loc>https://bionicvisionlab.org/teaching/2026-winter-cs281b/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
-    <lastmod>2025-07-14T18:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publications/2025-07-gaussian-process-thresholds/</loc>
+    <loc>https://bionicvisionlab.org/publication_types/6/</loc>
     <lastmod>2025-07-14T18:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publication_types/</loc>
     <lastmod>2025-07-14T18:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2025-07-smart-raster/</loc>
+    <lastmod>2025-07-14T18:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/2/</loc>
+    <lastmod>2025-07-14T08:49:01+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2025-07-gaussian-process-thresholds/</loc>
+    <lastmod>2025-07-14T08:49:01+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-07-hilo-personalization-sighted/</loc>
     <lastmod>2025-07-14T08:49:00+00:00</lastmod>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-07-checkerboard-raster/</loc>
     <lastmod>2025-07-07T08:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/6/</loc>
-    <lastmod>2025-06-25T09:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-06-deep-learning-framework-predict-functional-vision/</loc>
     <lastmod>2025-06-25T09:49:00+00:00</lastmod>
@@ -104,7 +107,22 @@
     <loc>https://bionicvisionlab.org/publications/2024-03-stress-affects-navigation/</loc>
     <lastmod>2024-03-11T08:49:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/code/bionicvisionxr/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/code/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/software-engineering/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</loc>
@@ -188,16 +206,7 @@
     <loc>https://bionicvisionlab.org/publications/2022-06-spike-latency-winner-take-all/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/code/</loc>
-    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/code/simplexr/</loc>
-    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/software-engineering/</loc>
-    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
     <lastmod>2022-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</loc>
@@ -206,13 +215,7 @@
     <loc>https://bionicvisionlab.org/publications/2022-03-immersive-vr/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/code/bionicvisionxr/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2022-01-guardian/</loc>
