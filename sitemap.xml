@@ -26,6 +26,15 @@
     <loc>https://bionicvisionlab.org/publication_types/</loc>
     <lastmod>2025-10-12T08:49:01+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/tags/</loc>
+    <lastmod>2025-10-12T08:49:01+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/visual-perception/</loc>
+    <lastmod>2025-10-12T08:49:01+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
+    <lastmod>2025-10-12T08:49:01+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publication_types/6/</loc>
     <lastmod>2025-07-18T08:49:01+00:00</lastmod>
   </url><url>
@@ -123,12 +132,6 @@
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/software-engineering/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</loc>
@@ -282,9 +285,6 @@
     <lastmod>2021-09-20T09:29:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/research/simulated-visual-impairment/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/visual-perception/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/neuroai/</loc>
