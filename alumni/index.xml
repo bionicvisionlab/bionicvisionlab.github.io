@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alumni on Bionic Vision Lab</title>
+    <title>Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/alumni/</link>
-    <description>Recent content in Alumni on Bionic Vision Lab</description>
+    <description>Recent content on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
@@ -51,6 +51,16 @@
       <description>&lt;p&gt;Alyssa Alanis is an undergraduate student pursuing a degree in Psychological &amp;amp; Brain Sciences at UC Santa Barbara.&lt;/p&gt;
 &lt;p&gt;Alyssa is interested in the neurological and cognitive aspects of perception, pharmacological and psychological altered states of consciousness, and neuroimaging. She is passionate about studying the connection between biological vision and perceived experiences, distorted realities, hallucinations, and drug induced altered states of minds in the hopes to help those with hallucination related-disorders.&lt;/p&gt;
 &lt;p&gt;In her free time Alyssa loves to hike, go on roadtrips, and have movie nights!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/arora_kanav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/arora_kanav/</guid>
+      <description>&lt;p&gt;Kanav Arora is currently an undergraduate student pursuing a Computer Science degree at UC Santa Barbara.&lt;/p&gt;
 </description>
     </item>
     
@@ -177,6 +187,17 @@ She is interested in applying computer science to the furtherment of the medical
     
     <item>
       <title></title>
+      <link>https://bionicvisionlab.org/alumni/granley_jacob2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/granley_jacob2/</guid>
+      <description>&lt;p&gt;Jacob Granley is a PhD student in the Department of Computer Science.&lt;/p&gt;
+&lt;p&gt;Prior to joining UCSB, he received his Masters and Bachelors in Computer Science from Colorado School of Mines. He is pursuing his PhD under Dr. Beyeler as part of the Bionic Vision lab, where he hopes to use Computer Science and Machine Learning methods to help improve artificial vision technologies with the ultimate goal of restoring sight to the blind.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://bionicvisionlab.org/alumni/guo_lixing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -257,6 +278,18 @@ He is interested in machine learning and creating systems which can enable the u
       
       <guid>https://bionicvisionlab.org/alumni/jasper_surya/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/johnson_byron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/johnson_byron/</guid>
+      <description>&lt;p&gt;Byron is a PhD student in the Department of Psychological &amp;amp; Brain Sciences. He was born and raised in St. Louis, Missouri. He moved to New York City to study psychology, where he received a BA in Psychology from St. John’s University (2015) and then a MA in Behavioral Neuroscience from Queens College (2017). Byron worked as a Research Operations Manager at a start-up company that develops assistive products for blind and low vision individuals (2017 - 2020).&lt;/p&gt;
+&lt;p&gt;Byron&amp;rsquo;s main research interest is studying how image processing and psychophysics can be used to understand how low vision conditions affect visual tasks. Specifically, how combining computational models with simulated low vision impairment conditions can help inform and enhance individualized vision capabilities.&lt;/p&gt;
+&lt;p&gt;Byron is supervised by Dr. Michael Beyeler in the Bionic Vision Lab and Dr. Miguel Eckstein in the Vision and Image Understanding Lab.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -426,6 +459,20 @@ Her research will focus on how the severity of visual impairment affects quality
     
     <item>
       <title></title>
+      <link>https://bionicvisionlab.org/alumni/neydavood_ryan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/neydavood_ryan/</guid>
+      <description>&lt;p&gt;Tori LeVier is a fourth-year undergraduate pursuing a B.S. in Psychological &amp;amp; Brain Sciences at UC Santa Barbara and lab manager in the Bionic Vision Lab.&lt;/p&gt;
+&lt;p&gt;Tori is interested at the intersection of social cognitive neuroscience, perception, and assistive technology.&lt;/p&gt;
+&lt;p&gt;Outside of managing the lab, she is an RA with the LEAP Neuro lab (Lapate), where she is investigating the temporal coding of dynamic emotional experiences using behavioral and electrophysiological methods. She also is conducting her honors thesis with Dr. Hongbo Yu where she is investigating the moral standing of blame at a group level. After graduation, she hopes to pursue a PhD in computational or social cognitive neuroscience.&lt;/p&gt;
+&lt;p&gt;In her free time, Tori enjoys baking and decorating cakes as well as hosting car meets as the president of UCSB’s Gaucho Automotive Society.&lt;/p&gt;
+&lt;p&gt;Starting Fall &amp;lsquo;24, Tori will be joining the lab of &lt;a href=&#34;https://www.crockettlab.org/&#34;&gt;Molly Crockett&lt;/a&gt; at Princeton University as a lab manager.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://bionicvisionlab.org/alumni/nguyen_bill/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -485,6 +532,17 @@ She is interested in applying machine learning and computational biology to medi
       <guid>https://bionicvisionlab.org/alumni/rasla_alex/</guid>
       <description>&lt;p&gt;Alex Rasla is currently a first-year graduate student in the B.S/M.S. program pursuing a Computer Science degree at UC Santa Barbara. He is interested in Machine Learning, Computer Vision, AR/VR, and autonomous systems.&lt;/p&gt;
 &lt;p&gt;In his free time, Alex enjoys playing the piano or guitar, and producing music. Some of his other hobbies include hanging out at the beach, reading books, and playing sports. Once he graduates, Alex wants to work for a company that makes the world a better place.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bionicvisionlab.org/alumni/rastogi_adyah2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/alumni/rastogi_adyah2/</guid>
+      <description>&lt;p&gt;Adyah Rastogi is currently a third-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. She is working on the HILO project in the lab and is interested in machine learning and NLP, human computer interaction, and data analysis.&lt;/p&gt;
+&lt;p&gt;Adyah grew up in the Bay Area and enjoys exploring nature and walks, going to the gym, and going on fun drives in her free time.&lt;/p&gt;
 </description>
     </item>
     
