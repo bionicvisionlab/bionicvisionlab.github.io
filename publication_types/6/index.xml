@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 26 Sep 2025 08:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 02:34:22 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation</title>
+      <link>https://bionicvisionlab.org/publications/2025-12-fuzzing-the-brain/</link>
+      <pubDate>Fri, 05 Dec 2025 02:34:22 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2025-12-fuzzing-the-brain/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep learning-based control of electrically evoked activity in human visual cortex</title>
