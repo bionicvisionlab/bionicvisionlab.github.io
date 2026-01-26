@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>BIRD: Behavior induction via representation-structure distillation</title>
+      <link>https://bionicvisionlab.org/publications/2026-04-bird/</link>
+      <pubDate>Thu, 23 Apr 2026 18:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-04-bird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network-adaptive cloud preprocessing for visual neuroprostheses</title>
+      <link>https://bionicvisionlab.org/publications/2026-01-network-adaptive-cloud-processing/</link>
+      <pubDate>Fri, 23 Jan 2026 18:50:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-01-network-adaptive-cloud-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision</title>
+      <link>https://bionicvisionlab.org/publications/2026-01-symbol-sight/</link>
+      <pubDate>Fri, 23 Jan 2026 18:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-01-symbol-sight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gamification enhances user engagement and task performance in prosthetic vision testing</title>
       <link>https://bionicvisionlab.org/publications/2025-12-argus-gamification/</link>
       <pubDate>Mon, 22 Dec 2025 02:34:22 +0000</pubDate>
@@ -135,15 +162,6 @@
       <pubDate>Fri, 20 Jun 2025 18:49:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2025-06-isca-single-spike-anns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BIRD: Behavior induction via representation-structure distillation</title>
-      <link>https://bionicvisionlab.org/publications/2025-05-bird/</link>
-      <pubDate>Thu, 29 May 2025 18:49:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2025-05-bird/</guid>
       <description></description>
     </item>
     
