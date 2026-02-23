@@ -20,6 +20,12 @@
     <loc>https://bionicvisionlab.org/teaching/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/1/</loc>
+    <lastmod>2026-02-23T02:34:22+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2026-02-fuzzing-the-brain/</loc>
+    <lastmod>2026-02-23T02:34:22+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publication_types/6/</loc>
     <lastmod>2026-01-24T06:14:00+00:00</lastmod>
   </url><url>
@@ -37,9 +43,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-12-argus-gamification/</loc>
     <lastmod>2025-12-22T02:34:22+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publications/2025-12-fuzzing-the-brain/</loc>
-    <lastmod>2025-12-05T02:34:22+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-12-smart-raster/</loc>
     <lastmod>2025-12-04T18:49:00+00:00</lastmod>
@@ -61,9 +64,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
     <lastmod>2025-10-12T08:49:01+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/1/</loc>
-    <lastmod>2025-10-07T08:49:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-10-perceptual-learning-video-game-training/</loc>
     <lastmod>2025-10-07T08:49:00+00:00</lastmod>
@@ -545,6 +545,8 @@
   </url><url>
     <loc>https://bionicvisionlab.org/alumni/granley_jacob2/</loc>
   </url><url>
+    <loc>https://bionicvisionlab.org/alumni/granley_jacob/</loc>
+  </url><url>
     <loc>https://bionicvisionlab.org/alumni/guo_lixing/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/alumni/han_lu/</loc>
@@ -782,8 +784,6 @@
     <loc>https://bionicvisionlab.org/people/cao_ruyi/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/fook_ethan/</loc>
-  </url><url>
-    <loc>https://bionicvisionlab.org/people/granley_jacob/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/he_yolanda/</loc>
   </url><url>

@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation</title>
+      <link>https://bionicvisionlab.org/publications/2026-02-fuzzing-the-brain/</link>
+      <pubDate>Mon, 23 Feb 2026 02:34:22 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-02-fuzzing-the-brain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision</title>
       <link>https://bionicvisionlab.org/publications/2026-01-symbol-sight/</link>
       <pubDate>Sat, 24 Jan 2026 06:14:00 +0000</pubDate>
@@ -45,15 +54,6 @@
       <pubDate>Mon, 22 Dec 2025 02:34:22 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2025-12-argus-gamification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation</title>
-      <link>https://bionicvisionlab.org/publications/2025-12-fuzzing-the-brain/</link>
-      <pubDate>Fri, 05 Dec 2025 02:34:22 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2025-12-fuzzing-the-brain/</guid>
       <description></description>
     </item>
     
