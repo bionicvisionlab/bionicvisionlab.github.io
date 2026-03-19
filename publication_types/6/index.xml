@@ -7,10 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 27 Feb 2026 17:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:50:22 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding</title>
+      <link>https://bionicvisionlab.org/publications/2026-03-vr-guidance-arrow-map-compass/</link>
+      <pubDate>Wed, 18 Mar 2026 00:50:22 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-03-vr-guidance-arrow-map-compass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive training for navigation under stress: Impacts of stress exposure and spatial anxiety</title>
+      <link>https://bionicvisionlab.org/publications/2026-03-stress-navigation-trev/</link>
+      <pubDate>Tue, 17 Mar 2026 02:34:22 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-03-stress-navigation-trev/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Percept-aware surgical planning for visual cortical prostheses with vascular avoidance</title>
