@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision</title>
+      <link>https://bionicvisionlab.org/publications/2026-07-symbol-sight/</link>
+      <pubDate>Sun, 26 Jul 2026 06:14:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-07-symbol-sight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network-adaptive cloud preprocessing for visual neuroprostheses</title>
+      <link>https://bionicvisionlab.org/publications/2026-07-network-adaptive-cloud-processing/</link>
+      <pubDate>Sun, 26 Jul 2026 00:39:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-07-network-adaptive-cloud-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BIRD: Behavior induction via representation-structure distillation</title>
       <link>https://bionicvisionlab.org/publications/2026-04-bird/</link>
       <pubDate>Thu, 23 Apr 2026 18:49:00 +0000</pubDate>
@@ -81,24 +99,6 @@
       <pubDate>Mon, 23 Feb 2026 02:34:22 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2026-02-fuzzing-the-brain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision</title>
-      <link>https://bionicvisionlab.org/publications/2026-01-symbol-sight/</link>
-      <pubDate>Sat, 24 Jan 2026 06:14:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2026-01-symbol-sight/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Network-adaptive cloud preprocessing for visual neuroprostheses</title>
-      <link>https://bionicvisionlab.org/publications/2026-01-network-adaptive-cloud-processing/</link>
-      <pubDate>Fri, 23 Jan 2026 00:39:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2026-01-network-adaptive-cloud-processing/</guid>
       <description></description>
     </item>
     

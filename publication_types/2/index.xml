@@ -7,10 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 23 Apr 2026 18:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 06:14:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision</title>
+      <link>https://bionicvisionlab.org/publications/2026-07-symbol-sight/</link>
+      <pubDate>Sun, 26 Jul 2026 06:14:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-07-symbol-sight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network-adaptive cloud preprocessing for visual neuroprostheses</title>
+      <link>https://bionicvisionlab.org/publications/2026-07-network-adaptive-cloud-processing/</link>
+      <pubDate>Sun, 26 Jul 2026 00:39:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-07-network-adaptive-cloud-processing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BIRD: Behavior induction via representation-structure distillation</title>
