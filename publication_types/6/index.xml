@@ -7,10 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 00:50:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 19:49:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beyond neural activity prediction: Probing latent representations in mouse V1 digital twins</title>
+      <link>https://bionicvisionlab.org/publications/2026-05-mouse-v1-digital-twin/</link>
+      <pubDate>Thu, 07 May 2026 19:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-05-mouse-v1-digital-twin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual robustness and neural alignment in a shared foraging task: The Mouse vs. AI benchmark</title>
+      <link>https://bionicvisionlab.org/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/</link>
+      <pubDate>Thu, 07 May 2026 18:49:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding</title>
@@ -45,15 +63,6 @@
       <pubDate>Fri, 26 Sep 2025 08:49:01 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2025-09-neural-activity-shaping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mouse vs. AI: A neuroethological benchmark for visual robustness and neural alignment</title>
-      <link>https://bionicvisionlab.org/publications/2025-09-mouse-vs-ai-neurips-challenge/</link>
-      <pubDate>Wed, 17 Sep 2025 21:47:19 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2025-09-mouse-vs-ai-neurips-challenge/</guid>
       <description></description>
     </item>
     
