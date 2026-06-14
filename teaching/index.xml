@@ -7,10 +7,27 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2027 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PSY-132: Visual Neuroscience</title>
+      <link>https://bionicvisionlab.org/teaching/2027-spring-psych132/</link>
+      <pubDate>Mon, 01 Mar 2027 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/teaching/2027-spring-psych132/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Prerequisites: PSY 111; open to Psychological &amp;amp; Brain Sciences, Biopsychology, and Interdisciplinary Studies majors only.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This course will focus on the biological basis of vision, including both the theory and recent research in visual neuroscience, with a focus on the retina and the early visual cortex. In specific, we will cover how the retinal image is represented by the neural response within the visual pathways, considering evidence from behavioral and biological approaches.&lt;/p&gt;
+&lt;p&gt;Understanding how the visual system encodes light has implications for everything else the visual pathways do.  Our understanding of the neural representation is based on work in several different disciplines. Throughout this course we will see that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;there are many anatomically distinct types of neurons with various distinct functions,&lt;/li&gt;
+&lt;li&gt;the different anatomical types of neurons respond to light stimulation in different ways and their signals are communicated to different destinations,&lt;/li&gt;
+&lt;li&gt;the microcircuitry of the local neural connections is very precise, and not at all random.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>PSY-221F: Computational Neuroscience</title>

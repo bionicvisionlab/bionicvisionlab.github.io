@@ -7,10 +7,41 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 09 May 2025 09:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 09:59:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NeuroXR Workshop at IEEE ISMAR &#39;26</title>
+      <link>https://bionicvisionlab.org/news/2026-06-ismar-neuroxr-workshop/</link>
+      <pubDate>Thu, 11 Jun 2026 09:59:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2026-06-ismar-neuroxr-workshop/</guid>
+      <description>&lt;p&gt;We are excited to announce NeuroXR 2026, the 2nd International Workshop on Neurophysiological Signals, Affective Computing, and Cognition in Extended Reality, held in conjunction with IEEE ISMAR 2026.&lt;/p&gt;
+&lt;p&gt;NeuroXR brings together researchers working at the intersection of XR, neuroscience, affective computing, neuroengineering, human-computer interaction, rehabilitation, and assistive technology. The workshop focuses on how immersive systems can sense, model, and respond to users’ cognitive, affective, perceptual, behavioral, and neurophysiological states.&lt;/p&gt;
+&lt;p&gt;We invite submissions on topics including neurophysiological and behavioral sensing in XR, real-time user-state inference, adaptive and closed-loop XR systems, neurofeedback and biofeedback, brain-computer interfaces, sensory augmentation, neuroprostheses, evaluation methods, reproducibility, accessibility, privacy, and responsible deployment.&lt;/p&gt;
+&lt;p&gt;The workshop welcomes regular papers and position papers, with accepted papers planned for inclusion in the ISMAR 2026 adjunct proceedings, subject to the conference’s workshop publication policy.&lt;/p&gt;
+&lt;p&gt;Submission deadline: July 5, 2026, 11:59 PM AoE.&lt;/p&gt;
+&lt;p&gt;Researchers interested in XR as a platform for studying, supporting, or augmenting brain and behavior are encouraged to submit.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://neuroxr-ws.github.io/www/&#34;&gt;https://neuroxr-ws.github.io/www/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mouse vs AI: Robust Visual Foraging Competition and Workshop at NeurIPS &#39;25</title>
+      <link>https://bionicvisionlab.org/news/2025-12-neurips-mouse-vs-ai-workshop-competition/</link>
+      <pubDate>Sun, 07 Dec 2025 09:59:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2025-12-neurips-mouse-vs-ai-workshop-competition/</guid>
+      <description>&lt;p&gt;How robust is today’s AI vision when the world gets messy?&lt;/p&gt;
+&lt;p&gt;The Mouse vs AI: Robust Visual Foraging Competition, held as part of the NeurIPS Competition Track, turns that question into a direct benchmark. Participants train artificial agents to perform the same visually guided foraging task as mice in a virtual-reality environment, then test how well those agents handle visual perturbations such as fog and other out-of-distribution changes.&lt;/p&gt;
+&lt;p&gt;The competition asks whether AI agents can match, or even outperform, biological vision under degraded viewing conditions. It also goes one step further: in addition to scoring behavioral robustness, the challenge includes a neural-alignment track that tests whether an agent’s internal visual representations predict cortical activity recorded from mouse visual areas.&lt;/p&gt;
+&lt;p&gt;The goal is to bring together researchers in reinforcement learning, robust computer vision, systems neuroscience, and biologically inspired AI around a shared task: building agents that do not just perform well in clean training environments, but remain reliable when visual conditions change.&lt;/p&gt;
+&lt;p&gt;Final submission deadline: November 15, 2025.&lt;/p&gt;
+&lt;p&gt;Learn more on the competition website: &lt;a href=&#34;https://robustforaging.github.io&#34;&gt;https://robustforaging.github.io&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eye on Vision podcast features Lily Turkstra’s research on home-based assistive technology</title>
