@@ -7,10 +7,26 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 11 Jun 2026 09:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 09:59:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Marius Schneider wins Zaleski Discovery Award</title>
+      <link>https://bionicvisionlab.org/news/2026-07-schneider-zaleski-award/</link>
+      <pubDate>Wed, 22 Jul 2026 09:59:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2026-07-schneider-zaleski-award/</guid>
+      <description>&lt;p&gt;A cyclist approaches from behind. Farther ahead, a construction barrier blocks the sidewalk. Along an unfamiliar route, an unexpected drop-off appears.&lt;/p&gt;
+&lt;p&gt;For a blind or low-vision traveler, recognizing those hazards quickly is critical. Many wearable vision systems, however, try to interpret the entire scene, consuming considerable computing power, memory and energy before determining whether something poses a threat.&lt;/p&gt;
+&lt;p&gt;UC Santa Barbara postdoctoral scholar Marius Schneider is pursuing a more focused approach. Rather than identifying everything in view, his proposed system would concentrate on the most urgent information a traveler needs to determine if it is safe to keep moving.&lt;/p&gt;
+&lt;p&gt;Now Schneider has received the 2026–27 James V. &amp;amp; Beverly R. Zaleski Discovery Award in Robotics and Computing from The Robert Mehrabian College of Engineering. The award will provide up to $94,000 for his project, Residual Event Affordances: Neuromorphic Safety Computation for Mobile Edge Systems.&lt;/p&gt;
+&lt;p&gt;“This award provides the space and time to make the transition from postdoc to independent researcher in an environment at UCSB that has already shaped how I think about the science,” said Schneider.&lt;/p&gt;
+&lt;p&gt;Prof. Umesh Mishra, Dean of The Robert Mehrabian College of Engineering, weighs in: “Marius’s work captures what the college is all about, crossing disciplines, challenging conventional assumptions, and turning fundamental insight into technology with impact. His project is both highly inventive and grounded in a meaningful human need, which makes it an especially compelling example of engineering at its best.”&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://engineering.ucsb.edu/news/Zaleski-Award-2026-Schneider&#34;&gt;https://engineering.ucsb.edu/news/Zaleski-Award-2026-Schneider&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NeuroXR Workshop at IEEE ISMAR &#39;26</title>
