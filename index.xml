@@ -118,39 +118,38 @@ We build real-time XR testbeds and computer vision–based assistive tools, usin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/join/</guid>
-      <description>&lt;p&gt;In general, we are looking for enthusiastic, computationally minded individuals with a shared passion for bionic vision.&lt;br&gt;
-If you are interested in joining us, please review our &lt;a href=&#34;https://docs.google.com/document/d/1Y1wzFVdp-FCoGM47okaW5eYdOOfpgXD5nM9Q7DpwAMo/edit?usp=sharing&#34;&gt;Lab Manual&lt;/a&gt; to familiarize yourself with our lab culture, policies, and expectations.&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;Junior Lab Trainees (UCSB Undergraduates)&lt;/h3&gt;
-&lt;p&gt;The Junior Lab Trainee program is the primary entry point for current UCSB undergraduates (particularly PBS and CS students) to join the Bionic Vision Lab. This role serves as a structured introduction to research, allowing you to learn how we approach science while contributing meaningfully to ongoing studies.&lt;/p&gt;
-&lt;p&gt;This role entails:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Research literacy: Attend bi-weekly meetings to read and discuss scientific papers related to visual prostheses and neuroengineering.&lt;/li&gt;
-&lt;li&gt;Active participation: Serve as a reliable participant in behavioral studies (XR, psychophysics, etc.).&lt;/li&gt;
-&lt;li&gt;Pathway to growth: While promotions are never guaranteed, successful completion of a quarter as a Junior Trainee is often a prerequisite for becoming a Senior Research Assistant.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We use a &lt;a href=&#34;https://forms.gle/XGuijmyZX9LSedwn6&#34;&gt;centralized waitlist&lt;/a&gt; for all prospective UCSB undergraduate lab members. To be considered, please join the waitlist. We accept a limited cohort each quarter.&lt;/p&gt;
+      <description>&lt;p&gt;We welcome enthusiastic, computationally minded people interested in understanding vision and advancing sight restoration for people living with blindness.
+Before reaching out, please check our &lt;a href=&#34;https://docs.google.com/document/d/1Y1wzFVdp-FCoGM47okaW5eYdOOfpgXD5nM9Q7DpwAMo/edit?usp=sharing&#34;&gt;Lab Manual&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 class=&#34;fill-width&#34;&gt;PhD Position: Machine Learning for Visual Neuroprostheses (Fall 2027)&lt;/h3&gt;
+&lt;p&gt;We are recruiting one PhD student through the &lt;a href=&#34;https://cs.ucsb.edu/education/graduate/how-to-apply&#34;&gt;UCSB Department of Computer Science&lt;/a&gt; to join the lab in Fall &amp;lsquo;27.
+Applications are due December 15, 2026.&lt;/p&gt;
+&lt;p&gt;The project focuses on computational models and machine-learning methods for visual cortical prostheses. This includes models that predict &lt;a href=&#34;../publications/2026-02-fuzzing-the-brain/&#34;&gt;safe neural activity&lt;/a&gt;, &lt;a href=&#34;../publications/2022-12-brain-like-phosphene-model/&#34;&gt;visual percepts&lt;/a&gt;, and &lt;a href=&#34;../publications/2026-09-percept-aware-surgical-planning/&#34;&gt;where to place electrodes&lt;/a&gt;, as well as &lt;a href=&#34;../publications/2025-09-neural-activity-shaping&#34;&gt;inverse/control methods&lt;/a&gt; for producing desired percepts.&lt;/p&gt;
+&lt;p&gt;We are looking for someone with a strong ML background, programming skills beyond vibe coding, and a desire to work closely with real neurotechnology and industry teams developing next-generation brain-computer interfaces.&lt;/p&gt;
+&lt;p&gt;Prior neuroscience experience is useful, but not required.&lt;/p&gt;
+&lt;p&gt;We do not have the funding or bandwidth to accept other PhD students, no matter how exceptional they may be. Emails that do not reflect awareness of this page may not receive a response.&lt;/p&gt;
+&lt;h3 class=&#34;fill-width&#34;&gt;Prospective Postdocs&lt;/h3&gt;
+&lt;p&gt;We do not currently have funding for a postdoc, but would be interested in hearing from strong candidates working on computational models of artificial vision across the retina, LGN, and visual cortex. If you expect to graduate within the next year and see a strong fit with our work, please reach out early so we can explore fellowship opportunities together.&lt;/p&gt;
+&lt;h3 class=&#34;fill-width&#34;&gt;Junior Lab Trainees&lt;/h3&gt;
+&lt;p&gt;For UCSB undergraduates, the Junior Lab Trainee program is the main entry point into the lab. Trainees attend bi-weekly paper discussions and participate reliably in ongoing behavioral studies (XR, psychophysics, and so on).&lt;/p&gt;
+&lt;p&gt;Successful completion of a quarter as a Junior Trainee is often a prerequisite for becoming a Senior Research Assistant, although promotion is not guaranteed.&lt;/p&gt;
+&lt;p&gt;We accept a limited cohort each quarter. To be considered, please &lt;a href=&#34;https://forms.gle/XGuijmyZX9LSedwn6&#34;&gt;join our waitlist&lt;/a&gt;.
+If you already have specialized research experience, you may indicate interest in a Senior RA role on the form.&lt;/p&gt;
 &lt;h3 class=&#34;fill-width&#34;&gt;All Other Positions&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Our lab is currently at capacity for Senior RAs and PhD students.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;At this time, we are unable to offer:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;paid or unpaid summer internships&lt;/li&gt;
-&lt;li&gt;remote research roles&lt;/li&gt;
-&lt;li&gt;positions for high-school students&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Bionic Vision Lab operates with a structured, cohort-based model. To ensure high-quality mentorship and training, we only open new positions when we have the capacity to support them fully.&lt;/p&gt;
-&lt;p&gt;Because we receive a large number of inquiries each year, we are unable to respond to unsolicited requests outside of posted openings. We appreciate your understanding.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;This page was last updated on February 18, 2026.&lt;/small&gt;&lt;/p&gt;
-&lt;small class=&#34;mt-4 mb-4&#34; style=&#34;display:block&#34;&gt;
-  &lt;i class=&#34;fas fa-exclamation-triangle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-  We receive many applications each year. To help us give fair consideration to all candidates:
-  &lt;ul class=&#34;mb-0&#34;&gt;
-    &lt;li&gt;Please do not send generic or copy-and-paste emails. Applications must demonstrate genuine familiarity with our work.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Do not use AI/LLM-generated statements.&lt;/strong&gt; As an AI-focused lab, we can recognize them, and they do not make a strong impression.&lt;/li&gt;
+&lt;p&gt;We are currently at capacity for Senior RAs and Master&amp;rsquo;s students, and cannot accommodate summer interns or high school students.&lt;/p&gt;
+&lt;p&gt;&lt;small class=&#34;mt-5&#34;&gt;This page was last updated on August 20, 2026.&lt;/small&gt;&lt;/p&gt;
+&lt;!--
+&lt;div class=&#34;fill-width small mt-0 mb-4&#34;&gt;
+  &lt;p class=&#34;mb-0&#34;&gt;
+    &lt;i class=&#34;fas fa-exclamation-triangle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+    We receive many applications each year. To help us give fair consideration to all candidates:
+  &lt;/p&gt;
+  &lt;ul class=&#34;mt-0 pt-0 mb-2&#34;&gt;
+    &lt;li&gt;Please do not send generic or copy-and-paste emails. Applications must show genuine familiarity with our work.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Do not use AI/LLM-generated statements.&lt;/strong&gt; As an AI lab, we can tell the difference, and it will not make a good impression.&lt;/li&gt;
     &lt;li&gt;There is no need to send multiple follow-up emails.&lt;/li&gt;
   &lt;/ul&gt;
-  Messages that do not follow these guidelines will not receive a response. Thank you for your understanding.
-&lt;/small&gt;
-&lt;!--
+  &lt;p class=&#34;mb-0&#34;&gt;Messages that do not follow these guidelines will not receive a response. Thank you for your understanding.&lt;/p&gt;
+&lt;/div&gt;
 &lt;h3 class=&#34;fill-width&#34;&gt;Postdoc in Visual/Computational Neuroscience (NeuroAI)&lt;/h3&gt;
 We are excited to invite a self-driven and enthusiastic postdoctoral researcher to our &lt;a href=&#34;https://bionicvisionlab.org/research/mouse-visual-navigation/&#34;&gt;VisNav&lt;/a&gt; team.
 This NeuroAI project, at the exciting crossroads of visual and computational neuroscience, is part of the NIH BRAIN Initiative that seeks to elucidate how the mouse brain processes visual information during active exploration to support visual navigation. Our recent &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-12-v1-mouse/&#34;&gt;NeurIPS paper&lt;/a&gt; highlights how a multimodal recurrent net can integrate gaze-contingent visual input with behavioral and temporal dynamics to explain V1 activity in freely moving mice. We are now seeking to extend this work to higher-order visual areas (HVAs) in collaboration with the labs of Spencer Smith (UCSB), Michael Goard (UCSB), and Cris Niell (University of Oregon).
