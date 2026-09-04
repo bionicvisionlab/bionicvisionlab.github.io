@@ -26,6 +26,20 @@
     </item>
     
     <item>
+      <title>Deep learning helps bionic eyes communicate with the brain</title>
+      <link>https://bionicvisionlab.org/news/2026-08-deep-learning-control-cortivis/</link>
+      <pubDate>Fri, 07 Aug 2026 09:59:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2026-08-deep-learning-control-cortivis/</guid>
+      <description>&lt;p&gt;Visual prostheses typically treat electrical stimulation as the input and perception as the output. But the brain is not a simple collection of pixels: electrodes interact, neural responses vary over time, and the same stimulation can produce different patterns of activity.&lt;/p&gt;
+&lt;p&gt;In this study, researchers from UC Santa Barbara, ETH Zurich, and Miguel Hernández University used a bidirectional 96-channel cortical implant in a blind participant to record how the visual cortex responded to electrical stimulation. Deep-learning models trained on these recordings could then generate stimulation patterns that drove neural activity toward desired targets, often using less electrical current than conventional approaches.&lt;/p&gt;
+&lt;p&gt;One result was particularly important: the neural activity actually evoked in the brain predicted the participant’s reported visual percepts substantially better than the stimulation parameters alone. This suggests a different framework for designing future bionic eyes: stimulation → neural response → perception, with the implant learning how an individual brain responds and adapting accordingly.&lt;/p&gt;
+&lt;p&gt;The work, led by co-first authors Pehuén Moure, Jacob Granley, and Fabrizio Grani, was published in Neuron and has since been featured by UC Santa Barbara&amp;rsquo;s &lt;a href=&#34;https://news.ucsb.edu/2026/022739/deep-learning-refines-how-bionic-eyes-communicate-brain&#34;&gt;The Current&lt;/a&gt;, &lt;a href=&#34;https://medicalxpress.com/news/2026-08-deep-refines-bionic-eyes-communicate.html&#34;&gt;Medical Xpress&lt;/a&gt;, &lt;a href=&#34;https://www.openaccessgovernment.org/deep-learning-refines-how-bionic-eyes-communicate-with-the-brain/212990&#34;&gt;Open Access Government&lt;/a&gt;, and &lt;a href=&#34;https://www.technology.org/2026/08/23/deep-learning-refines-how-bionic-eyes-communicate-with-the-brain/&#34;&gt;Technology.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The study is part of our broader effort to develop model-driven visual prostheses that produce more predictable and useful artificial vision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Marius Schneider wins Zaleski Discovery Award</title>
       <link>https://bionicvisionlab.org/news/2026-07-schneider-zaleski-award/</link>
       <pubDate>Wed, 22 Jul 2026 09:59:00 +0000</pubDate>
