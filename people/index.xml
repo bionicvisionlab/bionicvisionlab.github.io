@@ -40,11 +40,10 @@ He is particularly interested in the intersection of neuroscience and computing,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/hou_yuchen/</guid>
-      <description>&lt;p&gt;Yuchen Hou is a PhD Candidate in Computer Science at UC Santa Barbara.
-She is interested in computational neuroscience and machine learning.
-Her research goal is to model the dynamics of brain functions by integrating knowledge from computer, cognitive, and neural science.&lt;/p&gt;
-&lt;p&gt;Prior to pursuing her PhD studies, she was an undergraduate research assistant in the Bionic Vision Lab with a BS degree in Psychological &amp;amp; Brain Sciences.&lt;/p&gt;
-&lt;p&gt;In her free time, she likes reading fiction books and watching action movies.&lt;/p&gt;
+      <description>&lt;p&gt;Yuchen Hou is a PhD candidate in Computer Science at UC Santa Barbara. She studies active vision: how intelligent systems combine visual input with movement, behavior, and internal state to make sense of the world.&lt;/p&gt;
+&lt;p&gt;Her research sits at the intersection of computational neuroscience and machine learning. She develops multimodal and recurrent models of neural activity during natural behavior, with work spanning visual cortex, eye and head movements, and the dynamics of active visual sampling. Her broader goal is to uncover computational principles of biological vision that can inform more robust and behaviorally grounded AI systems.&lt;/p&gt;
+&lt;p&gt;Yuchen earned her B.S. in Psychological &amp;amp; Brain Sciences from UC Santa Barbara before continuing into the Computer Science PhD program. She completed a research internship at Google in 2026, and her earlier work was recognized with UCSB&amp;rsquo;s Exceptional Academic Performance Award and the Abdullah &amp;amp; Marjorie R. Nasser Memorial Scholarship.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Yuchen enjoys reading fiction and watching action movies.&lt;/p&gt;
 </description>
     </item>
     
@@ -65,9 +64,10 @@ Her research goal is to model the dynamics of brain functions by integrating kno
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/joyce_emily/</guid>
-      <description>&lt;p&gt;Emily is a PhD student in the Dynamical Neuroscience (DYNS) program at UC Santa Barbara. She previously worked with EM connectomics datasets at Janelia and at the Allen Institute, where she conducted research in cell typing and neural circuitry in sensory areas. During this time, she also developed open-source tools to analyze neuronal morphology and connectivity.&lt;/p&gt;
-&lt;p&gt;Emily is an inaugural UC Noyce Graduate Student Fellow, one of five graduate students selected across the UC system. Her research focuses on understanding information processing in retinal bipolar cells to improve prostheses that stimulate these cells directly. She uses cell- and circuit-level computational modeling to study how retinal stimulation may give rise to richer visual percepts, including color.&lt;/p&gt;
-&lt;p&gt;In her free time, she enjoys gardening, training her dogs and learning how to surf.&lt;/p&gt;
+      <description>&lt;p&gt;Emily Joyce is a PhD student in Dynamical Neuroscience at UC Santa Barbara. She studies how the retina encodes visual information and how that neural code might be recreated through artificial stimulation.&lt;/p&gt;
+&lt;p&gt;Her research uses cell- and circuit-level computational modeling to understand how retinal prostheses interact with the neural circuitry that remains after vision loss. Her dissertation focuses on next-generation implants that directly stimulate retinal bipolar cells, asking how patterns of stimulation could produce richer and more natural visual percepts, including color. Her long-term goal is to use biologically grounded models of the retina to guide the design and programming of future visual prostheses.&lt;/p&gt;
+&lt;p&gt;Before joining the Bionic Vision Lab, Emily worked with large-scale electron microscopy connectomics datasets at Janelia and the Allen Institute, studying cell types and neural circuitry in sensory systems and developing open-source tools for analyzing neuronal morphology and connectivity. She is a UCSB Regents Fellow and an inaugural UC Noyce Graduate Student Fellow, one of five doctoral students selected across the University of California.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Emily enjoys gardening, training her dogs, and learning to surf.&lt;/p&gt;
 </description>
     </item>
     
@@ -134,9 +134,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/nadolskis_lucas/</guid>
-      <description>&lt;p&gt;Lucas is currently a PhD student in the Interdepartmental Graduate Program in Dynamical Neuroscience (DYNS) at UC Santa Barbara, where he investigate novel ways to approach cortical implants for the blind. Being blind himself since the age of five, Lucas&#39; interests are broad, ranging from neuroscience to accessibility, but can be summarized as efforts to improve the lives of blind people around the world.&lt;/p&gt;
-&lt;p&gt;Lucas got his BS in Computer Science with a minor in Neuroscience from the University of Minnesota in 2021, where he performed research related to autonomous navigation, computer vision and brain-computer interfaces. Later, he got his MS in Biomedical Engineering from Carnegie Mellon University, where his primary work focused on analyzing top-down pathways of the visual system and how this could be integrated into cortical implants for the blind. In addition, he worked with the Human-Computer Interaction department on issues related to accessibility in data visualization, an area that he still seeks to explore in the future.&lt;/p&gt;
-&lt;p&gt;Outside of the lab, most of his free time is occupied by music, traveling and searching for audio-described content.&lt;/p&gt;
+      <description>&lt;p&gt;Lucas Nadolskis is a PhD student in Dynamical Neuroscience at UC Santa Barbara. He studies how visual experience shapes the brain, asking just how nonvisual the &amp;ldquo;visual&amp;rdquo; brain can become when vision is absent.&lt;/p&gt;
+&lt;p&gt;His research lies at the intersection of computational neuroscience and NeuroAI, using machine learning and representational analysis to compare how biological and artificial systems encode information. His work has examined the relationship between deep neural network representations and activity in blind visual cortex, and his dissertation aims to use NeuroAI models to understand how sensory experience, plasticity, and task demands shape the organization of the human brain.&lt;/p&gt;
+&lt;p&gt;Lucas also has extensive experience in accessibility research and leadership, including work on assistive AI, accessible data visualization, and visual neuroprostheses. He is a recipient of the UCSB Regents Fellowship and has served in advisory and organizing roles across the accessibility research community. He earned his B.S. in Computer Science from the University of Minnesota and his M.S. in Computational Biomedical Engineering from Carnegie Mellon University.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Lucas enjoys music, traveling, and searching for good audio-described content.&lt;/p&gt;
 </description>
     </item>
     
@@ -157,9 +158,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/pogoncheff_galen/</guid>
-      <description>&lt;p&gt;Galen Pogoncheff is a Computer Science PhD candidate researching how behavioral and processing biases in biological neural systems can inform the development of human-centered deep learning systems.  He brings industry experience researching and developing machine learning models for neural interfaces, integrating multimodal signal data for real-time decoding of motor intent and cognitive state.&lt;/p&gt;
-&lt;p&gt;Prior to this work, Galen completed his B.S. and M.S. in Computer Science at the University of Colorado, specializing in Data Science and Engineering.&lt;/p&gt;
-&lt;p&gt;Outside of the lab, you can find Galen in the mountains or at the gym.&lt;/p&gt;
+      <description>&lt;p&gt;Galen Pogoncheff is a PhD candidate in Computer Science at UC Santa Barbara. He studies how the internal representations of biological and artificial neural networks give rise to behavior.&lt;/p&gt;
+&lt;p&gt;His research spans NeuroAI, representation learning, and AI alignment. He has developed biologically constrained neural networks to identify computational principles that make artificial models more brain-like, and his current work asks how the structure of learned representations can be used to transfer desirable behaviors such as robustness between models. His broader goal is to uncover general principles linking representation, computation, and behavior in intelligent systems.&lt;/p&gt;
+&lt;p&gt;Galen earned his B.S. and M.S. in Computer Science from the University of Colorado Boulder. He has completed multiple research internships at Meta, including work on machine learning for neural interfaces, and is a recipient of the UCSB CCS Community Fellowship and the Computer Science Outstanding TA Award.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Galen enjoys spending time in the mountains and at the gym.&lt;/p&gt;
 </description>
     </item>
     
@@ -169,9 +171,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/schneider_marius/</guid>
-      <description>&lt;p&gt;Marius Schneider is a Postdoctoral Scholar in the Bionic Vision Lab at UC Santa Barbara and recipient of the 2026–27 James V. &amp;amp; Beverly R. Zaleski Discovery Award in Robotics and Computing. He completed his doctoral research in systems neuroscience at the Ernst Strüngmann Institute in Frankfurt, in affiliation with the International Max Planck Research School for Neural Circuits, and defended his PhD with highest honors at Radboud University Nijmegen in May 2024.&lt;/p&gt;
-&lt;p&gt;Marius studies how biological and artificial visual systems process information during active behavior. His work combines dynamical systems, spiking neural networks, closed-loop NeuroAI, and large-scale neural data to understand how movement and brain state shape visual computation. At UCSB, he develops digital-twin models of active mouse vision, leads Mouse-vs-AI, and is launching a new research direction on neuromorphic safety computations for low-power edge systems.&lt;/p&gt;
-&lt;p&gt;Outside the lab, Marius enjoys running, working out at the gym, spending time at the beach, traveling, and listening to music.&lt;/p&gt;
+      <description>&lt;p&gt;Marius Schneider is a Postdoctoral Scholar in the Bionic Vision Lab at UC Santa Barbara. He studies how brains and artificial systems transform sensory input into action through closed sensorimotor loops.&lt;/p&gt;
+&lt;p&gt;His research combines systems neuroscience, computational modeling, and NeuroAI to understand perception during natural behavior. He has used large-scale spike and field-potential recordings to study neural dynamics in freely moving animals, and now develops digital twins and biologically inspired models that link visual input, internal state, movement, and behavior. His current work extends these ideas toward human navigation and neuromorphic systems that can make fast, low-power decisions in the real world.&lt;/p&gt;
+&lt;p&gt;Marius completed his doctoral research at the Ernst Strüngmann Institute and earned his PhD in Neurophysics from Radboud University with highest honors. He is a recipient of the EBBS Young Investigator Award and the 2026–27 James V. &amp;amp; Beverly R. Zaleski Discovery Award in Robotics and Computing.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Marius enjoys running, working out, spending time at the beach, traveling, and listening to music.&lt;/p&gt;
 </description>
     </item>
     
@@ -181,9 +184,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/schoinas_eirini/</guid>
-      <description>&lt;p&gt;Eirini Schoinas is currently an undergraduate pursuing a Computing degree in the College of Creative Studies, UC Santa Barbara. Since joining the Bionic Vision Lab in Fall 2023, she has mainly worked on developing computational models of visual prostheses and neural responses to electrical stimulation in the retina and brain.&lt;/p&gt;
-&lt;p&gt;Eirini is interested in brain-computer interfaces, computational modeling, and using machine learning and data science methods to understand the brain and visual system. She is fascinated by the limitless possibilities that open up as we better understand how the brain works and how this can change the ways we interact with computers. She presented some of her research at the IEEE Engineering in Medicine and Biology Conference in Copenhagen.&lt;/p&gt;
-&lt;p&gt;In her free time, she enjoys reading, hiking, and making art.&lt;/p&gt;
+      <description>&lt;p&gt;Eirini Schoinas is an undergraduate researcher in Computing at UC Santa Barbara’s College of Creative Studies. She develops computational methods for neural interfaces, with a particular interest in the software and algorithms that translate neural stimulation into useful function.&lt;/p&gt;
+&lt;p&gt;Her research combines computational neuroscience, machine learning, and neuroengineering. In the Bionic Vision Lab, she has developed models of how electrical stimulation produces neural activity and visual percepts, with recent work focused on predicting phosphene patterns produced by stimulation of the lateral geniculate nucleus (LGN). More broadly, she is interested in algorithmic approaches to brain-computer interfaces and other neurotechnologies that connect artificial systems with the nervous system.&lt;/p&gt;
+&lt;p&gt;Eirini is a 2026 Barry Goldwater Scholar and received an Honorable Mention for the Computing Research Association’s Outstanding Undergraduate Researcher Award, as well as a UCSB College of Creative Studies Summer Undergraduate Research Fellowship. She has presented her research at the IEEE Engineering in Medicine and Biology Conference.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Eirini enjoys reading, hiking, and making art.&lt;/p&gt;
 </description>
     </item>
     
@@ -204,9 +208,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/stone_hannah/</guid>
-      <description>&lt;p&gt;Hannah Stone is a PhD student in the Bionic Vision Lab at UC Santa Barbara. She previously worked at the Brain Development and Education Lab at Stanford University, where she analyzed the visual processing of text and the flexible effects of task in the human frontal cortex. Prior to that, she worked at the University of Rochester&amp;rsquo;s Marmolab, examining the top-down effects of attention on the oculomotor system and early visual processing.&lt;/p&gt;
-&lt;p&gt;Hannah is interested in how biological visual systems respond to artificial inputs, specifically how the visual system processes and consciously interprets these signals.&lt;/p&gt;
-&lt;p&gt;Outside of the lab, Hannah can be found painting, surfing, and exploring Santa Barbara on her bike.&lt;/p&gt;
+      <description>&lt;p&gt;Hannah Stone is a PhD student in Psychological &amp;amp; Brain Sciences at UC Santa Barbara. She studies how the brain turns artificial stimulation into conscious visual experience.&lt;/p&gt;
+&lt;p&gt;Her research combines psychophysics, neurostimulation, EEG analysis, and computational modeling to understand how cortical activity gives rise to visual percepts. Her current work uses TMS to study phosphene perception and is building toward combining stimulation with EEG to examine how brain state influences whether and what a person sees. In parallel, she develops computational models of V1 to better predict the perceptual consequences of cortical stimulation. In 2026, she received the Richard E. Mayer Award for the best second-year paper in the department.&lt;/p&gt;
+&lt;p&gt;Before joining the Bionic Vision Lab, Hannah worked at Stanford University, where she studied how task demands and individual differences shape the neural processing of written language. She previously conducted research at the University of Rochester on how attention influences eye movements and early visual processing.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Hannah enjoys painting, surfing, and exploring Santa Barbara by bike.&lt;/p&gt;
 </description>
     </item>
     
@@ -216,8 +221,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/thomas_nora/</guid>
-      <description>&lt;p&gt;Nora Thomas is an undergraduate honors student pursuing a Biopsychology degree in the Department of Psychological &amp;amp; Brain Sciences at UC Santa Barbara. Her research interests lie at the intersection of visual neuroscience and computational neuroscience (NeuroAI), with a particular interest in mid-level visual representations such as color and texture. She is interested in using connectomic and neural imaging data to understand how these representations emerge from interactions across the visual system.&lt;/p&gt;
-&lt;p&gt;Nora joined the Bionic Vision Lab as a research assistant in Summer 2025 and became the lab manager in Fall 2026. Outside of the lab, she enjoys dancing, reading, and sewing.&lt;/p&gt;
+      <description>&lt;p&gt;Nora Thomas is an undergraduate honors student in Biopsychology at UC Santa Barbara. She studies how the brain represents the visual world, with a particular interest in mid-level visual properties such as color and texture.&lt;/p&gt;
+&lt;p&gt;Her research interests lie at the intersection of visual neuroscience and computational neuroscience. She is interested in combining human neuroimaging with computational models to understand how visual representations emerge and transform across the visual system, and in using insights from NeuroAI to compare biological and artificial vision. More broadly, she hopes to understand how neural computations give rise to the rich perceptual structure of everyday vision.&lt;/p&gt;
+&lt;p&gt;Nora joined the Bionic Vision Lab as a research assistant in Summer 2025 and became the lab manager in Fall 2026 while continuing her honors research.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Nora enjoys dancing, reading, and sewing.&lt;/p&gt;
 </description>
     </item>
     
@@ -227,9 +234,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/turkstra_lily/</guid>
-      <description>&lt;p&gt;Lily Turkstra is a PhD student in the Psychological and Brain Sciences department at UCSB, where she studies how various neural and psychological states impact prosthetic vision. Her research explores how modulating these states may improve perceptual outcomes and user experiences with visual prostheses.&lt;/p&gt;
-&lt;p&gt;Lily obtained her B.S. in Psychology and minors in Biology and Music from Cal Poly, San Luis Obispo, where she also conducted psychoacoustic research in the Multisensory Perception Lab. She worked as the lab manager of the Bionic Vision Lab before beginning her PhD, studying assistive technology use among individuals with visual impairments. She has also worked as a behavioral therapist supporting children who are non-speaking and conducted research exploring the effects of spaceflight on the brain.&lt;/p&gt;
-&lt;p&gt;Outside of the lab, she enjoys tidepooling, playing the bass, and biking around Santa Barbara.&lt;/p&gt;
+      <description>&lt;p&gt;Lily Turkstra is a PhD candidate in Psychological &amp;amp; Brain Sciences at UC Santa Barbara. She studies the human side of sight restoration, asking what happens after vision is restored and how people learn to make useful sense of artificial vision.&lt;/p&gt;
+&lt;p&gt;Her research examines how people who are blind use assistive technologies, how visual prosthesis users experience artificial vision in daily life, and how attention, engagement, and cognitive state shape performance. Her dissertation focuses on visual rehabilitation, including gamified training and neurofeedback, with the long-term goal of developing personalized approaches that help people make better use of restored vision.&lt;/p&gt;
+&lt;p&gt;Lily earned her B.S. in Psychology, with minors in Biology and Music, from Cal Poly San Luis Obispo, where she conducted psychoacoustic research in the Multisensory Perception Lab. Before beginning her PhD, she served as lab manager of the Bionic Vision Lab.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Lily enjoys tidepooling, playing bass, and biking around Santa Barbara.&lt;/p&gt;
 </description>
     </item>
     
@@ -239,8 +247,10 @@ In the Bionic Vision Lab, his goal is to explore how immersive technology, machi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/people/varshney_apurv/</guid>
-      <description>&lt;p&gt;Apurv Varshney is a PhD student in Computer Science at UC Santa Barbara. He is interested in Mixed Reality (MR) and Human Computer Interaction. His research goal is to harness MR and visual prosthesis to enhance accessibility and navigational challenges faced by Blind people.&lt;/p&gt;
-&lt;p&gt;Outside of lab, he enjoys biking and playing tennis.&lt;/p&gt;
+      <description>&lt;p&gt;Apurv Varshney is a PhD student in Computer Science at UC Santa Barbara. He develops computer vision and interactive systems that help people navigate complex environments more effectively.&lt;/p&gt;
+&lt;p&gt;His research sits at the intersection of computer vision, human-computer interaction, and extended reality. His dissertation focuses on the &amp;ldquo;last mile&amp;rdquo; of navigation for people who are blind or have low vision, including how wearable cameras can capture useful spatial information and how that information should be translated into intuitive guidance. More broadly, he studies how sensing, scene understanding, and interface design can work together to support real-time movement and decision-making.&lt;/p&gt;
+&lt;p&gt;Apurv earned his B.Tech. in Computer Science from the Indian Institute of Technology Goa. He leads development of the lab’s BionicVisionXR platform for building and evaluating immersive visual-assistance systems, and received the UCSB Computer Science Outstanding TA Award in 2025.&lt;/p&gt;
+&lt;p&gt;Outside of the lab, Apurv enjoys biking and playing tennis.&lt;/p&gt;
 </description>
     </item>
     
