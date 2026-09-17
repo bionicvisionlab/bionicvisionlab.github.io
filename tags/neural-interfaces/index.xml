@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Interfaces on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/neural-interfaces/</link>
+    <description>Recent content in Neural Interfaces on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/neural-interfaces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Closed-Loop Control of Visual Neuroprostheses</title>
+      <link>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</guid>
+      <description>&lt;p&gt;Single-electrode phosphenes do not simply add up into useful patterned vision. If we can predict the percept or neural response produced by a stimulus, the next problem is to work backward: which stimulation pattern should we use to produce the outcome we want?&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We approach this as a learning and control problem. We train stimulus encoders through differentiable models of artificial vision, use Bayesian and preference-based optimization to search stimulation space, and use bidirectional implants to adjust stimulation based on recorded cortical activity.&lt;/p&gt;
+&lt;p&gt;The challenge is that the right stimulation pattern can differ across people and change over time. Any useful controller therefore has to adapt from relatively little data. This becomes even more important for high-channel-count cortical implants, where the number of possible stimulation patterns is far too large to explore directly. Part of our work is therefore finding lower-dimensional ways to represent and control that space.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Stimulus encoders. Learning mappings from visual input or target percepts to implant stimulation patterns.&lt;/li&gt;
+&lt;li&gt;Human-in-the-loop optimization. Personalizing models and stimulation from a practical number of participant responses.&lt;/li&gt;
+&lt;li&gt;Perceptual characterization. Efficiently estimating thresholds, sensitivity maps, and other participant-specific parameters.&lt;/li&gt;
+&lt;li&gt;Neural activity shaping. Using recorded cortical responses to adjust stimulation and drive activity toward a target.&lt;/li&gt;
+&lt;li&gt;Safety and robustness. Testing learned stimulation strategies across parameter ranges and failure cases before they are used experimentally.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2683 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We study vision during natural behavior: how eye, head, and body movements shape the visual input, how the brain responds, and how biological and artificial systems solve similar sensorimotor problems.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/research/active-vision-sensorimotor/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0e1111">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible+Next:400,400italic,700,700italic|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.8994e567e10121067d5531d88d21c7b4.css">
+
+  
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.8f501bdc11dd504f9728e4552c3c2e4d.css">
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://bionicvisionlab.org/research/active-vision-sensorimotor/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bionicvisionlab">
+  <meta property="twitter:creator" content="@bionicvisionlab">
+  
+  <meta property="og:site_name" content="Bionic Vision Lab">
+  <meta property="og:url" content="https://bionicvisionlab.org/research/active-vision-sensorimotor/">
+  <meta property="og:title" content="Active Vision &amp; Sensorimotor Intelligence | Bionic Vision Lab">
+  <meta property="og:description" content="We study vision during natural behavior: how eye, head, and body movements shape the visual input, how the brain responds, and how biological and artificial systems solve similar sensorimotor problems."><meta property="og:image" content="https://bionicvisionlab.org/research/active-vision-sensorimotor/featured.png">
+  <meta property="twitter:image" content="https://bionicvisionlab.org/research/active-vision-sensorimotor/featured.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-01-02T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-01-02T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#0e1111",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#0e1111"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="/css/gallery.css"/>
+  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/js/load-photoswipe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+  <title>Active Vision &amp; Sensorimotor Intelligence | Bionic Vision Lab</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <a class="skip-to-content" href="#main-content">Skip to main content</a>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"><img src="/img/bvl-title-dark.png" alt="Bionic Vision Lab"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars" aria-hidden="true"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#intro"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/code"><span>Code</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Contact</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/join"><span>Join Us</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/contact"><span>Location</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <main id="main-content">
+    
+
+
+
+<div class="container px-4 px-sm-0">
+  <div class="row page-top">
+    <h1 class="page-title">Active Vision &amp; Sensorimotor Intelligence</h1>
+    
+  </div>
+  
+  
+  
+  
+  
+  <div class="row">
+    <div class="col-12">
+      <div class="article-tags">
+        
+        
+        <a class="badge badge-light" href="/tags/active-vision/">Active Vision</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/systems-neuroscience/">Systems Neuroscience</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/neuroai/">NeuroAI</a>
+        
+        
+        
+        <span class="badge badge-light">Eye Tracking</span>
+        
+        
+        <span class="badge badge-light">Neuromorphic Computing</span>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+
+  
+  <div class="row mt-2">
+    <div class="col-12">
+      <div class="article-style content-prose" itemprop="articleBody"><p>Much of what we know about visual cortex comes from animals viewing controlled stimuli while keeping their heads still. Natural vision is different. During navigation, foraging, and pursuit, animals actively move their eyes, head, and body, continually changing both what they see and how the brain responds.</p>
+<h2 id="what-we-study">What We Study</h2>
+<p>We use recordings from freely moving mice and from real-world and virtual navigation experiments to study how visual input, movement, and behavioral state jointly shape cortical activity. We model these signals together and also study the sampling behavior itself, including gaze shifts and head–eye coordination.</p>
+<p>We also compare biological and artificial visual systems. Mice and AI models can be tested on the same tasks, allowing us to ask where their behavior and internal representations agree or differ. Digital twins of visual cortex provide another way to test hypotheses that would be difficult to probe directly in the brain. We are also interested in event-driven and spiking approaches to efficient visual processing.</p>
+<h2 id="current-directions">Current Directions</h2>
+<ul>
+<li>Behavior-dependent cortical dynamics. Neural activity during freely moving behavior and models that account for visual input, movement, and internal state.</li>
+<li>Active sampling. Gaze shifts, head–eye coordination, and other strategies that determine what visual information is acquired.</li>
+<li>Mouse versus AI. Comparing biological and artificial agents on the same visual tasks and representations.</li>
+<li>Digital twins. Predictive models of visual cortex that can be used to test hypotheses about neural computation.</li>
+<li>Event-driven and spiking vision. Efficient visual processing inspired by biological sensing and computation.</li>
+</ul>
+</div>
+    </div>
+    
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <hr class="section-rule">
+  <h2 class="section-title">Team</h2>
+  <div class="team-grid">
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Leads</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="/people/hou_yuchen/">
+        <img class="person-chip-avatar" src="/people/hou_yuchen/avatar_hu330ba27a1b2825e0f45b4abe910363ec_407271_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Yuchen Hou</span><small class="person-chip-meta">PhD Candidate</small></span>
+    </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="/people/schneider_marius/">
+        <img class="person-chip-avatar" src="/people/schneider_marius/avatar_hu0c067ec45c004f0e29d0bb935e6d100e_528917_128x128_fill_lanczos_center_3.png" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Marius Schneider</span><small class="person-chip-meta">Postdoctoral Scholar</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Principal Investigator</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="/people/beyeler_michael/">
+        <img class="person-chip-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Michael Beyeler</span><small class="person-chip-meta">Associate Professor</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Collaborators</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+  
+  
+    
+    
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="https://psych.ucsb.edu/people/faculty/michael-goard">
+        <img class="person-chip-avatar" src="/collaborators/goard_michael/avatar_hu5bb6811dc03af32da6fd49df87cde530_45547_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Michael J. Goard</span></span>
+    </a>
+  
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="https://ion.uoregon.edu/content/cris-niell">
+        <img class="person-chip-avatar" src="/collaborators/niell_cris/avatar_hu1651439b2436fa04a2588b46b32f45c6_25753_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Cristopher M. Niell</span><small class="person-chip-meta">University of Oregon</small></span>
+    </a>
+  
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="https://engineering.ucsb.edu/people/spencer-l-smith">
+        <img class="person-chip-avatar" src="/collaborators/smith_spencer/avatar_hu73880f22e19a3b20c3c500cf52b7b80e_31878_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Spencer LaVere Smith</span></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Consultant</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+  
+  
+    
+    
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="https://www.biology.washington.edu/people/profile/bing-w-brunton">
+        <img class="person-chip-avatar" src="/collaborators/brunton_bing/avatar_hu55ac4cbc36f01ba8263deb8ba2091d3f_44199_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Bingni W. Brunton</span><small class="person-chip-meta">University of Washington</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+  <hr class="section-rule">
+  <h2 class="section-title">Publications</h2>
+  <div class="page-pubs">
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2026-07-ecological-visual-processing-mouse/"  itemprop="url">Ecological visual processing in the mouse</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We review computations that are engaged in ecological contexts, including active sensing, motion processing, scene analysis, distance estimation, and spatial perception.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2026-07-08 00:50:22 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-07-08 00:50:22 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://ion.uoregon.edu/content/cris-niell"><img class="byline-avatar" src="/collaborators/niell_cris/avatar_hu1651439b2436fa04a2588b46b32f45c6_25753_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Cristopher M. Niell</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://psych.ucsb.edu/people/faculty/michael-goard"><img class="byline-avatar" src="/collaborators/goard_michael/avatar_hu5bb6811dc03af32da6fd49df87cde530_45547_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael J. Goard</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://engineering.ucsb.edu/people/spencer-l-smith"><img class="byline-avatar" src="/collaborators/smith_spencer/avatar_hu73880f22e19a3b20c3c500cf52b7b80e_31878_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Spencer LaVere Smith</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>July 2026</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Annual Review of Neuroscience 49:189-209
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  <span class="d-block author-note"><i>(Note: All authors contributed equally to this work.)</i></span>
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2026-07-ecological-visual-processing-mouse/" >
+      <img src="/publications/2026-07-ecological-visual-processing-mouse/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Ecological visual processing in the mouse">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/"  itemprop="url">Gaze shifts in freely moving mice comprise distinct head-eye coordination motifs</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We found that freely moving mice use multiple structured head-eye coordination motifs to shift gaze, including a Head-with-Eye motif that appears to reflect active visual orienting during natural behavior.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2026-05-21 02:34:22 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-05-21 02:34:22 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/hou_yuchen/"><img class="byline-avatar" src="/people/hou_yuchen/avatar_hu330ba27a1b2825e0f45b4abe910363ec_407271_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Yuchen Hou</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/schneider_marius/"><img class="byline-avatar" src="/people/schneider_marius/avatar_hu0c067ec45c004f0e29d0bb935e6d100e_528917_72x72_fill_lanczos_center_3.png" alt="" loading="lazy" width="72" height="72"><span>Marius Schneider</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Jhoseph Shin</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://ion.uoregon.edu/content/cris-niell"><img class="byline-avatar" src="/collaborators/niell_cris/avatar_hu1651439b2436fa04a2588b46b32f45c6_25753_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Cristopher M. Niell</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>May 2026</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      bioRxiv
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  <span class="d-block author-note"><i>(Note: YH and MS contributed equally to this work.)</i></span>
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/" >
+      <img src="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/featured_huc1e44921928822b27a2d04a916f585a1_303528_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Gaze shifts in freely moving mice comprise distinct head-eye coordination motifs">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/"  itemprop="url">Visual robustness and neural alignment in a shared foraging task: The Mouse vs. AI benchmark</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We introduce Mouse vs. AI, a public benchmark suite that unifies visual robustness, embodied foraging behavior, and neural alignment by evaluating artificial agents and mice in the same naturalistic 3D task.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2026-05-07 18:49:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-05-07 18:49:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/schneider_marius/"><img class="byline-avatar" src="/people/schneider_marius/avatar_hu0c067ec45c004f0e29d0bb935e6d100e_528917_72x72_fill_lanczos_center_3.png" alt="" loading="lazy" width="72" height="72"><span>Marius Schneider</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Joe S. Canzano</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/hou_yuchen/"><img class="byline-avatar" src="/people/hou_yuchen/avatar_hu330ba27a1b2825e0f45b4abe910363ec_407271_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Yuchen Hou</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/peng_jing/avatar_hub822bfc611f756ffd0b7b2239961d6e5_14903_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jing Peng</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Anjali Deepu</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Utsab Karan</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Phu-Hoa Pham</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Tran Chi Nguyen</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Dao Sy Duy Minh</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Phu Quy Nguyen Lam</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Trung-Kiet Huynh</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Simone Azeglio</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://engineering.ucsb.edu/people/spencer-l-smith"><img class="byline-avatar" src="/collaborators/smith_spencer/avatar_hu73880f22e19a3b20c3c500cf52b7b80e_31878_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Spencer LaVere Smith</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>May 2026</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      arXiv
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/" >
+      <img src="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/featured_hu833e08145f1e5ee4d03fcb2a255f7c6f_306212_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Visual robustness and neural alignment in a shared foraging task: The Mouse vs. AI benchmark">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2025-06-isca-single-spike-anns/"  itemprop="url">Single spike artificial neural networks</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We propose a novel temporal-digital architecture that encodes ANN weights as delays and activations as signal arrival times, enabling full ANN execution with temporal reuse, noise-tolerant summation, and hybrid memory, achieving up to 11× energy and 4× latency improvements over SNNs, and 3.5× energy savings over 8-bit digital systolic arrays.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2025-06-20 18:49:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-06-20 18:49:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person">Rhys Gretsch</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Jeremy Lau</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Timothy Sherwood</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>June 2025</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      International Symposium on Computer Architecture (ISCA) &lsquo;25
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2025-06-isca-single-spike-anns/" >
+      <img src="/publications/2025-06-isca-single-spike-anns/featured_hu1ce8eb32cc29d6ffd2957a549d0f01bf_144370_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Single spike artificial neural networks">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2023-12-v1-mouse/"  itemprop="url">Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We introduce a multimodal recurrent neural network that integrates gaze-contingent visual input with behavioral and temporal dynamics to explain V1 activity in freely moving mice.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2023-12-10 18:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-12-10 18:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/xu_aiwen/avatar_hu7a8b3f3af8ffe0e76218ef6fea1cdfdb_125385_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Aiwen Xu</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/hou_yuchen/"><img class="byline-avatar" src="/people/hou_yuchen/avatar_hu330ba27a1b2825e0f45b4abe910363ec_407271_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Yuchen Hou</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://ion.uoregon.edu/content/cris-niell"><img class="byline-avatar" src="/collaborators/niell_cris/avatar_hu1651439b2436fa04a2588b46b32f45c6_25753_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Cristopher M. Niell</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>December 2023</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      37th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;23
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2023-12-v1-mouse/" >
+      <img src="/publications/2023-12-v1-mouse/featured_hud5f7f2e3b41b0f609fa54ebe0a30618c_58731_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2023-04-neuromorphic-lstm/"  itemprop="url">Long-short term memory (LSTM) cells on spiking neuromorphic hardware</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We present a way to implement long short-term memory (LSTM) cells on spiking neuromorphic hardware.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2023-04-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-04-25 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person">Rathinakumar Appuswamy</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Pallab Datta</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Myron Flickner</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Dharmendra S Modha</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>April 2023</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      US Patent No. 11,636,317
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2023-04-neuromorphic-lstm/" >
+      <img src="/publications/2023-04-neuromorphic-lstm/featured_hu99e0fc5d598cd5acbee322e571484c6a_423881_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Long-short term memory (LSTM) cells on spiking neuromorphic hardware">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2023-04-snn-stdp-wta/"  itemprop="url">Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We present a SNN model that uses spike-latency coding and winner-take-all inhibition to efficiently represent visual objects with as little as 15 spikes per neuron.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2023-04-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-04-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/sanchez_garcia_melani/avatar_hu2639b724511d06a5b9211b1d8cb2a52b_141792_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Melani Sanchez-Garcia</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Tushar Chauhan</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Benoit R. Cottereau</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>April 2023</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Biological Cybernetics
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  <span class="d-block author-note"><i>(Note: MSG and TC are co-first authors. BRC and MB are co-last authors.)</i></span>
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2023-04-snn-stdp-wta/" >
+      <img src="/publications/2023-04-snn-stdp-wta/featured_hu70137d29d2471252ca399ce1d34c8868_82599_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2022-06-motion-perception-stdp-h/"  itemprop="url">Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We developed a spiking neural network model that showed MSTd-like response properties can emerge from evolving spike-timing dependent plasticity with homeostatic synaptic scaling (STDP-H) parameters of the connections between area MT and MSTd.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2022-06-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-06-22 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+    <i class="fa fa-bullhorn mr-1" alt="Promoted research"></i>
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person">Kexin Chen</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Jeffrey L. Krichmar</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>June 2022</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Journal of Neuroscience
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2022-06-motion-perception-stdp-h/" >
+      <img src="/publications/2022-06-motion-perception-stdp-h/featured_hu08693bcce7d6c2cd9c254152d8cb6c2a_445287_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2022-06-spike-latency-winner-take-all/"  itemprop="url">Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We present a SNN model that uses spike-latency coding and winner-take-all inhibition to efficiently represent visual stimuli from the Fashion MNIST dataset.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2022-06-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-06-19 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/sanchez_garcia_melani/avatar_hu2639b724511d06a5b9211b1d8cb2a52b_141792_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Melani Sanchez-Garcia</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Tushar Chauhan</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Benoit R. Cottereau</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>June 2022</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      NeuroVision Workshop, IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) &lsquo;22
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2022-06-spike-latency-winner-take-all/" >
+      <img src="/publications/2022-06-spike-latency-winner-take-all/featured_hu5f17d67d38b28523a0e563399a0d85fe_67344_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2016-sparse-decomposition-model/"  itemprop="url">3D visual response properties of MSTd emerge from an efficient, sparse population code</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">Using a dimensionality reduction technique known as non-negative matrix factorization, we found that a variety of medial superior temporal (MSTd) neural response properties could be derived from MT-like input features. The responses that emerge from this technique, such as 3D translation and rotation selectivity, spiral tuning, and heading …</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2016-08-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-08-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Nikil Dutt</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Jeffrey L. Krichmar</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>August 2016</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Journal of Neuroscience 36(32): 8399-8415
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2016-sparse-decomposition-model/" >
+      <img src="/publications/2016-sparse-decomposition-model/featured_hube6c78274a4b04e4d404b6c1ee737e75_101897_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="3D visual response properties of MSTd emerge from an efficient, sparse population code">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2015-gpu-visually-guided-robot-navigation/"  itemprop="url">A GPU-accelerated cortical neural network model for visually guided robot navigation</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We present a cortical neural network model for visually guided navigation that has been embodied on a physical robot exploring a real-world environment. The model includes a rate based motion energy model for area V1, and a spiking neural network model for cortical area MT. The model generates a cortical representation of optic flow, determines the …</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2015-12-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2015-12-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Nicolas Oros</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Nikil Dutt</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Jeffrey L. Krichmar</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>December 2015</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Neural Networks 72: 75-87
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2015-gpu-visually-guided-robot-navigation/" >
+      <img src="/publications/2015-gpu-visually-guided-robot-navigation/featured_huc9d88b7ba2caae77573f103db7b86e07_87883_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A GPU-accelerated cortical neural network model for visually guided robot navigation">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2014-efficient-pattern-motion-snn-mt/"  itemprop="url">Efficient spiking neural network model of pattern motion selectivity in visual cortex</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We present a two-stage model of visual area MT that we believe to be the first large-scale spiking network to demonstrate pattern direction selectivity. In this model, component-direction-selective (CDS) cells in MT linearly combine inputs from V1 cells that have spatiotemporal receptive fields according to the motion energy model of Simoncelli and …</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2014-02-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2014-02-05 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Micah Richert</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Nikil Dutt</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Jeffrey L. Krichmar</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>February 2014</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Neuroinformatics 12(3): 435-454
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2014-efficient-pattern-motion-snn-mt/" >
+      <img src="/publications/2014-efficient-pattern-motion-snn-mt/featured_hu2a06e461a394504b018b380eac5c4e33_193760_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient spiking neural network model of pattern motion selectivity in visual cortex">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+  </div>
+  
+
+    <a href="../" class="button">Back to all research areas</a>
+  </div>
+
+</article>
+  </main>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'news': "In the News",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <hr class="section-rule">
+    <footer class="site-footer mt-5 pt-0">
+  <div class="row featurette">
+    <div class="col-6 col-sm-5">
+      <div class="featurette-icon">
+        <a href="https://cs.ucsb.edu" target="_blank"><img src="/img/ucsb-cs-logo.png" alt="UCSB Computer Science"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-5">
+      <div class="featurette-icon">
+        <a href="https://psych.ucsb.edu" target="_blank"><img src="/img/ucsb-psych-logo.svg" alt="UCSB Psychological & Brain Sciences"></a>
+      </div>
+    </div>
+    <div class="col-sm-2 d-none d-sm-block">
+      <div class="featurette-icon">
+        <a href="https://ucsb.edu" target="_blank"><img src="/img/ucsb-enlightened.png" style="filter:invert(1)" alt="UC Santa Barbara"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-sm-2 d-none d-sm-block">
+    </div>
+    <div class="col-6 col-sm-3">
+      <div class="featurette-icon">
+        <a href="https://bioengineering.ucsb.edu" target="_blank"><img src="/img/ucsb-bioeng-logo.png" style="padding: 5% 0" alt="UCSB Bioengineering"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-2 d-flex align-items-center">
+      <div class="featurette-icon">
+        <a href="https://dyns.ucsb.edu" target="_blank"><img src="/img/ucsb-dyns-logo.png" alt="UCSB DYNS"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-3" style>
+      <div class="featurette-icon">
+        <a href="https://nri.ucsb.edu" target="_blank"><img src="/img/ucsb-nri-logo.svg" style="padding: 6% 0" alt="UCSB Neuroscience Research Institute"></a>
+      </div>
+    </div>
+  </div>
+
+  <p class="h6 mt-4">
+    © 2026 Bionic Vision Lab.
+    All rights reserved.
+
+    
+    <span class="float-right">
+      <a href="#" id="back_to_top" aria-label="Back to top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

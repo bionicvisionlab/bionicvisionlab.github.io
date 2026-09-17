@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extended Reality on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/extended-reality/</link>
+    <description>Recent content in Extended Reality on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 12 Oct 2025 08:49:01 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/extended-reality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BionicVisionXR: An Open-Source Virtual Reality Toolbox for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/code/bionicvisionxr/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/bionicvisionxr/</guid>
+      <description>&lt;p&gt;BionicVisionXR is an open-source toolbox for simulating visual prostheses in immersive virtual reality. It lets sighted participants experience model-based approximations of prosthetic vision while freely moving through virtual environments.&lt;/p&gt;
+&lt;p&gt;VR is especially useful for prosthetic vision because current implants provide only a small field of view, forcing users to scan the environment with head and body movements. Those behaviors are difficult to reproduce with conventional screen-based simulations.&lt;/p&gt;
+&lt;p&gt;BionicVisionXR combines immersive environments with computational models of prosthetic vision, allowing researchers to study navigation, object search, scene understanding, and other visually guided behaviors under controlled conditions. The toolbox is designed for experiments that need both realistic movement and biologically informed models of what an implant may produce.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SimpleXR: An open-source Unity toolbox for simplified XR development</title>
+      <link>https://bionicvisionlab.org/code/simplexr/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/simplexr/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;This page is archived.&lt;/strong&gt; SimpleXR is no longer under active development. For our current work on simulated prosthetic vision and immersive visual-assistance research, see &lt;a href=&#34;../bionicvisionxr/&#34;&gt;BionicVisionXR&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology</title>
+      <link>https://bionicvisionlab.org/publications/2025-10-ismar-neuroadaptive-xr/</link>
+      <pubDate>Sun, 12 Oct 2025 08:49:01 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2025-10-ismar-neuroadaptive-xr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Smart Bionic Eye</title>
+      <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;This page is archived.&lt;/strong&gt; The Smart Bionic Eye effort has since grown into several distinct research areas. The work described here now continues under &lt;a href=&#34;../assistive-vision-navigation/&#34;&gt;Assistive Vision &amp;amp; Navigation&lt;/a&gt;, &lt;a href=&#34;../closed-loop-neuroprostheses/&#34;&gt;Closed-Loop Control of Visual Neuroprostheses&lt;/a&gt;, &lt;a href=&#34;../artificial-vision-pathway/&#34;&gt;Artificial Vision Across the Visual Pathway&lt;/a&gt;, and &lt;a href=&#34;../vision-loss-restoration-adaptation/&#34;&gt;Human Adaptation to Vision Loss &amp;amp; Restoration&lt;/a&gt;. The grant that funded it remains active.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
+&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
+Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

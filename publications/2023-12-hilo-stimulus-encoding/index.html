@@ -72,13 +72,13 @@
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Century751:400,400italic,700|Roboto+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible+Next:400,400italic,700,700italic|Roboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.7fbe49c899d29b45e85b03caabc96137.css">
+  <link rel="stylesheet" href="/css/academic.min.8994e567e10121067d5531d88d21c7b4.css">
 
   
     
@@ -91,7 +91,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.ec5d9767648fce7f072087b4ce58352c.css">
+    <link rel="stylesheet" href="/css/academic.8f501bdc11dd504f9728e4552c3c2e4d.css">
   
 
   
@@ -417,77 +417,39 @@
     
 
 
-<div class="container px-4 px-sm-0">
-  <div class="row mt-2">
-    <h2>Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</h2>
-    
-    
 
 
 
-
-<meta content="2023-12-10 18:49:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2023-12-10 18:49:00 &#43;0000 UTC" itemprop="dateModified">
-
-<div class="m-0 p-0">
-  
-  
-  
-  
-  
-  
-  <span itemprop="authors">
-    
-
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">Jacob Granley</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tristan Fauvel</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matthew Chalk</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
-        <a href="/people/beyeler_michael/">Michael Beyeler</a></span>
-
-  </span>
-  <span class="middot-divider"></span>
   
   
 
+
+
+
+
   
-  
-  <span class="">
-    
     
       
     
-    <time>December 2023</time>
-  </span>
-  
   
 
-  
 
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      37th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;23
-    
-  </span>
-  
 
-  
 
-  
-  
-  
 
-  
-  
 
-  
 
-  
 
-  
-    
+
+
+<div class="container px-4 px-sm-0">
+  <article class="page-article" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+    <meta content="2023-12-10 18:49:00 &#43;0000 UTC" itemprop="datePublished">
+    <meta content="2023-12-10 18:49:00 &#43;0000 UTC" itemprop="dateModified">
+
+    <header class="page-header page-top">
+      
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     
@@ -573,41 +535,30 @@
 </div>
 
 
-  
-</div>
 
-  </div>
-  <div class="row m-0">
-    
-    
-    
-  </div>      
-  <div class="row m-0" style="margin-left: -15px !important">
-    <div class="col-md-8 pr-4">
+      <p class="page-eyebrow">
+        <span>Conference publication</span>
+        
+        <span itemprop="publisher">37th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;23</span>
+        
+        
+        <span><time datetime="2023-12-10">December 2023</time></span>
+        
+      </p>
+
+      <h1 class="page-title" itemprop="name">Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</h1>
+
+      <p class="pub-byline" itemprop="author">
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Tristan Fauvel</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Matthew Chalk</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+</p>
+
       
-      <div class="row">
-        <h3 class="mt-2">Abstract</h3>
-        <p class="pub-abstract" itemprop="text">Neuroprostheses show potential in restoring lost sensory function and enhancing human capabilities, but the sensations produced by current devices often seem unnatural or distorted. Exact placement of implants and differences in individual perception lead to significant variations in stimulus response, making personalized stimulus optimization a key challenge. Bayesian optimization could be used to optimize patient-specific stimulation parameters with limited noisy observations, but is not feasible for high-dimensional stimuli. Alternatively, deep learning models can optimize stimulus encoding strategies, but typically assume perfect knowledge of patient-specific variations. Here we propose a novel, practically feasible approach that overcomes both of these fundamental limitations. First, a deep encoder network is trained to produce optimal stimuli for any individual patient by inverting a forward model mapping electrical stimuli to visual percepts. Second, a preferential Bayesian optimization strategy utilizes this encoder to optimize patient-specific parameters for a new patient, using a minimal number of pairwise comparisons between candidate stimuli. We demonstrate the viability of this approach on a novel, state-of-the-art visual prosthesis model. We show that our approach quickly learns a personalized stimulus encoder, leads to dramatic improvements in the quality of restored vision, and is robust to noisy patient feedback and misspecifications in the underlying forward model. Overall, our results suggest that combining the strengths of deep learning and Bayesian optimization could significantly improve the perceptual experience of patients fitted with visual prostheses and may prove a viable solution for a range of neuroprosthetic technologies.</p>
-      </div>
-      
-      
+
       
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="btn-links mb-3">
-  
-  
+      
+      <div class="btn-links page-links">
 
 
 
@@ -677,33 +628,174 @@
 
 
 
+</div>
+      
 
+      
+    </header>
+
+    
+    <section class="page-section">
+      <h2 class="section-title">In Brief</h2>
+      <div class="page-brief">We propose a personalized stimulus encoding strategy that combines state-of-the-art deep stimulus encoding with preferential Bayesian optimization.</div>
+    </section>
+    
+
+    
+    
+
+    
+
+    
+    <section class="page-section">
+      <hr class="section-rule">
+      <h2 class="section-title">Abstract</h2>
+      <div class="pub-abstract" itemprop="abstract">Neuroprostheses show potential in restoring lost sensory function and enhancing human capabilities, but the sensations produced by current devices often seem unnatural or distorted. Exact placement of implants and differences in individual perception lead to significant variations in stimulus response, making personalized stimulus optimization a key challenge. Bayesian optimization could be used to optimize patient-specific stimulation parameters with limited noisy observations, but is not feasible for high-dimensional stimuli. Alternatively, deep learning models can optimize stimulus encoding strategies, but typically assume perfect knowledge of patient-specific variations. Here we propose a novel, practically feasible approach that overcomes both of these fundamental limitations. First, a deep encoder network is trained to produce optimal stimuli for any individual patient by inverting a forward model mapping electrical stimuli to visual percepts. Second, a preferential Bayesian optimization strategy utilizes this encoder to optimize patient-specific parameters for a new patient, using a minimal number of pairwise comparisons between candidate stimuli. We demonstrate the viability of this approach on a novel, state-of-the-art visual prosthesis model. We show that our approach quickly learns a personalized stimulus encoder, leads to dramatic improvements in the quality of restored vision, and is robust to noisy patient feedback and misspecifications in the underlying forward model. Overall, our results suggest that combining the strengths of deep learning and Bayesian optimization could significantly improve the perceptual experience of patients fitted with visual prostheses and may prove a viable solution for a range of neuroprosthetic technologies.</div>
+    </section>
+    
+
+    
+    <section class="page-section page-areas">
+      <hr class="section-rule">
+      <h2 class="section-title">Related Research</h2>
+      
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+    <h3 class="m-0 stream-title item-title" itemprop="name">
+      <a href="/research/closed-loop-neuroprostheses/"  itemprop="url">Closed-Loop Control of Visual Neuroprostheses</a>
+      
+        <a class="badge-recruiting" href="/join/">Recruiting</a>
+      
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We develop methods for choosing stimulation patterns that produce a desired percept or neural response, using predictive models, optimization, and feedback from the user or the brain.</p>
+    </div>
+    
+
+    
+    <p class="stream-leads"><a class="stream-lead" href="/people/beyeler_michael/">
+              <img class="stream-lead-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span>
+          </a></p>
+    
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a>
+  
+  <a class="badge badge-light" href="/tags/neural-interfaces/">Neural Interfaces</a>
+  
+  <a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a>
+  
 </div>
 
 
+
+    <div>
       
-      
-      <div class="text-center">
-        <img class="mt-4 mb-2 subtle-black-shadow" style="width:100%" src="featured.jpg" alt="featured.jpg"/>
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2021-12-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-12-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
       </div>
-      
-
-      
     </div>
-    
+
     
   </div>
-
   
-
-
-
-  
-
-  <div class="row mt-4">
-    <a href="../" class="button">All publications</a>
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/research/closed-loop-neuroprostheses/" >
+      <img src="/research/closed-loop-neuroprostheses/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
+    </a>
   </div>
+  
+</div>
 
+    </section>
+    
+
+    
+
+    <p class="page-back"><a href="../" class="button">All publications</a></p>
+
+  </article>
 </div>
 
 
@@ -829,6 +921,7 @@
 
   
   <div class="container">
+    <hr class="section-rule">
     <footer class="site-footer mt-5 pt-0">
   <div class="row featurette">
     <div class="col-6 col-sm-5">

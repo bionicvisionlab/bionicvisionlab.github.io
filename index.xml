@@ -43,7 +43,7 @@ You can find code for most of our publications at &lt;a href=&#34;https://github
     </item>
     
     <item>
-      <title>Research</title>
+      <title>Research Areas</title>
       <link>https://bionicvisionlab.org/research/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
@@ -53,25 +53,10 @@ You can find code for most of our publications at &lt;a href=&#34;https://github
     &lt;p class=&#34;mb-1&#34; style=&#34;line-height: 100%&#34;&gt;&lt;small&gt;Main approaches for the design of a visual prosthesis &lt;a href=&#34;https://doi.org/10.1186/s42234-018-0013-8&#34; target=&#34;_blank&#34;&gt;(Fernandez, 2018)&lt;/a&gt; include retinal (A), optic nerve (B), lateral geniculate nucleus (LGN, C), and cortical approaches (D).&lt;/small&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;i&gt;Rethinking sight restoration through models, data, and lived experience.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;We experience the world through rich and varied forms of vision. 
-For people who are blind or have low vision, existing tools and technologies often fall short of supporting this diversity of experience. Our goal is to understand how biological and artificial vision systems work, and to use those insights to design neurotechnologies that expand access to visual information and support greater independence.&lt;/p&gt;
-&lt;p&gt;The Bionic Vision Lab tackles this challenge at the intersection of neuroscience, psychology, and computer science. We combine behavioral experiments, VR/AR, and neurophysiological methods (EEG, TMS, physiological sensing) with computational modeling, machine learning, and computer vision. This allows us to connect brain, behavior, and technology; asking how perception supports real-world action, and how artificial systems can interface with the brain to restore or augment visual function.&lt;/p&gt;
-&lt;p&gt;Our work spans three interconnected research areas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Understanding perception and behavior.&lt;/strong&gt;
-We study how people with low vision or blindness perceive and navigate complex environments, using psychophysics, immersive VR, and ambulatory head/eye/body tracking to link perception to real-world function.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Modeling neural systems and prosthetic vision.&lt;/strong&gt;
-We develop biophysically informed and machine learning models of retinal and cortical stimulation, predicting what visual prosthesis users see and designing algorithms to optimize stimulation strategies.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Building intelligent assistive technologies.&lt;/strong&gt;
-We build real-time XR testbeds and computer vision–based assistive tools, using insights from human and animal vision to power the next generation of wearable and implantable devices.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This integrative approach welcomes students with diverse strengths: some focus on human behavior and perception, others on neural systems and computation, and others on designing interactive technologies. Together, they work toward a shared goal: creating tools and interfaces that bring meaningful, functional vision within reach.&lt;/p&gt;
+&lt;p&gt;We explore the science of human, animal, and artificial vision, bringing together neuroscience, psychology, and computer science to understand how vision works and how it can be restored or augmented.&lt;/p&gt;
+&lt;p&gt;Our work spans the full spectrum from behavior to computation. We study how people with visual impairment perceive and navigate the world, using psychophysics, VR/AR, and ambulatory head/eye/body tracking. We probe visual system function with EEG, TMS, and physiological sensing. And we design biophysical and machine learning models to simulate, evaluate, and optimize visual prostheses, often embedding these models directly into real-time XR environments. This blend of approaches lets us connect brain, behavior, and technology in ways no single discipline can achieve alone.&lt;/p&gt;
+&lt;p&gt;The research areas below capture the major questions we are pursuing today.
+Our open-source software platforms, including &lt;a href=&#34;../code/pulse2percept/&#34;&gt;pulse2percept&lt;/a&gt; and &lt;a href=&#34;../code/bionicvisionxr/&#34;&gt;BionicVisionXR&lt;/a&gt;, provide shared infrastructure across them.&lt;/p&gt;
 </description>
     </item>
     
@@ -85,13 +70,12 @@ We build real-time XR testbeds and computer vision–based assistive tools, usin
     </item>
     
     <item>
-      <title></title>
+      <title>Alumni</title>
       <link>https://bionicvisionlab.org/alumni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/alumni/</guid>
-      <description>&lt;p&gt;Yolanda He is an undergraduate student in Psychological &amp;amp; Brain Sciences at UC Santa Barbara.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -120,23 +104,24 @@ We build real-time XR testbeds and computer vision–based assistive tools, usin
       <guid>https://bionicvisionlab.org/join/</guid>
       <description>&lt;p&gt;We welcome enthusiastic, computationally minded people interested in understanding vision and advancing sight restoration for people living with blindness.
 Before reaching out, please check our &lt;a href=&#34;https://docs.google.com/document/d/1Y1wzFVdp-FCoGM47okaW5eYdOOfpgXD5nM9Q7DpwAMo/edit?usp=sharing&#34;&gt;Lab Manual&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;PhD Position: Machine Learning for Visual Neuroprostheses (Fall 2027)&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;PhD Position: Machine Learning for Visual Neuroprostheses (Fall 2027)&lt;/h2&gt;
 &lt;p&gt;We are recruiting one PhD student through the &lt;a href=&#34;https://cs.ucsb.edu/education/graduate/how-to-apply&#34;&gt;UCSB Department of Computer Science&lt;/a&gt; to join the lab in Fall &amp;lsquo;27.
 Applications are due December 16, 2026.&lt;/p&gt;
-&lt;p&gt;The project focuses on computational models and machine-learning methods for visual cortical prostheses. This includes models that predict &lt;a href=&#34;../publications/2026-02-fuzzing-the-brain/&#34;&gt;safe neural activity&lt;/a&gt;, &lt;a href=&#34;../publications/2022-12-brain-like-phosphene-model/&#34;&gt;visual percepts&lt;/a&gt;, and &lt;a href=&#34;../publications/2026-09-percept-aware-surgical-planning/&#34;&gt;where to place electrodes&lt;/a&gt;, as well as &lt;a href=&#34;../publications/2025-09-neural-activity-shaping&#34;&gt;inverse/control methods&lt;/a&gt; for producing desired percepts.&lt;/p&gt;
+&lt;p&gt;The project focuses on computational models and machine-learning methods for visual cortical prostheses. This includes models that predict &lt;a href=&#34;../publications/2026-02-fuzzing-the-brain/&#34;&gt;safe neural activity&lt;/a&gt;, &lt;a href=&#34;../publications/2022-12-brain-like-phosphene-model/&#34;&gt;visual percepts&lt;/a&gt;, and &lt;a href=&#34;../publications/2026-09-percept-aware-surgical-planning/&#34;&gt;where to place electrodes&lt;/a&gt;, as well as &lt;a href=&#34;../publications/2026-08-deep-neural-activity-shaping&#34;&gt;inverse/control methods&lt;/a&gt; for producing desired percepts.&lt;/p&gt;
 &lt;p&gt;We are looking for someone with a strong ML background, programming skills beyond vibe coding, and a desire to work closely with real neurotechnology and industry teams developing next-generation brain-computer interfaces.&lt;/p&gt;
 &lt;p&gt;Prior neuroscience experience is useful, but not required.&lt;/p&gt;
 &lt;p&gt;We do not have the funding or bandwidth to accept other PhD students, no matter how exceptional they may be. Emails that do not reflect awareness of this page may not receive a response.&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;Prospective Postdocs&lt;/h3&gt;
-&lt;p&gt;We do not currently have funding for a postdoc, but would be interested in hearing from strong candidates working on computational models of artificial vision across the retina, LGN, and visual cortex. If you expect to graduate within the next year and see a strong fit with our work, please reach out early so we can explore fellowship opportunities together.&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;Junior Lab Trainees&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;Prospective Postdocs&lt;/h2&gt;
+&lt;p&gt;We do not currently have a funded postdoctoral opening, but we are interested in hearing from strong candidates whose research aligns closely with the lab. Areas of particular interest include computational models of artificial vision across the retina, LGN, and visual cortex, as well as vision science focused on low vision, central and peripheral vision loss, scotoma simulation, and active visual behavior.&lt;/p&gt;
+&lt;p&gt;If you expect to graduate within the next year and see a strong fit with our work, please reach out early so we can discuss potential projects and explore fellowship opportunities together.&lt;/p&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;Junior Lab Trainees&lt;/h2&gt;
 &lt;p&gt;For UCSB undergraduates, the Junior Lab Trainee program is the main entry point into the lab. Trainees attend bi-weekly paper discussions and participate reliably in ongoing behavioral studies (XR, psychophysics, and so on).&lt;/p&gt;
 &lt;p&gt;Successful completion of a quarter as a Junior Trainee is often a prerequisite for becoming a Senior Research Assistant, although promotion is not guaranteed.&lt;/p&gt;
 &lt;p&gt;We accept a limited cohort each quarter. To be considered, please &lt;a href=&#34;https://forms.gle/XGuijmyZX9LSedwn6&#34;&gt;join our waitlist&lt;/a&gt;.
 If you already have specialized research experience, you may indicate interest in a Senior RA role on the form.&lt;/p&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;All Other Positions&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;All Other Positions&lt;/h2&gt;
 &lt;p&gt;We are currently at capacity for Senior RAs and Master&amp;rsquo;s students, and cannot accommodate summer interns or high school students.&lt;/p&gt;
-&lt;p&gt;&lt;small class=&#34;mt-5&#34;&gt;This page was last updated on August 20, 2026.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small class=&#34;mt-5&#34;&gt;This page was last updated on September 16, 2026.&lt;/small&gt;&lt;/p&gt;
 &lt;!--
 &lt;div class=&#34;fill-width small mt-0 mb-4&#34;&gt;
   &lt;p class=&#34;mb-0&#34;&gt;
@@ -150,8 +135,8 @@ If you already have specialized research experience, you may indicate interest i
   &lt;/ul&gt;
   &lt;p class=&#34;mb-0&#34;&gt;Messages that do not follow these guidelines will not receive a response. Thank you for your understanding.&lt;/p&gt;
 &lt;/div&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;Postdoc in Visual/Computational Neuroscience (NeuroAI)&lt;/h3&gt;
-We are excited to invite a self-driven and enthusiastic postdoctoral researcher to our &lt;a href=&#34;https://bionicvisionlab.org/research/mouse-visual-navigation/&#34;&gt;VisNav&lt;/a&gt; team.
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;Postdoc in Visual/Computational Neuroscience (NeuroAI)&lt;/h2&gt;
+We are excited to invite a self-driven and enthusiastic postdoctoral researcher to our &lt;a href=&#34;https://bionicvisionlab.org/research/active-vision-sensorimotor/&#34;&gt;VisNav&lt;/a&gt; team.
 This NeuroAI project, at the exciting crossroads of visual and computational neuroscience, is part of the NIH BRAIN Initiative that seeks to elucidate how the mouse brain processes visual information during active exploration to support visual navigation. Our recent &lt;a href=&#34;https://bionicvisionlab.org/publications/2023-12-v1-mouse/&#34;&gt;NeurIPS paper&lt;/a&gt; highlights how a multimodal recurrent net can integrate gaze-contingent visual input with behavioral and temporal dynamics to explain V1 activity in freely moving mice. We are now seeking to extend this work to higher-order visual areas (HVAs) in collaboration with the labs of Spencer Smith (UCSB), Michael Goard (UCSB), and Cris Niell (University of Oregon).
 What we offer:
 -	A welcoming, inclusive, and collaborative environment that combines expertise in neuroscience, computer science, and cognitive sciences.
@@ -161,8 +146,8 @@ We are looking for:
 -	A passionate individual with a solid foundation in visual and computational neuroscience.
 -	A PhD in (computational) neuroscience, computer science, cognitive sciences, statistics, or a related field
 -	Strong communication and teamwork skills, with proficiency in programming and statistical analysis
-To apply, please email your CV and contacts for 2-3 references to &lt;a href=&#34;mailto:mbeyeler@ucsb.edu&#34;&gt;Michael&lt;/a&gt;.
-&lt;h3 class=&#34;fill-width&#34;&gt;Junior RA Positions&lt;/h3&gt;
+To apply, please email your CV and contacts for 2-3 references to &lt;a href=&#34;mailto:mbeyeler&amp;#64;ucsb&amp;#46;edu&#34;&gt;Michael&lt;/a&gt;.
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;Junior RA Positions&lt;/h2&gt;
 We are currently looking for junior research assistants (&lt;a href=&#34;https://docs.google.com/document/d/1Y1wzFVdp-FCoGM47okaW5eYdOOfpgXD5nM9Q7DpwAMo/edit#heading=h.b7fsq3mt32v0&#34; target=&#34;_blank&#34;&gt;Junior RAs&lt;/a&gt;). As a Junior RA, your responsibilities are three-fold:
 - complete readings assigned by the lab manager/your grad student mentor; afterwards, meet with them to discuss
 - attend project meetings/training sessions as your schedule allows (no need to attend lab meetings)
@@ -184,20 +169,20 @@ Summer programs:
 - for undergrad students: &lt;a href=&#34;https://www.ucop.edu/graduate-studies/initiatives-outreach/uc-leads.html&#34; target=&#34;_blank&#34;&gt;UC Leadership Excellence through Advanced DegreeS (LEADS)&lt;/a&gt;
 --&gt;
 &lt;!--
-&lt;h3 class=&#34;fill-width&#34;&gt;PhD Positions for Fall 2024&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;PhD Positions for Fall 2024&lt;/h2&gt;
 We have a limited number of opportunities to join us as a PhD student in Fall 2024. The deadline is December 2023.
 We are especially looking for (but not limited to):
-1. &lt;a href=&#34;https://cs.ucsb.edu&#34; target=&#34;_blank&#34;&gt;CS&lt;/a&gt;/&lt;a href=&#34;https://ece.ucsb.edu&#34; target=&#34;_blank&#34;&gt;ECE&lt;/a&gt;: Computer vision (CV) / human-computer interaction (HCI) students interested in &lt;a href=&#34;https://bionicvisionlab.org/research/information-needs-blind-low-vision/&#34;&gt;assistive technologies&lt;/a&gt; and/or &lt;a href=&#34;https://bionicvisionlab.org/research/event-based-vision/&#34;&gt;Edge AI&lt;/a&gt;. You may develop novel scene understanding algorithms, event-based CV systems, and/or prototypes of near-future accessibility aids. Your goal will be to publish at top-tier venues such as CVPR, ASSETS, or CHI.
-2. &lt;a href=&#34;https://psych.ucsb.edu&#34; target=&#34;_blank&#34;&gt;PBS&lt;/a&gt;: Vision science students interested in working with real &lt;a href=&#34;https://bionicvisionlab.org/research/information-needs-blind-low-vision/&#34;&gt;low vision&lt;/a&gt; and &lt;a href=&#34;https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/&#34;&gt;bionic eye patients&lt;/a&gt;. You may run behavioral studies and/or develop computational models to further our understanding of the neural code of vision in health and disease. You don&#39;t need a CS background for this, but should have some experience with vision/cognition, psychophysics, and/or clinical populations.
+1. &lt;a href=&#34;https://cs.ucsb.edu&#34; target=&#34;_blank&#34;&gt;CS&lt;/a&gt;/&lt;a href=&#34;https://ece.ucsb.edu&#34; target=&#34;_blank&#34;&gt;ECE&lt;/a&gt;: Computer vision (CV) / human-computer interaction (HCI) students interested in &lt;a href=&#34;https://bionicvisionlab.org/research/assistive-vision-navigation/&#34;&gt;assistive technologies&lt;/a&gt; and/or &lt;a href=&#34;https://bionicvisionlab.org/research/active-vision-sensorimotor/&#34;&gt;Edge AI&lt;/a&gt;. You may develop novel scene understanding algorithms, event-based CV systems, and/or prototypes of near-future accessibility aids. Your goal will be to publish at top-tier venues such as CVPR, ASSETS, or CHI.
+2. &lt;a href=&#34;https://psych.ucsb.edu&#34; target=&#34;_blank&#34;&gt;PBS&lt;/a&gt;: Vision science students interested in working with real &lt;a href=&#34;https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/&#34;&gt;low vision&lt;/a&gt; and &lt;a href=&#34;https://bionicvisionlab.org/research/artificial-vision-pathway/&#34;&gt;bionic eye patients&lt;/a&gt;. You may run behavioral studies and/or develop computational models to further our understanding of the neural code of vision in health and disease. You don&#39;t need a CS background for this, but should have some experience with vision/cognition, psychophysics, and/or clinical populations.
 Please apply through the &lt;a href=&#34;https://www.graddiv.ucsb.edu/how-apply/application-and-admission-checklist&#34; target=&#34;_blank&#34;&gt;Grad Admissions Portal&lt;/a&gt;.
 You will then be able to indicate your wish to work with us in the &#34;Major and Degree Objective&#34; tab under &#34;Faculty Interests&#34;. 
 US citizens and permanent residents may apply for a &lt;a href=&#34;https://www.graddiv.ucsb.edu/how-apply/faqs-applicants#Graduate-Fee&#34;&gt;fee waiver&lt;/a&gt;.
 &lt;small&gt;&lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
 Please note that we get a lot of emails from prospective PhD students, so Michael will not be able to respond to messages that aren&#39;t clearly tailored to the lab&#39;s vision, especially if it is apparent that the same &#34;boilerplate&#34; message is being sent to many different labs.
 You can make your application stand out by demonstrating that you have spent time on our website, &lt;i&gt;seen this message&lt;/i&gt;, and thought hard about why our lab is a good fit for your skills and interests.&lt;/small&gt;
-&lt;h3 class=&#34;fill-width&#34;&gt;All Other Positions&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;All Other Positions&lt;/h2&gt;
 We are completely full. Undergraduate students, please check back in January 2024 for Winter Quarter positions.
-&lt;h2&gt;Postdocs&lt;/h2&gt;
+&lt;h2 class=&#34;section-title&#34;&gt;Postdocs&lt;/h2&gt;
 Please &lt;a href=&#34;../people/beyeler_michael&#34;&gt;contact Michael&lt;/a&gt; with your CV and a brief statement
 of research accomplishments, interests, and career plans.
 Although all applicants are welcome, we are especially looking for expertise at the intersection of computational neuroscience and data science. 
@@ -206,7 +191,7 @@ in a high-quality international conference (computer science)
 or journal (neuroscience) 
 and you need to have a reasonable chance of getting a fellowship
 to support your stay at UCSB.
-&lt;h3 class=&#34;fill-width&#34;&gt;CS/ECE Master&#39;s Students&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;CS/ECE Master&#39;s Students&lt;/h2&gt;
 We have several MS positions available for Fall 2021:
 We are looking for students interested in applying their methodological skills to research problems in bionic vision. 
 - Human-computer interaction: Build VR/AR/XR applications applied to low vision and bionic vision (Unity, compute shaders, image processing, bionic vision simulations, eye tracking)
@@ -227,13 +212,14 @@ Typical responsibilities include one or more of the following:
 - Process and analyze scientific data
 - Perform literature reviews
 - Attend weekly lab meetings and present once a quarter
-&lt;h3 class=&#34;fill-width&#34;&gt;Undergraduate Students&lt;/h3&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;Undergraduate Students&lt;/h2&gt;
 In addition, we often accept students through the following competitive programs:
 - In Computer Science (CS): &lt;a href=&#34;https://cs.ucsb.edu/education/undergraduate/special-programs&#34; target=&#34;_blank&#34;&gt;Distinction in the Major Program (DIMAP)&lt;/a&gt; and &lt;a href=&#34;https://ersp.cs.ucsb.edu/&#34; target=&#34;_blank&#34;&gt;Early Research Scholars Program (ERSP)&lt;/a&gt; 
 - In Psychological &amp; Brain Sciences (PBS): &lt;a href=&#34;https://psych.ucsb.edu/undergraduate/honors-program&#34; target=&#34;_blank&#34;&gt;PBS Honors Program&lt;/a&gt;
 - In the College of Engineering (CoE): &lt;a href=&#34;https://engineering.ucsb.edu/undergraduate/college-engineering-honors-program&#34; target=&#34;_blank&#34;&gt;CoE Honors Program&lt;/a&gt;
 - Across campus: &lt;a href=&#34;https://cbsr.ucsb.edu/seeds&#34; target=&#34;_blank&#34;&gt;Student Engagement and Enrichment in Data Science (SEEDS)&lt;/a&gt; and &lt;a href=&#34;https://blacksinneurocomp.com/&#34; target=&#34;_blank&#34;&gt;Black Researchers Advancing Neuroscience (BRAIN)&lt;/a&gt;
 --&gt;
+&lt;hr class=&#34;section-rule&#34;&gt;
 &lt;p&gt;
 
 

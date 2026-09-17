@@ -13,6 +13,27 @@
     
     
     <item>
+      <title>Human Adaptation to Vision Loss &amp; Restoration</title>
+      <link>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</guid>
+      <description>&lt;p&gt;Vision loss and restored sight both require people to adapt. Central and peripheral field loss, progressive degeneration, and prosthetic vision affect perception in different ways, but they raise similar questions: what information remains useful, what can be learned with experience, and which strategies can improve performance?&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We combine psychophysics, immersive VR, and studies with blind and low-vision participants to understand what people can do with limited or altered vision. Simulations in sighted observers let us manipulate specific forms of vision loss under controlled conditions, while studies with people who have low vision or use visual prostheses provide a direct test of how well those simulations capture real-world function.&lt;/p&gt;
+&lt;p&gt;We also study how vision should be assessed. Acuity alone misses many of the challenges people face in everyday tasks, and performance can also depend on attention, fatigue, engagement, and cognitive load. Our goal is to develop training methods and outcome measures that better reflect how people actually use vision outside the lab.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Perceptual learning and plasticity. How experience and training change performance with degraded or prosthetic vision.&lt;/li&gt;
+&lt;li&gt;Central and peripheral vision loss. How different patterns of field loss affect scene understanding and visually guided behavior.&lt;/li&gt;
+&lt;li&gt;Everyday visual function. Identifying the information people who are blind or have low vision need for common tasks.&lt;/li&gt;
+&lt;li&gt;Training and rehabilitation. Developing and evaluating gamified, adaptive, and at-home approaches to visual training.&lt;/li&gt;
+&lt;li&gt;Outcome measures and long-term use. Measuring functional benefit, usability, and adaptation to prostheses and low-vision aids over time.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deep learning-based control of electrically evoked activity in human visual cortex</title>
       <link>https://bionicvisionlab.org/publications/2026-08-deep-neural-activity-shaping/</link>
       <pubDate>Fri, 07 Aug 2026 08:49:01 +0000</pubDate>
@@ -28,18 +49,6 @@
       
       <guid>https://bionicvisionlab.org/publications/2025-10-ismar-neuroadaptive-xr/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Simulating Visual Impairment</title>
-      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
-      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
-&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
-&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

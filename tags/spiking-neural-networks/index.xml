@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spiking neural networks on Bionic Vision Lab</title>
+    <title>Spiking Neural Networks on Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/tags/spiking-neural-networks/</link>
-    <description>Recent content in spiking neural networks on Bionic Vision Lab</description>
+    <description>Recent content in Spiking Neural Networks on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
@@ -27,15 +27,6 @@
       <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/publications/2015-carlsim3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GPGPU accelerated simulation and parameter tuning for neuromorphic applications</title>
-      <link>https://bionicvisionlab.org/publications/2014-gpgpu-accelerated-parameter-tuning/</link>
-      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/publications/2014-gpgpu-accelerated-parameter-tuning/</guid>
       <description></description>
     </item>
     

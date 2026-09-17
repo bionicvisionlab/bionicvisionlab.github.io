@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Prostheses on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/visual-prostheses/</link>
+    <description>Recent content in Visual Prostheses on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 07 Aug 2026 08:49:01 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/visual-prostheses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Artificial Vision Across the Visual Pathway</title>
+      <link>https://bionicvisionlab.org/research/artificial-vision-pathway/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/artificial-vision-pathway/</guid>
+      <description>&lt;p&gt;Artificial vision depends on where in the visual system we intervene. Stimulation of the retina, LGN, and visual cortex can all produce visual percepts, but each target comes with different anatomy, circuitry, and constraints. We study those differences and build models that connect stimulation to neural responses and perception.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We combine computational modeling with psychophysics and neurostimulation. In the retina and LGN, we use known anatomy and physiology to predict the percepts produced by electrical stimulation. In cortex, we study phosphene perception and ask which stimulation-evoked responses propagate through the visual system. Across these systems, we are interested in which biological details actually matter for predicting what someone will see.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Retina. Models of how retinal circuitry, electrode geometry, and stimulation parameters affect the spatial, temporal, and chromatic properties of artificial vision.&lt;/li&gt;
+&lt;li&gt;LGN. Models of phosphene perception that account for the organization of visual representations in the thalamus.&lt;/li&gt;
+&lt;li&gt;Cortex. Psychophysics and neurostimulation experiments on phosphene perception, individual variability, and the spread of stimulation-evoked activity.&lt;/li&gt;
+&lt;li&gt;Computational models. Predictive models connecting stimulation, anatomy, neural activity, and perception.&lt;/li&gt;
+&lt;li&gt;Psychophysics. Quantitative test batteries for characterizing artificial visual percepts across participants and stimulation methods.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pulse2percept: A Python-Based Simulation Framework for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/code/pulse2percept/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/pulse2percept/</guid>
+      <description>&lt;p&gt;pulse2percept is a BSD-licensed Python package for computational modeling and simulated prosthetic vision. It provides models of the neural and perceptual effects of electrical stimulation, together with representations of retinal and cortical implants, stimuli, and percepts.&lt;/p&gt;
+&lt;p&gt;The package is designed both for research and for simulation. Researchers can use it to compare models against experimental data, explore how implant design and stimulation parameters affect predicted vision, and build simulated prosthetic vision pipelines for psychophysics, computer vision, and XR experiments. Models can run on CPU or GPU, and parts of the framework can be exported through ONNX for use in other environments.&lt;/p&gt;
+&lt;p&gt;The project began at the University of Washington with Ione Fine, Geoff Boynton, and Ariel Rokem and has since grown into a community-developed research package used by groups working on visual neuroprostheses.&lt;/p&gt;
+&lt;p&gt;We continue to add new implants, models, datasets, and tools as the field develops.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pulse2percept.readthedocs.io/en/latest&#34;&gt;Documentation&lt;/a&gt;
+&lt;a href=&#34;https://github.com/pulse2percept/pulse2percept&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BionicVisionXR: An Open-Source Virtual Reality Toolbox for Bionic Vision</title>
+      <link>https://bionicvisionlab.org/code/bionicvisionxr/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/bionicvisionxr/</guid>
+      <description>&lt;p&gt;BionicVisionXR is an open-source toolbox for simulating visual prostheses in immersive virtual reality. It lets sighted participants experience model-based approximations of prosthetic vision while freely moving through virtual environments.&lt;/p&gt;
+&lt;p&gt;VR is especially useful for prosthetic vision because current implants provide only a small field of view, forcing users to scan the environment with head and body movements. Those behaviors are difficult to reproduce with conventional screen-based simulations.&lt;/p&gt;
+&lt;p&gt;BionicVisionXR combines immersive environments with computational models of prosthetic vision, allowing researchers to study navigation, object search, scene understanding, and other visually guided behaviors under controlled conditions. The toolbox is designed for experiments that need both realistic movement and biologically informed models of what an implant may produce.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Closed-Loop Control of Visual Neuroprostheses</title>
+      <link>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</guid>
+      <description>&lt;p&gt;Single-electrode phosphenes do not simply add up into useful patterned vision. If we can predict the percept or neural response produced by a stimulus, the next problem is to work backward: which stimulation pattern should we use to produce the outcome we want?&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We approach this as a learning and control problem. We train stimulus encoders through differentiable models of artificial vision, use Bayesian and preference-based optimization to search stimulation space, and use bidirectional implants to adjust stimulation based on recorded cortical activity.&lt;/p&gt;
+&lt;p&gt;The challenge is that the right stimulation pattern can differ across people and change over time. Any useful controller therefore has to adapt from relatively little data. This becomes even more important for high-channel-count cortical implants, where the number of possible stimulation patterns is far too large to explore directly. Part of our work is therefore finding lower-dimensional ways to represent and control that space.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Stimulus encoders. Learning mappings from visual input or target percepts to implant stimulation patterns.&lt;/li&gt;
+&lt;li&gt;Human-in-the-loop optimization. Personalizing models and stimulation from a practical number of participant responses.&lt;/li&gt;
+&lt;li&gt;Perceptual characterization. Efficiently estimating thresholds, sensitivity maps, and other participant-specific parameters.&lt;/li&gt;
+&lt;li&gt;Neural activity shaping. Using recorded cortical responses to adjust stimulation and drive activity toward a target.&lt;/li&gt;
+&lt;li&gt;Safety and robustness. Testing learned stimulation strategies across parameter ranges and failure cases before they are used experimentally.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based control of electrically evoked activity in human visual cortex</title>
+      <link>https://bionicvisionlab.org/publications/2026-08-deep-neural-activity-shaping/</link>
+      <pubDate>Fri, 07 Aug 2026 08:49:01 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2026-08-deep-neural-activity-shaping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology</title>
+      <link>https://bionicvisionlab.org/publications/2025-10-ismar-neuroadaptive-xr/</link>
+      <pubDate>Sun, 12 Oct 2025 08:49:01 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/publications/2025-10-ismar-neuroadaptive-xr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Smart Bionic Eye</title>
+      <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;This page is archived.&lt;/strong&gt; The Smart Bionic Eye effort has since grown into several distinct research areas. The work described here now continues under &lt;a href=&#34;../assistive-vision-navigation/&#34;&gt;Assistive Vision &amp;amp; Navigation&lt;/a&gt;, &lt;a href=&#34;../closed-loop-neuroprostheses/&#34;&gt;Closed-Loop Control of Visual Neuroprostheses&lt;/a&gt;, &lt;a href=&#34;../artificial-vision-pathway/&#34;&gt;Artificial Vision Across the Visual Pathway&lt;/a&gt;, and &lt;a href=&#34;../vision-loss-restoration-adaptation/&#34;&gt;Human Adaptation to Vision Loss &amp;amp; Restoration&lt;/a&gt;. The grant that funded it remains active.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
+&lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
+Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

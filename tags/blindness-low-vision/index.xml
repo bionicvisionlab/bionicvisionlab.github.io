@@ -7,31 +7,50 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/tags/blindness-low-vision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Understanding the Information Needs of People Who Are Blind or Visually Impaired</title>
-      <link>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Human Adaptation to Vision Loss &amp; Restoration</title>
+      <link>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</guid>
-      <description>&lt;p&gt;The goal of this project is to obtain a nuanced understanding of the strategies that people who are blind or visually impaired (BVI) employ to perform different instrumental activities of daily living (iADLs).&lt;/p&gt;
-&lt;p&gt;Identifying useful and relevant visual cues that could support these iADLs, especially when the task involves some level of scene understanding, orientation, and mobility, will be essential to the success of near-future visual accessibility aids.&lt;/p&gt;
+      <guid>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</guid>
+      <description>&lt;p&gt;Vision loss and restored sight both require people to adapt. Central and peripheral field loss, progressive degeneration, and prosthetic vision affect perception in different ways, but they raise similar questions: what information remains useful, what can be learned with experience, and which strategies can improve performance?&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We combine psychophysics, immersive VR, and studies with blind and low-vision participants to understand what people can do with limited or altered vision. Simulations in sighted observers let us manipulate specific forms of vision loss under controlled conditions, while studies with people who have low vision or use visual prostheses provide a direct test of how well those simulations capture real-world function.&lt;/p&gt;
+&lt;p&gt;We also study how vision should be assessed. Acuity alone misses many of the challenges people face in everyday tasks, and performance can also depend on attention, fatigue, engagement, and cognitive load. Our goal is to develop training methods and outcome measures that better reflect how people actually use vision outside the lab.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Perceptual learning and plasticity. How experience and training change performance with degraded or prosthetic vision.&lt;/li&gt;
+&lt;li&gt;Central and peripheral vision loss. How different patterns of field loss affect scene understanding and visually guided behavior.&lt;/li&gt;
+&lt;li&gt;Everyday visual function. Identifying the information people who are blind or have low vision need for common tasks.&lt;/li&gt;
+&lt;li&gt;Training and rehabilitation. Developing and evaluating gamified, adaptive, and at-home approaches to visual training.&lt;/li&gt;
+&lt;li&gt;Outcome measures and long-term use. Measuring functional benefit, usability, and adaptation to prostheses and low-vision aids over time.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Simulating Visual Impairment</title>
-      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Assistive Vision &amp; Navigation</title>
+      <link>https://bionicvisionlab.org/research/assistive-vision-navigation/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
-      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
-&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
-&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
+      <guid>https://bionicvisionlab.org/research/assistive-vision-navigation/</guid>
+      <description>&lt;p&gt;A white cane provides detailed information about the area immediately around a person, but many useful features of a scene lie farther away: an entrance, a specific object, or something approaching from outside the current path. Computer vision can detect much of this information. The challenge is deciding what is useful for the task and how best to communicate it.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We develop systems that combine wearable sensing, computer vision, and accessible interfaces for navigation and spatial awareness. Our work covers camera placement and sensing, scene understanding and simplification, and guidance delivered through audio, haptics, augmented reality, or visual prostheses.&lt;/p&gt;
+&lt;p&gt;We evaluate these systems in immersive XR and real-world environments, including studies with blind and low-vision participants. A recurring question is how much information to provide: useful guidance needs to preserve the parts of a scene that matter without overwhelming the user. We also develop open-source tools for this work, including &lt;a href=&#34;../../code/bionicvisionxr/&#34;&gt;BionicVisionXR&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Last-mile navigation and spatial awareness. Wearable sensing and guidance for the parts of a journey that conventional navigation tools do not address well.&lt;/li&gt;
+&lt;li&gt;Scene simplification. Identifying and preserving the visual information needed for mobility when display bandwidth is limited.&lt;/li&gt;
+&lt;li&gt;Task-aware guidance. Using language and task context to select which objects or parts of a scene should be emphasized.&lt;/li&gt;
+&lt;li&gt;Out-of-view guidance. Audio, haptic, and visual cues that help users locate relevant objects outside the current field of view.&lt;/li&gt;
+&lt;li&gt;Wearable systems. Camera placement, latency, power, and computation for real-time assistive devices.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

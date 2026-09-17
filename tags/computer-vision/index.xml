@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer vision on Bionic Vision Lab</title>
+    <title>Computer Vision on Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/tags/computer-vision/</link>
-    <description>Recent content in computer vision on Bionic Vision Lab</description>
+    <description>Recent content in Computer Vision on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
@@ -13,37 +13,41 @@
     
     
     <item>
+      <title>Assistive Vision &amp; Navigation</title>
+      <link>https://bionicvisionlab.org/research/assistive-vision-navigation/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/assistive-vision-navigation/</guid>
+      <description>&lt;p&gt;A white cane provides detailed information about the area immediately around a person, but many useful features of a scene lie farther away: an entrance, a specific object, or something approaching from outside the current path. Computer vision can detect much of this information. The challenge is deciding what is useful for the task and how best to communicate it.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We develop systems that combine wearable sensing, computer vision, and accessible interfaces for navigation and spatial awareness. Our work covers camera placement and sensing, scene understanding and simplification, and guidance delivered through audio, haptics, augmented reality, or visual prostheses.&lt;/p&gt;
+&lt;p&gt;We evaluate these systems in immersive XR and real-world environments, including studies with blind and low-vision participants. A recurring question is how much information to provide: useful guidance needs to preserve the parts of a scene that matter without overwhelming the user. We also develop open-source tools for this work, including &lt;a href=&#34;../../code/bionicvisionxr/&#34;&gt;BionicVisionXR&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Last-mile navigation and spatial awareness. Wearable sensing and guidance for the parts of a journey that conventional navigation tools do not address well.&lt;/li&gt;
+&lt;li&gt;Scene simplification. Identifying and preserving the visual information needed for mobility when display bandwidth is limited.&lt;/li&gt;
+&lt;li&gt;Task-aware guidance. Using language and task context to select which objects or parts of a scene should be emphasized.&lt;/li&gt;
+&lt;li&gt;Out-of-view guidance. Audio, haptic, and visual cues that help users locate relevant objects outside the current field of view.&lt;/li&gt;
+&lt;li&gt;Wearable systems. Camera placement, latency, power, and computation for real-time assistive devices.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Towards a Smart Bionic Eye</title>
       <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
-      <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;This page is archived.&lt;/strong&gt; The Smart Bionic Eye effort has since grown into several distinct research areas. The work described here now continues under &lt;a href=&#34;../assistive-vision-navigation/&#34;&gt;Assistive Vision &amp;amp; Navigation&lt;/a&gt;, &lt;a href=&#34;../closed-loop-neuroprostheses/&#34;&gt;Closed-Loop Control of Visual Neuroprostheses&lt;/a&gt;, &lt;a href=&#34;../artificial-vision-pathway/&#34;&gt;Artificial Vision Across the Visual Pathway&lt;/a&gt;, and &lt;a href=&#34;../vision-loss-restoration-adaptation/&#34;&gt;Human Adaptation to Vision Loss &amp;amp; Restoration&lt;/a&gt;. The grant that funded it remains active.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
 Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
 &lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
 Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assistive Technologies for People Who Are Blind</title>
-      <link>https://bionicvisionlab.org/research/assistive-technologies-blind/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/assistive-technologies-blind/</guid>
-      <description>&lt;p&gt;Globally, millions of individuals with visual impairments face significant challenges in navigation and independence. Traditional white canes, while helpful, offer limited assistance in complex environments. Accessible tech, once effective, often turns commercial with hefty prices. This hits harder due to the high unemployment rate among the visually impaired.&lt;/p&gt;
-&lt;p&gt;Our goal is to leverage computer vision and AI to co-design the next-generation of accessible technologies with people who are blind, focusing on affordable design and open-source software, thereby enabling community-driven development and widespread impact.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Event-Based Vision at the Edge</title>
-      <link>https://bionicvisionlab.org/research/event-based-vision/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/event-based-vision/</guid>
-      <description>&lt;p&gt;Neuromorphic event‐based vision sensors are poised to dramatically improve the latency, robustness and power in applications ranging from smart sensing to autonomous driving and assistive technologies for people who are blind.&lt;/p&gt;
-&lt;p&gt;Soon these sensors may power low vision aids and retinal implants, where the visual scene has to be processed quickly and efficiently before it is displayed. However, novel methods are needed to process the unconventional output of these sensors in order to unlock their potential.&lt;/p&gt;
 </description>
     </item>
     

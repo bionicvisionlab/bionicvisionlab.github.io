@@ -57,7 +57,7 @@
       
       <guid>https://bionicvisionlab.org/teaching/2026-spring-psy221f/</guid>
       <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
 &lt;p&gt;This is (primarily) a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.&lt;/p&gt;
 &lt;p&gt;In this new iteration of the course, we will visit different brain areas to learn about the computational principles that may underlie their function.
 This may include:&lt;/p&gt;
@@ -96,7 +96,7 @@ Students with little programming experience are encouraged to take advantage of 
 &lt;li&gt;fit a computational model to experimental data.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The course will feature a few homework assignments, in-class presentations, and a final (group) project.&lt;/p&gt;
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;The formal prerequisites are PSY-221A and PSY-221B, but exceptions will be considered on a case-by-case basis (send me your transcripts).&lt;/p&gt;
 &lt;p&gt;The actual necessary background includes:&lt;/p&gt;
 &lt;ul&gt;
@@ -226,7 +226,7 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       
       <guid>https://bionicvisionlab.org/teaching/2024-spring-psy221f/</guid>
       <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
 &lt;p&gt;This is (primarily) a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.&lt;/p&gt;
 &lt;p&gt;In this new iteration of the course, we will visit different brain areas to learn about the computational principles that may underlie their function.
 This may include:&lt;/p&gt;
@@ -265,7 +265,7 @@ Students with little programming experience are encouraged to take advantage of 
 &lt;li&gt;fit a computational model to experimental data.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The course will feature a few homework assignments, in-class presentations, and a final (group) project.&lt;/p&gt;
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;The formal prerequisites are PSY-221A and PSY-221B, but exceptions will be considered on a case-by-case basis (send me your transcripts).&lt;/p&gt;
 &lt;p&gt;The actual necessary background includes:&lt;/p&gt;
 &lt;ul&gt;
@@ -374,7 +374,7 @@ taken CS165B.&lt;/p&gt;
       
       <guid>https://bionicvisionlab.org/teaching/2022-spring-psy221f/</guid>
       <description>&lt;p&gt;&lt;em&gt;PSY-221F is the new course number for PSY-265 formerly taught by Greg Ashby&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
 &lt;p&gt;This is a lecture course that surveys computational neuroscience, which is a branch of neuroscience that employs mathematical models, theoretical analysis, and abstractions of the brain to understand the principles that govern development, structure, physiology, and cognitive abilities of the nervous system.
 We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of-the-art methods (i.e., deep learning).&lt;/p&gt;
 &lt;p&gt;By the end of this course, you should be able to:&lt;/p&gt;
@@ -385,7 +385,7 @@ We will cover both classical (e.g., GLM, LIF, Hodgkin-Huxley model) and state-of
 &lt;li&gt;fit a computational model to experimental data.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You will gain experience both conceptually and practically, by homework assignments that involve solving problems and implementing computational models. However, this is not primarily a programming course - that is, the main goal is to learn the concepts, not to learn a programming language or particular programming techniques.  However, coding examples of the concepts is the best way to demonstrate (and facilitate) your knowledge of them. Lab sections will feature Python &amp;amp; math tutorials, hands-on examples, and guided programming sessions.&lt;/p&gt;
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;The formal prerequisite is PSY-221B, but the only part of that course that is
 necessary is the introduction to matrix algebra.&lt;/p&gt;
 &lt;p&gt;The actual necessary background includes:&lt;/p&gt;
@@ -399,7 +399,7 @@ necessary is the introduction to matrix algebra.&lt;/p&gt;
 &lt;li&gt;prior exposure to differential equations,&lt;/li&gt;
 &lt;li&gt;basic knowledge of neuroscience.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
 &lt;p&gt;Textbook: &lt;a href=&#34;http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf&#34; target=&#34;_blank&#34;&gt;Dayan &amp;amp; Abbott (2001)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics to be covered:&lt;/p&gt;
 &lt;ul&gt;

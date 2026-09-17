@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on Bionic Vision Lab</title>
+    <title>Research Areas on Bionic Vision Lab</title>
     <link>https://bionicvisionlab.org/research/</link>
-    <description>Recent content in Research on Bionic Vision Lab</description>
+    <description>Recent content in Research Areas on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
@@ -13,118 +13,145 @@
     
     
     <item>
+      <title>Artificial Vision Across the Visual Pathway</title>
+      <link>https://bionicvisionlab.org/research/artificial-vision-pathway/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/artificial-vision-pathway/</guid>
+      <description>&lt;p&gt;Artificial vision depends on where in the visual system we intervene. Stimulation of the retina, LGN, and visual cortex can all produce visual percepts, but each target comes with different anatomy, circuitry, and constraints. We study those differences and build models that connect stimulation to neural responses and perception.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We combine computational modeling with psychophysics and neurostimulation. In the retina and LGN, we use known anatomy and physiology to predict the percepts produced by electrical stimulation. In cortex, we study phosphene perception and ask which stimulation-evoked responses propagate through the visual system. Across these systems, we are interested in which biological details actually matter for predicting what someone will see.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Retina. Models of how retinal circuitry, electrode geometry, and stimulation parameters affect the spatial, temporal, and chromatic properties of artificial vision.&lt;/li&gt;
+&lt;li&gt;LGN. Models of phosphene perception that account for the organization of visual representations in the thalamus.&lt;/li&gt;
+&lt;li&gt;Cortex. Psychophysics and neurostimulation experiments on phosphene perception, individual variability, and the spread of stimulation-evoked activity.&lt;/li&gt;
+&lt;li&gt;Computational models. Predictive models connecting stimulation, anatomy, neural activity, and perception.&lt;/li&gt;
+&lt;li&gt;Psychophysics. Quantitative test batteries for characterizing artificial visual percepts across participants and stimulation methods.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Closed-Loop Control of Visual Neuroprostheses</title>
+      <link>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</guid>
+      <description>&lt;p&gt;Single-electrode phosphenes do not simply add up into useful patterned vision. If we can predict the percept or neural response produced by a stimulus, the next problem is to work backward: which stimulation pattern should we use to produce the outcome we want?&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We approach this as a learning and control problem. We train stimulus encoders through differentiable models of artificial vision, use Bayesian and preference-based optimization to search stimulation space, and use bidirectional implants to adjust stimulation based on recorded cortical activity.&lt;/p&gt;
+&lt;p&gt;The challenge is that the right stimulation pattern can differ across people and change over time. Any useful controller therefore has to adapt from relatively little data. This becomes even more important for high-channel-count cortical implants, where the number of possible stimulation patterns is far too large to explore directly. Part of our work is therefore finding lower-dimensional ways to represent and control that space.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Stimulus encoders. Learning mappings from visual input or target percepts to implant stimulation patterns.&lt;/li&gt;
+&lt;li&gt;Human-in-the-loop optimization. Personalizing models and stimulation from a practical number of participant responses.&lt;/li&gt;
+&lt;li&gt;Perceptual characterization. Efficiently estimating thresholds, sensitivity maps, and other participant-specific parameters.&lt;/li&gt;
+&lt;li&gt;Neural activity shaping. Using recorded cortical responses to adjust stimulation and drive activity toward a target.&lt;/li&gt;
+&lt;li&gt;Safety and robustness. Testing learned stimulation strategies across parameter ranges and failure cases before they are used experimentally.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human Adaptation to Vision Loss &amp; Restoration</title>
+      <link>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</guid>
+      <description>&lt;p&gt;Vision loss and restored sight both require people to adapt. Central and peripheral field loss, progressive degeneration, and prosthetic vision affect perception in different ways, but they raise similar questions: what information remains useful, what can be learned with experience, and which strategies can improve performance?&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We combine psychophysics, immersive VR, and studies with blind and low-vision participants to understand what people can do with limited or altered vision. Simulations in sighted observers let us manipulate specific forms of vision loss under controlled conditions, while studies with people who have low vision or use visual prostheses provide a direct test of how well those simulations capture real-world function.&lt;/p&gt;
+&lt;p&gt;We also study how vision should be assessed. Acuity alone misses many of the challenges people face in everyday tasks, and performance can also depend on attention, fatigue, engagement, and cognitive load. Our goal is to develop training methods and outcome measures that better reflect how people actually use vision outside the lab.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Perceptual learning and plasticity. How experience and training change performance with degraded or prosthetic vision.&lt;/li&gt;
+&lt;li&gt;Central and peripheral vision loss. How different patterns of field loss affect scene understanding and visually guided behavior.&lt;/li&gt;
+&lt;li&gt;Everyday visual function. Identifying the information people who are blind or have low vision need for common tasks.&lt;/li&gt;
+&lt;li&gt;Training and rehabilitation. Developing and evaluating gamified, adaptive, and at-home approaches to visual training.&lt;/li&gt;
+&lt;li&gt;Outcome measures and long-term use. Measuring functional benefit, usability, and adaptation to prostheses and low-vision aids over time.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assistive Vision &amp; Navigation</title>
+      <link>https://bionicvisionlab.org/research/assistive-vision-navigation/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/assistive-vision-navigation/</guid>
+      <description>&lt;p&gt;A white cane provides detailed information about the area immediately around a person, but many useful features of a scene lie farther away: an entrance, a specific object, or something approaching from outside the current path. Computer vision can detect much of this information. The challenge is deciding what is useful for the task and how best to communicate it.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We develop systems that combine wearable sensing, computer vision, and accessible interfaces for navigation and spatial awareness. Our work covers camera placement and sensing, scene understanding and simplification, and guidance delivered through audio, haptics, augmented reality, or visual prostheses.&lt;/p&gt;
+&lt;p&gt;We evaluate these systems in immersive XR and real-world environments, including studies with blind and low-vision participants. A recurring question is how much information to provide: useful guidance needs to preserve the parts of a scene that matter without overwhelming the user. We also develop open-source tools for this work, including &lt;a href=&#34;../../code/bionicvisionxr/&#34;&gt;BionicVisionXR&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Last-mile navigation and spatial awareness. Wearable sensing and guidance for the parts of a journey that conventional navigation tools do not address well.&lt;/li&gt;
+&lt;li&gt;Scene simplification. Identifying and preserving the visual information needed for mobility when display bandwidth is limited.&lt;/li&gt;
+&lt;li&gt;Task-aware guidance. Using language and task context to select which objects or parts of a scene should be emphasized.&lt;/li&gt;
+&lt;li&gt;Out-of-view guidance. Audio, haptic, and visual cues that help users locate relevant objects outside the current field of view.&lt;/li&gt;
+&lt;li&gt;Wearable systems. Camera placement, latency, power, and computation for real-time assistive devices.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NeuroAI &amp; Visual Representations</title>
+      <link>https://bionicvisionlab.org/research/neuroai-visual-representations/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/neuroai-visual-representations/</guid>
+      <description>&lt;p&gt;Deep neural networks can reproduce many features of visual cortex, but they also differ from biological vision in important ways. We use those similarities and differences in both directions: to build better models of the visual system and to ask what aspects of biological vision current AI models fail to capture.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We develop biologically constrained neural networks and test which architectural, learning, and input constraints are needed to reproduce properties of visual cortex. We also study the internal representations learned by artificial networks: how closely they match neural data, whether that alignment predicts behavior or robustness, and whether useful representational structure can be transferred between models.&lt;/p&gt;
+&lt;p&gt;Visual experience is another important part of the problem. We study how representations change when sensory input is altered or absent, including how visual cortex is organized in people who are blind. These cases provide a strong test of models that are usually developed only for typical vision.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Model–brain alignment. Understanding what neural-alignment metrics capture and when similar representations do not imply similar computation.&lt;/li&gt;
+&lt;li&gt;Biologically constrained networks. Testing which architectural and learning constraints are needed to reproduce properties of visual cortex.&lt;/li&gt;
+&lt;li&gt;Representation learning. Studying how internal representational structure affects behavior, robustness, and transfer between models.&lt;/li&gt;
+&lt;li&gt;Digital twins. Probing predictive models of visual cortex to test hypotheses about neural representations.&lt;/li&gt;
+&lt;li&gt;Plasticity and altered visual input. Studying how visual experience shapes cortical representations, including in blindness.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Active Vision &amp; Sensorimotor Intelligence</title>
+      <link>https://bionicvisionlab.org/research/active-vision-sensorimotor/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/active-vision-sensorimotor/</guid>
+      <description>&lt;p&gt;Much of what we know about visual cortex comes from animals viewing controlled stimuli while keeping their heads still. Natural vision is different. During navigation, foraging, and pursuit, animals actively move their eyes, head, and body, continually changing both what they see and how the brain responds.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We use recordings from freely moving mice and from real-world and virtual navigation experiments to study how visual input, movement, and behavioral state jointly shape cortical activity. We model these signals together and also study the sampling behavior itself, including gaze shifts and head–eye coordination.&lt;/p&gt;
+&lt;p&gt;We also compare biological and artificial visual systems. Mice and AI models can be tested on the same tasks, allowing us to ask where their behavior and internal representations agree or differ. Digital twins of visual cortex provide another way to test hypotheses that would be difficult to probe directly in the brain. We are also interested in event-driven and spiking approaches to efficient visual processing.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Behavior-dependent cortical dynamics. Neural activity during freely moving behavior and models that account for visual input, movement, and internal state.&lt;/li&gt;
+&lt;li&gt;Active sampling. Gaze shifts, head–eye coordination, and other strategies that determine what visual information is acquired.&lt;/li&gt;
+&lt;li&gt;Mouse versus AI. Comparing biological and artificial agents on the same visual tasks and representations.&lt;/li&gt;
+&lt;li&gt;Digital twins. Predictive models of visual cortex that can be used to test hypotheses about neural computation.&lt;/li&gt;
+&lt;li&gt;Event-driven and spiking vision. Efficient visual processing inspired by biological sensing and computation.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Towards a Smart Bionic Eye</title>
       <link>https://bionicvisionlab.org/research/smart-bionic-eye/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/smart-bionic-eye/</guid>
-      <description>&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;This page is archived.&lt;/strong&gt; The Smart Bionic Eye effort has since grown into several distinct research areas. The work described here now continues under &lt;a href=&#34;../assistive-vision-navigation/&#34;&gt;Assistive Vision &amp;amp; Navigation&lt;/a&gt;, &lt;a href=&#34;../closed-loop-neuroprostheses/&#34;&gt;Closed-Loop Control of Visual Neuroprostheses&lt;/a&gt;, &lt;a href=&#34;../artificial-vision-pathway/&#34;&gt;Artificial Vision Across the Visual Pathway&lt;/a&gt;, and &lt;a href=&#34;../vision-loss-restoration-adaptation/&#34;&gt;Human Adaptation to Vision Loss &amp;amp; Restoration&lt;/a&gt;. The grant that funded it remains active.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Rather than aiming to one day restore &lt;em&gt;natural&lt;/em&gt; vision (which may remain elusive until we fully understand the neural code of vision), we might be better off thinking about how to create &lt;em&gt;practical&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; artificial vision now.
 Specifically, a visual prosthesis has the potential to provide visual augmentations through the means of artificial intelligence (AI) based scene understanding (e.g., by highlighting important objects), tailored to specific real-world tasks that are known to affect the quality of life of people who are blind (e.g., face recognition, outdoor navigation, self-care).&lt;/p&gt;
 &lt;p&gt;In the future, these visual augmentations could be combined with GPS to give directions, warn users of impending dangers in their immediate surroundings, or even extend the range of visible light with the use of an infrared sensor (think bionic night-time vision).
 Once the quality of the generated artificial vision reaches a certain threshold, there are a lot of exciting avenues to pursue.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>End-to-End Optimization of Bionic Vision</title>
-      <link>https://bionicvisionlab.org/research/end-to-end-optimization/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/end-to-end-optimization/</guid>
-      <description>&lt;p&gt;Our lack of understanding of multi-electrode interactions severely limits current stimulation protocols. For example, current Argus II protocols simply attempt to minimize electric field interactions by maximizing phase delays across electrodes using ‘time-multiplexing’. The assumption is that single-electrode percepts act as atomic ‘building blocks’ of patterned vision. However, these building blocks often fail to assemble into more complex percepts.&lt;/p&gt;
-&lt;p&gt;The goal of this project is therefore to develop new stimulation strategies that minimize perceptual distortions.
-One potential avenue is to view this as an end-to-end optimization problem, where a deep neural network (encoder) is trained to predict the electrical stimulus needed to produce a desired percept (target).&lt;/p&gt;
-&lt;p&gt;Importantly, this model would have to be trained with the phosphene model in the loop, such that the overall network would minimize a perceptual error between the predicted and target output.
-This is technically challenging, because a phosphene model must be:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;simple enough to be differentiable such that it can be included in the backward pass of a deep neural network,&lt;/li&gt;
-&lt;li&gt;complex enough to be able to explain the spatiotemporal perceptual distortions observed in real prosthesis patients, and&lt;/li&gt;
-&lt;li&gt;amenable to an efficient implementation such that the training of the network is feasible.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Predicting Visual Outcomes for Visual Prostheses</title>
-      <link>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</guid>
-      <description>&lt;p&gt;A major outstanding challenge is predicting what people &amp;ldquo;see&amp;rdquo; when they use their devices.&lt;/p&gt;
-&lt;p&gt;Instead of seeing focal spots of light, current visual implant users perceive highly distorted percepts, which vary in shape not just across subjects but also across electrodes and often fail to assemble into more complex percepts.
-Furthermore, phosphenes appear fundamentally different depending on whether they are generated with retinal or cortical implants.&lt;/p&gt;
-&lt;p&gt;The goal of this project is thus to combine psychophysical and neuroanatomical data that can inform phosphene models capable of linking electrical stimulation directly to perception.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Understanding the Information Needs of People Who Are Blind or Visually Impaired</title>
-      <link>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</guid>
-      <description>&lt;p&gt;The goal of this project is to obtain a nuanced understanding of the strategies that people who are blind or visually impaired (BVI) employ to perform different instrumental activities of daily living (iADLs).&lt;/p&gt;
-&lt;p&gt;Identifying useful and relevant visual cues that could support these iADLs, especially when the task involves some level of scene understanding, orientation, and mobility, will be essential to the success of near-future visual accessibility aids.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assistive Technologies for People Who Are Blind</title>
-      <link>https://bionicvisionlab.org/research/assistive-technologies-blind/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/assistive-technologies-blind/</guid>
-      <description>&lt;p&gt;Globally, millions of individuals with visual impairments face significant challenges in navigation and independence. Traditional white canes, while helpful, offer limited assistance in complex environments. Accessible tech, once effective, often turns commercial with hefty prices. This hits harder due to the high unemployment rate among the visually impaired.&lt;/p&gt;
-&lt;p&gt;Our goal is to leverage computer vision and AI to co-design the next-generation of accessible technologies with people who are blind, focusing on affordable design and open-source software, thereby enabling community-driven development and widespread impact.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simulating Visual Impairment</title>
-      <link>https://bionicvisionlab.org/research/simulated-visual-impairment/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/simulated-visual-impairment/</guid>
-      <description>&lt;p&gt;How are visual acuity and daily activities affected by visual impairment?&lt;/p&gt;
-&lt;p&gt;Previous studies with people who have retinal degeneration have shown that vision is altered and impaired in the presence of a scotoma. This is also the case when a sighted person is tested under simulated low vision (SLV) conditions. However, the extent to which patient-specific factors affect vision and quality of life is not well understood.&lt;/p&gt;
-&lt;p&gt;Testing sighted participants with SLV allows us to compare performance to real patients, design simulations to be as naturalistic as possible, and assess changes in vision for real life tasks instead of relying on acuity alone.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NeuroAI Models of the Visual System</title>
-      <link>https://bionicvisionlab.org/research/neuroai-models-visual-system/</link>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/neuroai-models-visual-system/</guid>
-      <description>&lt;p&gt;Understanding the early visual system in health and disease is a key issue for neuroscience and neuroengineering applications such as visual prostheses.&lt;/p&gt;
-&lt;p&gt;Although the processing of visual information in the healthy retina and early visual cortex (EVC) has been studied in detail, no comprehensive computational model exists that captures the many cell-level and network-level biophysical changes common to retinal degenerative diseases and other sources of visual impairment.&lt;/p&gt;
-&lt;p&gt;To address this challenge, we are developing computational models of the retina and EVC to elucidate the neural code of vision.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cortical Visual Processing for Navigation</title>
-      <link>https://bionicvisionlab.org/research/mouse-visual-navigation/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/mouse-visual-navigation/</guid>
-      <description>&lt;p&gt;How does cortical circuitry perform the visual scene analysis needed to support navigation through the environment?&lt;/p&gt;
-&lt;p&gt;Most studies of central visual processing are focused on detection or discrimination of specific features of simple artificial stimuli (e.g., orientation, direction of motion, object identity).
-However, navigation through the environment involves a very different set of computational goals, such as identifying landmarks and using optic flow to avoid obstacles. Furthermore, these computations occur under a very different stimulus regime, with the animal actively sampling a complex and continually moving sensory scene.&lt;/p&gt;
-&lt;p&gt;Our goal is to determine how the brain extracts relevant visual features from the rich, dynamic visual input that typifies active exploration, and develop (deep) predictive models of brain activity based on visual input and several behavioral variables. The data includes one-of-a-kind measures of neural activity in mice navigating through real-world and virtual environments, collected using 2-photon imaging and electrophysiology by our collaborators Spencer Smith, Michael Goard, and Cris Niell.&lt;/p&gt;
-&lt;p&gt;The results of this project will provide knowledge about normal visual function and insights for treating impaired vision via prosthetic or assistive devices.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Event-Based Vision at the Edge</title>
-      <link>https://bionicvisionlab.org/research/event-based-vision/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/research/event-based-vision/</guid>
-      <description>&lt;p&gt;Neuromorphic event‐based vision sensors are poised to dramatically improve the latency, robustness and power in applications ranging from smart sensing to autonomous driving and assistive technologies for people who are blind.&lt;/p&gt;
-&lt;p&gt;Soon these sensors may power low vision aids and retinal implants, where the visual scene has to be processed quickly and efficiently before it is displayed. However, novel methods are needed to process the unconventional output of these sensors in order to unlock their potential.&lt;/p&gt;
 </description>
     </item>
     

@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bionicvisionlab.org/research/artificial-vision-pathway/</loc>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/code/pulse2percept/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/code/bionicvisionxr/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/closed-loop-neuroprostheses/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/code/simplexr/</loc>
+    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/vision-loss-restoration-adaptation/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/assistive-vision-navigation/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/neuroai-visual-representations/</loc>
+    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/active-vision-sensorimotor/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/</loc>
     <lastmod>2027-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,11 +65,14 @@
     <loc>https://bionicvisionlab.org/publications/2026-09-percept-aware-surgical-planning/</loc>
     <lastmod>2026-09-27T17:59:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/publication_types/6/</loc>
+    <lastmod>2026-09-14T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/publications/2026-09-multimodal-neural-contrasts/</loc>
+    <lastmod>2026-09-14T15:45:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publications/2026-09-language-conditioned-object-highlighting/</loc>
     <lastmod>2026-09-08T18:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/publication_types/6/</loc>
-    <lastmod>2026-09-01T15:45:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2026-09-out-of-view-guidance-vr/</loc>
     <lastmod>2026-09-01T15:45:00+00:00</lastmod>
@@ -68,7 +98,7 @@
     <loc>https://bionicvisionlab.org/tags/visual-perception/</loc>
     <lastmod>2026-08-07T08:49:01+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/tags/visual-prosthesis/</loc>
+    <loc>https://bionicvisionlab.org/tags/visual-prostheses/</loc>
     <lastmod>2026-08-07T08:49:01+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2026-07-symbol-sight/</loc>
@@ -129,6 +159,9 @@
     <lastmod>2025-11-28T02:34:22+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-10-ismar-neuroadaptive-xr/</loc>
+    <lastmod>2025-10-12T08:49:01+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/extended-reality/</loc>
     <lastmod>2025-10-12T08:49:01+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-10-perceptual-learning-video-game-training/</loc>
@@ -193,9 +226,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2024-03-stress-affects-navigation/</loc>
     <lastmod>2024-03-11T08:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/code/bionicvisionxr/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/code/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
@@ -287,9 +317,6 @@
     <loc>https://bionicvisionlab.org/publications/2022-06-spike-latency-winner-take-all/</loc>
     <lastmod>2022-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/code/simplexr/</loc>
-    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/publications/2022-03-deep-stimulus-encoder/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -314,31 +341,22 @@
     <loc>https://bionicvisionlab.org/research/smart-bionic-eye/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/end-to-end-optimization/</loc>
+    <loc>https://bionicvisionlab.org/tags/neural-interfaces/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/tags/psychophysics/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
+    <loc>https://bionicvisionlab.org/tags/brain-stimulation/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/predicting-visual-outcomes-visual-prostheses/</loc>
+    <loc>https://bionicvisionlab.org/tags/computational-neuroscience/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2021-biphasic-axon-map/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/assistive-technology/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/blindness-low-vision/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/research/information-needs-blind-low-vision/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/research/assistive-technologies-blind/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/biomedical-image-analysis/</loc>
@@ -353,13 +371,13 @@
     <loc>https://bionicvisionlab.org/news/2021-09-giz-asks/</loc>
     <lastmod>2021-09-20T09:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/simulated-visual-impairment/</loc>
+    <loc>https://bionicvisionlab.org/tags/vision-rehabilitation/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/neuroai/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/neuroai-models-visual-system/</loc>
+    <loc>https://bionicvisionlab.org/tags/systems-neuroscience/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2021-fall-cs291a/</loc>
@@ -368,7 +386,7 @@
     <loc>https://bionicvisionlab.org/publications/2021-explainable-ai/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/code/pulse2percept/</loc>
+    <loc>https://bionicvisionlab.org/tags/psychophysics/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/news/2021-04-nvidia-i-am-ai/</loc>
@@ -392,13 +410,10 @@
     <loc>https://bionicvisionlab.org/news/2020-05-convergence/</loc>
     <lastmod>2020-05-01T09:29:00-07:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/mouse-visual-navigation/</loc>
+    <loc>https://bionicvisionlab.org/tags/active-vision/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/research/event-based-vision/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2019-optimal-surgical-placement/</loc>
@@ -428,25 +443,7 @@
     <loc>https://bionicvisionlab.org/tags/neuroengineering/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/tags/retinal-sheet-transplants/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/c&#43;&#43;/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/carlsim/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/publications/2018-carlsim4/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/gpu/</loc>
-    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/parallel-programming/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/tags/spiking-neural-networks/</loc>
@@ -470,32 +467,14 @@
     <loc>https://bionicvisionlab.org/publications/2015-carlsim3/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/tags/driver-information-systems/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/image-segmentation/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/intelligent-transportation-systems/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/kitti/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/object-detection/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/road-traffic/</loc>
-    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    <loc>https://bionicvisionlab.org/tags/computational-models/</loc>
+    <lastmod>2015-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2014-vision-based-robust-road-lane-detection/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2014-efficient-pattern-motion-snn-mt/</loc>
     <lastmod>2014-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/evolutionary-algorithms/</loc>
-    <lastmod>2014-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/publications/2014-gpgpu-accelerated-parameter-tuning/</loc>
     <lastmod>2014-01-20T00:00:00+00:00</lastmod>
@@ -506,19 +485,8 @@
     <loc>https://bionicvisionlab.org/publications/2013-categorization-mnist-stdp/</loc>
     <lastmod>2013-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/tags/mnist/</loc>
-    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/synaptic-plasticity/</loc>
-    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/publications/2010-neuromorphic-olfactory-networks/</loc>
     <lastmod>2010-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/olfaction/</loc>
-    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/alumni/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/alumni/adimulam_kartik/</loc>
   </url><url>
@@ -780,7 +748,7 @@
   </url><url>
     <loc>https://bionicvisionlab.org/alumni/varesio_wade/</loc>
   </url><url>
-    <loc>https://bionicvisionlab.org/alumni/wang_alvin2/</loc>
+    <loc>https://bionicvisionlab.org/alumni/wang_alvin/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/alumni/wang_ivy/</loc>
   </url><url>
@@ -890,6 +858,8 @@
   </url><url>
     <loc>https://bionicvisionlab.org/people/varshney_apurv/</loc>
   </url><url>
+    <loc>https://bionicvisionlab.org/alumni/</loc>
+  </url><url>
     <loc>https://bionicvisionlab.org/collaborators/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/grants/2021-r01-mouse/</loc>
@@ -897,8 +867,6 @@
     <loc>https://bionicvisionlab.org/grants/2021-ucsb-academic-senate/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/grants/</loc>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/join/</loc>
   </url><url>

@@ -31,11 +31,20 @@
     </item>
     
     <item>
-      <title>Visual Prosthesis</title>
-      <link>https://bionicvisionlab.org/tags/visual-prosthesis/</link>
+      <title>Visual Prostheses</title>
+      <link>https://bionicvisionlab.org/tags/visual-prostheses/</link>
       <pubDate>Fri, 07 Aug 2026 08:49:01 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/visual-prosthesis/</guid>
+      <guid>https://bionicvisionlab.org/tags/visual-prostheses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extended Reality</title>
+      <link>https://bionicvisionlab.org/tags/extended-reality/</link>
+      <pubDate>Sun, 12 Oct 2025 08:49:01 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/extended-reality/</guid>
       <description></description>
     </item>
     
@@ -49,7 +58,7 @@
     </item>
     
     <item>
-      <title>computer vision</title>
+      <title>Computer Vision</title>
       <link>https://bionicvisionlab.org/tags/computer-vision/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       
@@ -58,11 +67,20 @@
     </item>
     
     <item>
-      <title>Psychophysics</title>
-      <link>https://bionicvisionlab.org/tags/psychophysics/</link>
+      <title>Neural Interfaces</title>
+      <link>https://bionicvisionlab.org/tags/neural-interfaces/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/psychophysics/</guid>
+      <guid>https://bionicvisionlab.org/tags/neural-interfaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain Stimulation</title>
+      <link>https://bionicvisionlab.org/tags/brain-stimulation/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/brain-stimulation/</guid>
       <description></description>
     </item>
     
@@ -78,7 +96,7 @@
     <item>
       <title>Assistive Technology</title>
       <link>https://bionicvisionlab.org/tags/assistive-technology/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/assistive-technology/</guid>
       <description></description>
@@ -87,7 +105,7 @@
     <item>
       <title>Blindness &amp; Low Vision</title>
       <link>https://bionicvisionlab.org/tags/blindness-low-vision/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/blindness-low-vision/</guid>
       <description></description>
@@ -112,6 +130,15 @@
     </item>
     
     <item>
+      <title>Vision Rehabilitation</title>
+      <link>https://bionicvisionlab.org/tags/vision-rehabilitation/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/vision-rehabilitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NeuroAI</title>
       <link>https://bionicvisionlab.org/tags/neuroai/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
@@ -121,7 +148,34 @@
     </item>
     
     <item>
-      <title>neuroengineering</title>
+      <title>Systems Neuroscience</title>
+      <link>https://bionicvisionlab.org/tags/systems-neuroscience/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/systems-neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychophysics</title>
+      <link>https://bionicvisionlab.org/tags/psychophysics/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/psychophysics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active Vision</title>
+      <link>https://bionicvisionlab.org/tags/active-vision/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/tags/active-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuroengineering</title>
       <link>https://bionicvisionlab.org/tags/neuroengineering/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       
@@ -130,61 +184,7 @@
     </item>
     
     <item>
-      <title>retinal sheet transplants</title>
-      <link>https://bionicvisionlab.org/tags/retinal-sheet-transplants/</link>
-      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/retinal-sheet-transplants/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://bionicvisionlab.org/tags/c&#43;&#43;/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CARLsim</title>
-      <link>https://bionicvisionlab.org/tags/carlsim/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/carlsim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computational models</title>
-      <link>https://bionicvisionlab.org/tags/computational-models/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/computational-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GPU</title>
-      <link>https://bionicvisionlab.org/tags/gpu/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/gpu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>parallel programming</title>
-      <link>https://bionicvisionlab.org/tags/parallel-programming/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/parallel-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spiking neural networks</title>
+      <title>Spiking Neural Networks</title>
       <link>https://bionicvisionlab.org/tags/spiking-neural-networks/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -193,110 +193,20 @@
     </item>
     
     <item>
-      <title>driver information systems</title>
-      <link>https://bionicvisionlab.org/tags/driver-information-systems/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <title>Computational Models</title>
+      <link>https://bionicvisionlab.org/tags/computational-models/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://bionicvisionlab.org/tags/driver-information-systems/</guid>
+      <guid>https://bionicvisionlab.org/tags/computational-models/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>image segmentation</title>
-      <link>https://bionicvisionlab.org/tags/image-segmentation/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/image-segmentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>intelligent transportation systems</title>
-      <link>https://bionicvisionlab.org/tags/intelligent-transportation-systems/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/intelligent-transportation-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>KITTI</title>
-      <link>https://bionicvisionlab.org/tags/kitti/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/kitti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>object detection</title>
-      <link>https://bionicvisionlab.org/tags/object-detection/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/object-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>road traffic</title>
-      <link>https://bionicvisionlab.org/tags/road-traffic/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/road-traffic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>evolutionary algorithms</title>
-      <link>https://bionicvisionlab.org/tags/evolutionary-algorithms/</link>
-      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/evolutionary-algorithms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neuromorphic engineering</title>
+      <title>Neuromorphic Engineering</title>
       <link>https://bionicvisionlab.org/tags/neuromorphic-engineering/</link>
       <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/tags/neuromorphic-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MNIST</title>
-      <link>https://bionicvisionlab.org/tags/mnist/</link>
-      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/mnist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>synaptic plasticity</title>
-      <link>https://bionicvisionlab.org/tags/synaptic-plasticity/</link>
-      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/synaptic-plasticity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>olfaction</title>
-      <link>https://bionicvisionlab.org/tags/olfaction/</link>
-      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/olfaction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Immersive Technology (VR/AR/MR)</title>
-      <link>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/tags/immersive-technology-vr/ar/mr/</guid>
       <description></description>
     </item>
     

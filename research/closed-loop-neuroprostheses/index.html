@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We develop methods for choosing stimulation patterns that produce a desired percept or neural response, using predictive models, optimization, and feedback from the user or the brain.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://bionicvisionlab.org/research/closed-loop-neuroprostheses/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0e1111">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible+Next:400,400italic,700,700italic|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.8994e567e10121067d5531d88d21c7b4.css">
+
+  
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.8f501bdc11dd504f9728e4552c3c2e4d.css">
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://bionicvisionlab.org/research/closed-loop-neuroprostheses/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bionicvisionlab">
+  <meta property="twitter:creator" content="@bionicvisionlab">
+  
+  <meta property="og:site_name" content="Bionic Vision Lab">
+  <meta property="og:url" content="https://bionicvisionlab.org/research/closed-loop-neuroprostheses/">
+  <meta property="og:title" content="Closed-Loop Control of Visual Neuroprostheses | Bionic Vision Lab">
+  <meta property="og:description" content="We develop methods for choosing stimulation patterns that produce a desired percept or neural response, using predictive models, optimization, and feedback from the user or the brain."><meta property="og:image" content="https://bionicvisionlab.org/research/closed-loop-neuroprostheses/featured.png">
+  <meta property="twitter:image" content="https://bionicvisionlab.org/research/closed-loop-neuroprostheses/featured.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2021-12-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2021-12-01T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#0e1111",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#0e1111"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="/css/gallery.css"/>
+  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/js/load-photoswipe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+  <title>Closed-Loop Control of Visual Neuroprostheses | Bionic Vision Lab</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <a class="skip-to-content" href="#main-content">Skip to main content</a>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"><img src="/img/bvl-title-dark.png" alt="Bionic Vision Lab"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars" aria-hidden="true"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#intro"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/code"><span>Code</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Contact</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/join"><span>Join Us</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/contact"><span>Location</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <main id="main-content">
+    
+
+
+
+<div class="container px-4 px-sm-0">
+  <div class="row page-top">
+    <h1 class="page-title">Closed-Loop Control of Visual Neuroprostheses</h1>
+    
+  </div>
+  
+  
+  
+  
+  
+  <div class="row">
+    <div class="col-12">
+      <div class="article-tags">
+        
+        
+        <a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/neural-interfaces/">Neural Interfaces</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/brain-stimulation/">Brain Stimulation</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a>
+        
+        
+        
+        <a class="badge badge-light" href="/tags/neuroai/">NeuroAI</a>
+        
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="row">
+    <div class="col-12">
+      <div class="callout-recruiting">
+        
+          We are currently looking for PhD students to work in this area.
+        
+        <a href="/join/">Learn more &rarr;</a>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="row mt-2">
+    <div class="col-12">
+      <div class="article-style content-prose" itemprop="articleBody"><p>Single-electrode phosphenes do not simply add up into useful patterned vision. If we can predict the percept or neural response produced by a stimulus, the next problem is to work backward: which stimulation pattern should we use to produce the outcome we want?</p>
+<h2 id="what-we-study">What We Study</h2>
+<p>We approach this as a learning and control problem. We train stimulus encoders through differentiable models of artificial vision, use Bayesian and preference-based optimization to search stimulation space, and use bidirectional implants to adjust stimulation based on recorded cortical activity.</p>
+<p>The challenge is that the right stimulation pattern can differ across people and change over time. Any useful controller therefore has to adapt from relatively little data. This becomes even more important for high-channel-count cortical implants, where the number of possible stimulation patterns is far too large to explore directly. Part of our work is therefore finding lower-dimensional ways to represent and control that space.</p>
+<h2 id="current-directions">Current Directions</h2>
+<ul>
+<li>Stimulus encoders. Learning mappings from visual input or target percepts to implant stimulation patterns.</li>
+<li>Human-in-the-loop optimization. Personalizing models and stimulation from a practical number of participant responses.</li>
+<li>Perceptual characterization. Efficiently estimating thresholds, sensitivity maps, and other participant-specific parameters.</li>
+<li>Neural activity shaping. Using recorded cortical responses to adjust stimulation and drive activity toward a target.</li>
+<li>Safety and robustness. Testing learned stimulation strategies across parameter ranges and failure cases before they are used experimentally.</li>
+</ul>
+</div>
+    </div>
+    
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <hr class="section-rule">
+  <h2 class="section-title">Team</h2>
+  <div class="team-grid">
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Lead</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="/people/beyeler_michael/">
+        <img class="person-chip-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Michael Beyeler</span><small class="person-chip-meta">Associate Professor</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Affiliate</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="/people/pogoncheff_galen/">
+        <img class="person-chip-avatar" src="/people/pogoncheff_galen/avatar_hu17c708e6da1d9414b01577d5c8ddbe96_15660_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Galen Pogoncheff</span><small class="person-chip-meta">PhD Candidate</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Principal Investigator</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="/people/beyeler_michael/">
+        <img class="person-chip-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Michael Beyeler</span><small class="person-chip-meta">Associate Professor</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+      <div class="team-row">
+        <h3 class="team-role">Collaborator</h3>
+        <div class="team-people">
+          
+
+
+
+
+
+
+  
+  
+    
+    
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+    <a class="person-chip" href="https://nbio.umh.es/perfil-del-grupo/personal/eduardo-fernandez-jover/">
+        <img class="person-chip-avatar" src="/collaborators/fernandez_eduardo/avatar_hua86b983be466ad8572a4415ab5e882dd_28097_128x128_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="128" height="128"><span class="person-chip-text">
+        <span class="person-chip-name">Eduardo Fernández</span><small class="person-chip-meta">Universidad Miguel Hernández, Spain</small></span>
+    </a>
+  
+
+
+        </div>
+      </div>
+      
+    
+      
+    
+  </div>
+  
+
+  
+  <hr class="section-rule">
+  <h2 class="section-title">Funding</h2>
+  <div class="row m-0">
+    <div class="row col-12">
+      
+        
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+    
+  
+
+  <div class="d-flex col-12">
+    <div class="people-person col-2 text-center mb-2">
+      
+        <a href="https://reporter.nih.gov/search/quVfKF0i1UmVSID16E-7QA/project-details/10473346">
+          <img class="img-thumbnail subtle-black-shadow mx-auto mb-1" src="/grants/2022-dp2-new-innovator/avatar_hue24c60e740b90ab5c64ada9d25ef138d_135493_150x150_fill_lanczos_center_3.png" alt="Avatar" />
+        </a>
+      
+    </div>
+    <div class="col-10 pl-0">
+      <p class="m-0 p-0 ">
+        <a href="https://reporter.nih.gov/search/quVfKF0i1UmVSID16E-7QA/project-details/10473346">DP2-LM014268</a>:
+        Towards a Smart Bionic Eye: AI-Powered Artificial Vision for the Treatment of Incurable Blindness
+        <br/>PI: Michael Beyeler (UCSB)
+      </p>
+      
+        <p class="m-0 p-0" style="line-height: 90%">
+          <small>September 2022 - August 2027</small>
+          <br/>
+          <small>Common Fund, Office of the Director (OD); National Library of Medicine (NLM)</small>
+          <br/>
+          <small>National Institutes of Health (NIH)</small>
+        </p>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+  </div>
+  
+
+  
+  
+  
+  
+  <hr class="section-rule">
+  <h2 class="section-title">Publications</h2>
+  <div class="page-pubs">
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2026-09-percept-aware-surgical-planning/"  itemprop="url">Percept-aware surgical planning for visual cortical prostheses with vascular avoidance</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We present a percept-aware framework for surgical planning of cortical visual prostheses that formulates electrode placement as a constrained optimization problem in anatomical space.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2026-09-27 17:59:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-09-27 17:59:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/pogoncheff_galen/"><img class="byline-avatar" src="/people/pogoncheff_galen/avatar_hu17c708e6da1d9414b01577d5c8ddbe96_15660_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Galen Pogoncheff</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Alvin Wang</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>September 2026</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Medical Image Computing and Computer Assisted Intervention (MICCAI) ‘26
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2026-09-percept-aware-surgical-planning/" >
+      <img src="/publications/2026-09-percept-aware-surgical-planning/featured_huaba0671bb869d6c49000df354c30b198_198431_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Percept-aware surgical planning for visual cortical prostheses with vascular avoidance">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2026-08-deep-neural-activity-shaping/"  itemprop="url">Deep learning-based control of electrically evoked activity in human visual cortex</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We developed a data-driven neural control framework for a visual cortical prosthesis in a blind human, showing that deep learning can synthesize efficient, stable stimulation patterns that reliably evoke percepts and outperform conventional calibration methods.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2026-08-07 08:49:01 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-08-07 08:49:01 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person">Pehuén Moure</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Fabrizio Grani</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Leili Soo</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Antonio Lozano</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Rocio López-Peco</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Adrián Villamarin-Ortiz</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Cristina Soto-Sánchez</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Shih-Chii Liu</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="https://nbio.umh.es/perfil-del-grupo/personal/eduardo-fernandez-jover/"><img class="byline-avatar" src="/collaborators/fernandez_eduardo/avatar_hua86b983be466ad8572a4415ab5e882dd_28097_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Eduardo Fernández</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>August 2026</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Neuron 114:1-15
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  <span class="d-block author-note"><i>(Note: PM, JG, and FG are co-first authors. SL, MB, and EF are co-last authors.)</i></span>
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2026-08-deep-neural-activity-shaping/" >
+      <img src="/publications/2026-08-deep-neural-activity-shaping/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Deep learning-based control of electrically evoked activity in human visual cortex">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2026-02-fuzzing-the-brain/"  itemprop="url">Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We propose a systematic, quantitative approach to detect and characterize unsafe stimulation patterns in ML-driven neurostimulation systems.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2026-02-23 02:34:22 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-02-23 02:34:22 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person">Mara Downing</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Matthew Peng</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Tevfik Bultan</span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>February 2026</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Journal of Neural Engineering
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2026-02-fuzzing-the-brain/" >
+      <img src="/publications/2026-02-fuzzing-the-brain/featured_hu862b6183f71b4ea61c81bb3d61d156fc_84432_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2025-10-ismar-neuroadaptive-xr/"  itemprop="url">Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">Rather than pursuing a (degraded) imitation of natural sight, bionic vision might be better understood as a form of neuroadaptive XR: a perceptual interface that forgoes visual fidelity in favor of delivering sparse,  personalized cues shaped (at its full potential) by user intent, behavioral context, and cognitive state.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2025-10-12 08:49:01 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-10-12 08:49:01 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>October 2025</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      2025 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2025-10-ismar-neuroadaptive-xr/" >
+      <img src="/publications/2025-10-ismar-neuroadaptive-xr/featured_hu6a9d25d140f380de22b50dff0a588ce0_146138_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2025-07-gaussian-process-thresholds/"  itemprop="url">Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We propose a Gaussian Process Regression (GPR) framework to predict perceptual thresholds at unsampled locations while leveraging uncertainty estimates to guide adaptive sampling.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2025-07-14 08:49:01 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-07-14 08:49:01 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+    <i class="fa fa-bullhorn mr-1" alt="Promoted research"></i>
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/sadeghi_roksana/avatar_huaa1d7767b52e4e33b32ddfa606019e47_52528_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Roksana Sadeghi</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>July 2025</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      IEEE EMBC &lsquo;25
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2025-07-gaussian-process-thresholds/" >
+      <img src="/publications/2025-07-gaussian-process-thresholds/featured_hu6316b67f870f2ed92edda270ff430b61_64283_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2025-07-hilo-personalization-sighted/"  itemprop="url">Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We evaluate HILO using sighted participants viewing simulated prosthetic vision to assess its ability to optimize stimulation strategies under realistic conditions.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2025-07-14 08:49:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-07-14 08:49:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+    <i class="fa fa-bullhorn mr-1" alt="Promoted research"></i>
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/schoinas_eirini/"><img class="byline-avatar" src="/people/schoinas_eirini/avatar_hue1692cc3f65dff86538873def6235b6c_12237_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Eirini Schoinas</span></a></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/rastogi_adyah/avatar_hu1ee665cd69e56ec208941790ca23d366_13900_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Adyah Rastogi</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/carter_anissa/avatar_hu48e61c9fba9826ba47337d50e4859450_37531_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Anissa Carter</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>July 2025</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      IEEE EMBC &lsquo;25
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2025-07-hilo-personalization-sighted/" >
+      <img src="/publications/2025-07-hilo-personalization-sighted/featured_hue70167b8aaf56e0966ff3e25d321b857_239240_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2023-12-hilo-stimulus-encoding/"  itemprop="url">Human-in-the-loop optimization for deep stimulus encoding in visual prostheses</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We propose a personalized stimulus encoding strategy that combines state-of-the-art deep stimulus encoding with preferential Bayesian optimization.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2023-12-10 18:49:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-12-10 18:49:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Tristan Fauvel</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Matthew Chalk</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>December 2023</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      37th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;23
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2023-12-hilo-stimulus-encoding/" >
+      <img src="/publications/2023-12-hilo-stimulus-encoding/featured_hue70167b8aaf56e0966ff3e25d321b857_873246_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2022-11-hybrid-neural-autoencoder/"  itemprop="url">Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">What is the required stimulus to produce a desired percept? Here we frame this as an end-to-end optimization problem, where a deep neural network encoder is trained to invert a known, fixed forward model that approximates the underlying biological system.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2022-11-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-11-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+  
+  
+    <i class="fa fa-microphone mr-1" alt="News coverage"></i>
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/granley_jacob/avatar_hu49da6a4467c0d33f0a66dc8e49f07d0d_327308_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Jacob Granley</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/relic_lucas/avatar_hu6244817ac7cc32f1f857e6af1face3f5_10391_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Lucas Relic</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>November 2022</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      36th Conference on Neural Information Processing Systems (NeurIPS) &lsquo;22
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2022-11-hybrid-neural-autoencoder/" >
+      <img src="/publications/2022-11-hybrid-neural-autoencoder/featured_hu8ec43c8e64ab02242f8ac2c162b39385_1341146_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="media mb-4" itemscope itemtype="http://schema.org/CreativeWork">
+  
+  <div class="col-12 col-md-8">
+  
+  
+    <h3 class="m-0 item-title" itemprop="name">
+    <a href="/publications/2022-03-deep-stimulus-encoder/"  itemprop="url">Deep learning-based perceptual stimulus encoder for bionic vision</a>
+    </h3>
+
+    
+    <div itemprop="articleBody">
+      <p class="m-0">We propose a perceptual stimulus encoder based on convolutional neural networks that is trained in an end-to-end fashion to predict the electrode activation patterns required to produce a desired visual percept.</p>
+    </div>
+    
+
+    <div>
+      
+      <div itemprop="author">
+        
+          
+
+
+
+
+<meta content="2022-03-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-03-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="m-0 p-0">
+  
+  <p class="m-0"><small>
+  
+    <i class="fa fa-trophy mr-1" alt="Award winner"></i>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span itemprop="authors">
+    
+
+<span itemprop="author name" itemtype="http://schema.org/Person"><span class="byline-person"><img class="byline-avatar" src="/alumni/relic_lucas/avatar_hu6244817ac7cc32f1f857e6af1face3f5_10391_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Lucas Relic</span></span></span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Bowen Zhang</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person">Yi-Lin Tuan</span><span class="byline-sep">,</span> <span itemprop="author name" itemtype="http://schema.org/Person"><a class="byline-person" href="/people/beyeler_michael/"><img class="byline-avatar" src="/people/beyeler_michael/avatar_hu417250f2d11bfd3c0b7364b7718e0a64_87685_72x72_fill_q90_lanczos_center.jpg" alt="" loading="lazy" width="72" height="72"><span>Michael Beyeler</span></a></span>
+
+  </span>
+  <span class="middot-divider"></span>
+  
+  
+
+  
+  
+  <span class="">
+    
+    
+      
+    
+    <time>March 2022</time>
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      ACM Augmented Humans (AHs) &lsquo;22
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  </small></p>
+  
+
+  
+</div>
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="col-md-4 hidden-sm d-none d-md-block">
+    
+    <a href="/publications/2022-03-deep-stimulus-encoder/" >
+      <img src="/publications/2022-03-deep-stimulus-encoder/featured_hue70167b8aaf56e0966ff3e25d321b857_248285_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Deep learning-based perceptual stimulus encoder for bionic vision">
+    </a>
+  </div>
+  
+</div>
+
+      
+    
+  </div>
+  
+
+    <a href="../" class="button">Back to all research areas</a>
+  </div>
+
+</article>
+  </main>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/python.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'news': "In the News",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <hr class="section-rule">
+    <footer class="site-footer mt-5 pt-0">
+  <div class="row featurette">
+    <div class="col-6 col-sm-5">
+      <div class="featurette-icon">
+        <a href="https://cs.ucsb.edu" target="_blank"><img src="/img/ucsb-cs-logo.png" alt="UCSB Computer Science"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-5">
+      <div class="featurette-icon">
+        <a href="https://psych.ucsb.edu" target="_blank"><img src="/img/ucsb-psych-logo.svg" alt="UCSB Psychological & Brain Sciences"></a>
+      </div>
+    </div>
+    <div class="col-sm-2 d-none d-sm-block">
+      <div class="featurette-icon">
+        <a href="https://ucsb.edu" target="_blank"><img src="/img/ucsb-enlightened.png" style="filter:invert(1)" alt="UC Santa Barbara"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-sm-2 d-none d-sm-block">
+    </div>
+    <div class="col-6 col-sm-3">
+      <div class="featurette-icon">
+        <a href="https://bioengineering.ucsb.edu" target="_blank"><img src="/img/ucsb-bioeng-logo.png" style="padding: 5% 0" alt="UCSB Bioengineering"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-2 d-flex align-items-center">
+      <div class="featurette-icon">
+        <a href="https://dyns.ucsb.edu" target="_blank"><img src="/img/ucsb-dyns-logo.png" alt="UCSB DYNS"></a>
+      </div>
+    </div>
+    <div class="col-6 col-sm-3" style>
+      <div class="featurette-icon">
+        <a href="https://nri.ucsb.edu" target="_blank"><img src="/img/ucsb-nri-logo.svg" style="padding: 6% 0" alt="UCSB Neuroscience Research Institute"></a>
+      </div>
+    </div>
+  </div>
+
+  <p class="h6 mt-4">
+    © 2026 Bionic Vision Lab.
+    All rights reserved.
+
+    
+    <span class="float-right">
+      <a href="#" id="back_to_top" aria-label="Back to top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

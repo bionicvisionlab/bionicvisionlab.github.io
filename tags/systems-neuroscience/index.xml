@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems Neuroscience on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/systems-neuroscience/</link>
+    <description>Recent content in Systems Neuroscience on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/systems-neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NeuroAI &amp; Visual Representations</title>
+      <link>https://bionicvisionlab.org/research/neuroai-visual-representations/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/neuroai-visual-representations/</guid>
+      <description>&lt;p&gt;Deep neural networks can reproduce many features of visual cortex, but they also differ from biological vision in important ways. We use those similarities and differences in both directions: to build better models of the visual system and to ask what aspects of biological vision current AI models fail to capture.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We develop biologically constrained neural networks and test which architectural, learning, and input constraints are needed to reproduce properties of visual cortex. We also study the internal representations learned by artificial networks: how closely they match neural data, whether that alignment predicts behavior or robustness, and whether useful representational structure can be transferred between models.&lt;/p&gt;
+&lt;p&gt;Visual experience is another important part of the problem. We study how representations change when sensory input is altered or absent, including how visual cortex is organized in people who are blind. These cases provide a strong test of models that are usually developed only for typical vision.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Model–brain alignment. Understanding what neural-alignment metrics capture and when similar representations do not imply similar computation.&lt;/li&gt;
+&lt;li&gt;Biologically constrained networks. Testing which architectural and learning constraints are needed to reproduce properties of visual cortex.&lt;/li&gt;
+&lt;li&gt;Representation learning. Studying how internal representational structure affects behavior, robustness, and transfer between models.&lt;/li&gt;
+&lt;li&gt;Digital twins. Probing predictive models of visual cortex to test hypotheses about neural representations.&lt;/li&gt;
+&lt;li&gt;Plasticity and altered visual input. Studying how visual experience shapes cortical representations, including in blindness.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Active Vision &amp; Sensorimotor Intelligence</title>
+      <link>https://bionicvisionlab.org/research/active-vision-sensorimotor/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/active-vision-sensorimotor/</guid>
+      <description>&lt;p&gt;Much of what we know about visual cortex comes from animals viewing controlled stimuli while keeping their heads still. Natural vision is different. During navigation, foraging, and pursuit, animals actively move their eyes, head, and body, continually changing both what they see and how the brain responds.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-study&#34;&gt;What We Study&lt;/h2&gt;
+&lt;p&gt;We use recordings from freely moving mice and from real-world and virtual navigation experiments to study how visual input, movement, and behavioral state jointly shape cortical activity. We model these signals together and also study the sampling behavior itself, including gaze shifts and head–eye coordination.&lt;/p&gt;
+&lt;p&gt;We also compare biological and artificial visual systems. Mice and AI models can be tested on the same tasks, allowing us to ask where their behavior and internal representations agree or differ. Digital twins of visual cortex provide another way to test hypotheses that would be difficult to probe directly in the brain. We are also interested in event-driven and spiking approaches to efficient visual processing.&lt;/p&gt;
+&lt;h2 id=&#34;current-directions&#34;&gt;Current Directions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Behavior-dependent cortical dynamics. Neural activity during freely moving behavior and models that account for visual input, movement, and internal state.&lt;/li&gt;
+&lt;li&gt;Active sampling. Gaze shifts, head–eye coordination, and other strategies that determine what visual information is acquired.&lt;/li&gt;
+&lt;li&gt;Mouse versus AI. Comparing biological and artificial agents on the same visual tasks and representations.&lt;/li&gt;
+&lt;li&gt;Digital twins. Predictive models of visual cortex that can be used to test hypotheses about neural computation.&lt;/li&gt;
+&lt;li&gt;Event-driven and spiking vision. Efficient visual processing inspired by biological sensing and computation.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
