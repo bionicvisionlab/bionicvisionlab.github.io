@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eye Tracking on Bionic Vision Lab</title>
+    <link>https://bionicvisionlab.org/tags/eye-tracking/</link>
+    <description>Recent content in Eye Tracking on Bionic Vision Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://bionicvisionlab.org/tags/eye-tracking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Navigation, Attention &amp; Individual Differences</title>
+      <link>https://bionicvisionlab.org/research/navigation-attention-individual-differences/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/navigation-attention-individual-differences/</guid>
+      <description>&lt;p&gt;Much of navigation depends on deciding what information to trust and where to direct attention. People differ substantially in how they use maps, landmarks, and other navigation aids, especially when those cues are incomplete or unreliable. 
+In collaboration with Barry Giesbrecht and Mary Hegarty, we use immersive VR to study these differences under controlled but demanding navigation conditions.&lt;/p&gt;
+&lt;p&gt;Our experiments combine freely moving VR with behavioral measures, eye tracking, and mobile EEG. We study how navigation aids influence attention and performance, how people adapt when guidance becomes unreliable, and how differences in spatial ability, strategy, and stress affect navigation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

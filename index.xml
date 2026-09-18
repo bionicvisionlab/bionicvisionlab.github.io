@@ -31,21 +31,9 @@
     </item>
     
     <item>
-      <title>Code</title>
-      <link>https://bionicvisionlab.org/code/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://bionicvisionlab.org/code/</guid>
-      <description>&lt;p&gt;To the best of our ability, we practice open science. The idea is not to simply tick a box of &amp;ldquo;open science&amp;rdquo;, but to make the stimuli, data, and analyses that accompany a publication readable and usable for reviewers and other researchers.
-You can find code for most of our publications at &lt;a href=&#34;https://github.com/bionicvisionlab&#34;&gt;https://github.com/bionicvisionlab&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In addition, we have also developed a number of open-source software tools in support of our research goals:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Research Areas</title>
       <link>https://bionicvisionlab.org/research/</link>
-      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>https://bionicvisionlab.org/research/</guid>
       <description>&lt;div class=&#34;d-none d-sm-block float-right col-5 m-0 ml-2&#34;&gt;
@@ -57,6 +45,18 @@ You can find code for most of our publications at &lt;a href=&#34;https://github
 &lt;p&gt;Our work spans the full spectrum from behavior to computation. We study how people with visual impairment perceive and navigate the world, using psychophysics, VR/AR, and ambulatory head/eye/body tracking. We probe visual system function with EEG, TMS, and physiological sensing. And we design biophysical and machine learning models to simulate, evaluate, and optimize visual prostheses, often embedding these models directly into real-time XR environments. This blend of approaches lets us connect brain, behavior, and technology in ways no single discipline can achieve alone.&lt;/p&gt;
 &lt;p&gt;The research areas below capture the major questions we are pursuing today.
 Our open-source software platforms, including &lt;a href=&#34;../code/pulse2percept/&#34;&gt;pulse2percept&lt;/a&gt; and &lt;a href=&#34;../code/bionicvisionxr/&#34;&gt;BionicVisionXR&lt;/a&gt;, provide shared infrastructure across them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://bionicvisionlab.org/code/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/code/</guid>
+      <description>&lt;p&gt;To the best of our ability, we practice open science. The idea is not to simply tick a box of &amp;ldquo;open science&amp;rdquo;, but to make the stimuli, data, and analyses that accompany a publication readable and usable for reviewers and other researchers.
+You can find code for most of our publications at &lt;a href=&#34;https://github.com/bionicvisionlab&#34;&gt;https://github.com/bionicvisionlab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition, we have also developed a number of open-source software tools in support of our research goals:&lt;/p&gt;
 </description>
     </item>
     

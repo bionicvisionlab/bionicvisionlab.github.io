@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/research/index.xml" rel="self" type="application/rss+xml" />
     
@@ -134,6 +134,28 @@
 &lt;li&gt;Digital twins. Predictive models of visual cortex that can be used to test hypotheses about neural computation.&lt;/li&gt;
 &lt;li&gt;Event-driven and spiking vision. Efficient visual processing inspired by biological sensing and computation.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Navigation, Attention &amp; Individual Differences</title>
+      <link>https://bionicvisionlab.org/research/navigation-attention-individual-differences/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/navigation-attention-individual-differences/</guid>
+      <description>&lt;p&gt;Much of navigation depends on deciding what information to trust and where to direct attention. People differ substantially in how they use maps, landmarks, and other navigation aids, especially when those cues are incomplete or unreliable. 
+In collaboration with Barry Giesbrecht and Mary Hegarty, we use immersive VR to study these differences under controlled but demanding navigation conditions.&lt;/p&gt;
+&lt;p&gt;Our experiments combine freely moving VR with behavioral measures, eye tracking, and mobile EEG. We study how navigation aids influence attention and performance, how people adapt when guidance becomes unreliable, and how differences in spatial ability, strategy, and stress affect navigation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Active Sensing for Gradient Navigation</title>
+      <link>https://bionicvisionlab.org/research/active-sensing-gradient-navigation/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/research/active-sensing-gradient-navigation/</guid>
+      <description>&lt;p&gt;Many animals navigate by following sensory gradients: changes in light, sound, odor, or other signals across space. Work in Matthieu Louis&amp;rsquo;s lab has shown that Drosophila larvae use active sensing strategies to do this, including tracking changes in sensory input over time and scanning the local environment before choosing where to move. Together, we use closed-loop virtual reality to test whether similar principles govern human navigation.&lt;/p&gt;
 </description>
     </item>
     

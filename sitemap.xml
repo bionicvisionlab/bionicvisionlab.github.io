@@ -29,6 +29,12 @@
     <loc>https://bionicvisionlab.org/research/active-vision-sensorimotor/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/research/navigation-attention-individual-differences/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/active-sensing-gradient-navigation/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/</loc>
     <lastmod>2027-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -167,6 +173,12 @@
     <loc>https://bionicvisionlab.org/publications/2025-10-perceptual-learning-video-game-training/</loc>
     <lastmod>2025-10-07T08:49:00+00:00</lastmod>
   </url><url>
+    <loc>https://bionicvisionlab.org/tags/active-vision/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/research/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bionicvisionlab.org/publications/2025-07-checkerboard-raster/</loc>
     <lastmod>2025-07-16T08:49:00+00:00</lastmod>
   </url><url>
@@ -238,6 +250,12 @@
   </url><url>
     <loc>https://bionicvisionlab.org/news/2024-02-nih-smart-bionic-eye/</loc>
     <lastmod>2024-02-28T09:59:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/eeg/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bionicvisionlab.org/tags/eye-tracking/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2024-winter-cs165a/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
@@ -335,9 +353,6 @@
     <loc>https://bionicvisionlab.org/tags/computer-vision/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bionicvisionlab.org/research/</loc>
-    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bionicvisionlab.org/research/smart-bionic-eye/</loc>
     <lastmod>2021-12-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -409,9 +424,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/news/2020-05-convergence/</loc>
     <lastmod>2020-05-01T09:29:00-07:00</lastmod>
-  </url><url>
-    <loc>https://bionicvisionlab.org/tags/active-vision/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bionicvisionlab.org/teaching/2020-winter-cs291i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
@@ -778,10 +790,6 @@
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/boynton_geoff/</loc>
   </url><url>
-    <loc>https://bionicvisionlab.org/collaborators/brunton_bing/</loc>
-  </url><url>
-    <loc>https://bionicvisionlab.org/collaborators/dagnelie_gislin/</loc>
-  </url><url>
     <loc>https://bionicvisionlab.org/collaborators/eckstein_miguel/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/fernandez_eduardo/</loc>
@@ -798,7 +806,9 @@
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/hollerer_tobias/</loc>
   </url><url>
-    <loc>https://bionicvisionlab.org/collaborators/montezuma_sandra/</loc>
+    <loc>https://bionicvisionlab.org/collaborators/lapate_regina/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/collaborators/louis_matthieu/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/niell_cris/</loc>
   </url><url>
@@ -814,9 +824,13 @@
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/smith_spencer/</loc>
   </url><url>
+    <loc>https://bionicvisionlab.org/collaborators/sprague_thomas/</loc>
+  </url><url>
     <loc>https://bionicvisionlab.org/collaborators/weiland_jim/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/beyeler_michael/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/people/cervantes_eric/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/people/doke_sahiti/</loc>
   </url><url>
@@ -858,11 +872,17 @@
   </url><url>
     <loc>https://bionicvisionlab.org/people/varshney_apurv/</loc>
   </url><url>
+    <loc>https://bionicvisionlab.org/grants/2026-07-or-seed-olfaction/</loc>
+  </url><url>
     <loc>https://bionicvisionlab.org/alumni/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/grants/2024-icb-task45/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/collaborators/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/grants/2021-r01-mouse/</loc>
+  </url><url>
+    <loc>https://bionicvisionlab.org/grants/2025-ucsb-asen-tms/</loc>
   </url><url>
     <loc>https://bionicvisionlab.org/grants/2021-ucsb-academic-senate/</loc>
   </url><url>
