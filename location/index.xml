@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Location on Bionic Vision Lab</title>
-    <link>https://bionicvisionlab.org/contact/</link>
+    <link>https://bionicvisionlab.org/location/</link>
     <description>Recent content in Location on Bionic Vision Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
     
-	    <atom:link href="https://bionicvisionlab.org/contact/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://bionicvisionlab.org/location/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
