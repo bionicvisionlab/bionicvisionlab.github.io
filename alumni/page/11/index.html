@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -453,8 +462,9 @@
 
   
   
+  
   <div>
-    <h2><a href="/alumni/rastogi_adyah/"></a></h2>
+    <h2><a href="/alumni/rastogi_adyah/">Adyah Rastogi</a></h2>
     <div class="article-style">
       
       Adyah Rastogi is a Masters student pursuing a Computer Science degree through the BS/MS program at UC Santa Barbara. Her research focuses on experimenting with ways that prosthetic vision implants can be used as assistive technology beyond using it to replicate an image, similar to the use of haptic feedback to find objects. She previously worked on the HILO project in the lab and is interested in AR/VR, machine learning, and human computer interaction.
@@ -462,8 +472,9 @@
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/relic_lucas/"></a></h2>
+    <h2><a href="/alumni/relic_lucas/">Lucas Relic</a></h2>
     <div class="article-style">
       
       Lucas Relic is currently a Master&rsquo;s Student in the Computer Science Department at UC Santa Barbara.
@@ -471,8 +482,9 @@
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/rohatgi_versha/"></a></h2>
+    <h2><a href="/alumni/rohatgi_versha/">Versha Rohatgi</a></h2>
     <div class="article-style">
       
       Versha Rohatgi is a rising junior at Mountain View High School and is part of the Research Mentorship Program at UC Santa Barbara. Versha is interested in biomedical engineering and computer science.
@@ -480,8 +492,9 @@
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/roma_ethan/"></a></h2>
+    <h2><a href="/alumni/roma_ethan/">Ethan Roma</a></h2>
     <div class="article-style">
       
       Ethan Roma is currently a fourth-year undergraduate student pursuing a Biopsychology degree in the College of Letters and Science at UC Santa Barbara. He wants to learn more about the behavioral and physiological causes of losses in sensation such as sight, and how technical prosthetics might be enabled/designed to address said losses.
@@ -490,8 +503,9 @@ In his free time, he enjoys making music, skateboarding, and late night drive-th
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/sadeghi_roksana/"></a></h2>
+    <h2><a href="/alumni/sadeghi_roksana/">Roksana Sadeghi</a></h2>
     <div class="article-style">
       
       Roksana Sadeghi is a postdoctoral researcher in the Computer Science department. She has a PhD in Biomedical Engineering from Johns Hopkins University, where she worked with Dr. Gislin Dagnelie to study the functional vision of people with visual impairment. She also led the psychophysical experiments to understand the visual perception evoked by the intracortical visual prosthesis (ICVP) in collaboration with Chicago Lighthouse and Illinois Institute for Technology. Then, her PhD was followed by a two-year postdoctoral training at the University of California, Berkeley, in the Vision Science department, where she worked with Dr.
@@ -499,8 +513,9 @@ In his free time, he enjoys making music, skateboarding, and late night drive-th
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/salgado_zavaleta_vanessa/"></a></h2>
+    <h2><a href="/alumni/salgado_zavaleta_vanessa/">Vanessa Salgado Zavaleta</a></h2>
     <div class="article-style">
       
       Vanessa Salgado is currently a fourth-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. She is interested Data Science, Deep Learning, and Neural Networks.
@@ -509,8 +524,9 @@ In her free time, she loves rock climbing and spending time outdoors with her fr
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/sama_shivani/"></a></h2>
+    <h2><a href="/alumni/sama_shivani/">Shivani Sama</a></h2>
     <div class="article-style">
       
       Shivani Sama is a student at Tesla STEM High School in Redmond, WA.
@@ -519,8 +535,9 @@ She is participating in the Central Sound Regional Science and Engineering Fair 
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/sanchez_garcia_melani/"></a></h2>
+    <h2><a href="/alumni/sanchez_garcia_melani/">Melani Sanchez-Garcia</a></h2>
     <div class="article-style">
       
       Melani Sanchez Garica is a Postdoctoral Researcher in the Department of Computer Science at UCSB.
@@ -530,8 +547,9 @@ Melani&rsquo;s main research interests lie in Computer Vision and Deep Learning.
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/sardina_callie/"></a></h2>
+    <h2><a href="/alumni/sardina_callie/">Callie Sardina</a></h2>
     <div class="article-style">
       
       Callie Sardina is a first year student pursuing a MS in Computer Science at UCSB. She is interested in machine learning, deep learning, computational vision, and theoretical computer science. She is passionate about employing computer science within the realm of medical sciences to help make a positive impact on people&rsquo;s well-being.
@@ -540,8 +558,9 @@ In her free time, you&rsquo;ll find Callie painting, watching sunsets, and doing
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/saur_magnolia/"></a></h2>
+    <h2><a href="/alumni/saur_magnolia/">Magnolia Saur</a></h2>
     <div class="article-style">
       
       Magnolia Saur is a third year undergraduate student pursuing a BS in Electrical Engineering at UC Santa Barbara. She is interested in machine learning, computational neuroscience, and deep learning. She is passionate about incorporating electrical engineering within the medical industry, particularly to support disabled and underrepresented communities.
@@ -552,13 +571,15 @@ In her free time, Magnolia enjoys outdoor activities, crocheting, and caring for
   
 
   
-<nav>
+
+<nav aria-label="Pagination">
   <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/10/">&laquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/10/" rel="prev"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous page</span></a></li>
     
+    <li class="sr-only" aria-current="page">Page 11 of 15</li>
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/12/">&raquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/12/" rel="next"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next page</span></a></li>
     
   </ul>
 </nav>
@@ -600,10 +621,7 @@ In her free time, Magnolia enjoys outdoor activities, crocheting, and caring for
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -674,9 +692,11 @@ In her free time, Magnolia enjoys outdoor activities, crocheting, and caring for
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -746,11 +766,12 @@ In her free time, Magnolia enjoys outdoor activities, crocheting, and caring for
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -759,17 +780,18 @@ In her free time, Magnolia enjoys outdoor activities, crocheting, and caring for
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

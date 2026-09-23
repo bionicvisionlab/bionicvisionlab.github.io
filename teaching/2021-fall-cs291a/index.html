@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -547,7 +556,7 @@ Any suitable programming language/framework is ok for the final project.</li>
 </ul>
 <h2 id="schedule">Schedule</h2>
 <p><sup><em>Note: This schedule is subject to slight change over the course of the quarter.</em></sup></p>
-<table id="schedule">
+<table id="course-schedule">
   <thead>
     <tr>
       <th>Wk</th>
@@ -607,10 +616,10 @@ Any suitable programming language/framework is ok for the final project.</li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355959">L5: Computational Neuroscience</a></li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355971">A1: Introduction to Google Colab & Python</a></li>
         </ul>
-        <small class="due"><i class="fas fa-calendar"></i>          
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>          
           Quiz 1 (Q1) due by Sun, Oct 3, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752" target="_blank"><i class="fas fa-edit"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752" target="_blank" rel="noopener" aria-label="Take Quiz 1 (Q1)"><i class="fas fa-edit" aria-hidden="true"></i></a>
       </td>
       <td><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355971">A1</a></td>
       <td></td>
@@ -642,10 +651,10 @@ Any suitable programming language/framework is ok for the final project.</li>
         <ul>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8354033">L7: Retinal Prostheses</a></li>
         </ul>
-        <small class="due"><i class="fas fa-calendar"></i>          
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>          
           Homework 1 (HW1) due by Sun, Oct 10, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871" target="_blank"><i class="fas fa-upload"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871" target="_blank" rel="noopener" aria-label="Submit Homework 1 (HW1)"><i class="fas fa-upload" aria-hidden="true"></i></a>
       </td>
       <td></td>
       <td></td>
@@ -677,10 +686,10 @@ Any suitable programming language/framework is ok for the final project.</li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503885">A2: Introduction to pulse2percept in Python</a></li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503906">A3: Group Project Discussion</a></li>
         </ul>
-        <small class="due"><i class="fas fa-calendar"></i>          
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>          
           Quiz 2 (Q2) due by Sun, Oct 17, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815" target="_blank"><i class="fas fa-edit"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815" target="_blank" rel="noopener" aria-label="Take Quiz 2 (Q2)"><i class="fas fa-edit" aria-hidden="true"></i></a>
       </td>
       <td><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503885">A2</a>, <a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503906">A3</a></td>
       <td><a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920">HW2</a></td>
@@ -711,10 +720,10 @@ Any suitable programming language/framework is ok for the final project.</li>
         <ul>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565296">L10: Optimizing Electrical Stimulation in an Artificial Retina</a></li>
         </ul>
-        <small class="due"><i class="fas fa-calendar"></i>          
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>          
           Homework 2 (HW2) due by Sun, Oct 24, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920" target="_blank"><i class="fas fa-upload"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920" target="_blank" rel="noopener" aria-label="Submit Homework 2 (HW2)"><i class="fas fa-upload" aria-hidden="true"></i></a>
       </td>
       <td></td>
       <td></td>
@@ -743,10 +752,10 @@ Any suitable programming language/framework is ok for the final project.</li>
       <td></td>
       <td>
         <b><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565863">A4: Project Progress Presentations</a></b> <br>
-        <small class="due"><i class="fas fa-calendar"></i>
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>
           Team & project description (TPD) due by Sun, Oct 31, 11:59 pm.
         </small>
-        <a href="https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing" target="_blank"><i class="fas fa-upload"></i></a>        
+        <a href="https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing" target="_blank" rel="noopener" aria-label="Submit Team & project description (TPD)"><i class="fas fa-upload" aria-hidden="true"></i></a>        
       </td> 
       <td><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565863">A5</a></td>
       <td></td>
@@ -779,10 +788,10 @@ Any suitable programming language/framework is ok for the final project.</li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565884">L13: The Role of Computer Vision in Bionic Vision</a></li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8669239">A6: Smart Bionic Eye</a></li>
         </ul>
-        <small class="due"><i class="fas fa-calendar"></i>          
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>          
           Quiz 3 (Q3) due by Sun, Nov 7, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829" target="_blank"><i class="fas fa-edit"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829" target="_blank" rel="noopener" aria-label="Take Quiz 3 (Q3)"><i class="fas fa-edit" aria-hidden="true"></i></a>
       </td>
       <td><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8669239">A6</a></td>
       <td></td>
@@ -840,10 +849,10 @@ Any suitable programming language/framework is ok for the final project.</li>
       <td></td>
       <td>
         <b>A7: Guest Visit by Jason Esterhuizen, ORION implantee</b> <br/>
-        <small class="due"><i class="fas fa-calendar"></i>          
+        <small class="due"><i class="fas fa-calendar" aria-hidden="true"></i>          
           Quiz 4 (Q4) due by Sun, Nov 21, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857" target="_blank"><i class="fas fa-edit"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857" target="_blank" rel="noopener" aria-label="Take Quiz 4 (Q4)"><i class="fas fa-edit" aria-hidden="true"></i></a>
       </td>
       <td>
         <a href="https://docs.google.com/document/d/1H6h5S9LCH9pq9clyTF31T2aOghM1eivo6m5UnCYqvFI/edit?usp=sharing">
@@ -908,10 +917,10 @@ Any suitable programming language/framework is ok for the final project.</li>
           <li><a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565940">A9: Quarter Review</a></li>
         </ul>
         <small class="due">
-          <i class="fas fa-calendar"></i>
+          <i class="fas fa-calendar" aria-hidden="true"></i>
           Project report (PR) &amp; source code (SC) due Sun, Dec 5, 11:59 pm.
         </small>
-        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948" target="_blank"><i class="fas fa-upload"></i></a>
+        <a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948" target="_blank" rel="noopener" aria-label="Submit Project report (PR) &amp; source code (SC)"><i class="fas fa-upload" aria-hidden="true"></i></a>
       </td>
       <td>
         <a href="https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565940">A9</a>
@@ -1062,6 +1071,7 @@ with respect.</p>
 
 
 
+
     
       
 
@@ -1133,10 +1143,7 @@ with respect.</p>
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -1207,9 +1214,11 @@ with respect.</p>
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -1279,11 +1288,12 @@ with respect.</p>
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1292,17 +1302,18 @@ with respect.</p>
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

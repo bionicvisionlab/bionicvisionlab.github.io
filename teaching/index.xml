@@ -494,7 +494,7 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
 &lt;/ul&gt;
 &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;&lt;sup&gt;&lt;em&gt;Note: This schedule is subject to slight change over the course of the quarter.&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;table id=&#34;schedule&#34;&gt;
+&lt;table id=&#34;course-schedule&#34;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Wk&lt;/th&gt;
@@ -554,10 +554,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355959&#34;&gt;L5: Computational Neuroscience&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355971&#34;&gt;A1: Introduction to Google Colab &amp; Python&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;          
           Quiz 1 (Q1) due by Sun, Oct 3, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125752&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Take Quiz 1 (Q1)&#34;&gt;&lt;i class=&#34;fas fa-edit&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8355971&#34;&gt;A1&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -589,10 +589,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8354033&#34;&gt;L7: Retinal Prostheses&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;          
           Homework 1 (HW1) due by Sun, Oct 10, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125871&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Homework 1 (HW1)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -624,10 +624,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503885&#34;&gt;A2: Introduction to pulse2percept in Python&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503906&#34;&gt;A3: Group Project Discussion&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;          
           Quiz 2 (Q2) due by Sun, Oct 17, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125815&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Take Quiz 2 (Q2)&#34;&gt;&lt;i class=&#34;fas fa-edit&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503885&#34;&gt;A2&lt;/a&gt;, &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8503906&#34;&gt;A3&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920&#34;&gt;HW2&lt;/a&gt;&lt;/td&gt;
@@ -658,10 +658,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565296&#34;&gt;L10: Optimizing Electrical Stimulation in an Artificial Retina&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;          
           Homework 2 (HW2) due by Sun, Oct 24, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125920&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Homework 2 (HW2)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -690,10 +690,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;b&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565863&#34;&gt;A4: Project Progress Presentations&lt;/a&gt;&lt;/b&gt; &lt;br&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
           Team &amp; project description (TPD) due by Sun, Oct 31, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;        
+        &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1MJpOqkwnHvALY4MV4Ko1syld2ticVAnfrwerwM0fzQo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Team &amp; project description (TPD)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;        
       &lt;/td&gt; 
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565863&#34;&gt;A5&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -726,10 +726,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565884&#34;&gt;L13: The Role of Computer Vision in Bionic Vision&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8669239&#34;&gt;A6: Smart Bionic Eye&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;          
           Quiz 3 (Q3) due by Sun, Nov 7, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125829&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Take Quiz 3 (Q3)&#34;&gt;&lt;i class=&#34;fas fa-edit&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8669239&#34;&gt;A6&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;/td&gt;
@@ -787,10 +787,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
       &lt;td&gt;&lt;/td&gt;
       &lt;td&gt;
         &lt;b&gt;A7: Guest Visit by Jason Esterhuizen, ORION implantee&lt;/b&gt; &lt;br/&gt;
-        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;          
+        &lt;small class=&#34;due&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;          
           Quiz 4 (Q4) due by Sun, Nov 21, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/quiz/view.php?id=8125857&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Take Quiz 4 (Q4)&#34;&gt;&lt;i class=&#34;fas fa-edit&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;a href=&#34;https://docs.google.com/document/d/1H6h5S9LCH9pq9clyTF31T2aOghM1eivo6m5UnCYqvFI/edit?usp=sharing&#34;&gt;
@@ -855,10 +855,10 @@ Any suitable programming language/framework is ok for the final project.&lt;/li&
           &lt;li&gt;&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565940&#34;&gt;A9: Quarter Review&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         &lt;small class=&#34;due&#34;&gt;
-          &lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;
+          &lt;i class=&#34;fas fa-calendar&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
           Project report (PR) &amp;amp; source code (SC) due Sun, Dec 5, 11:59 pm.
         &lt;/small&gt;
-        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=8125948&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Project report (PR) &amp;amp; source code (SC)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/folder/view.php?id=8565940&#34;&gt;A9&lt;/a&gt;
@@ -1109,9 +1109,9 @@ Students will be introduced to &lt;a href=&#34;https://github.com/pulse2percept/
 a Python-based simulation framework for bionic vision, which will form the basis for HW2 and (optionally) the final project.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
-&lt;p&gt;&lt;sup&gt;Import calendar: &lt;a href=&#34;http://bit.ly/cs291i-cal&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/sup&gt; &lt;br&gt;
+&lt;p&gt;&lt;sup&gt;Import calendar: &lt;a href=&#34;http://bit.ly/cs291i-cal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Import the course calendar&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/sup&gt; &lt;br&gt;
 &lt;sup&gt;&lt;em&gt;Note: This schedule is subject to change over the course of the quarter.&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;table id=&#34;schedule&#34;&gt;
+&lt;table id=&#34;course-schedule&#34;&gt;
 	&lt;thead&gt;
 		&lt;tr&gt;
 			&lt;th&gt;Wk&lt;/th&gt;
@@ -1189,10 +1189,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 					&lt;li&gt;Introduction to Python&lt;/li&gt;
 				&lt;/ul&gt;
 				&lt;small class=&#34;due&#34;&gt;
-					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Add Homework 1 (HW1) deadline to calendar&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 					Homework 1 (HW1) due by Sun, Jan 19, 11:59 pm.
 				&lt;/small&gt;
-				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968641&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968641&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Homework 1 (HW1)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 			&lt;/td&gt;
 			&lt;td&gt;
 				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/url/view.php?id=3118691&#34; target=&#34;_blank&#34;&gt;A1&lt;/a&gt;				
@@ -1262,10 +1262,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 			&lt;td&gt;
 				&lt;b&gt;Teams present their project ideas&lt;/b&gt; &lt;br&gt;
 				&lt;small class=&#34;due&#34;&gt;
-					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NnVyY2Y5cjJrdnBvcjh2aGtxcjY5c2JrcmUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NnVyY2Y5cjJrdnBvcjh2aGtxcjY5c2JrcmUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Add Team &amp; project description (TPD) deadline to calendar&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 					Team &amp; project description (TPD) due by Sun, Feb 2, 11:59 pm.
 				&lt;/small&gt;
-				&lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;a href=&#34;http://bit.ly/cs291i-teams&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Team &amp; project description (TPD)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 			&lt;/td&gt;
 			&lt;td&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;/td&gt;
@@ -1368,10 +1368,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 					&lt;li&gt;Optimizing electrical stimulation in an artificial retina&lt;/li&gt;
 				&lt;/ul&gt;
 				&lt;small class=&#34;due&#34;&gt;
-					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Add Homework 2 (HW2) deadline to calendar&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 					Homework 2 (HW2) due by Sun, Feb 23, 11:59 pm.
 				&lt;/small&gt;
-				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Homework 2 (HW2)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 			&lt;/td&gt;
 			&lt;td&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;/td&gt;
@@ -1456,10 +1456,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 					&lt;li&gt;Alternatives to brain-computer interfaces&lt;/li&gt;
 				&lt;/ul&gt;
 				&lt;small class=&#34;due&#34;&gt;
-					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmJmbTRoaDBxdjhmMWc4ZHJ2MzYzaTBnbHUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&#34;https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmJmbTRoaDBxdjhmMWc4ZHJ2MzYzaTBnbHUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&amp;tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Add Project report (PR) &amp;amp; source code (SC) deadline to calendar&#34;&gt;&lt;i class=&#34;fas fa-calendar-plus&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 					Project report (PR) &amp;amp; source code (SC) due Sun, Mar 15, 11:59 pm.
 				&lt;/small&gt;
-				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968651&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;a href=&#34;https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968651&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; aria-label=&#34;Submit Project report (PR) &amp;amp; source code (SC)&#34;&gt;&lt;i class=&#34;fas fa-upload&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 			&lt;/td&gt;
 			&lt;td&gt;&lt;/td&gt;
 			&lt;td&gt;&lt;/td&gt;

@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -453,8 +462,9 @@
 
   
   
+  
   <div>
-    <h2><a href="/alumni/olmos_ruben/"></a></h2>
+    <h2><a href="/alumni/olmos_ruben/">Ruben Olmos</a></h2>
     <div class="article-style">
       
       Ruben Olmos is a research assistant and computer programmer in the Bionic Vision Lab at UC Santa Barbara (UCSB).
@@ -463,8 +473,9 @@ He is completing his undergraduate education in Statistics and Data Science (B.S
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/ondo_megumi/"></a></h2>
+    <h2><a href="/alumni/ondo_megumi/">Megumi Ondo</a></h2>
     <div class="article-style">
       
       Megumi Ondo is an undergraduate student pursuing a Computer Science degree at UC Santa Barbara.
@@ -472,8 +483,9 @@ He is completing his undergraduate education in Statistics and Data Science (B.S
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/ou_william/"></a></h2>
+    <h2><a href="/alumni/ou_william/">William Ou</a></h2>
     <div class="article-style">
       
       William is an undergraduate student majoring in Computer Science. His interests include game design, extended reality, and artificial intelligence, with a particular interest in connecting these areas through research and creative work. He is involved in research with the Four Eyes Lab, where he contributes XR expertise, supports cross-lab collaboration, and explores topics in machine learning, multimodal models, and 3D scene analysis.
@@ -482,8 +494,9 @@ In the Bionic Vision Lab, he serves as the lead Unity developer for a collaborat
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/peng_jing/"></a></h2>
+    <h2><a href="/alumni/peng_jing/">Jing Peng</a></h2>
     <div class="article-style">
       
       Jing Peng is a former MS student, now lab volunteer working on the &ldquo;Mouse vs. AI&rdquo; NeurIPS competition.
@@ -491,8 +504,9 @@ In the Bionic Vision Lab, he serves as the lead Unity developer for a collaborat
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/pullela_laya/"></a></h2>
+    <h2><a href="/alumni/pullela_laya/">Laya Pullela</a></h2>
     <div class="article-style">
       
       Laya Pullela is a BS Student in the College of Creative Studies and a member of the Bionic Vision Lab at UC Santa Barbara. She is interested in applying machine learning and computational biology to medical applications.
@@ -500,8 +514,9 @@ In the Bionic Vision Lab, he serves as the lead Unity developer for a collaborat
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/qi_ziming/"></a></h2>
+    <h2><a href="/alumni/qi_ziming/">Ziming Qi</a></h2>
     <div class="article-style">
       
       Ziming Qi is a MS student at UC Santa Barbara and member of the Bionic Vision Lab. He is interested in computer vision and machine learning.
@@ -510,8 +525,9 @@ He received his BS degree in computer engineering at UCSB, and is currently purs
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/qubadi_fatima/"></a></h2>
+    <h2><a href="/alumni/qubadi_fatima/">Fatima Qubadi</a></h2>
     <div class="article-style">
       
       Fatima Qubadi is a third year student at UC Santa Barbara. She&rsquo;s interested in research about restoring vision in patients with retinal degenerative diseases and the use of retinal implants.
@@ -519,8 +535,9 @@ He received his BS degree in computer engineering at UCSB, and is currently purs
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/raghulan_rashi/"></a></h2>
+    <h2><a href="/alumni/raghulan_rashi/">Rashi Raghulan</a></h2>
     <div class="article-style">
       
       Rashi Raghulan is an undergraduate student in the Department of Molecular, Cellular, and Development Biology at the University of California, Santa Barbara.
@@ -528,8 +545,9 @@ He received his BS degree in computer engineering at UCSB, and is currently purs
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/rasla_alex/"></a></h2>
+    <h2><a href="/alumni/rasla_alex/">Alex Rasla</a></h2>
     <div class="article-style">
       
       Alex Rasla is currently a first-year graduate student in the B.S/M.S. program pursuing a Computer Science degree at UC Santa Barbara. He is interested in Machine Learning, Computer Vision, AR/VR, and autonomous systems.
@@ -538,8 +556,9 @@ In his free time, Alex enjoys playing the piano or guitar, and producing music. 
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/rastogi_adyah2/"></a></h2>
+    <h2><a href="/alumni/rastogi_adyah2/">Adyah Rastogi</a></h2>
     <div class="article-style">
       
       Adyah Rastogi is currently a third-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara. She is working on the HILO project in the lab and is interested in machine learning and NLP, human computer interaction, and data analysis.
@@ -550,13 +569,15 @@ Adyah grew up in the Bay Area and enjoys exploring nature and walks, going to th
   
 
   
-<nav>
+
+<nav aria-label="Pagination">
   <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/9/">&laquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/9/" rel="prev"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous page</span></a></li>
     
+    <li class="sr-only" aria-current="page">Page 10 of 15</li>
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/11/">&raquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/11/" rel="next"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next page</span></a></li>
     
   </ul>
 </nav>
@@ -598,10 +619,7 @@ Adyah grew up in the Bay Area and enjoys exploring nature and walks, going to th
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -672,9 +690,11 @@ Adyah grew up in the Bay Area and enjoys exploring nature and walks, going to th
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -744,11 +764,12 @@ Adyah grew up in the Bay Area and enjoys exploring nature and walks, going to th
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -757,17 +778,18 @@ Adyah grew up in the Bay Area and enjoys exploring nature and walks, going to th
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

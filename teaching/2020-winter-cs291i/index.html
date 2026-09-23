@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -551,9 +560,9 @@ Students will be introduced to <a href="https://github.com/pulse2percept/pulse2p
 a Python-based simulation framework for bionic vision, which will form the basis for HW2 and (optionally) the final project.</li>
 </ul>
 <h2 id="schedule">Schedule</h2>
-<p><sup>Import calendar: <a href="http://bit.ly/cs291i-cal" target="_blank"><i class="fas fa-calendar-plus"></i></a></sup> <br>
+<p><sup>Import calendar: <a href="http://bit.ly/cs291i-cal" target="_blank" rel="noopener" aria-label="Import the course calendar"><i class="fas fa-calendar-plus" aria-hidden="true"></i></a></sup> <br>
 <sup><em>Note: This schedule is subject to change over the course of the quarter.</em></sup></p>
-<table id="schedule">
+<table id="course-schedule">
 	<thead>
 		<tr>
 			<th>Wk</th>
@@ -631,10 +640,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 					<li>Introduction to Python</li>
 				</ul>
 				<small class="due">
-					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank"><i class="fas fa-calendar-plus"></i></a>
+					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MmR0Z24xM3Y4YzFpZzQ4cmY1YXVmM2ZiZjMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank" rel="noopener" aria-label="Add Homework 1 (HW1) deadline to calendar"><i class="fas fa-calendar-plus" aria-hidden="true"></i></a>
 					Homework 1 (HW1) due by Sun, Jan 19, 11:59 pm.
 				</small>
-				<a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968641" target="_blank"><i class="fas fa-upload"></i></a>
+				<a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968641" target="_blank" rel="noopener" aria-label="Submit Homework 1 (HW1)"><i class="fas fa-upload" aria-hidden="true"></i></a>
 			</td>
 			<td>
 				<a href="https://gauchospace.ucsb.edu/courses/mod/url/view.php?id=3118691" target="_blank">A1</a>				
@@ -704,10 +713,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 			<td>
 				<b>Teams present their project ideas</b> <br>
 				<small class="due">
-					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnVyY2Y5cjJrdnBvcjh2aGtxcjY5c2JrcmUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank"><i class="fas fa-calendar-plus"></i></a>
+					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnVyY2Y5cjJrdnBvcjh2aGtxcjY5c2JrcmUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank" rel="noopener" aria-label="Add Team & project description (TPD) deadline to calendar"><i class="fas fa-calendar-plus" aria-hidden="true"></i></a>
 					Team & project description (TPD) due by Sun, Feb 2, 11:59 pm.
 				</small>
-				<a href="http://bit.ly/cs291i-teams" target="_blank"><i class="fas fa-upload"></i></a>
+				<a href="http://bit.ly/cs291i-teams" target="_blank" rel="noopener" aria-label="Submit Team & project description (TPD)"><i class="fas fa-upload" aria-hidden="true"></i></a>
 			</td>
 			<td></td>
 			<td></td>
@@ -810,10 +819,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 					<li>Optimizing electrical stimulation in an artificial retina</li>
 				</ul>
 				<small class="due">
-					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank"><i class="fas fa-calendar-plus"></i></a>
+					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTIwbXNpMmxndXBxYXMzNHEyMW90NWR0OHMgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank" rel="noopener" aria-label="Add Homework 2 (HW2) deadline to calendar"><i class="fas fa-calendar-plus" aria-hidden="true"></i></a>
 					Homework 2 (HW2) due by Sun, Feb 23, 11:59 pm.
 				</small>
-				<a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646" target="_blank"><i class="fas fa-upload"></i></a>
+				<a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968646" target="_blank" rel="noopener" aria-label="Submit Homework 2 (HW2)"><i class="fas fa-upload" aria-hidden="true"></i></a>
 			</td>
 			<td></td>
 			<td></td>
@@ -898,10 +907,10 @@ a Python-based simulation framework for bionic vision, which will form the basis
 					<li>Alternatives to brain-computer interfaces</li>
 				</ul>
 				<small class="due">
-					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmJmbTRoaDBxdjhmMWc4ZHJ2MzYzaTBnbHUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank"><i class="fas fa-calendar-plus"></i></a>
+					<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NmJmbTRoaDBxdjhmMWc4ZHJ2MzYzaTBnbHUgcjhmdWNuM2VwOGMwcGx0dTJkb3NyZmE3Z2NAZw&tmsrc=r8fucn3ep8c0pltu2dosrfa7gc%40group.calendar.google.com" target="_blank" rel="noopener" aria-label="Add Project report (PR) &amp; source code (SC) deadline to calendar"><i class="fas fa-calendar-plus" aria-hidden="true"></i></a>
 					Project report (PR) &amp; source code (SC) due Sun, Mar 15, 11:59 pm.
 				</small>
-				<a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968651" target="_blank"><i class="fas fa-upload"></i></a>
+				<a href="https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2968651" target="_blank" rel="noopener" aria-label="Submit Project report (PR) &amp; source code (SC)"><i class="fas fa-upload" aria-hidden="true"></i></a>
 			</td>
 			<td></td>
 			<td></td>
@@ -1110,6 +1119,7 @@ with respect.</p>
 
 
 
+
     
       
 
@@ -1181,10 +1191,7 @@ with respect.</p>
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -1255,9 +1262,11 @@ with respect.</p>
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -1327,11 +1336,12 @@ with respect.</p>
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1340,17 +1350,18 @@ with respect.</p>
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

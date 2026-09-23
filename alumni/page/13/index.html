@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -453,8 +462,9 @@
 
   
   
+  
   <div>
-    <h2><a href="/alumni/tapia_dharynka/"></a></h2>
+    <h2><a href="/alumni/tapia_dharynka/">Dharynka Tapia</a></h2>
     <div class="article-style">
       
       Dharynka Tapia is currently a fourth-year undergraduate student pursuing Statistics &amp; Data Science and Economics degrees at UC Santa Barbara. She is a Student Engagement and Enrichment in Data Science (SEEDS) Undergraduate Research Fellow, and is interested in machine learning, artificial intelligence, and computer vision.
@@ -463,8 +473,9 @@ When she is not studying, she enjoys trying new places to eat with friends. She 
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/teshome_eyob/"></a></h2>
+    <h2><a href="/alumni/teshome_eyob/">Eyob Teshome</a></h2>
     <div class="article-style">
       
       Eyob Teshome is a senior undergraduate student pursuing a Bachelor of Science in Computer Science at the University of California, Santa Barbara. As a SEEDS Undergraduate Research Fellow, Eyob focuses on the application of computer vision, machine learning, and database systems. He recently expanded his academic horizons through a study abroad program at the University of Melbourne, Australia, where he focused on database systems and artificial intelligence.
@@ -473,8 +484,9 @@ Outside the classroom, Eyob maintains an active lifestyle by working out and pla
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/tharanipathy_archita/"></a></h2>
+    <h2><a href="/alumni/tharanipathy_archita/">Archita Tharanipathy</a></h2>
     <div class="article-style">
       
       Archita Tharanipathy is currently a third-year undergraduate student pursuing a Biochemistry and Molecular Biology degree at the University of California, Santa Barbara.
@@ -482,8 +494,9 @@ Outside the classroom, Eyob maintains an active lifestyle by working out and pla
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/thomas_nora2/"></a></h2>
+    <h2><a href="/alumni/thomas_nora2/">Nora Thomas</a></h2>
     <div class="article-style">
       
       Nora Thomas is an undergraduate student pursuing a Biopsychology degree in the Department of Psychological &amp; Brain Sciences at UC Santa Barbara. Her research interests are using connectome and neuron imaging data to understand interactions across the visual system.
@@ -492,8 +505,9 @@ Outside of the lab, she loves to dance, read, &amp; sew.
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/tomas-barba_julia/"></a></h2>
+    <h2><a href="/alumni/tomas-barba_julia/">Julia Tomas-Barba</a></h2>
     <div class="article-style">
       
       Julia Tomas-Barba is a visiting scholar from Spain whose research focuses on computer vision and its applications to assistive technologies.
@@ -502,8 +516,9 @@ She earned her Bachelor’s degree in Industrial Technologies Engineering (2021)
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/tong_rui/"></a></h2>
+    <h2><a href="/alumni/tong_rui/">Rui Tong</a></h2>
     <div class="article-style">
       
       Rui Tong is a undergraduate student at UC Santa Barbara majoring in Computer Science. His research interests include augmented and mixed reality, human-computer interaction, and computer vision. Outside of research, he enjoys designing and developing interactive games.
@@ -511,8 +526,9 @@ She earned her Bachelor’s degree in Industrial Technologies Engineering (2021)
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/toor_sukhi/"></a></h2>
+    <h2><a href="/alumni/toor_sukhi/">Sukhi Toor</a></h2>
     <div class="article-style">
       
       Sukhi Toor is currently a fourth-year student pursuing a Biopsychology degree at UC Santa Barbara. She is interested in psychopharmacology and visual neuroscience.
@@ -520,8 +536,9 @@ She earned her Bachelor’s degree in Industrial Technologies Engineering (2021)
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/turkstra_lily2/"></a></h2>
+    <h2><a href="/alumni/turkstra_lily2/">Lily M. Turkstra</a></h2>
     <div class="article-style">
       
       Lily Turkstra
@@ -529,8 +546,9 @@ She earned her Bachelor’s degree in Industrial Technologies Engineering (2021)
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/vahid_amirali/"></a></h2>
+    <h2><a href="/alumni/vahid_amirali/">Amirali Vahid</a></h2>
     <div class="article-style">
       
       Amirali Vahid is a Postdoctoral Researcher at UC Santa Barbara. He received his PhD in Psychology from Technische Universität Dresden, Germany, as well as a BS and MS in Electrical Engineering from the University of Tehran, Iran.
@@ -539,8 +557,9 @@ He is interested in applying machine learning models and computer vision to biol
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/vanos_lexie/"></a></h2>
+    <h2><a href="/alumni/vanos_lexie/">Lexie Van Os</a></h2>
     <div class="article-style">
       
       Lexie Van Os is currently a third-year undergraduate student pursuing Psychological &amp; Brain Sciences and Communication degrees at UC Santa Barbara. She is interested cognitive neuroscience.
@@ -550,13 +569,15 @@ He is interested in applying machine learning models and computer vision to biol
   
 
   
-<nav>
+
+<nav aria-label="Pagination">
   <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/12/">&laquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/12/" rel="prev"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous page</span></a></li>
     
+    <li class="sr-only" aria-current="page">Page 13 of 15</li>
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/14/">&raquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/14/" rel="next"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next page</span></a></li>
     
   </ul>
 </nav>
@@ -598,10 +619,7 @@ He is interested in applying machine learning models and computer vision to biol
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -672,9 +690,11 @@ He is interested in applying machine learning models and computer vision to biol
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -744,11 +764,12 @@ He is interested in applying machine learning models and computer vision to biol
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -757,17 +778,18 @@ He is interested in applying machine learning models and computer vision to biol
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

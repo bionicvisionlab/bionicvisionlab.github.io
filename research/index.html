@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -279,7 +288,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/research"><span>Research</span></a>
+          <a class="nav-link  active" href="/research" aria-current="page"><span>Research</span></a>
         </li>
 
         
@@ -427,7 +436,7 @@
   <div class="row">
       
         <div class="article-style" itemprop="articleBody"><div class="d-none d-sm-block float-right col-5 m-0 ml-2">
-    <img class="m-0 mb-2 subtle-black-shadow" src="/img/visual-prostheses.jpg"/>
+    <img class="m-0 mb-2 subtle-black-shadow" src="/img/visual-prostheses.jpg" alt="Diagram of the visual pathway from eye to brain with four places a visual prosthesis can stimulate it. In each, a camera on a pair of glasses feeds a processing chip that transmits wirelessly to an implant: (A) in the layers of the retina, (B) around the optic nerve, (C) in the lateral geniculate nucleus, and (D) on the visual cortex."/>
     <p class="mb-1" style="line-height: 100%"><small>Main approaches for the design of a visual prosthesis <a href="https://doi.org/10.1186/s42234-018-0013-8" target="_blank">(Fernandez, 2018)</a> include retinal (A), optic nerve (B), lateral geniculate nucleus (LGN, C), and cortical approaches (D).</small></p>
 </div>
 <p><i>Rethinking sight restoration through models, data, and lived experience.</i></p>
@@ -519,15 +528,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a>
+  <li><a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a></li>
   
-  <a class="badge badge-light" href="/tags/brain-stimulation/">Brain Stimulation</a>
+  <li><a class="badge badge-light" href="/tags/brain-stimulation/">Brain Stimulation</a></li>
   
-  <a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a>
+  <li><a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a></li>
   
-</div>
+</ul>
 
 
 
@@ -556,6 +566,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -587,9 +598,8 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/artificial-vision-pathway/" >
-      <img src="/research/artificial-vision-pathway/featured_huffda2d297896f59981be2806db7ed735_591203_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/artificial-vision-pathway/featured_huffda2d297896f59981be2806db7ed735_591203_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -658,15 +668,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a>
+  <li><a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a></li>
   
-  <a class="badge badge-light" href="/tags/neural-interfaces/">Neural Interfaces</a>
+  <li><a class="badge badge-light" href="/tags/neural-interfaces/">Neural Interfaces</a></li>
   
-  <a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a>
+  <li><a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a></li>
   
-</div>
+</ul>
 
 
 
@@ -695,6 +706,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -726,9 +738,8 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/closed-loop-neuroprostheses/" >
-      <img src="/research/closed-loop-neuroprostheses/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/closed-loop-neuroprostheses/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -797,15 +808,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/blindness-low-vision/">Blindness &amp; Low Vision</a>
+  <li><a class="badge badge-light" href="/tags/blindness-low-vision/">Blindness &amp; Low Vision</a></li>
   
-  <a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a>
+  <li><a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a></li>
   
-  <a class="badge badge-light" href="/tags/vision-rehabilitation/">Vision Rehabilitation</a>
+  <li><a class="badge badge-light" href="/tags/vision-rehabilitation/">Vision Rehabilitation</a></li>
   
-</div>
+</ul>
 
 
 
@@ -834,6 +846,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -865,9 +878,8 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/vision-loss-restoration-adaptation/" >
-      <img src="/research/vision-loss-restoration-adaptation/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/vision-loss-restoration-adaptation/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -934,15 +946,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/assistive-technology/">Assistive Technology</a>
+  <li><a class="badge badge-light" href="/tags/assistive-technology/">Assistive Technology</a></li>
   
-  <a class="badge badge-light" href="/tags/computer-vision/">Computer Vision</a>
+  <li><a class="badge badge-light" href="/tags/computer-vision/">Computer Vision</a></li>
   
-  <a class="badge badge-light" href="/tags/blindness-low-vision/">Blindness &amp; Low Vision</a>
+  <li><a class="badge badge-light" href="/tags/blindness-low-vision/">Blindness &amp; Low Vision</a></li>
   
-</div>
+</ul>
 
 
 
@@ -971,6 +984,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -1002,9 +1016,8 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/assistive-vision-navigation/" >
-      <img src="/research/assistive-vision-navigation/featured_hue7c11007203e6e4edff020fd56d9ab5f_7972122_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/assistive-vision-navigation/featured_hue7c11007203e6e4edff020fd56d9ab5f_7972122_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1073,15 +1086,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/neuroai/">NeuroAI</a>
+  <li><a class="badge badge-light" href="/tags/neuroai/">NeuroAI</a></li>
   
-  <a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a>
+  <li><a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a></li>
   
-  <a class="badge badge-light" href="/tags/systems-neuroscience/">Systems Neuroscience</a>
+  <li><a class="badge badge-light" href="/tags/systems-neuroscience/">Systems Neuroscience</a></li>
   
-</div>
+</ul>
 
 
 
@@ -1110,6 +1124,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -1141,9 +1156,8 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/neuroai-visual-representations/" >
-      <img src="/research/neuroai-visual-representations/featured_hu530e69300eea0bd9c53862c64c5b859a_166909_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/neuroai-visual-representations/featured_hu530e69300eea0bd9c53862c64c5b859a_166909_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1212,15 +1226,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/active-vision/">Active Vision</a>
+  <li><a class="badge badge-light" href="/tags/active-vision/">Active Vision</a></li>
   
-  <a class="badge badge-light" href="/tags/systems-neuroscience/">Systems Neuroscience</a>
+  <li><a class="badge badge-light" href="/tags/systems-neuroscience/">Systems Neuroscience</a></li>
   
-  <a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a>
+  <li><a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a></li>
   
-</div>
+</ul>
 
 
 
@@ -1249,6 +1264,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -1280,9 +1296,8 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/active-vision-sensorimotor/" >
-      <img src="/research/active-vision-sensorimotor/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/active-vision-sensorimotor/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1362,19 +1377,20 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/extended-reality/">Extended Reality</a>
+  <li><a class="badge badge-light" href="/tags/extended-reality/">Extended Reality</a></li>
   
-  <a class="badge badge-light" href="/tags/active-vision/">Active Vision</a>
+  <li><a class="badge badge-light" href="/tags/active-vision/">Active Vision</a></li>
   
-  <a class="badge badge-light" href="/tags/eye-tracking/">Eye Tracking</a>
+  <li><a class="badge badge-light" href="/tags/eye-tracking/">Eye Tracking</a></li>
   
-  <a class="badge badge-light" href="/tags/eeg/">EEG</a>
+  <li><a class="badge badge-light" href="/tags/eeg/">EEG</a></li>
   
-  <a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a>
+  <li><a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a></li>
   
-</div>
+</ul>
 
 
 
@@ -1403,6 +1419,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -1502,15 +1519,16 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/active-vision/">Active Vision</a>
+  <li><a class="badge badge-light" href="/tags/active-vision/">Active Vision</a></li>
   
-  <a class="badge badge-light" href="/tags/extended-reality/">Extended Reality</a>
+  <li><a class="badge badge-light" href="/tags/extended-reality/">Extended Reality</a></li>
   
-  <a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a>
+  <li><a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a></li>
   
-</div>
+</ul>
 
 
 
@@ -1539,6 +1557,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
   
 
+  
   
 
   
@@ -1614,10 +1633,7 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -1688,9 +1704,11 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -1760,11 +1778,12 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -1773,17 +1792,18 @@ Our open-source software platforms, including <a href="../code/pulse2percept/">p
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

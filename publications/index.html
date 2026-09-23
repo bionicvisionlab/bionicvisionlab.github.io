@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -57,6 +58,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -83,7 +86,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -161,7 +164,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -173,21 +175,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -206,6 +213,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -315,7 +324,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publications"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publications" aria-current="page"><span>Publications</span></a>
         </li>
 
         
@@ -655,11 +664,13 @@
 
       <div class="row mb-2 pub-filter-row">
         <div class="col-auto col-lg-4 mb-1">
-          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
-          autocomplete="off" autocorrect="off" spellcheck="false" aria-label="Search...">
+          <label class="sr-only" for="pub-search">Search publications</label>
+          <input type="search" id="pub-search" class="filter-search" placeholder="Search..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" spellcheck="false">
         </div>
         <div class="col-auto col-lg-3">
-          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype" aria-label="Type">
+          <label class="sr-only" for="pub-type">Publication type</label>
+          <select id="pub-type" class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
             <option value="*">Type</option>
             
             
@@ -690,7 +701,8 @@
           </select>
         </div>
         <div class="col-auto col-lg-3">
-          <select class="pub-filters form-control form-control-sm" data-filter-group="year" aria-label="Date">
+          <label class="sr-only" for="pub-year">Year</label>
+          <select id="pub-year" class="pub-filters form-control form-control-sm" data-filter-group="year">
             <option value="*">Date</option>
             
             
@@ -757,6 +769,9 @@
       </div>
 
       
+      
+      <p id="pub-count" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+
       <div id="publications-list">
         
 
@@ -865,13 +880,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-06">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -914,11 +932,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="http://arxiv.org/abs/2607.23889" target="_blank" rel="noopener">
+<a class="button" href="http://arxiv.org/abs/2607.23889" target="_blank" rel="noopener" aria-label="Preprint: Evaluating closed-loop EEG feedback for simulated prosthetic vision in immersive VR: a sham-controlled feasibility study">
   Preprint
 </a>
 
@@ -952,9 +974,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/" >
-      <img src="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/featured_hub5ae05a27e3322b8b8cbb1d6ba5b6304_826096_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Evaluating closed-loop EEG feedback for simulated prosthetic vision in immersive VR: a sham-controlled feasibility study">
-    </a>
+    
+    <img src="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/featured_hub5ae05a27e3322b8b8cbb1d6ba5b6304_826096_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1064,13 +1085,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-05">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1113,11 +1137,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2504.19345" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2504.19345" target="_blank" rel="noopener" aria-label="Preprint: Navigating the last mile: Evaluating head- and cane-mounted cameras for egocentric spatial awareness">
   Preprint
 </a>
 
@@ -1130,7 +1158,7 @@
 
 
 
-<a class="button" href="/publications/2026-10-navigating-last-mile/ismar26-varshney-last-mile.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-10-navigating-last-mile/ismar26-varshney-last-mile.pdf" target="_blank" rel="noopener" aria-label="PDF: Navigating the last mile: Evaluating head- and cane-mounted cameras for egocentric spatial awareness">
   PDF
 </a>
 
@@ -1159,9 +1187,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-navigating-last-mile/" >
-      <img src="/publications/2026-10-navigating-last-mile/featured_hue7c11007203e6e4edff020fd56d9ab5f_7972122_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Navigating the last mile: Evaluating head- and cane-mounted cameras for egocentric spatial awareness">
-    </a>
+    
+    <img src="/publications/2026-10-navigating-last-mile/featured_hue7c11007203e6e4edff020fd56d9ab5f_7972122_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1271,13 +1298,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-05">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1320,11 +1350,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2603.17238" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2603.17238" target="_blank" rel="noopener" aria-label="Preprint: Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding">
   Preprint
 </a>
 
@@ -1337,7 +1371,7 @@
 
 
 
-<a class="button" href="/publications/2026-10-vr-guidance-arrow-map-compass/ismar26-vgtc-varshney-turkstra-arrow-map-compass.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-10-vr-guidance-arrow-map-compass/ismar26-vgtc-varshney-turkstra-arrow-map-compass.pdf" target="_blank" rel="noopener" aria-label="PDF: Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding">
   PDF
 </a>
 
@@ -1366,9 +1400,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-vr-guidance-arrow-map-compass/" >
-      <img src="/publications/2026-10-vr-guidance-arrow-map-compass/featured_hud31b88cda69b65d6d48a3e9594eaf54d_170749_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding">
-    </a>
+    
+    <img src="/publications/2026-10-vr-guidance-arrow-map-compass/featured_hud31b88cda69b65d6d48a3e9594eaf54d_170749_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1478,13 +1511,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-27">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1527,11 +1563,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.48550/arXiv.2603.00362" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.48550/arXiv.2603.00362" target="_blank" rel="noopener" aria-label="Preprint: Percept-aware surgical planning for visual cortical prostheses with vascular avoidance">
   Preprint
 </a>
 
@@ -1544,7 +1584,7 @@
 
 
 
-<a class="button" href="/publications/2026-09-percept-aware-surgical-planning/2026-pogoncheff-surgical-planning-vasculature.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-09-percept-aware-surgical-planning/2026-pogoncheff-surgical-planning-vasculature.pdf" target="_blank" rel="noopener" aria-label="PDF: Percept-aware surgical planning for visual cortical prostheses with vascular avoidance">
   PDF
 </a>
 
@@ -1573,9 +1613,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-percept-aware-surgical-planning/" >
-      <img src="/publications/2026-09-percept-aware-surgical-planning/featured_huaba0671bb869d6c49000df354c30b198_198431_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Percept-aware surgical planning for visual cortical prostheses with vascular avoidance">
-    </a>
+    
+    <img src="/publications/2026-09-percept-aware-surgical-planning/featured_huaba0671bb869d6c49000df354c30b198_198431_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1685,13 +1724,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-14">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1734,11 +1776,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2609.16430" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2609.16430" target="_blank" rel="noopener" aria-label="Preprint: Predictor construction can reverse multimodal neural contrasts">
   Preprint
 </a>
 
@@ -1776,9 +1822,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-multimodal-neural-contrasts/" >
-      <img src="/publications/2026-09-multimodal-neural-contrasts/featured_hu0d0a08a3aa37ead281d5fcfacbc9e0b5_237627_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Predictor construction can reverse multimodal neural contrasts">
-    </a>
+    
+    <img src="/publications/2026-09-multimodal-neural-contrasts/featured_hu0d0a08a3aa37ead281d5fcfacbc9e0b5_237627_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1888,13 +1933,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-08">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1937,11 +1985,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://openreview.net/forum?id=ER2k7uKLJB" target="_blank" rel="noopener">
+<a class="button" href="https://openreview.net/forum?id=ER2k7uKLJB" target="_blank" rel="noopener" aria-label="Preprint: Language-conditioned object highlighting for simulated prosthetic vision">
   Preprint
 </a>
 
@@ -1954,7 +2006,7 @@
 
 
 
-<a class="button" href="/publications/2026-09-language-conditioned-object-highlighting/2026-acvr-eccv-tomas-language-conditioned-object-highlighting.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-09-language-conditioned-object-highlighting/2026-acvr-eccv-tomas-language-conditioned-object-highlighting.pdf" target="_blank" rel="noopener" aria-label="PDF: Language-conditioned object highlighting for simulated prosthetic vision">
   PDF
 </a>
 
@@ -1983,9 +2035,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-language-conditioned-object-highlighting/" >
-      <img src="/publications/2026-09-language-conditioned-object-highlighting/featured_huc065213a23b4fdd5c46e2fac92ff78eb_159301_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Language-conditioned object highlighting for simulated prosthetic vision">
-    </a>
+    
+    <img src="/publications/2026-09-language-conditioned-object-highlighting/featured_huc065213a23b4fdd5c46e2fac92ff78eb_159301_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2095,13 +2146,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-01">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2144,11 +2198,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.48550/arXiv.2609.01438" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.48550/arXiv.2609.01438" target="_blank" rel="noopener" aria-label="Preprint: Cross-modal guidance for out-of-view object search in simulated prosthetic vision">
   Preprint
 </a>
 
@@ -2161,7 +2219,7 @@
 
 
 
-<a class="button" href="/publications/2026-09-out-of-view-guidance-vr/2026-09-arxiv-rastogi-cross-modal-guidance.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-09-out-of-view-guidance-vr/2026-09-arxiv-rastogi-cross-modal-guidance.pdf" target="_blank" rel="noopener" aria-label="PDF: Cross-modal guidance for out-of-view object search in simulated prosthetic vision">
   PDF
 </a>
 
@@ -2190,9 +2248,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-out-of-view-guidance-vr/" >
-      <img src="/publications/2026-09-out-of-view-guidance-vr/featured_hu6f245c92c8c81bab51093d5232f0eb36_1034273_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Cross-modal guidance for out-of-view object search in simulated prosthetic vision">
-    </a>
+    
+    <img src="/publications/2026-09-out-of-view-guidance-vr/featured_hu6f245c92c8c81bab51093d5232f0eb36_1034273_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2302,13 +2359,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2026</time>
+    <time datetime="2026-08-07">August 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2351,17 +2411,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2025.09.24.678361" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2025.09.24.678361" target="_blank" rel="noopener" aria-label="Preprint: Deep learning-based control of electrically evoked activity in human visual cortex">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1016/j.neuron.2026.07.006" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1016/j.neuron.2026.07.006" target="_blank" rel="noopener" aria-label="DOI: Deep learning-based control of electrically evoked activity in human visual cortex">
   DOI
 </a>
 
@@ -2372,7 +2436,7 @@
 
 
 
-<a class="button" href="/publications/2026-08-deep-neural-activity-shaping/granley-deep-learning-control-evoked-activity-cortex.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-08-deep-neural-activity-shaping/granley-deep-learning-control-evoked-activity-cortex.pdf" target="_blank" rel="noopener" aria-label="PDF: Deep learning-based control of electrically evoked activity in human visual cortex">
   PDF
 </a>
 
@@ -2405,9 +2469,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-08-deep-neural-activity-shaping/" >
-      <img src="/publications/2026-08-deep-neural-activity-shaping/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Deep learning-based control of electrically evoked activity in human visual cortex">
-    </a>
+    
+    <img src="/publications/2026-08-deep-neural-activity-shaping/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2517,13 +2580,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2026</time>
+    <time datetime="2026-07-26">July 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2566,11 +2632,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.48550/arXiv.2601.17326" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.48550/arXiv.2601.17326" target="_blank" rel="noopener" aria-label="Preprint: SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision">
   Preprint
 </a>
 
@@ -2583,7 +2653,7 @@
 
 
 
-<a class="button" href="/publications/2026-07-symbol-sight/2026-SymbolSight.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-07-symbol-sight/2026-SymbolSight.pdf" target="_blank" rel="noopener" aria-label="PDF: SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision">
   PDF
 </a>
 
@@ -2612,9 +2682,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-07-symbol-sight/" >
-      <img src="/publications/2026-07-symbol-sight/featured_hu056a8205f112035a026812a98a8caa8e_265983_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision">
-    </a>
+    
+    <img src="/publications/2026-07-symbol-sight/featured_hu056a8205f112035a026812a98a8caa8e_265983_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2724,13 +2793,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2026</time>
+    <time datetime="2026-07-26">July 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2773,11 +2845,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.48550/arXiv.2602.13216" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.48550/arXiv.2602.13216" target="_blank" rel="noopener" aria-label="Preprint: Network-adaptive cloud preprocessing for visual neuroprostheses">
   Preprint
 </a>
 
@@ -2790,7 +2866,7 @@
 
 
 
-<a class="button" href="/publications/2026-07-network-adaptive-cloud-processing/2026-Cloud-ML.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-07-network-adaptive-cloud-processing/2026-Cloud-ML.pdf" target="_blank" rel="noopener" aria-label="PDF: Network-adaptive cloud preprocessing for visual neuroprostheses">
   PDF
 </a>
 
@@ -2819,9 +2895,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-07-network-adaptive-cloud-processing/" >
-      <img src="/publications/2026-07-network-adaptive-cloud-processing/featured_hub8d4be6ee0d4a1c564ac76b1dd3d83d0_250862_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Network-adaptive cloud preprocessing for visual neuroprostheses">
-    </a>
+    
+    <img src="/publications/2026-07-network-adaptive-cloud-processing/featured_hub8d4be6ee0d4a1c564ac76b1dd3d83d0_250862_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2931,13 +3006,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2026</time>
+    <time datetime="2026-07-08">July 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2982,7 +3060,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1146/annurev-neuro-112723-040446" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1146/annurev-neuro-112723-040446" target="_blank" rel="noopener" aria-label="DOI: Ecological visual processing in the mouse">
   DOI
 </a>
 
@@ -2993,7 +3075,7 @@
 
 
 
-<a class="button" href="/publications/2026-07-ecological-visual-processing-mouse/2026-annurev-neuro-ecological-vision-mouse.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-07-ecological-visual-processing-mouse/2026-annurev-neuro-ecological-vision-mouse.pdf" target="_blank" rel="noopener" aria-label="PDF: Ecological visual processing in the mouse">
   PDF
 </a>
 
@@ -3022,9 +3104,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-07-ecological-visual-processing-mouse/" >
-      <img src="/publications/2026-07-ecological-visual-processing-mouse/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Ecological visual processing in the mouse">
-    </a>
+    
+    <img src="/publications/2026-07-ecological-visual-processing-mouse/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3134,13 +3215,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2026</time>
+    <time datetime="2026-06-12">June 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3183,17 +3267,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/10.1101/2025.07.21.665750v1" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/10.1101/2025.07.21.665750v1" target="_blank" rel="noopener" aria-label="Preprint: Distinct roles of central and peripheral vision in rapid scene understanding">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1167/jov.26.6.6" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1167/jov.26.6.6" target="_blank" rel="noopener" aria-label="DOI: Distinct roles of central and peripheral vision in rapid scene understanding">
   DOI
 </a>
 
@@ -3204,7 +3292,7 @@
 
 
 
-<a class="button" href="/publications/2026-06-vision-loss-scene-understanding/2026-jov-johnson-vision-loss-scene-understanding.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-06-vision-loss-scene-understanding/2026-jov-johnson-vision-loss-scene-understanding.pdf" target="_blank" rel="noopener" aria-label="PDF: Distinct roles of central and peripheral vision in rapid scene understanding">
   PDF
 </a>
 
@@ -3233,9 +3321,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-06-vision-loss-scene-understanding/" >
-      <img src="/publications/2026-06-vision-loss-scene-understanding/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Distinct roles of central and peripheral vision in rapid scene understanding">
-    </a>
+    
+    <img src="/publications/2026-06-vision-loss-scene-understanding/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3345,13 +3432,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-21">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3394,11 +3484,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/10.64898/2026.06.13.732086v1" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/10.64898/2026.06.13.732086v1" target="_blank" rel="noopener" aria-label="Preprint: Gaze shifts in freely moving mice comprise distinct head-eye coordination motifs">
   Preprint
 </a>
 
@@ -3436,9 +3530,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/" >
-      <img src="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/featured_huc1e44921928822b27a2d04a916f585a1_303528_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Gaze shifts in freely moving mice comprise distinct head-eye coordination motifs">
-    </a>
+    
+    <img src="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/featured_huc1e44921928822b27a2d04a916f585a1_303528_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3548,13 +3641,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-21">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3597,17 +3693,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.64898/2025.12.20.25342740" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.64898/2025.12.20.25342740" target="_blank" rel="noopener" aria-label="Preprint: Gamification enhances user engagement and task performance in prosthetic vision testing">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1167/tvst.15.5.16" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1167/tvst.15.5.16" target="_blank" rel="noopener" aria-label="DOI: Gamification enhances user engagement and task performance in prosthetic vision testing">
   DOI
 </a>
 
@@ -3618,7 +3718,7 @@
 
 
 
-<a class="button" href="/publications/2026-05-tvst-argus-gamification/2026-tvst-turkstra-argus-gamification.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-05-tvst-argus-gamification/2026-tvst-turkstra-argus-gamification.pdf" target="_blank" rel="noopener" aria-label="PDF: Gamification enhances user engagement and task performance in prosthetic vision testing">
   PDF
 </a>
 
@@ -3647,9 +3747,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-tvst-argus-gamification/" >
-      <img src="/publications/2026-05-tvst-argus-gamification/featured_hu852cfb2329fcc351b2e86addfc580e9c_135272_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Gamification enhances user engagement and task performance in prosthetic vision testing">
-    </a>
+    
+    <img src="/publications/2026-05-tvst-argus-gamification/featured_hu852cfb2329fcc351b2e86addfc580e9c_135272_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3759,13 +3858,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-07">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3808,11 +3910,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2605.23122" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2605.23122" target="_blank" rel="noopener" aria-label="Preprint: Beyond neural activity prediction: Probing latent representations in mouse V1 digital twins">
   Preprint
 </a>
 
@@ -3850,9 +3956,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-mouse-v1-digital-twin/" >
-      <img src="/publications/2026-05-mouse-v1-digital-twin/featured_hu530e69300eea0bd9c53862c64c5b859a_166909_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Beyond neural activity prediction: Probing latent representations in mouse V1 digital twins">
-    </a>
+    
+    <img src="/publications/2026-05-mouse-v1-digital-twin/featured_hu530e69300eea0bd9c53862c64c5b859a_166909_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3962,13 +4067,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-07">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -4016,6 +4124,10 @@
 
 
 
+
+
+
+
   
 
 
@@ -4045,9 +4157,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/" >
-      <img src="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/featured_hu833e08145f1e5ee4d03fcb2a255f7c6f_306212_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Visual robustness and neural alignment in a shared foraging task: The Mouse vs. AI benchmark">
-    </a>
+    
+    <img src="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/featured_hu833e08145f1e5ee4d03fcb2a255f7c6f_306212_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4157,13 +4268,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2026</time>
+    <time datetime="2026-04-23">April 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -4206,11 +4320,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2505.23933" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2505.23933" target="_blank" rel="noopener" aria-label="Preprint: BIRD: Behavior induction via representation-structure distillation">
   Preprint
 </a>
 
@@ -4248,9 +4366,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-04-bird/" >
-      <img src="/publications/2026-04-bird/featured_hu137d04eaede7209bc3c071f43a9abdf4_298038_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="BIRD: Behavior induction via representation-structure distillation">
-    </a>
+    
+    <img src="/publications/2026-04-bird/featured_hu137d04eaede7209bc3c071f43a9abdf4_298038_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4360,13 +4477,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2026</time>
+    <time datetime="2026-03-17">March 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -4409,11 +4529,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.31234/osf.io/e9zsv_v1" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.31234/osf.io/e9zsv_v1" target="_blank" rel="noopener" aria-label="Preprint: Adaptive training for navigation under stress: Impacts of stress exposure and spatial anxiety">
   Preprint
 </a>
 
@@ -4451,9 +4575,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-03-stress-navigation-trev/" >
-      <img src="/publications/2026-03-stress-navigation-trev/featured_hu7e2aafedeaae2005c38dc0ed32697311_3194202_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Adaptive training for navigation under stress: Impacts of stress exposure and spatial anxiety">
-    </a>
+    
+    <img src="/publications/2026-03-stress-navigation-trev/featured_hu7e2aafedeaae2005c38dc0ed32697311_3194202_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4563,13 +4686,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2026</time>
+    <time datetime="2026-02-23">February 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -4612,17 +4738,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2512.05383" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2512.05383" target="_blank" rel="noopener" aria-label="Preprint: Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1088/1741-2552/ae4927" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1088/1741-2552/ae4927" target="_blank" rel="noopener" aria-label="DOI: Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation">
   DOI
 </a>
 
@@ -4633,7 +4763,7 @@
 
 
 
-<a class="button" href="/publications/2026-02-fuzzing-the-brain/2026-jne-downing-fuzzing-brain-ml-safety.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2026-02-fuzzing-the-brain/2026-jne-downing-fuzzing-brain-ml-safety.pdf" target="_blank" rel="noopener" aria-label="PDF: Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation">
   PDF
 </a>
 
@@ -4662,9 +4792,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-02-fuzzing-the-brain/" >
-      <img src="/publications/2026-02-fuzzing-the-brain/featured_hu862b6183f71b4ea61c81bb3d61d156fc_84432_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation">
-    </a>
+    
+    <img src="/publications/2026-02-fuzzing-the-brain/featured_hu862b6183f71b4ea61c81bb3d61d156fc_84432_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4777,13 +4906,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2025</time>
+    <time datetime="2025-12-04">December 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4826,17 +4958,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2507.10813" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2507.10813" target="_blank" rel="noopener" aria-label="Preprint: Static or temporal? Semantic scene simplification to aid wayfinding in immersive simulations of bionic vision">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1145/3756884.3766003" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1145/3756884.3766003" target="_blank" rel="noopener" aria-label="DOI: Static or temporal? Semantic scene simplification to aid wayfinding in immersive simulations of bionic vision">
   DOI
 </a>
 
@@ -4847,7 +4983,7 @@
 
 
 
-<a class="button" href="/publications/2025-12-smart-raster/2025-vrst-static-temporal-semantic-raster.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-12-smart-raster/2025-vrst-static-temporal-semantic-raster.pdf" target="_blank" rel="noopener" aria-label="PDF: Static or temporal? Semantic scene simplification to aid wayfinding in immersive simulations of bionic vision">
   PDF
 </a>
 
@@ -4876,9 +5012,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-12-smart-raster/" >
-      <img src="/publications/2025-12-smart-raster/featured_huffda2d297896f59981be2806db7ed735_591203_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Static or temporal? Semantic scene simplification to aid wayfinding in immersive simulations of bionic vision">
-    </a>
+    
+    <img src="/publications/2025-12-smart-raster/featured_huffda2d297896f59981be2806db7ed735_591203_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4988,13 +5123,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2025</time>
+    <time datetime="2025-11-28">November 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5037,11 +5175,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://osf.io/preprints/psyarxiv/56jsn_v1" target="_blank" rel="noopener">
+<a class="button" href="https://osf.io/preprints/psyarxiv/56jsn_v1" target="_blank" rel="noopener" aria-label="Preprint: Look, predict, intercept: Visual exposure seeds model-based control in moving-target interception">
   Preprint
 </a>
 
@@ -5075,9 +5217,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-11-look-predict-intercept/" >
-      <img src="/publications/2025-11-look-predict-intercept/featured_huefe1b2263bfb4a64d1f9ce40414a2e63_2524332_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Look, predict, intercept: Visual exposure seeds model-based control in moving-target interception">
-    </a>
+    
+    <img src="/publications/2025-11-look-predict-intercept/featured_huefe1b2263bfb4a64d1f9ce40414a2e63_2524332_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5187,13 +5328,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2025</time>
+    <time datetime="2025-10-12">October 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5236,17 +5380,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2508.05963" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2508.05963" target="_blank" rel="noopener" aria-label="Preprint: Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00034" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00034" target="_blank" rel="noopener" aria-label="DOI: Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology">
   DOI
 </a>
 
@@ -5257,7 +5405,7 @@
 
 
 
-<a class="button" href="/publications/2025-10-ismar-neuroadaptive-xr/2025-ismar-w-neuroadaptive-xr.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-10-ismar-neuroadaptive-xr/2025-ismar-w-neuroadaptive-xr.pdf" target="_blank" rel="noopener" aria-label="PDF: Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology">
   PDF
 </a>
 
@@ -5286,9 +5434,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-10-ismar-neuroadaptive-xr/" >
-      <img src="/publications/2025-10-ismar-neuroadaptive-xr/featured_hu6a9d25d140f380de22b50dff0a588ce0_146138_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology">
-    </a>
+    
+    <img src="/publications/2025-10-ismar-neuroadaptive-xr/featured_hu6a9d25d140f380de22b50dff0a588ce0_146138_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5398,13 +5545,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2025</time>
+    <time datetime="2025-10-07">October 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5449,7 +5599,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1167/jov.25.12.12" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1167/jov.25.12.12" target="_blank" rel="noopener" aria-label="DOI: Perceptual learning of prosthetic vision using video game training">
   DOI
 </a>
 
@@ -5460,7 +5614,7 @@
 
 
 
-<a class="button" href="/publications/2025-10-perceptual-learning-video-game-training/2025-jov-esquenazi-video-game-training.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-10-perceptual-learning-video-game-training/2025-jov-esquenazi-video-game-training.pdf" target="_blank" rel="noopener" aria-label="PDF: Perceptual learning of prosthetic vision using video game training">
   PDF
 </a>
 
@@ -5485,9 +5639,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-10-perceptual-learning-video-game-training/" >
-      <img src="/publications/2025-10-perceptual-learning-video-game-training/featured_hu9e7b6e8f9b81a9da22007b4d843ac127_258769_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Perceptual learning of prosthetic vision using video game training">
-    </a>
+    
+    <img src="/publications/2025-10-perceptual-learning-video-game-training/featured_hu9e7b6e8f9b81a9da22007b4d843ac127_258769_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5597,13 +5750,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2025</time>
+    <time datetime="2025-07-16">July 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5646,17 +5802,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2501.02084" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2501.02084" target="_blank" rel="noopener" aria-label="Preprint: Simulated prosthetic vision confirms checkerboard as an effective raster pattern for epiretinal implants">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1088/1741-2552/adecc4" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1088/1741-2552/adecc4" target="_blank" rel="noopener" aria-label="DOI: Simulated prosthetic vision confirms checkerboard as an effective raster pattern for epiretinal implants">
   DOI
 </a>
 
@@ -5667,7 +5827,7 @@
 
 
 
-<a class="button" href="/publications/2025-07-checkerboard-raster/2025-jne-kasowski-checkerboard-raster.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-07-checkerboard-raster/2025-jne-kasowski-checkerboard-raster.pdf" target="_blank" rel="noopener" aria-label="PDF: Simulated prosthetic vision confirms checkerboard as an effective raster pattern for epiretinal implants">
   PDF
 </a>
 
@@ -5696,9 +5856,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-07-checkerboard-raster/" >
-      <img src="/publications/2025-07-checkerboard-raster/featured_hu18cf8d8367fd370e809f7b938047b9a6_56828_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Simulated prosthetic vision confirms checkerboard as an effective raster pattern for epiretinal implants">
-    </a>
+    
+    <img src="/publications/2025-07-checkerboard-raster/featured_hu18cf8d8367fd370e809f7b938047b9a6_56828_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5808,13 +5967,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2025</time>
+    <time datetime="2025-07-14">July 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5857,17 +6019,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2502.06672" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2502.06672" target="_blank" rel="noopener" aria-label="Preprint: Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1109/EMBC58623.2025.11253792" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/EMBC58623.2025.11253792" target="_blank" rel="noopener" aria-label="DOI: Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression">
   DOI
 </a>
 
@@ -5878,7 +6044,7 @@
 
 
 
-<a class="button" href="/publications/2025-07-gaussian-process-thresholds/2025_EMBC_GPR.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-07-gaussian-process-thresholds/2025_EMBC_GPR.pdf" target="_blank" rel="noopener" aria-label="PDF: Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression">
   PDF
 </a>
 
@@ -5907,9 +6073,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-07-gaussian-process-thresholds/" >
-      <img src="/publications/2025-07-gaussian-process-thresholds/featured_hu6316b67f870f2ed92edda270ff430b61_64283_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression">
-    </a>
+    
+    <img src="/publications/2025-07-gaussian-process-thresholds/featured_hu6316b67f870f2ed92edda270ff430b61_64283_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6019,13 +6184,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2025</time>
+    <time datetime="2025-07-14">July 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -6068,17 +6236,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2502.00177" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2502.00177" target="_blank" rel="noopener" aria-label="Preprint: Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1109/EMBC58623.2025.11253762" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/EMBC58623.2025.11253762" target="_blank" rel="noopener" aria-label="DOI: Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants">
   DOI
 </a>
 
@@ -6089,7 +6261,7 @@
 
 
 
-<a class="button" href="/publications/2025-07-hilo-personalization-sighted/2025_EMBC_HILO.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-07-hilo-personalization-sighted/2025_EMBC_HILO.pdf" target="_blank" rel="noopener" aria-label="PDF: Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants">
   PDF
 </a>
 
@@ -6118,9 +6290,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-07-hilo-personalization-sighted/" >
-      <img src="/publications/2025-07-hilo-personalization-sighted/featured_hue70167b8aaf56e0966ff3e25d321b857_239240_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants">
-    </a>
+    
+    <img src="/publications/2025-07-hilo-personalization-sighted/featured_hue70167b8aaf56e0966ff3e25d321b857_239240_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6230,13 +6401,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2025</time>
+    <time datetime="2025-06-25">June 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -6279,11 +6453,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2025.06.23.660990" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2025.06.23.660990" target="_blank" rel="noopener" aria-label="Preprint: A deep learning framework for predicting functional visual performance in bionic eye users">
   Preprint
 </a>
 
@@ -6321,9 +6499,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-06-deep-learning-framework-predict-functional-vision/" >
-      <img src="/publications/2025-06-deep-learning-framework-predict-functional-vision/featured_hu5c5b72ba157560411e6a49baf0477195_121082_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="A deep learning framework for predicting functional visual performance in bionic eye users">
-    </a>
+    
+    <img src="/publications/2025-06-deep-learning-framework-predict-functional-vision/featured_hu5c5b72ba157560411e6a49baf0477195_121082_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6433,13 +6610,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2025</time>
+    <time datetime="2025-06-20">June 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -6484,7 +6664,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1145/3695053.3731027" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1145/3695053.3731027" target="_blank" rel="noopener" aria-label="DOI: Single spike artificial neural networks">
   DOI
 </a>
 
@@ -6495,7 +6679,7 @@
 
 
 
-<a class="button" href="/publications/2025-06-isca-single-spike-anns/2025-isca-single-spike-ann.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-06-isca-single-spike-anns/2025-isca-single-spike-ann.pdf" target="_blank" rel="noopener" aria-label="PDF: Single spike artificial neural networks">
   PDF
 </a>
 
@@ -6524,9 +6708,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-06-isca-single-spike-anns/" >
-      <img src="/publications/2025-06-isca-single-spike-anns/featured_hu1ce8eb32cc29d6ffd2957a549d0f01bf_144370_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Single spike artificial neural networks">
-    </a>
+    
+    <img src="/publications/2025-06-isca-single-spike-anns/featured_hu1ce8eb32cc29d6ffd2957a549d0f01bf_144370_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6636,13 +6819,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2025</time>
+    <time datetime="2025-03-03">March 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -6685,17 +6871,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2305.03019" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2305.03019" target="_blank" rel="noopener" aria-label="Preprint: Assistive technology use in domestic activities by people who are blind">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1038/s41598-025-91755-w" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1038/s41598-025-91755-w" target="_blank" rel="noopener" aria-label="DOI: Assistive technology use in domestic activities by people who are blind">
   DOI
 </a>
 
@@ -6706,7 +6896,7 @@
 
 
 
-<a class="button" href="/publications/2025-03-assistive-technology-domestic-activities/2025-scirep-turkstra-assistive-tech-domestic.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2025-03-assistive-technology-domestic-activities/2025-scirep-turkstra-assistive-tech-domestic.pdf" target="_blank" rel="noopener" aria-label="PDF: Assistive technology use in domestic activities by people who are blind">
   PDF
 </a>
 
@@ -6735,9 +6925,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-03-assistive-technology-domestic-activities/" >
-      <img src="/publications/2025-03-assistive-technology-domestic-activities/featured_hu6c825c558b1424ec93e4302ff0bcb278_260942_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Assistive technology use in domestic activities by people who are blind">
-    </a>
+    
+    <img src="/publications/2025-03-assistive-technology-domestic-activities/featured_hu6c825c558b1424ec93e4302ff0bcb278_260942_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6850,13 +7039,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2024</time>
+    <time datetime="2024-11-21">November 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -6899,17 +7091,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2024.03.12.24304186" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2024.03.12.24304186" target="_blank" rel="noopener" aria-label="Preprint: Aligning visual prosthetic development with implantee needs">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1167/tvst.13.11.28" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1167/tvst.13.11.28" target="_blank" rel="noopener" aria-label="DOI: Aligning visual prosthetic development with implantee needs">
   DOI
 </a>
 
@@ -6920,7 +7116,7 @@
 
 
 
-<a class="button" href="/publications/2024-11-implant-expectations/2024-tvst-nadolskis-turkstra-implant-expectations.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-11-implant-expectations/2024-tvst-nadolskis-turkstra-implant-expectations.pdf" target="_blank" rel="noopener" aria-label="PDF: Aligning visual prosthetic development with implantee needs">
   PDF
 </a>
 
@@ -6949,9 +7145,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-11-implant-expectations/" >
-      <img src="/publications/2024-11-implant-expectations/featured_hue70167b8aaf56e0966ff3e25d321b857_333955_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Aligning visual prosthetic development with implantee needs">
-    </a>
+    
+    <img src="/publications/2024-11-implant-expectations/featured_hue70167b8aaf56e0966ff3e25d321b857_333955_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7061,13 +7256,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2024</time>
+    <time datetime="2024-10-21">October 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -7112,7 +7310,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00099" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00099" target="_blank" rel="noopener" aria-label="DOI: VisionAI - Shopping Assistance for People with Vision Impairments">
   DOI
 </a>
 
@@ -7123,7 +7325,7 @@
 
 
 
-<a class="button" href="/publications/2024-10-ismar-vision-ai/2024-ismar-arora-vision-ai.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-10-ismar-vision-ai/2024-ismar-arora-vision-ai.pdf" target="_blank" rel="noopener" aria-label="PDF: VisionAI - Shopping Assistance for People with Vision Impairments">
   PDF
 </a>
 
@@ -7152,9 +7354,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-10-ismar-vision-ai/" >
-      <img src="/publications/2024-10-ismar-vision-ai/featured_hu7468bcaa2067c5db90af78639fa6943a_108428_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="VisionAI - Shopping Assistance for People with Vision Impairments">
-    </a>
+    
+    <img src="/publications/2024-10-ismar-vision-ai/featured_hu7468bcaa2067c5db90af78639fa6943a_108428_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7264,13 +7465,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2024</time>
+    <time datetime="2024-07-15">July 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -7313,17 +7517,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2404.14591" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2404.14591" target="_blank" rel="noopener" aria-label="Preprint: Predicting the temporal dynamics of prosthetic vision">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1109/EMBC53108.2024.10782668" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/EMBC53108.2024.10782668" target="_blank" rel="noopener" aria-label="DOI: Predicting the temporal dynamics of prosthetic vision">
   DOI
 </a>
 
@@ -7334,7 +7542,7 @@
 
 
 
-<a class="button" href="/publications/2024-07-predicting-temporal-dynamics/2024-ieee-embc-predicting-temporal-dynamics.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-07-predicting-temporal-dynamics/2024-ieee-embc-predicting-temporal-dynamics.pdf" target="_blank" rel="noopener" aria-label="PDF: Predicting the temporal dynamics of prosthetic vision">
   PDF
 </a>
 
@@ -7343,7 +7551,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2024-Temporal-Model" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2024-Temporal-Model" target="_blank" rel="noopener" aria-label="Code: Predicting the temporal dynamics of prosthetic vision">
   Code
 </a>
 
@@ -7371,9 +7579,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-07-predicting-temporal-dynamics/" >
-      <img src="/publications/2024-07-predicting-temporal-dynamics/featured_hue70167b8aaf56e0966ff3e25d321b857_135647_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Predicting the temporal dynamics of prosthetic vision">
-    </a>
+    
+    <img src="/publications/2024-07-predicting-temporal-dynamics/featured_hue70167b8aaf56e0966ff3e25d321b857_135647_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7483,13 +7690,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2024</time>
+    <time datetime="2024-05-11">May 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -7532,11 +7742,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://openreview.net/forum?id=FG7XQbcDuZ" target="_blank" rel="noopener">
+<a class="button" href="https://openreview.net/forum?id=FG7XQbcDuZ" target="_blank" rel="noopener" aria-label="Preprint: Beyond sight: Probing alignment between image models and blind V1">
   Preprint
 </a>
 
@@ -7578,9 +7792,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-05-beyond-sight-blind-v1-alignment/" >
-      <img src="/publications/2024-05-beyond-sight-blind-v1-alignment/featured_hu763810ca1eaf5f77031cf0ff15295ff9_142548_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Beyond sight: Probing alignment between image models and blind V1">
-    </a>
+    
+    <img src="/publications/2024-05-beyond-sight-blind-v1-alignment/featured_hu763810ca1eaf5f77031cf0ff15295ff9_142548_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7690,13 +7903,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2024</time>
+    <time datetime="2024-04-08">April 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -7739,17 +7955,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.medrxiv.org/content/10.1101/2023.07.21.23292908v1" target="_blank" rel="noopener">
+<a class="button" href="https://www.medrxiv.org/content/10.1101/2023.07.21.23292908v1" target="_blank" rel="noopener" aria-label="Preprint: Axonal stimulation affects the linear summation of single-point perception in three Argus II users">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1088/1741-2552/ad31c4" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1088/1741-2552/ad31c4" target="_blank" rel="noopener" aria-label="DOI: Axonal stimulation affects the linear summation of single-point perception in three Argus II users">
   DOI
 </a>
 
@@ -7760,7 +7980,7 @@
 
 
 
-<a class="button" href="/publications/2024-04-argus-pairs/2024-jne-hou-axonal-stimulation.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-04-argus-pairs/2024-jne-hou-axonal-stimulation.pdf" target="_blank" rel="noopener" aria-label="PDF: Axonal stimulation affects the linear summation of single-point perception in three Argus II users">
   PDF
 </a>
 
@@ -7769,7 +7989,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2024-ArgusPairs" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2024-ArgusPairs" target="_blank" rel="noopener" aria-label="Code: Axonal stimulation affects the linear summation of single-point perception in three Argus II users">
   Code
 </a>
 
@@ -7797,9 +8017,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-04-argus-pairs/" >
-      <img src="/publications/2024-04-argus-pairs/featured_hucd0815d0d35c551035699c1e6beeaefc_192021_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Axonal stimulation affects the linear summation of single-point perception in three Argus II users">
-    </a>
+    
+    <img src="/publications/2024-04-argus-pairs/featured_hucd0815d0d35c551035699c1e6beeaefc_192021_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7909,13 +8128,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2024</time>
+    <time datetime="2024-03-19">March 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -7958,17 +8180,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2023.02.09.23285633" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2023.02.09.23285633" target="_blank" rel="noopener" aria-label="Preprint: Explainable machine learning predictions of perceptual sensitivity for retinal prostheses">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1088/1741-2552/ad310f" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1088/1741-2552/ad310f" target="_blank" rel="noopener" aria-label="DOI: Explainable machine learning predictions of perceptual sensitivity for retinal prostheses">
   DOI
 </a>
 
@@ -7979,7 +8205,7 @@
 
 
 
-<a class="button" href="/publications/2024-03-explainable-thresholds/2024-JNE-Pogoncheff-XAI.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-03-explainable-thresholds/2024-JNE-Pogoncheff-XAI.pdf" target="_blank" rel="noopener" aria-label="PDF: Explainable machine learning predictions of perceptual sensitivity for retinal prostheses">
   PDF
 </a>
 
@@ -7988,7 +8214,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2023-ArgusThresholds" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2023-ArgusThresholds" target="_blank" rel="noopener" aria-label="Code: Explainable machine learning predictions of perceptual sensitivity for retinal prostheses">
   Code
 </a>
 
@@ -8016,9 +8242,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-03-explainable-thresholds/" >
-      <img src="/publications/2024-03-explainable-thresholds/featured_hucd6e44c9b3eecce568459506a9789db2_167875_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Explainable machine learning predictions of perceptual sensitivity for retinal prostheses">
-    </a>
+    
+    <img src="/publications/2024-03-explainable-thresholds/featured_hucd6e44c9b3eecce568459506a9789db2_167875_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8128,13 +8353,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2024</time>
+    <time datetime="2024-03-16">March 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -8179,7 +8407,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1109/VRW62533.2024.00321" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1109/VRW62533.2024.00321" target="_blank" rel="noopener" aria-label="DOI: Eye tracking performance in mobile mixed reality">
   DOI
 </a>
 
@@ -8190,7 +8422,7 @@
 
 
 
-<a class="button" href="/publications/2024-03-eye-tracking-mixed-reality/ieee-vrw-eye-tracking-mixed-reality.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-03-eye-tracking-mixed-reality/ieee-vrw-eye-tracking-mixed-reality.pdf" target="_blank" rel="noopener" aria-label="PDF: Eye tracking performance in mobile mixed reality">
   PDF
 </a>
 
@@ -8215,9 +8447,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-03-eye-tracking-mixed-reality/" >
-      <img src="/publications/2024-03-eye-tracking-mixed-reality/featured_hubc149c5ad1f128076a749f394e26ccbf_268636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Eye tracking performance in mobile mixed reality">
-    </a>
+    
+    <img src="/publications/2024-03-eye-tracking-mixed-reality/featured_hubc149c5ad1f128076a749f394e26ccbf_268636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8327,13 +8558,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2024</time>
+    <time datetime="2024-03-11">March 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -8376,17 +8610,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://osf.io/preprints/psyarxiv/zwr68" target="_blank" rel="noopener">
+<a class="button" href="https://osf.io/preprints/psyarxiv/zwr68" target="_blank" rel="noopener" aria-label="Preprint: Stress affects navigation strategies in immersive virtual reality">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1038/s41598-024-56048-8" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1038/s41598-024-56048-8" target="_blank" rel="noopener" aria-label="DOI: Stress affects navigation strategies in immersive virtual reality">
   DOI
 </a>
 
@@ -8397,7 +8635,7 @@
 
 
 
-<a class="button" href="/publications/2024-03-stress-affects-navigation/varshney-stress-affects-navigation-vr.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2024-03-stress-affects-navigation/varshney-stress-affects-navigation-vr.pdf" target="_blank" rel="noopener" aria-label="PDF: Stress affects navigation strategies in immersive virtual reality">
   PDF
 </a>
 
@@ -8406,7 +8644,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2024-Stress-affects-navigation" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2024-Stress-affects-navigation" target="_blank" rel="noopener" aria-label="Code: Stress affects navigation strategies in immersive virtual reality">
   Code
 </a>
 
@@ -8415,7 +8653,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2024-Stress-affects-navigation" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2024-Stress-affects-navigation" target="_blank" rel="noopener" aria-label="Dataset: Stress affects navigation strategies in immersive virtual reality">
   Dataset
 </a>
 
@@ -8442,9 +8680,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-03-stress-affects-navigation/" >
-      <img src="/publications/2024-03-stress-affects-navigation/featured_hu85bc5eb38cbbb31d3a8f5ede234d60e5_386030_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Stress affects navigation strategies in immersive virtual reality">
-    </a>
+    
+    <img src="/publications/2024-03-stress-affects-navigation/featured_hu85bc5eb38cbbb31d3a8f5ede234d60e5_386030_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8557,13 +8794,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2023</time>
+    <time datetime="2023-12-10">December 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -8606,17 +8846,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2305.11275" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2305.11275" target="_blank" rel="noopener" aria-label="Preprint: Explaining V1 properties with a biologically constrained deep learning architecture">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.48550/arXiv.2305.11275" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.48550/arXiv.2305.11275" target="_blank" rel="noopener" aria-label="DOI: Explaining V1 properties with a biologically constrained deep learning architecture">
   DOI
 </a>
 
@@ -8627,7 +8871,7 @@
 
 
 
-<a class="button" href="/publications/2023-12-v1-monkey-neuroai/2023-pogoncheff-brain-like-v1.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-12-v1-monkey-neuroai/2023-pogoncheff-brain-like-v1.pdf" target="_blank" rel="noopener" aria-label="PDF: Explaining V1 properties with a biologically constrained deep learning architecture">
   PDF
 </a>
 
@@ -8636,7 +8880,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2023-Pogoncheff-Explaining-V1-Properties" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2023-Pogoncheff-Explaining-V1-Properties" target="_blank" rel="noopener" aria-label="Code: Explaining V1 properties with a biologically constrained deep learning architecture">
   Code
 </a>
 
@@ -8646,7 +8890,7 @@
   
     
   
-<a class="button" href="https://nips.cc/virtual/2023/poster/72987" target="_blank" rel="noopener">
+<a class="button" href="https://nips.cc/virtual/2023/poster/72987" target="_blank" rel="noopener" aria-label="Poster: Explaining V1 properties with a biologically constrained deep learning architecture">
   Poster
 </a>
 
@@ -8672,9 +8916,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-12-v1-monkey-neuroai/" >
-      <img src="/publications/2023-12-v1-monkey-neuroai/featured_hu73e82be02d57f57f4772a79a1325a438_119058_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Explaining V1 properties with a biologically constrained deep learning architecture">
-    </a>
+    
+    <img src="/publications/2023-12-v1-monkey-neuroai/featured_hu73e82be02d57f57f4772a79a1325a438_119058_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8784,13 +9027,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2023</time>
+    <time datetime="2023-12-10">December 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -8833,11 +9079,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2306.13104" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2306.13104" target="_blank" rel="noopener" aria-label="Preprint: Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
   Preprint
 </a>
 
@@ -8846,7 +9096,7 @@
   
     
   
-<a class="button" href="https://dl.acm.org/doi/10.5555/3666122.3669596" target="_blank" rel="noopener">
+<a class="button" href="https://dl.acm.org/doi/10.5555/3666122.3669596" target="_blank" rel="noopener" aria-label="DOI: Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
   DOI
 </a>
 
@@ -8858,7 +9108,7 @@
 
 
 
-<a class="button" href="/publications/2023-12-hilo-stimulus-encoding/2023-12-granley-hilo-dse.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-12-hilo-stimulus-encoding/2023-12-granley-hilo-dse.pdf" target="_blank" rel="noopener" aria-label="PDF: Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
   PDF
 </a>
 
@@ -8867,7 +9117,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2023-NeurIPS-HILO" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2023-NeurIPS-HILO" target="_blank" rel="noopener" aria-label="Code: Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
   Code
 </a>
 
@@ -8877,7 +9127,7 @@
   
     
   
-<a class="button" href="https://neurips.cc/virtual/2023/poster/71249" target="_blank" rel="noopener">
+<a class="button" href="https://neurips.cc/virtual/2023/poster/71249" target="_blank" rel="noopener" aria-label="Poster: Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
   Poster
 </a>
 
@@ -8903,9 +9153,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-12-hilo-stimulus-encoding/" >
-      <img src="/publications/2023-12-hilo-stimulus-encoding/featured_hue70167b8aaf56e0966ff3e25d321b857_873246_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
-    </a>
+    
+    <img src="/publications/2023-12-hilo-stimulus-encoding/featured_hue70167b8aaf56e0966ff3e25d321b857_873246_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9015,13 +9264,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2023</time>
+    <time datetime="2023-12-10">December 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -9064,17 +9316,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/10.1101/2023.05.30.542912v1" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/10.1101/2023.05.30.542912v1" target="_blank" rel="noopener" aria-label="Preprint: Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1101/2023.05.30.542912" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2023.05.30.542912" target="_blank" rel="noopener" aria-label="DOI: Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
   DOI
 </a>
 
@@ -9085,7 +9341,7 @@
 
 
 
-<a class="button" href="/publications/2023-12-v1-mouse/2023-xu-mouse-v1.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-12-v1-mouse/2023-xu-mouse-v1.pdf" target="_blank" rel="noopener" aria-label="PDF: Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
   PDF
 </a>
 
@@ -9094,7 +9350,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2023-Xu-Multimodal-Mouse-V1" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2023-Xu-Multimodal-Mouse-V1" target="_blank" rel="noopener" aria-label="Code: Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
   Code
 </a>
 
@@ -9103,7 +9359,7 @@
   
     
   
-<a class="button" href="https://osf.io/msp3a/" target="_blank" rel="noopener">
+<a class="button" href="https://osf.io/msp3a/" target="_blank" rel="noopener" aria-label="Dataset: Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
   Dataset
 </a>
 
@@ -9112,7 +9368,7 @@
   
     
   
-<a class="button" href="https://neurips.cc/virtual/2023/poster/70332" target="_blank" rel="noopener">
+<a class="button" href="https://neurips.cc/virtual/2023/poster/70332" target="_blank" rel="noopener" aria-label="Poster: Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
   Poster
 </a>
 
@@ -9138,9 +9394,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-12-v1-mouse/" >
-      <img src="/publications/2023-12-v1-mouse/featured_hud5f7f2e3b41b0f609fa54ebe0a30618c_58731_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
-    </a>
+    
+    <img src="/publications/2023-12-v1-mouse/featured_hud5f7f2e3b41b0f609fa54ebe0a30618c_58731_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9250,13 +9505,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2023</time>
+    <time datetime="2023-08-25">August 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -9304,6 +9562,10 @@
 
 
 
+
+
+
+
   
 
 
@@ -9329,9 +9591,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-08-eye-tracking-suite/" >
-      <img src="/publications/2023-08-eye-tracking-suite/featured_hu501d27eb9ca3fa5370e933cdeb5b5100_59398_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="EyeTTS: Evaluating and Calibrating Eye Tracking for Mixed-Reality Locomotion">
-    </a>
+    
+    <img src="/publications/2023-08-eye-tracking-suite/featured_hu501d27eb9ca3fa5370e933cdeb5b5100_59398_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9441,13 +9702,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2023</time>
+    <time datetime="2023-05-18">May 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -9490,11 +9754,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2023.01.13.523982" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2023.01.13.523982" target="_blank" rel="noopener" aria-label="Preprint: Retinal ganglion cells undergo cell type--specific functional changes in a computational model of cone-mediated retinal degeneration">
   Preprint
 </a>
 
@@ -9503,7 +9771,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.3389/fnins.2023.1147729" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.3389/fnins.2023.1147729" target="_blank" rel="noopener" aria-label="DOI: Retinal ganglion cells undergo cell type--specific functional changes in a computational model of cone-mediated retinal degeneration">
   DOI
 </a>
 
@@ -9515,7 +9783,7 @@
 
 
 
-<a class="button" href="/publications/2023-05-retinal-degeneration/2023-frontiers-xu-degeneration.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-05-retinal-degeneration/2023-frontiers-xu-degeneration.pdf" target="_blank" rel="noopener" aria-label="PDF: Retinal ganglion cells undergo cell type--specific functional changes in a computational model of cone-mediated retinal degeneration">
   PDF
 </a>
 
@@ -9524,7 +9792,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2023-Xu-Retinal-Degeneration" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2023-Xu-Retinal-Degeneration" target="_blank" rel="noopener" aria-label="Code: Retinal ganglion cells undergo cell type--specific functional changes in a computational model of cone-mediated retinal degeneration">
   Code
 </a>
 
@@ -9552,9 +9820,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-05-retinal-degeneration/" >
-      <img src="/publications/2023-05-retinal-degeneration/featured_hua4b466be11fd53dd32bbc08d158d68cb_274810_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Retinal ganglion cells undergo cell type--specific functional changes in a computational model of cone-mediated retinal degeneration">
-    </a>
+    
+    <img src="/publications/2023-05-retinal-degeneration/featured_hua4b466be11fd53dd32bbc08d158d68cb_274810_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9664,13 +9931,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2023</time>
+    <time datetime="2023-05-04">May 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -9713,17 +9983,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2109.04995" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2109.04995" target="_blank" rel="noopener" aria-label="Preprint: A systematic review of extended reality (XR) for understanding and augmenting vision loss">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1167/jov.23.5.5" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1167/jov.23.5.5" target="_blank" rel="noopener" aria-label="DOI: A systematic review of extended reality (XR) for understanding and augmenting vision loss">
   DOI
 </a>
 
@@ -9734,7 +10008,7 @@
 
 
 
-<a class="button" href="/publications/2023-05-xr-systematic-review/2023-kasowski-johnson-jov-xr-review.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-05-xr-systematic-review/2023-kasowski-johnson-jov-xr-review.pdf" target="_blank" rel="noopener" aria-label="PDF: A systematic review of extended reality (XR) for understanding and augmenting vision loss">
   PDF
 </a>
 
@@ -9763,9 +10037,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-05-xr-systematic-review/" >
-      <img src="/publications/2023-05-xr-systematic-review/featured_hud9413827741aec24ee922275aabfb935_111057_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A systematic review of extended reality (XR) for understanding and augmenting vision loss">
-    </a>
+    
+    <img src="/publications/2023-05-xr-systematic-review/featured_hud9413827741aec24ee922275aabfb935_111057_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9875,13 +10148,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2023</time>
+    <time datetime="2023-04-25">April 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -9925,11 +10201,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://patents.google.com/patent/US11636317/en" target="_blank" rel="noopener">
+<a class="button" href="https://patents.google.com/patent/US11636317/en" target="_blank" rel="noopener" aria-label="DOI: Long-short term memory (LSTM) cells on spiking neuromorphic hardware">
   DOI
 </a>
 
@@ -9966,9 +10246,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-04-neuromorphic-lstm/" >
-      <img src="/publications/2023-04-neuromorphic-lstm/featured_hu99e0fc5d598cd5acbee322e571484c6a_423881_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Long-short term memory (LSTM) cells on spiking neuromorphic hardware">
-    </a>
+    
+    <img src="/publications/2023-04-neuromorphic-lstm/featured_hu99e0fc5d598cd5acbee322e571484c6a_423881_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10078,13 +10357,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2023</time>
+    <time datetime="2023-04-01">April 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -10127,25 +10409,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2212.00081" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2212.00081" target="_blank" rel="noopener" aria-label="Preprint: Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition">
   Preprint
 </a>
 
 
-  
-  
-    
-  
-<a class="button" href="https://doi.org/10.1007/s00422-023-00956-x" target="_blank" rel="noopener">
-  DOI
-</a>
 
-
-<a class="button" href="https://doi.org/10.1007/s00422-023-00956-x" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1007/s00422-023-00956-x" target="_blank" rel="noopener" aria-label="DOI: Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition">
   DOI
 </a>
 
@@ -10156,7 +10434,7 @@
 
 
 
-<a class="button" href="/publications/2023-04-snn-stdp-wta/garcia-snn-stdp-wta.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2023-04-snn-stdp-wta/garcia-snn-stdp-wta.pdf" target="_blank" rel="noopener" aria-label="PDF: Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition">
   PDF
 </a>
 
@@ -10185,9 +10463,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-04-snn-stdp-wta/" >
-      <img src="/publications/2023-04-snn-stdp-wta/featured_hu70137d29d2471252ca399ce1d34c8868_82599_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition">
-    </a>
+    
+    <img src="/publications/2023-04-snn-stdp-wta/featured_hu70137d29d2471252ca399ce1d34c8868_82599_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10300,13 +10577,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2022</time>
+    <time datetime="2022-12-02">December 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -10349,11 +10629,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2209.13561" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2209.13561" target="_blank" rel="noopener" aria-label="Preprint: Adapting brain-like neural networks for modeling cortical visual prostheses">
   Preprint
 </a>
 
@@ -10391,9 +10675,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-12-brain-like-phosphene-model/" >
-      <img src="/publications/2022-12-brain-like-phosphene-model/featured_hue70167b8aaf56e0966ff3e25d321b857_510119_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Adapting brain-like neural networks for modeling cortical visual prostheses">
-    </a>
+    
+    <img src="/publications/2022-12-brain-like-phosphene-model/featured_hue70167b8aaf56e0966ff3e25d321b857_510119_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10503,13 +10786,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2022</time>
+    <time datetime="2022-11-29">November 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -10552,11 +10838,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2208.05066" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2208.05066" target="_blank" rel="noopener" aria-label="Preprint: The relative importance of depth cues and semantic edges for indoor mobility using simulated prosthetic vision in immersive virtual reality">
   Preprint
 </a>
 
@@ -10565,7 +10855,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1145/3562939.3565620" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1145/3562939.3565620" target="_blank" rel="noopener" aria-label="DOI: The relative importance of depth cues and semantic edges for indoor mobility using simulated prosthetic vision in immersive virtual reality">
   DOI
 </a>
 
@@ -10577,7 +10867,7 @@
 
 
 
-<a class="button" href="/publications/2022-11-indoor-mobility/2022-vrst-indoor-mobility.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-11-indoor-mobility/2022-vrst-indoor-mobility.pdf" target="_blank" rel="noopener" aria-label="PDF: The relative importance of depth cues and semantic edges for indoor mobility using simulated prosthetic vision in immersive virtual reality">
   PDF
 </a>
 
@@ -10610,9 +10900,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-11-indoor-mobility/" >
-      <img src="/publications/2022-11-indoor-mobility/featured_hue70167b8aaf56e0966ff3e25d321b857_594223_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="The relative importance of depth cues and semantic edges for indoor mobility using simulated prosthetic vision in immersive virtual reality">
-    </a>
+    
+    <img src="/publications/2022-11-indoor-mobility/featured_hue70167b8aaf56e0966ff3e25d321b857_594223_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10722,13 +11011,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2022</time>
+    <time datetime="2022-11-28">November 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -10771,11 +11063,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.31219/osf.io/fpdyv" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.31219/osf.io/fpdyv" target="_blank" rel="noopener" aria-label="Preprint: Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness">
   Preprint
 </a>
 
@@ -10784,7 +11080,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1088/1741-2552/aca69d" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1088/1741-2552/aca69d" target="_blank" rel="noopener" aria-label="DOI: Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness">
   DOI
 </a>
 
@@ -10796,7 +11092,7 @@
 
 
 
-<a class="button" href="/publications/2022-11-smart-bionic-eye/2022-11-jne-smart-bionic-eye.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-11-smart-bionic-eye/2022-11-jne-smart-bionic-eye.pdf" target="_blank" rel="noopener" aria-label="PDF: Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness">
   PDF
 </a>
 
@@ -10825,9 +11121,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-11-smart-bionic-eye/" >
-      <img src="/publications/2022-11-smart-bionic-eye/featured_hue70167b8aaf56e0966ff3e25d321b857_553419_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness">
-    </a>
+    
+    <img src="/publications/2022-11-smart-bionic-eye/featured_hue70167b8aaf56e0966ff3e25d321b857_553419_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10937,13 +11232,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2022</time>
+    <time datetime="2022-11-28">November 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -10986,11 +11284,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2205.13623" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2205.13623" target="_blank" rel="noopener" aria-label="Preprint: Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
   Preprint
 </a>
 
@@ -10999,7 +11301,7 @@
   
     
   
-<a class="button" href="https://papers.nips.cc/paper_files/paper/2022/hash/8e9a6582caa59fda0302349702965171-Abstract-Conference.html" target="_blank" rel="noopener">
+<a class="button" href="https://papers.nips.cc/paper_files/paper/2022/hash/8e9a6582caa59fda0302349702965171-Abstract-Conference.html" target="_blank" rel="noopener" aria-label="DOI: Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
   DOI
 </a>
 
@@ -11011,7 +11313,7 @@
 
 
 
-<a class="button" href="/publications/2022-11-hybrid-neural-autoencoder/2022-neurips-granley.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-11-hybrid-neural-autoencoder/2022-neurips-granley.pdf" target="_blank" rel="noopener" aria-label="PDF: Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
   PDF
 </a>
 
@@ -11022,7 +11324,7 @@
   
     
   
-<a class="button" href="https://neurips.cc/media/PosterPDFs/NeurIPS%202022/52906.png?t=1669149608.18866" target="_blank" rel="noopener">
+<a class="button" href="https://neurips.cc/media/PosterPDFs/NeurIPS%202022/52906.png?t=1669149608.18866" target="_blank" rel="noopener" aria-label="Poster: Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
   Poster
 </a>
 
@@ -11043,7 +11345,7 @@
   
     
   
-<a class="button" href="https://neurips.cc/virtual/2022/poster/52906" target="_blank" rel="noopener">
+<a class="button" href="https://neurips.cc/virtual/2022/poster/52906" target="_blank" rel="noopener" aria-label="Video: Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
   Video
 </a>
 
@@ -11056,9 +11358,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-11-hybrid-neural-autoencoder/" >
-      <img src="/publications/2022-11-hybrid-neural-autoencoder/featured_hu8ec43c8e64ab02242f8ac2c162b39385_1341146_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
-    </a>
+    
+    <img src="/publications/2022-11-hybrid-neural-autoencoder/featured_hu8ec43c8e64ab02242f8ac2c162b39385_1341146_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11168,13 +11469,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2022</time>
+    <time datetime="2022-09-19">September 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -11217,11 +11521,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2203.02493" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2203.02493" target="_blank" rel="noopener" aria-label="Preprint: Greedy optimization of electrode arrangement for epiretinal prostheses">
   Preprint
 </a>
 
@@ -11234,7 +11542,7 @@
 
 
 
-<a class="button" href="/publications/2022-09-epiretinal-design/2022-miccai-bruce.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-09-epiretinal-design/2022-miccai-bruce.pdf" target="_blank" rel="noopener" aria-label="PDF: Greedy optimization of electrode arrangement for epiretinal prostheses">
   PDF
 </a>
 
@@ -11263,9 +11571,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-09-epiretinal-design/" >
-      <img src="/publications/2022-09-epiretinal-design/featured_hubc6f204ac649d105c320a0e2e1a13e57_2432691_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Greedy optimization of electrode arrangement for epiretinal prostheses">
-    </a>
+    
+    <img src="/publications/2022-09-epiretinal-design/featured_hubc6f204ac649d105c320a0e2e1a13e57_2432691_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11375,13 +11682,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2022</time>
+    <time datetime="2022-08-24">August 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -11425,11 +11735,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.3389/fnins.2022.901337" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.3389/fnins.2022.901337" target="_blank" rel="noopener" aria-label="DOI: Factors affecting two-point discrimination in Argus II patients">
   DOI
 </a>
 
@@ -11441,7 +11755,7 @@
 
 
 
-<a class="button" href="/publications/2022-08-factors-two-point-argus/2022-fnins-yucel.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-08-factors-two-point-argus/2022-fnins-yucel.pdf" target="_blank" rel="noopener" aria-label="PDF: Factors affecting two-point discrimination in Argus II patients">
   PDF
 </a>
 
@@ -11470,9 +11784,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-08-factors-two-point-argus/" >
-      <img src="/publications/2022-08-factors-two-point-argus/featured_hue70167b8aaf56e0966ff3e25d321b857_202911_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Factors affecting two-point discrimination in Argus II patients">
-    </a>
+    
+    <img src="/publications/2022-08-factors-two-point-argus/featured_hue70167b8aaf56e0966ff3e25d321b857_202911_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11582,13 +11895,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2022</time>
+    <time datetime="2022-06-22">June 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -11632,11 +11948,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1523/JNEUROSCI.0384-22.2022" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1523/JNEUROSCI.0384-22.2022" target="_blank" rel="noopener" aria-label="DOI: Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules">
   DOI
 </a>
 
@@ -11648,7 +11968,7 @@
 
 
 
-<a class="button" href="/publications/2022-06-motion-perception-stdp-h/2022-jneurosci-chen.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-06-motion-perception-stdp-h/2022-jneurosci-chen.pdf" target="_blank" rel="noopener" aria-label="PDF: Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules">
   PDF
 </a>
 
@@ -11677,9 +11997,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-06-motion-perception-stdp-h/" >
-      <img src="/publications/2022-06-motion-perception-stdp-h/featured_hu08693bcce7d6c2cd9c254152d8cb6c2a_445287_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules">
-    </a>
+    
+    <img src="/publications/2022-06-motion-perception-stdp-h/featured_hu08693bcce7d6c2cd9c254152d8cb6c2a_445287_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11789,13 +12108,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2022</time>
+    <time datetime="2022-06-19">June 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -11838,11 +12160,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2205.10338" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2205.10338" target="_blank" rel="noopener" aria-label="Preprint: Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition">
   Preprint
 </a>
 
@@ -11857,7 +12183,7 @@
 
 
 
-<a class="button" href="https://drive.google.com/file/d/10qM5npzeHSTGTavJHFNxejnFiyeFId2B/view" target="_blank" rel="noopener">
+<a class="button" href="https://drive.google.com/file/d/10qM5npzeHSTGTavJHFNxejnFiyeFId2B/view" target="_blank" rel="noopener" aria-label="PDF: Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition">
   PDF
 </a>
 
@@ -11886,9 +12212,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-06-spike-latency-winner-take-all/" >
-      <img src="/publications/2022-06-spike-latency-winner-take-all/featured_hu5f17d67d38b28523a0e563399a0d85fe_67344_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition">
-    </a>
+    
+    <img src="/publications/2022-06-spike-latency-winner-take-all/featured_hu5f17d67d38b28523a0e563399a0d85fe_67344_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11998,13 +12323,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2022</time>
+    <time datetime="2022-03-07">March 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -12047,11 +12375,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2203.05675" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2203.05675" target="_blank" rel="noopener" aria-label="Preprint: Immersive virtual reality simulations of bionic vision">
   Preprint
 </a>
 
@@ -12060,7 +12392,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1145/3519391.3522752" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1145/3519391.3522752" target="_blank" rel="noopener" aria-label="DOI: Immersive virtual reality simulations of bionic vision">
   DOI
 </a>
 
@@ -12072,7 +12404,7 @@
 
 
 
-<a class="button" href="/publications/2022-03-immersive-vr/2022-ahs-kasowski.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-03-immersive-vr/2022-ahs-kasowski.pdf" target="_blank" rel="noopener" aria-label="PDF: Immersive virtual reality simulations of bionic vision">
   PDF
 </a>
 
@@ -12081,7 +12413,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2022-kasowski-immersive" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2022-kasowski-immersive" target="_blank" rel="noopener" aria-label="Code: Immersive virtual reality simulations of bionic vision">
   Code
 </a>
 
@@ -12109,9 +12441,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-03-immersive-vr/" >
-      <img src="/publications/2022-03-immersive-vr/featured_hu5e96d0ee6aca0dcafb585563c620ecf0_176877_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Immersive virtual reality simulations of bionic vision">
-    </a>
+    
+    <img src="/publications/2022-03-immersive-vr/featured_hu5e96d0ee6aca0dcafb585563c620ecf0_176877_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12221,13 +12552,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2022</time>
+    <time datetime="2022-03-07">March 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -12270,11 +12604,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2203.05604" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2203.05604" target="_blank" rel="noopener" aria-label="Preprint: Deep learning-based perceptual stimulus encoder for bionic vision">
   Preprint
 </a>
 
@@ -12283,7 +12621,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1145/3519391.3524034" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1145/3519391.3524034" target="_blank" rel="noopener" aria-label="DOI: Deep learning-based perceptual stimulus encoder for bionic vision">
   DOI
 </a>
 
@@ -12295,7 +12633,7 @@
 
 
 
-<a class="button" href="/publications/2022-03-deep-stimulus-encoder/2022-ahs-relic.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2022-03-deep-stimulus-encoder/2022-ahs-relic.pdf" target="_blank" rel="noopener" aria-label="PDF: Deep learning-based perceptual stimulus encoder for bionic vision">
   PDF
 </a>
 
@@ -12324,9 +12662,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-03-deep-stimulus-encoder/" >
-      <img src="/publications/2022-03-deep-stimulus-encoder/featured_hue70167b8aaf56e0966ff3e25d321b857_248285_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Deep learning-based perceptual stimulus encoder for bionic vision">
-    </a>
+    
+    <img src="/publications/2022-03-deep-stimulus-encoder/featured_hue70167b8aaf56e0966ff3e25d321b857_248285_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12439,13 +12776,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2021</time>
+    <time datetime="2021-12-22">December 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -12489,11 +12829,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1167/jov.21.13.10" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1167/jov.21.13.10" target="_blank" rel="noopener" aria-label="DOI: Learning to see again: Perceptual learning of simulated abnormal on- off-cell population responses in sighted individuals">
   DOI
 </a>
 
@@ -12505,7 +12849,7 @@
 
 
 
-<a class="button" href="/publications/2021-learning-to-see-again/2021-jvis-esquenazi.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2021-learning-to-see-again/2021-jvis-esquenazi.pdf" target="_blank" rel="noopener" aria-label="PDF: Learning to see again: Perceptual learning of simulated abnormal on- off-cell population responses in sighted individuals">
   PDF
 </a>
 
@@ -12534,9 +12878,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-learning-to-see-again/" >
-      <img src="/publications/2021-learning-to-see-again/featured_hu1fbaffeff692cfef26054ba2ffca4fa3_116636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Learning to see again: Perceptual learning of simulated abnormal on- off-cell population responses in sighted individuals">
-    </a>
+    
+    <img src="/publications/2021-learning-to-see-again/featured_hu1fbaffeff692cfef26054ba2ffca4fa3_116636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12646,13 +12989,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2021</time>
+    <time datetime="2021-11-01">November 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -12695,11 +13041,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2021.06.07.447426" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2021.06.07.447426" target="_blank" rel="noopener" aria-label="Preprint: A computational model of phosphene appearance for epiretinal prostheses">
   Preprint
 </a>
 
@@ -12708,7 +13058,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1109/EMBC46164.2021.9629663" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/EMBC46164.2021.9629663" target="_blank" rel="noopener" aria-label="DOI: A computational model of phosphene appearance for epiretinal prostheses">
   DOI
 </a>
 
@@ -12720,7 +13070,7 @@
 
 
 
-<a class="button" href="/publications/2021-biphasic-axon-map/2021-ieee-embc-granley.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2021-biphasic-axon-map/2021-ieee-embc-granley.pdf" target="_blank" rel="noopener" aria-label="PDF: A computational model of phosphene appearance for epiretinal prostheses">
   PDF
 </a>
 
@@ -12729,7 +13079,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2021-BiphasicAxonMap" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2021-BiphasicAxonMap" target="_blank" rel="noopener" aria-label="Code: A computational model of phosphene appearance for epiretinal prostheses">
   Code
 </a>
 
@@ -12757,9 +13107,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-biphasic-axon-map/" >
-      <img src="/publications/2021-biphasic-axon-map/featured_hu283fb22e554a6e8f76d10a3bcd50e0b9_44936_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A computational model of phosphene appearance for epiretinal prostheses">
-    </a>
+    
+    <img src="/publications/2021-biphasic-axon-map/featured_hu283fb22e554a6e8f76d10a3bcd50e0b9_44936_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12869,13 +13218,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2021</time>
+    <time datetime="2021-09-27">September 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -12918,11 +13270,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2107.04721" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2107.04721" target="_blank" rel="noopener" aria-label="Preprint: U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina">
   Preprint
 </a>
 
@@ -12931,7 +13287,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1007/978-3-030-87000-3_7" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1007/978-3-030-87000-3_7" target="_blank" rel="noopener" aria-label="DOI: U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina">
   DOI
 </a>
 
@@ -12943,7 +13299,7 @@
 
 
 
-<a class="button" href="/publications/2021-hba-u-net/2021-miccai-w-tang.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2021-hba-u-net/2021-miccai-w-tang.pdf" target="_blank" rel="noopener" aria-label="PDF: U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina">
   PDF
 </a>
 
@@ -12968,9 +13324,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-hba-u-net/" >
-      <img src="/publications/2021-hba-u-net/featured_hub52c2375a1eeb3a8107f8d6c60bb3620_41593_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina">
-    </a>
+    
+    <img src="/publications/2021-hba-u-net/featured_hub52c2375a1eeb3a8107f8d6c60bb3620_41593_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -13080,13 +13435,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2021</time>
+    <time datetime="2021-05-04">May 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -13129,11 +13487,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/2021.03.07.21253092" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/2021.03.07.21253092" target="_blank" rel="noopener" aria-label="Preprint: Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures">
   Preprint
 </a>
 
@@ -13142,7 +13504,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1109/NER49283.2021.9441194" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/NER49283.2021.9441194" target="_blank" rel="noopener" aria-label="DOI: Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures">
   DOI
 </a>
 
@@ -13154,7 +13516,7 @@
 
 
 
-<a class="button" href="/publications/2021-explainable-ai/2021-ieee-ner-hu.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2021-explainable-ai/2021-ieee-ner-hu.pdf" target="_blank" rel="noopener" aria-label="PDF: Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures">
   PDF
 </a>
 
@@ -13183,9 +13545,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-explainable-ai/" >
-      <img src="/publications/2021-explainable-ai/featured_hue040fabfb91f9bb3cb2dffff8cf511b9_120820_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures">
-    </a>
+    
+    <img src="/publications/2021-explainable-ai/featured_hue040fabfb91f9bb3cb2dffff8cf511b9_120820_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -13295,13 +13656,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2021</time>
+    <time datetime="2021-02-23">February 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -13344,11 +13708,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2102.10678" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2102.10678" target="_blank" rel="noopener" aria-label="Preprint: Towards immersive virtual reality simulations of bionic vision">
   Preprint
 </a>
 
@@ -13357,7 +13725,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1145/3458709.3459003" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1145/3458709.3459003" target="_blank" rel="noopener" aria-label="DOI: Towards immersive virtual reality simulations of bionic vision">
   DOI
 </a>
 
@@ -13369,7 +13737,7 @@
 
 
 
-<a class="button" href="/publications/2021-towards-immersive-vr/2021-ahs-kasowski.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2021-towards-immersive-vr/2021-ahs-kasowski.pdf" target="_blank" rel="noopener" aria-label="PDF: Towards immersive virtual reality simulations of bionic vision">
   PDF
 </a>
 
@@ -13393,7 +13761,7 @@
   
     
   
-<a class="button" href="https://youtu.be/qUxU-GsveYE" target="_blank" rel="noopener">
+<a class="button" href="https://youtu.be/qUxU-GsveYE" target="_blank" rel="noopener" aria-label="Video: Towards immersive virtual reality simulations of bionic vision">
   Video
 </a>
 
@@ -13406,9 +13774,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-towards-immersive-vr/" >
-      <img src="/publications/2021-towards-immersive-vr/featured_hu790b6ae7fd4cbb86adc495f8ef1ecf38_520606_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Towards immersive virtual reality simulations of bionic vision">
-    </a>
+    
+    <img src="/publications/2021-towards-immersive-vr/featured_hu790b6ae7fd4cbb86adc495f8ef1ecf38_520606_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -13518,13 +13885,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2021</time>
+    <time datetime="2021-02-22">February 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -13567,11 +13937,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://arxiv.org/abs/2102.00297" target="_blank" rel="noopener">
+<a class="button" href="https://arxiv.org/abs/2102.00297" target="_blank" rel="noopener" aria-label="Preprint: Deep learning-based scene simplification for bionic vision">
   Preprint
 </a>
 
@@ -13580,7 +13954,7 @@
   
     
   
-<a class="button" href="https://doi.org/10.1145/3458709.3458982" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1145/3458709.3458982" target="_blank" rel="noopener" aria-label="DOI: Deep learning-based scene simplification for bionic vision">
   DOI
 </a>
 
@@ -13592,7 +13966,7 @@
 
 
 
-<a class="button" href="/publications/2021-scene-simplification/2021-ahs-han.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2021-scene-simplification/2021-ahs-han.pdf" target="_blank" rel="noopener" aria-label="PDF: Deep learning-based scene simplification for bionic vision">
   PDF
 </a>
 
@@ -13601,7 +13975,7 @@
   
     
   
-<a class="button" href="https://github.com/bionicvisionlab/2021-han-scene-simplification" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/bionicvisionlab/2021-han-scene-simplification" target="_blank" rel="noopener" aria-label="Code: Deep learning-based scene simplification for bionic vision">
   Code
 </a>
 
@@ -13610,7 +13984,7 @@
   
     
   
-<a class="button" href="https://osf.io/s2udz" target="_blank" rel="noopener">
+<a class="button" href="https://osf.io/s2udz" target="_blank" rel="noopener" aria-label="Dataset: Deep learning-based scene simplification for bionic vision">
   Dataset
 </a>
 
@@ -13632,7 +14006,7 @@
   
     
   
-<a class="button" href="https://youtu.be/93Pog6-yDFI" target="_blank" rel="noopener">
+<a class="button" href="https://youtu.be/93Pog6-yDFI" target="_blank" rel="noopener" aria-label="Video: Deep learning-based scene simplification for bionic vision">
   Video
 </a>
 
@@ -13645,9 +14019,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-scene-simplification/" >
-      <img src="/publications/2021-scene-simplification/featured_huc0d029b921c1772c064284aa702772da_95028_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Deep learning-based scene simplification for bionic vision">
-    </a>
+    
+    <img src="/publications/2021-scene-simplification/featured_huc0d029b921c1772c064284aa702772da_95028_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -13760,13 +14133,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2019</time>
+    <time datetime="2019-10-10">October 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -13809,17 +14185,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1101/743484" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1101/743484" target="_blank" rel="noopener" aria-label="Preprint: Model-based recommendations for optimal surgical placement of epiretinal implants">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1007/978-3-030-32254-0_44" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1007/978-3-030-32254-0_44" target="_blank" rel="noopener" aria-label="DOI: Model-based recommendations for optimal surgical placement of epiretinal implants">
   DOI
 </a>
 
@@ -13830,7 +14210,7 @@
 
 
 
-<a class="button" href="/publications/2019-optimal-surgical-placement/2019-optimal-surgical-placement.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2019-optimal-surgical-placement/2019-optimal-surgical-placement.pdf" target="_blank" rel="noopener" aria-label="PDF: Model-based recommendations for optimal surgical placement of epiretinal implants">
   PDF
 </a>
 
@@ -13839,7 +14219,7 @@
 
 
 
-<a class="button" href="/publications/2019-optimal-surgical-placement/cite.bib">
+<a class="button" href="/publications/2019-optimal-surgical-placement/cite.bib" aria-label="Cite: Model-based recommendations for optimal surgical placement of epiretinal implants">
   Cite
 </a>
 
@@ -13863,9 +14243,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-optimal-surgical-placement/" >
-      <img src="/publications/2019-optimal-surgical-placement/featured_hub18654734195a61b769175fc692b21c3_210304_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Model-based recommendations for optimal surgical placement of epiretinal implants">
-    </a>
+    
+    <img src="/publications/2019-optimal-surgical-placement/featured_hub18654734195a61b769175fc692b21c3_210304_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -13975,13 +14354,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2019</time>
+    <time datetime="2019-07-17">July 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -14026,7 +14408,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1016/j.conb.2019.06.008" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1016/j.conb.2019.06.008" target="_blank" rel="noopener" aria-label="DOI: Data-driven models in human neuroscience and neuroengineering">
   DOI
 </a>
 
@@ -14037,7 +14423,7 @@
 
 
 
-<a class="button" href="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/2019-brunton-beyeler.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/2019-brunton-beyeler.pdf" target="_blank" rel="noopener" aria-label="PDF: Data-driven models in human neuroscience and neuroengineering">
   PDF
 </a>
 
@@ -14046,7 +14432,7 @@
 
 
 
-<a class="button" href="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/cite.bib">
+<a class="button" href="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/cite.bib" aria-label="Cite: Data-driven models in human neuroscience and neuroengineering">
   Cite
 </a>
 
@@ -14066,9 +14452,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/" >
-      <img src="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/featured_hua244b7f56814d401e0661a1bc678db5f_42665_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Data-driven models in human neuroscience and neuroengineering">
-    </a>
+    
+    <img src="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/featured_hua244b7f56814d401e0661a1bc678db5f_42665_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -14178,13 +14563,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2019</time>
+    <time datetime="2019-06-27">June 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -14227,17 +14615,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/10.1101/149880v1" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/10.1101/149880v1" target="_blank" rel="noopener" aria-label="Preprint: Neural correlates of sparse coding and dimensionality reduction">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1371/journal.pcbi.1006908" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1371/journal.pcbi.1006908" target="_blank" rel="noopener" aria-label="DOI: Neural correlates of sparse coding and dimensionality reduction">
   DOI
 </a>
 
@@ -14248,7 +14640,7 @@
 
 
 
-<a class="button" href="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/2019-neural-correlates-sparse-coding-dimensionality-reduction.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/2019-neural-correlates-sparse-coding-dimensionality-reduction.pdf" target="_blank" rel="noopener" aria-label="PDF: Neural correlates of sparse coding and dimensionality reduction">
   PDF
 </a>
 
@@ -14257,7 +14649,7 @@
 
 
 
-<a class="button" href="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/cite.bib">
+<a class="button" href="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/cite.bib" aria-label="Cite: Neural correlates of sparse coding and dimensionality reduction">
   Cite
 </a>
 
@@ -14281,9 +14673,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/" >
-      <img src="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/featured_hu625b1480fef3fcb1a959299869c10262_431604_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Neural correlates of sparse coding and dimensionality reduction">
-    </a>
+    
+    <img src="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/featured_hu625b1480fef3fcb1a959299869c10262_431604_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -14393,13 +14784,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2019</time>
+    <time datetime="2019-06-24">June 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -14442,17 +14836,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/10.1101/453035v2" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/10.1101/453035v2" target="_blank" rel="noopener" aria-label="Preprint: A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1038/s41598-019-45416-4" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1038/s41598-019-45416-4" target="_blank" rel="noopener" aria-label="DOI: A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
   DOI
 </a>
 
@@ -14463,7 +14861,7 @@
 
 
 
-<a class="button" href="/publications/2019-axon-map-model/2019-axon-map-model.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2019-axon-map-model/2019-axon-map-model.pdf" target="_blank" rel="noopener" aria-label="PDF: A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
   PDF
 </a>
 
@@ -14472,7 +14870,7 @@
   
     
   
-<a class="button" href="https://github.com/VisCog/ArgusShapes" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/VisCog/ArgusShapes" target="_blank" rel="noopener" aria-label="Code: A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
   Code
 </a>
 
@@ -14481,14 +14879,14 @@
   
     
   
-<a class="button" href="https://osf.io/dw9nz" target="_blank" rel="noopener">
+<a class="button" href="https://osf.io/dw9nz" target="_blank" rel="noopener" aria-label="Dataset: A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
   Dataset
 </a>
 
 
 
 
-<a class="button" href="/publications/2019-axon-map-model/cite.bib">
+<a class="button" href="/publications/2019-axon-map-model/cite.bib" aria-label="Cite: A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
   Cite
 </a>
 
@@ -14512,9 +14910,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-axon-map-model/" >
-      <img src="/publications/2019-axon-map-model/featured_hu312c1289ced52dfe0a8a36166915e5d9_93562_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
-    </a>
+    
+    <img src="/publications/2019-axon-map-model/featured_hu312c1289ced52dfe0a8a36166915e5d9_93562_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -14624,13 +15021,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2019</time>
+    <time datetime="2019-05-20">May 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -14673,17 +15073,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/early/2018/09/23/424622" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/early/2018/09/23/424622" target="_blank" rel="noopener" aria-label="Preprint: Biophysical model of axonal stimulation in epiretinal visual prostheses">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1109/NER.2019.8716969" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/NER.2019.8716969" target="_blank" rel="noopener" aria-label="DOI: Biophysical model of axonal stimulation in epiretinal visual prostheses">
   DOI
 </a>
 
@@ -14694,7 +15098,7 @@
 
 
 
-<a class="button" href="/publications/2019-biophysical-model-axonal-stimulation/2019-biophysical-model-axonal-stimulation.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2019-biophysical-model-axonal-stimulation/2019-biophysical-model-axonal-stimulation.pdf" target="_blank" rel="noopener" aria-label="PDF: Biophysical model of axonal stimulation in epiretinal visual prostheses">
   PDF
 </a>
 
@@ -14703,7 +15107,7 @@
 
 
 
-<a class="button" href="/publications/2019-biophysical-model-axonal-stimulation/cite.bib">
+<a class="button" href="/publications/2019-biophysical-model-axonal-stimulation/cite.bib" aria-label="Cite: Biophysical model of axonal stimulation in epiretinal visual prostheses">
   Cite
 </a>
 
@@ -14727,9 +15131,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-biophysical-model-axonal-stimulation/" >
-      <img src="/publications/2019-biophysical-model-axonal-stimulation/featured_hubc79cd81bd1f6ec77952a9e1fd28a562_37172_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Biophysical model of axonal stimulation in epiretinal visual prostheses">
-    </a>
+    
+    <img src="/publications/2019-biophysical-model-axonal-stimulation/featured_hubc79cd81bd1f6ec77952a9e1fd28a562_37172_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -14839,13 +15242,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2019</time>
+    <time datetime="2019-05-10">May 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -14888,17 +15294,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://osf.io/preprints/temqd" target="_blank" rel="noopener">
+<a class="button" href="https://osf.io/preprints/temqd" target="_blank" rel="noopener" aria-label="Preprint: Commentary: Detailed visual cortical responses generated by retinal sheet transplants in rats with severe retinal degeneration">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.3389/fnins.2019.00471" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.3389/fnins.2019.00471" target="_blank" rel="noopener" aria-label="DOI: Commentary: Detailed visual cortical responses generated by retinal sheet transplants in rats with severe retinal degeneration">
   DOI
 </a>
 
@@ -14909,7 +15319,7 @@
 
 
 
-<a class="button" href="/publications/2019-retinal-sheet-transplants/2019-retinal-sheet-transplants.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2019-retinal-sheet-transplants/2019-retinal-sheet-transplants.pdf" target="_blank" rel="noopener" aria-label="PDF: Commentary: Detailed visual cortical responses generated by retinal sheet transplants in rats with severe retinal degeneration">
   PDF
 </a>
 
@@ -14918,7 +15328,7 @@
 
 
 
-<a class="button" href="/publications/2019-retinal-sheet-transplants/cite.bib">
+<a class="button" href="/publications/2019-retinal-sheet-transplants/cite.bib" aria-label="Cite: Commentary: Detailed visual cortical responses generated by retinal sheet transplants in rats with severe retinal degeneration">
   Cite
 </a>
 
@@ -15046,13 +15456,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2018</time>
+    <time datetime="2018-07-13">July 2018</time>
   </span>
   
   
 
+  
   
 
   
@@ -15097,7 +15510,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1109/IJCNN.2018.8489326" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1109/IJCNN.2018.8489326" target="_blank" rel="noopener" aria-label="DOI: CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters">
   DOI
 </a>
 
@@ -15108,7 +15525,7 @@
 
 
 
-<a class="button" href="/publications/2018-carlsim4/2018-ijcnn-carlsim4.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2018-carlsim4/2018-ijcnn-carlsim4.pdf" target="_blank" rel="noopener" aria-label="PDF: CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters">
   PDF
 </a>
 
@@ -15117,7 +15534,7 @@
   
     
   
-<a class="button" href="https://github.com/UCI-CARL/CARLsim4" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/UCI-CARL/CARLsim4" target="_blank" rel="noopener" aria-label="Code: CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters">
   Code
 </a>
 
@@ -15141,9 +15558,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2018-carlsim4/" >
-      <img src="/publications/2018-carlsim4/featured_hu1997bf28cb61ba8ec469bb961dfa29b9_218339_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters">
-    </a>
+    
+    <img src="/publications/2018-carlsim4/featured_hu1997bf28cb61ba8ec469bb961dfa29b9_218339_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -15256,13 +15672,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2017</time>
+    <time datetime="2017-08-22">August 2017</time>
   </span>
   
   
 
+  
   
 
   
@@ -15305,17 +15724,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener" aria-label="Preprint: Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1088/1741-2552/aa795e" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1088/1741-2552/aa795e" target="_blank" rel="noopener" aria-label="DOI: Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies">
   DOI
 </a>
 
@@ -15326,7 +15749,7 @@
 
 
 
-<a class="button" href="/publications/2017-learning-to-see-again/2017-learning-to-see-again.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2017-learning-to-see-again/2017-learning-to-see-again.pdf" target="_blank" rel="noopener" aria-label="PDF: Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies">
   PDF
 </a>
 
@@ -15335,7 +15758,7 @@
 
 
 
-<a class="button" href="/publications/2017-learning-to-see-again/cite.bib">
+<a class="button" href="/publications/2017-learning-to-see-again/cite.bib" aria-label="Cite: Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies">
   Cite
 </a>
 
@@ -15359,9 +15782,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2017-learning-to-see-again/" >
-      <img src="/publications/2017-learning-to-see-again/featured_hu0b590a3dfb0869659599faa7986f0370_476950_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies">
-    </a>
+    
+    <img src="/publications/2017-learning-to-see-again/featured_hu0b590a3dfb0869659599faa7986f0370_476950_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -15471,13 +15893,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2017</time>
+    <time datetime="2017-07-01">July 2017</time>
   </span>
   
   
 
+  
   
 
   
@@ -15520,17 +15945,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener" aria-label="Preprint: pulse2percept: A Python-based simulation framework for bionic vision">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.25080/shinma-7f4c6e7-00c" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.25080/shinma-7f4c6e7-00c" target="_blank" rel="noopener" aria-label="DOI: pulse2percept: A Python-based simulation framework for bionic vision">
   DOI
 </a>
 
@@ -15541,7 +15970,7 @@
 
 
 
-<a class="button" href="/publications/2017-pulse2percept/2017-pulse2percept.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2017-pulse2percept/2017-pulse2percept.pdf" target="_blank" rel="noopener" aria-label="PDF: pulse2percept: A Python-based simulation framework for bionic vision">
   PDF
 </a>
 
@@ -15550,7 +15979,7 @@
   
     
   
-<a class="button" href="https://github.com/uwescience/pulse2percept" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/uwescience/pulse2percept" target="_blank" rel="noopener" aria-label="Code: pulse2percept: A Python-based simulation framework for bionic vision">
   Code
 </a>
 
@@ -15575,7 +16004,7 @@
   
     
   
-<a class="button" href="https://figshare.com/articles/pulse2percept_A_Python-based_simulation_framework_for_bionic_vision/5198575" target="_blank" rel="noopener">
+<a class="button" href="https://figshare.com/articles/pulse2percept_A_Python-based_simulation_framework_for_bionic_vision/5198575" target="_blank" rel="noopener" aria-label="Slides: pulse2percept: A Python-based simulation framework for bionic vision">
   Slides
 </a>
 
@@ -15590,9 +16019,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2017-pulse2percept/" >
-      <img src="/publications/2017-pulse2percept/featured_hucf0921d49834fd9af340e5d4b4c32f0c_93305_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="pulse2percept: A Python-based simulation framework for bionic vision">
-    </a>
+    
+    <img src="/publications/2017-pulse2percept/featured_hucf0921d49834fd9af340e5d4b4c32f0c_93305_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -15705,13 +16133,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2016</time>
+    <time datetime="2016-08-01">August 2016</time>
   </span>
   
   
 
+  
   
 
   
@@ -15754,17 +16185,21 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener">
+<a class="button" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener" aria-label="Preprint: 3D visual response properties of MSTd emerge from an efficient, sparse population code">
   Preprint
 </a>
 
 
 
-<a class="button" href="https://doi.org/10.1523/JNEUROSCI.0396-16.2016" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1523/JNEUROSCI.0396-16.2016" target="_blank" rel="noopener" aria-label="DOI: 3D visual response properties of MSTd emerge from an efficient, sparse population code">
   DOI
 </a>
 
@@ -15775,7 +16210,7 @@
 
 
 
-<a class="button" href="/publications/2016-sparse-decomposition-model/2016-sparse-decomposition-model.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2016-sparse-decomposition-model/2016-sparse-decomposition-model.pdf" target="_blank" rel="noopener" aria-label="PDF: 3D visual response properties of MSTd emerge from an efficient, sparse population code">
   PDF
 </a>
 
@@ -15808,9 +16243,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2016-sparse-decomposition-model/" >
-      <img src="/publications/2016-sparse-decomposition-model/featured_hube6c78274a4b04e4d404b6c1ee737e75_101897_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="3D visual response properties of MSTd emerge from an efficient, sparse population code">
-    </a>
+    
+    <img src="/publications/2016-sparse-decomposition-model/featured_hube6c78274a4b04e4d404b6c1ee737e75_101897_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -15923,13 +16357,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2015</time>
+    <time datetime="2015-12-01">December 2015</time>
   </span>
   
   
 
+  
   
 
   
@@ -15974,7 +16411,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1016/j.neunet.2015.09.005" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1016/j.neunet.2015.09.005" target="_blank" rel="noopener" aria-label="DOI: A GPU-accelerated cortical neural network model for visually guided robot navigation">
   DOI
 </a>
 
@@ -15985,7 +16426,7 @@
 
 
 
-<a class="button" href="/publications/2015-gpu-visually-guided-robot-navigation/2015-gpu-visually-guided-robot-navigation.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2015-gpu-visually-guided-robot-navigation/2015-gpu-visually-guided-robot-navigation.pdf" target="_blank" rel="noopener" aria-label="PDF: A GPU-accelerated cortical neural network model for visually guided robot navigation">
   PDF
 </a>
 
@@ -16014,9 +16455,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2015-gpu-visually-guided-robot-navigation/" >
-      <img src="/publications/2015-gpu-visually-guided-robot-navigation/featured_huc9d88b7ba2caae77573f103db7b86e07_87883_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A GPU-accelerated cortical neural network model for visually guided robot navigation">
-    </a>
+    
+    <img src="/publications/2015-gpu-visually-guided-robot-navigation/featured_huc9d88b7ba2caae77573f103db7b86e07_87883_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -16126,13 +16566,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2015</time>
+    <time datetime="2015-07-12">July 2015</time>
   </span>
   
   
 
+  
   
 
   
@@ -16177,7 +16620,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1109/IJCNN.2015.7280424" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1109/IJCNN.2015.7280424" target="_blank" rel="noopener" aria-label="DOI: CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks">
   DOI
 </a>
 
@@ -16188,7 +16635,7 @@
 
 
 
-<a class="button" href="/publications/2015-carlsim3/2015-ijcnn-carlsim3.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2015-carlsim3/2015-ijcnn-carlsim3.pdf" target="_blank" rel="noopener" aria-label="PDF: CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks">
   PDF
 </a>
 
@@ -16197,7 +16644,7 @@
   
     
   
-<a class="button" href="https://github.com/UCI-CARL/CARLsim3" target="_blank" rel="noopener">
+<a class="button" href="https://github.com/UCI-CARL/CARLsim3" target="_blank" rel="noopener" aria-label="Code: CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks">
   Code
 </a>
 
@@ -16221,9 +16668,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2015-carlsim3/" >
-      <img src="/publications/2015-carlsim3/featured_hue70167b8aaf56e0966ff3e25d321b857_465543_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks">
-    </a>
+    
+    <img src="/publications/2015-carlsim3/featured_hue70167b8aaf56e0966ff3e25d321b857_465543_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -16336,13 +16782,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2014</time>
+    <time datetime="2014-06-01">June 2014</time>
   </span>
   
   
 
+  
   
 
   
@@ -16387,7 +16836,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1109/ICRA.2014.6907580" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1109/ICRA.2014.6907580" target="_blank" rel="noopener" aria-label="DOI: Vision-based robust road lane detection in urban environments">
   DOI
 </a>
 
@@ -16398,7 +16851,7 @@
 
 
 
-<a class="button" href="/publications/2014-vision-based-robust-road-lane-detection/2014-icra-robust-vision-road-lane-detection.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2014-vision-based-robust-road-lane-detection/2014-icra-robust-vision-road-lane-detection.pdf" target="_blank" rel="noopener" aria-label="PDF: Vision-based robust road lane detection in urban environments">
   PDF
 </a>
 
@@ -16423,9 +16876,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2014-vision-based-robust-road-lane-detection/" >
-      <img src="/publications/2014-vision-based-robust-road-lane-detection/featured_huc55adffa7fe4f47802323f448856a9ea_297210_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Vision-based robust road lane detection in urban environments">
-    </a>
+    
+    <img src="/publications/2014-vision-based-robust-road-lane-detection/featured_huc55adffa7fe4f47802323f448856a9ea_297210_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -16535,13 +16987,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2014</time>
+    <time datetime="2014-02-05">February 2014</time>
   </span>
   
   
 
+  
   
 
   
@@ -16586,7 +17041,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1007/s12021-014-9220-y" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1007/s12021-014-9220-y" target="_blank" rel="noopener" aria-label="DOI: Efficient spiking neural network model of pattern motion selectivity in visual cortex">
   DOI
 </a>
 
@@ -16597,7 +17056,7 @@
 
 
 
-<a class="button" href="/publications/2014-efficient-pattern-motion-snn-mt/2014-neuroinformatics-efficient-snn-pattern-motion-selectivity-visual-cortex.pdf" target="_blank" rel="noopener">
+<a class="button" href="/publications/2014-efficient-pattern-motion-snn-mt/2014-neuroinformatics-efficient-snn-pattern-motion-selectivity-visual-cortex.pdf" target="_blank" rel="noopener" aria-label="PDF: Efficient spiking neural network model of pattern motion selectivity in visual cortex">
   PDF
 </a>
 
@@ -16630,9 +17089,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2014-efficient-pattern-motion-snn-mt/" >
-      <img src="/publications/2014-efficient-pattern-motion-snn-mt/featured_hu2a06e461a394504b018b380eac5c4e33_193760_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient spiking neural network model of pattern motion selectivity in visual cortex">
-    </a>
+    
+    <img src="/publications/2014-efficient-pattern-motion-snn-mt/featured_hu2a06e461a394504b018b380eac5c4e33_193760_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -16742,13 +17200,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>January 2014</time>
+    <time datetime="2014-01-20">January 2014</time>
   </span>
   
   
 
+  
   
 
   
@@ -16792,11 +17253,15 @@
 
 
 
+
+
+
+
   
   
     
   
-<a class="button" href="https://doi.org/10.1109/ASPDAC.2014.6742952" target="_blank" rel="noopener">
+<a class="button" href="https://doi.org/10.1109/ASPDAC.2014.6742952" target="_blank" rel="noopener" aria-label="DOI: GPGPU accelerated simulation and parameter tuning for neuromorphic applications">
   DOI
 </a>
 
@@ -16829,9 +17294,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2014-gpgpu-accelerated-parameter-tuning/" >
-      <img src="/publications/2014-gpgpu-accelerated-parameter-tuning/featured_hue70167b8aaf56e0966ff3e25d321b857_486167_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="GPGPU accelerated simulation and parameter tuning for neuromorphic applications">
-    </a>
+    
+    <img src="/publications/2014-gpgpu-accelerated-parameter-tuning/featured_hue70167b8aaf56e0966ff3e25d321b857_486167_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -16944,13 +17408,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2013</time>
+    <time datetime="2013-12-01">December 2013</time>
   </span>
   
   
 
+  
   
 
   
@@ -16995,7 +17462,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1016/j.neunet.2013.07.012" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1016/j.neunet.2013.07.012" target="_blank" rel="noopener" aria-label="DOI: Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like plasticity rule">
   DOI
 </a>
 
@@ -17027,9 +17498,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2013-categorization-mnist-stdp/" >
-      <img src="/publications/2013-categorization-mnist-stdp/featured_hue70167b8aaf56e0966ff3e25d321b857_376849_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like plasticity rule">
-    </a>
+    
+    <img src="/publications/2013-categorization-mnist-stdp/featured_hue70167b8aaf56e0966ff3e25d321b857_376849_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -17142,13 +17612,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2010</time>
+    <time datetime="2010-11-01">November 2010</time>
   </span>
   
   
 
+  
   
 
   
@@ -17193,7 +17666,11 @@
 
 
 
-<a class="button" href="https://doi.org/10.1109/BIOCAS.2010.5709623" target="_blank" rel="noopener">
+
+
+
+
+<a class="button" href="https://doi.org/10.1109/BIOCAS.2010.5709623" target="_blank" rel="noopener" aria-label="DOI: Exploring olfactory sensory networks: Simulations and hardware emulation">
   DOI
 </a>
 
@@ -17225,9 +17702,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2010-neuromorphic-olfactory-networks/" >
-      <img src="/publications/2010-neuromorphic-olfactory-networks/featured_hue70167b8aaf56e0966ff3e25d321b857_428762_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Exploring olfactory sensory networks: Simulations and hardware emulation">
-    </a>
+    
+    <img src="/publications/2010-neuromorphic-olfactory-networks/featured_hue70167b8aaf56e0966ff3e25d321b857_428762_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -17253,8 +17729,10 @@
     var selects = document.querySelectorAll('.pub-filters');
     var search = document.querySelector('.filter-search');
     var typeSelect = document.querySelector('.pubtype-select');
+    var status = document.getElementById('pub-count');
+    var statusTimer;
 
-    function apply() {
+    function apply(announce) {
       var term = search ? search.value.trim().toLowerCase() : '';
       var required = [];
       for (var i = 0; i < selects.length; i++) {
@@ -17262,6 +17740,7 @@
         if (value && value !== '*') required.push(value.replace(/^\./, ''));
       }
       var years = {};
+      var shown = 0;
       for (var j = 0; j < items.length; j++) {
         var item = items[j];
         var show = true;
@@ -17270,11 +17749,22 @@
         }
         if (show && term) show = item.textContent.toLowerCase().indexOf(term) !== -1;
         item.style.display = show ? '' : 'none';
-        if (show) years[item.getAttribute('data-year')] = true;
+        if (show) {
+          shown++;
+          years[item.getAttribute('data-year')] = true;
+        }
       }
       for (var m = 0; m < headings.length; m++) {
         var heading = headings[m];
         heading.style.display = years[heading.getAttribute('data-year')] ? '' : 'none';
+      }
+      
+
+      if (announce && status) {
+        clearTimeout(statusTimer);
+        statusTimer = setTimeout(function () {
+          status.textContent = shown + (shown === 1 ? ' publication' : ' publications') + ' shown';
+        }, 400);
       }
     }
 
@@ -17286,9 +17776,10 @@
       if (!typeSelect.value) typeSelect.value = '*';
     }
 
-    for (var s = 0; s < selects.length; s++) selects[s].addEventListener('change', apply);
-    if (search) search.addEventListener('input', apply);
-    window.addEventListener('hashchange', function () { syncTypeFromHash(); apply(); });
+    function applyAndAnnounce() { apply(true); }
+    for (var s = 0; s < selects.length; s++) selects[s].addEventListener('change', applyAndAnnounce);
+    if (search) search.addEventListener('input', applyAndAnnounce);
+    window.addEventListener('hashchange', function () { syncTypeFromHash(); apply(true); });
 
     syncTypeFromHash();
     apply();
@@ -17321,10 +17812,7 @@
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -17393,9 +17881,11 @@
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -17465,11 +17955,12 @@
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -17478,17 +17969,18 @@
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

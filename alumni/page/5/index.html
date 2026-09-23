@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -453,8 +462,9 @@
 
   
   
+  
   <div>
-    <h2><a href="/alumni/guo_lixing/"></a></h2>
+    <h2><a href="/alumni/guo_lixing/">Lixing (Leo) Guo</a></h2>
     <div class="article-style">
       
       Lixing (Leo) Guo is currently a third-year undergraduate student pursuing degrees in Computer Science and Data Science at UC Santa Barbara. He is interested in fields such as machine learning, human-computer interaction, software engineering, and product management.
@@ -463,8 +473,9 @@ Outside of the lab, he is also a member of UCSB Fencing Club, and he especially 
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/han_lu/"></a></h2>
+    <h2><a href="/alumni/han_lu/">Lu Han</a></h2>
     <div class="article-style">
       
       Lu Han is currently a fourth-year undergraduate student pursuing a Computer Engineering degree at UC Santa Barbara. She is interested in exploring more usage of human-computer interaction and data analytics in the field of cognitive learning and healthcare.
@@ -472,8 +483,9 @@ Outside of the lab, he is also a member of UCSB Fencing Club, and he especially 
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/he_yolanda2/"></a></h2>
+    <h2><a href="/alumni/he_yolanda2/">Yolanda He</a></h2>
     <div class="article-style">
       
       Yolanda He is a third-year student pursuing a BS in Biopsychology at UC Santa Barbara. She is interested in studying psychophysics and low vision.
@@ -482,8 +494,9 @@ In her free time, she enjoys going to the beach, the gym, and downtown with her 
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/he_yolanda/"></a></h2>
+    <h2><a href="/alumni/he_yolanda/">Yolanda He</a></h2>
     <div class="article-style">
       
       Yolanda He is an undergraduate student at UC Santa Barbara majoring in Biopsychology. She joined the Bionic Vision Lab as a research assistant in Fall of 2023 and currently serves as the lab manager. She is interested in how neuroscience and vision research can inform the development of assistive technologies and deepen our understanding of human perception.
@@ -492,8 +505,9 @@ Outside of the lab, she is a member of the UCSB competitive cheer team and works
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/herbelin_luke/"></a></h2>
+    <h2><a href="/alumni/herbelin_luke/">Luke Herbelin</a></h2>
     <div class="article-style">
       
       Luke Herbelin is an undergraduate student pursuing a Computer Science degree at UC Santa Barbara. He is interested in the many different applications of computer science to different fields. He is particularly interested in how computer vision overlaps with computational neuroscience and how our brains understand sight.
@@ -502,8 +516,9 @@ Outside of research, Luke likes to play tennis and listen to political and finan
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/ho_elaine/"></a></h2>
+    <h2><a href="/alumni/ho_elaine/">Elaine Ho</a></h2>
     <div class="article-style">
       
       Elaine Ho is currently a first-year undergraduate student pursuing a Computer Science degree at UC Santa Barbara.
@@ -511,8 +526,9 @@ Outside of research, Luke likes to play tennis and listen to political and finan
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/hoffman_isaac/"></a></h2>
+    <h2><a href="/alumni/hoffman_isaac/">Isaac Hoffman</a></h2>
     <div class="article-style">
       
       Isaac Hoffman is currently a third-year student pursuing a Computer Science degree at UC Santa Barbara, with a minor in Speech and Language Technologies. He is interested in machine learning and creating systems which can enable the use of large-scale deep learning models in various fields outside of computing.
@@ -520,8 +536,9 @@ Outside of research, Luke likes to play tennis and listen to political and finan
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/hou_yuchen2/"></a></h2>
+    <h2><a href="/alumni/hou_yuchen2/">Yuchen Hou</a></h2>
     <div class="article-style">
       
       Yuchen Hou
@@ -529,15 +546,17 @@ Outside of research, Luke likes to play tennis and listen to political and finan
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/htun_chitsein/"></a></h2>
+    <h2><a href="/alumni/htun_chitsein/">Chitsein Htun</a></h2>
     <div class="article-style">
       
     </div>
   </div>
   
+  
   <div>
-    <h2><a href="/alumni/hu_zuying/"></a></h2>
+    <h2><a href="/alumni/hu_zuying/">Zuying Hu</a></h2>
     <div class="article-style">
       
       Zuying Hu is an MS student at UC Santa Barbara and member of the Bionic Vision Lab. His interests lie in computer vision and machine learning.
@@ -548,13 +567,15 @@ He received his higher education in Guangzhou and Hong Kong. He received his BS 
   
 
   
-<nav>
+
+<nav aria-label="Pagination">
   <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/4/">&laquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/4/" rel="prev"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous page</span></a></li>
     
+    <li class="sr-only" aria-current="page">Page 5 of 15</li>
     
-    <li class="page-item"><a class="page-link" href="/alumni/page/6/">&raquo;</a></li>
+    <li class="page-item"><a class="page-link" href="/alumni/page/6/" rel="next"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next page</span></a></li>
     
   </ul>
 </nav>
@@ -596,10 +617,7 @@ He received his higher education in Guangzhou and Hong Kong. He received his BS 
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -670,9 +688,11 @@ He received his higher education in Guangzhou and Hong Kong. He received his BS 
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -742,11 +762,12 @@ He received his higher education in Guangzhou and Hong Kong. He received his BS 
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -755,17 +776,18 @@ He received his higher education in Guangzhou and Hong Kong. He received his BS 
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

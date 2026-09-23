@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -169,7 +172,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -492,6 +501,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -529,13 +539,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Aug 19, 2026</time>
+    <time datetime="2026-08-19">Aug 19, 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -567,9 +579,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2026-08-joyce-for-noyce/" >
-      <img src="/news/2026-08-joyce-for-noyce/featured_hu5d017d1c16b2921ca1b008d6a14680fa_194967_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2026-08-joyce-for-noyce/featured_hu5d017d1c16b2921ca1b008d6a14680fa_194967_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -639,6 +650,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -676,13 +688,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Aug 7, 2026</time>
+    <time datetime="2026-08-07">Aug 7, 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -714,9 +728,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2026-08-deep-learning-control-cortivis/" >
-      <img src="/news/2026-08-deep-learning-control-cortivis/featured_hu00dc5e1d4ba83c22604df722848d415e_221898_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2026-08-deep-learning-control-cortivis/featured_hu00dc5e1d4ba83c22604df722848d415e_221898_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -786,6 +799,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -823,13 +837,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Jul 22, 2026</time>
+    <time datetime="2026-07-22">Jul 22, 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -861,9 +877,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2026-07-schneider-zaleski-award/" >
-      <img src="/news/2026-07-schneider-zaleski-award/featured_hu0beaafb09578cb6158377cb7cb67ed8d_589333_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2026-07-schneider-zaleski-award/featured_hu0beaafb09578cb6158377cb7cb67ed8d_589333_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -933,6 +948,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -970,13 +986,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Jun 11, 2026</time>
+    <time datetime="2026-06-11">Jun 11, 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1008,9 +1026,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2026-06-ismar-neuroxr-workshop/" >
-      <img src="/news/2026-06-ismar-neuroxr-workshop/featured_hu9b3fa5c1a68049e101ac8583354e050d_759193_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2026-06-ismar-neuroxr-workshop/featured_hu9b3fa5c1a68049e101ac8583354e050d_759193_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1080,6 +1097,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1117,13 +1135,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Dec 7, 2025</time>
+    <time datetime="2025-12-07">Dec 7, 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -1155,9 +1175,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2025-12-neurips-mouse-vs-ai-workshop-competition/" >
-      <img src="/news/2025-12-neurips-mouse-vs-ai-workshop-competition/featured_hu82b225b485e66e8140b52449b069ead2_2164074_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2025-12-neurips-mouse-vs-ai-workshop-competition/featured_hu82b225b485e66e8140b52449b069ead2_2164074_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1227,6 +1246,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1264,13 +1284,15 @@
   <span class="">
     
     
+    
       
     
-    <time>May 9, 2025</time>
+    <time datetime="2025-05-09">May 9, 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -1302,9 +1324,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2025-05-wypl-fm-eye-on-vision/" >
-      <img src="/news/2025-05-wypl-fm-eye-on-vision/featured_hu06743b1c9668589e469a68c185fc5568_44765_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2025-05-wypl-fm-eye-on-vision/featured_hu06743b1c9668589e469a68c185fc5568_44765_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1374,6 +1395,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1411,13 +1433,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Nov 1, 2024</time>
+    <time datetime="2024-11-01">Nov 1, 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -1449,9 +1473,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2024-11-beyeler-plous-award/" >
-      <img src="/news/2024-11-beyeler-plous-award/featured_hu4a084ae59d5e7d1bccce7849960b736c_768055_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2024-11-beyeler-plous-award/featured_hu4a084ae59d5e7d1bccce7849960b736c_768055_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1521,6 +1544,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1558,13 +1582,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Oct 17, 2024</time>
+    <time datetime="2024-10-17">Oct 17, 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -1596,9 +1622,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2024-10-unity-sentis/" >
-      <img src="/news/2024-10-unity-sentis/featured_hu84b77c08455ce779d6cb0c463ed41732_1540852_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2024-10-unity-sentis/featured_hu84b77c08455ce779d6cb0c463ed41732_1540852_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1668,6 +1693,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1705,13 +1731,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Feb 28, 2024</time>
+    <time datetime="2024-02-28">Feb 28, 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -1743,9 +1771,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2024-02-nih-smart-bionic-eye/" >
-      <img src="/news/2024-02-nih-smart-bionic-eye/featured_hu0a2bfe37eb61ea4881c041314c2fb915_121953_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2024-02-nih-smart-bionic-eye/featured_hu0a2bfe37eb61ea4881c041314c2fb915_121953_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1815,6 +1842,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1852,13 +1880,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Sep 21, 2023</time>
+    <time datetime="2023-09-21">Sep 21, 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -1890,9 +1920,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2023-09-neurips/" >
-      <img src="/news/2023-09-neurips/featured_hua68f60e6f91e4b6b06bb6133d8b21c03_1303959_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2023-09-neurips/featured_hua68f60e6f91e4b6b06bb6133d8b21c03_1303959_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1962,6 +1991,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -1999,13 +2029,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Oct 4, 2022</time>
+    <time datetime="2022-10-04">Oct 4, 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -2037,9 +2069,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2022-10-new-innovator/" >
-      <img src="/news/2022-10-new-innovator/featured_hu7c8d08bc550a4a717f16f53ca9155738_119252_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2022-10-new-innovator/featured_hu7c8d08bc550a4a717f16f53ca9155738_119252_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2109,6 +2140,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -2146,13 +2178,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Sep 19, 2022</time>
+    <time datetime="2022-09-19">Sep 19, 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -2184,9 +2218,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2022-09-miccai-daily/" >
-      <img src="/news/2022-09-miccai-daily/featured_hu18f79d7fadb4fa8c38543d53f9335d15_1231870_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2022-09-miccai-daily/featured_hu18f79d7fadb4fa8c38543d53f9335d15_1231870_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2256,6 +2289,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -2282,13 +2316,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Aug 1, 2022</time>
+    <time datetime="2022-08-01">Aug 1, 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -2320,9 +2356,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2022-08-awards/" >
-      <img src="/news/2022-08-awards/featured_hucc4341da4eaaf3a7ee187decccb754da_199189_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2022-08-awards/featured_hucc4341da4eaaf3a7ee187decccb754da_199189_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2392,6 +2427,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -2429,13 +2465,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Jun 21, 2022</time>
+    <time datetime="2022-06-21">Jun 21, 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -2467,9 +2505,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2022-06-techxplore/" >
-      <img src="/news/2022-06-techxplore/featured_hu1229242c5ab1c84911e51087e05e1104_297381_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2022-06-techxplore/featured_hu1229242c5ab1c84911e51087e05e1104_297381_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2539,6 +2576,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -2576,13 +2614,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Jan 9, 2022</time>
+    <time datetime="2022-01-09">Jan 9, 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -2614,9 +2654,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2022-01-guardian/" >
-      <img src="/news/2022-01-guardian/featured_hu4df522e6739f8f937d785973604fb50c_1551637_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2022-01-guardian/featured_hu4df522e6739f8f937d785973604fb50c_1551637_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2686,6 +2725,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -2723,13 +2763,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Sep 20, 2021</time>
+    <time datetime="2021-09-20">Sep 20, 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -2761,9 +2803,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2021-09-giz-asks/" >
-      <img src="/news/2021-09-giz-asks/featured_hu547d7f56b8a01698079b5aee1181781f_679225_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2021-09-giz-asks/featured_hu547d7f56b8a01698079b5aee1181781f_679225_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2833,6 +2874,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -2870,13 +2912,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Apr 21, 2021</time>
+    <time datetime="2021-04-21">Apr 21, 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -2908,9 +2952,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2021-04-nvidia-i-am-ai/" >
-      <img src="/news/2021-04-nvidia-i-am-ai/featured_hue5e27cf1ad92ad54b70418da90782cf3_192089_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2021-04-nvidia-i-am-ai/featured_hue5e27cf1ad92ad54b70418da90782cf3_192089_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2980,6 +3023,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -3017,13 +3061,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Feb 23, 2021</time>
+    <time datetime="2021-02-23">Feb 23, 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -3055,9 +3101,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2021-02-pcmag/" >
-      <img src="/news/2021-02-pcmag/featured_hu01e078131175e3c2742ad6de7dcd900f_804886_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2021-02-pcmag/featured_hu01e078131175e3c2742ad6de7dcd900f_804886_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3127,6 +3172,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -3164,13 +3210,15 @@
   <span class="">
     
     
+    
       
     
-    <time>May 1, 2020</time>
+    <time datetime="2020-05-01">May 1, 2020</time>
   </span>
   
   
 
+  
   
 
   
@@ -3202,9 +3250,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2020-05-convergence/" >
-      <img src="/news/2020-05-convergence/featured_hu324ee90d1ac382294779f807f7998eac_76938_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2020-05-convergence/featured_hu324ee90d1ac382294779f807f7998eac_76938_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3274,6 +3321,7 @@
 
 
 
+
     <div>
       
       <div itemprop="author">
@@ -3311,13 +3359,15 @@
   <span class="">
     
     
+    
       
     
-    <time>Jul 9, 2019</time>
+    <time datetime="2019-07-09">Jul 9, 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -3349,9 +3399,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2019-07-pcmag/" >
-      <img src="/news/2019-07-pcmag/featured_hu8ec4447d29444b58e98b0e143e81d8f8_85884_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/news/2019-07-pcmag/featured_hu8ec4447d29444b58e98b0e143e81d8f8_85884_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3399,10 +3448,7 @@
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -3473,9 +3519,11 @@
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -3545,11 +3593,12 @@
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -3558,17 +3607,18 @@
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

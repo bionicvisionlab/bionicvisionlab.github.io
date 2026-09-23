@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -66,6 +67,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -92,7 +95,7 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -121,7 +124,7 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <meta property="og:site_name" content="Bionic Vision Lab">
   <meta property="og:url" content="https://bionicvisionlab.org/people/beyeler_michael/">
-  <meta property="og:title" content=" | Bionic Vision Lab">
+  <meta property="og:title" content="Michael Beyeler | Bionic Vision Lab">
   <meta property="og:description" content="Michael Beyeler is an Associate Professor of Computer Science and Psychological &amp; Brain Sciences at UC Santa Barbara, where he directs the Bionic Vision Lab. He studies how biological and artificial visual systems represent the world, and how those representations can be understood, predicted, and engineered to restore useful vision.
 His research combines computational neuroscience, machine learning and NeuroAI, psychophysics, and immersive technology. His group develops computational models that link neural stimulation to brain activity and perception, investigates the computational principles underlying biological vision, and designs intelligent systems for people who are blind or have low vision."><meta property="og:image" content="https://bionicvisionlab.org/img/icon-192.png">
   <meta property="twitter:image" content="https://bionicvisionlab.org/img/icon-192.png"><meta property="og:locale" content="en-us">
@@ -170,11 +173,10 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
-  <title> | Bionic Vision Lab</title>
+  <title>Michael Beyeler | Bionic Vision Lab</title>
 
 </head>
 
@@ -182,21 +184,26 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -215,6 +222,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -583,22 +592,6 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
 
     
     
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a itemprop="sameAs" href="/"  aria-label="">
-        <i class="fas fa-" aria-hidden="true"></i>
-      </a>
-    </li>
-    
   </ul>
 
 </div>
@@ -805,15 +798,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a>
+  <li><a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a></li>
   
-  <a class="badge badge-light" href="/tags/neural-interfaces/">Neural Interfaces</a>
+  <li><a class="badge badge-light" href="/tags/neural-interfaces/">Neural Interfaces</a></li>
   
-  <a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a>
+  <li><a class="badge badge-light" href="/tags/machine-learning/">Machine Learning</a></li>
   
-</div>
+</ul>
 
 
 
@@ -842,6 +836,7 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   
 
+  
   
 
   
@@ -873,9 +868,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/closed-loop-neuroprostheses/" >
-      <img src="/research/closed-loop-neuroprostheses/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/closed-loop-neuroprostheses/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -940,17 +934,18 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/software-engineering/">Software Engineering</a>
+  <li><a class="badge badge-light" href="/tags/software-engineering/">Software Engineering</a></li>
   
-  <a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a>
+  <li><a class="badge badge-light" href="/tags/visual-prostheses/">Visual Prostheses</a></li>
   
-  <a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a>
+  <li><a class="badge badge-light" href="/tags/computational-neuroscience/">Computational Neuroscience</a></li>
   
-  <a class="badge badge-light" href="/tags/psychophysics/">Psychophysics</a>
+  <li><a class="badge badge-light" href="/tags/psychophysics/">Psychophysics</a></li>
   
-</div>
+</ul>
 
 
 
@@ -979,6 +974,7 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   
 
+  
   
 
   
@@ -1010,9 +1006,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/code/pulse2percept/" >
-      <img src="/code/pulse2percept/featured_huf641cb25b7529ea8ec157d42d091b1ca_22076_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/code/pulse2percept/featured_huf641cb25b7529ea8ec157d42d091b1ca_22076_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1117,13 +1112,15 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
       
     
-    <time>Aug 7, 2026</time>
+    <time datetime="2026-08-07">Aug 7, 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1155,9 +1152,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2026-08-deep-learning-control-cortivis/" >
-      <img src="/news/2026-08-deep-learning-control-cortivis/featured_hu00dc5e1d4ba83c22604df722848d415e_221898_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Deep learning helps bionic eyes communicate with the brain">
-    </a>
+    
+    <img src="/news/2026-08-deep-learning-control-cortivis/featured_hu00dc5e1d4ba83c22604df722848d415e_221898_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1249,13 +1245,15 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
       
     
-    <time>Jun 11, 2026</time>
+    <time datetime="2026-06-11">Jun 11, 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1287,9 +1285,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2026-06-ismar-neuroxr-workshop/" >
-      <img src="/news/2026-06-ismar-neuroxr-workshop/featured_hu9b3fa5c1a68049e101ac8583354e050d_759193_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="NeuroXR Workshop at IEEE ISMAR &#39;26">
-    </a>
+    
+    <img src="/news/2026-06-ismar-neuroxr-workshop/featured_hu9b3fa5c1a68049e101ac8583354e050d_759193_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1381,13 +1378,15 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
       
     
-    <time>Dec 7, 2025</time>
+    <time datetime="2025-12-07">Dec 7, 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -1419,9 +1418,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2025-12-neurips-mouse-vs-ai-workshop-competition/" >
-      <img src="/news/2025-12-neurips-mouse-vs-ai-workshop-competition/featured_hu82b225b485e66e8140b52449b069ead2_2164074_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Mouse vs AI: Robust Visual Foraging Competition and Workshop at NeurIPS &#39;25">
-    </a>
+    
+    <img src="/news/2025-12-neurips-mouse-vs-ai-workshop-competition/featured_hu82b225b485e66e8140b52449b069ead2_2164074_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1523,13 +1521,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-06">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1568,9 +1569,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/" >
-      <img src="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/featured_hub5ae05a27e3322b8b8cbb1d6ba5b6304_826096_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Evaluating closed-loop EEG feedback for simulated prosthetic vision in immersive VR: a sham-controlled feasibility study">
-    </a>
+    
+    <img src="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/featured_hub5ae05a27e3322b8b8cbb1d6ba5b6304_826096_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1662,13 +1662,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-05">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1707,9 +1710,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-navigating-last-mile/" >
-      <img src="/publications/2026-10-navigating-last-mile/featured_hue7c11007203e6e4edff020fd56d9ab5f_7972122_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Navigating the last mile: Evaluating head- and cane-mounted cameras for egocentric spatial awareness">
-    </a>
+    
+    <img src="/publications/2026-10-navigating-last-mile/featured_hue7c11007203e6e4edff020fd56d9ab5f_7972122_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1801,13 +1803,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-05">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1846,9 +1851,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-vr-guidance-arrow-map-compass/" >
-      <img src="/publications/2026-10-vr-guidance-arrow-map-compass/featured_hud31b88cda69b65d6d48a3e9594eaf54d_170749_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding">
-    </a>
+    
+    <img src="/publications/2026-10-vr-guidance-arrow-map-compass/featured_hud31b88cda69b65d6d48a3e9594eaf54d_170749_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1940,13 +1944,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-27">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1985,9 +1992,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-percept-aware-surgical-planning/" >
-      <img src="/publications/2026-09-percept-aware-surgical-planning/featured_huaba0671bb869d6c49000df354c30b198_198431_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Percept-aware surgical planning for visual cortical prostheses with vascular avoidance">
-    </a>
+    
+    <img src="/publications/2026-09-percept-aware-surgical-planning/featured_huaba0671bb869d6c49000df354c30b198_198431_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2079,13 +2085,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-14">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2124,9 +2133,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-multimodal-neural-contrasts/" >
-      <img src="/publications/2026-09-multimodal-neural-contrasts/featured_hu0d0a08a3aa37ead281d5fcfacbc9e0b5_237627_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Predictor construction can reverse multimodal neural contrasts">
-    </a>
+    
+    <img src="/publications/2026-09-multimodal-neural-contrasts/featured_hu0d0a08a3aa37ead281d5fcfacbc9e0b5_237627_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2218,13 +2226,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-08">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2263,9 +2274,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-language-conditioned-object-highlighting/" >
-      <img src="/publications/2026-09-language-conditioned-object-highlighting/featured_huc065213a23b4fdd5c46e2fac92ff78eb_159301_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Language-conditioned object highlighting for simulated prosthetic vision">
-    </a>
+    
+    <img src="/publications/2026-09-language-conditioned-object-highlighting/featured_huc065213a23b4fdd5c46e2fac92ff78eb_159301_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2357,13 +2367,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2026</time>
+    <time datetime="2026-09-01">September 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2402,9 +2415,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-09-out-of-view-guidance-vr/" >
-      <img src="/publications/2026-09-out-of-view-guidance-vr/featured_hu6f245c92c8c81bab51093d5232f0eb36_1034273_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Cross-modal guidance for out-of-view object search in simulated prosthetic vision">
-    </a>
+    
+    <img src="/publications/2026-09-out-of-view-guidance-vr/featured_hu6f245c92c8c81bab51093d5232f0eb36_1034273_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2496,13 +2508,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2026</time>
+    <time datetime="2026-08-07">August 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2541,9 +2556,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-08-deep-neural-activity-shaping/" >
-      <img src="/publications/2026-08-deep-neural-activity-shaping/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Deep learning-based control of electrically evoked activity in human visual cortex">
-    </a>
+    
+    <img src="/publications/2026-08-deep-neural-activity-shaping/featured_hu3e49a056d45e47b5b08aeb6be35ce746_351329_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2635,13 +2649,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2026</time>
+    <time datetime="2026-07-26">July 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2680,9 +2697,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-07-symbol-sight/" >
-      <img src="/publications/2026-07-symbol-sight/featured_hu056a8205f112035a026812a98a8caa8e_265983_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="SymbolSight: Minimizing inter-symbol interference for reading with prosthetic vision">
-    </a>
+    
+    <img src="/publications/2026-07-symbol-sight/featured_hu056a8205f112035a026812a98a8caa8e_265983_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2774,13 +2790,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2026</time>
+    <time datetime="2026-07-26">July 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2819,9 +2838,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-07-network-adaptive-cloud-processing/" >
-      <img src="/publications/2026-07-network-adaptive-cloud-processing/featured_hub8d4be6ee0d4a1c564ac76b1dd3d83d0_250862_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Network-adaptive cloud preprocessing for visual neuroprostheses">
-    </a>
+    
+    <img src="/publications/2026-07-network-adaptive-cloud-processing/featured_hub8d4be6ee0d4a1c564ac76b1dd3d83d0_250862_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -2913,13 +2931,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2026</time>
+    <time datetime="2026-07-08">July 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -2958,9 +2979,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-07-ecological-visual-processing-mouse/" >
-      <img src="/publications/2026-07-ecological-visual-processing-mouse/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Ecological visual processing in the mouse">
-    </a>
+    
+    <img src="/publications/2026-07-ecological-visual-processing-mouse/featured_hu5794c7fcfcb42d426456e6b9ff37ea94_265548_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3052,13 +3072,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2026</time>
+    <time datetime="2026-06-12">June 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3097,9 +3120,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-06-vision-loss-scene-understanding/" >
-      <img src="/publications/2026-06-vision-loss-scene-understanding/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Distinct roles of central and peripheral vision in rapid scene understanding">
-    </a>
+    
+    <img src="/publications/2026-06-vision-loss-scene-understanding/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3191,13 +3213,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-21">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3236,9 +3261,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-tvst-argus-gamification/" >
-      <img src="/publications/2026-05-tvst-argus-gamification/featured_hu852cfb2329fcc351b2e86addfc580e9c_135272_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Gamification enhances user engagement and task performance in prosthetic vision testing">
-    </a>
+    
+    <img src="/publications/2026-05-tvst-argus-gamification/featured_hu852cfb2329fcc351b2e86addfc580e9c_135272_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3330,13 +3354,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-21">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3375,9 +3402,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/" >
-      <img src="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/featured_huc1e44921928822b27a2d04a916f585a1_303528_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Gaze shifts in freely moving mice comprise distinct head-eye coordination motifs">
-    </a>
+    
+    <img src="/publications/2026-06-gaze-shift-motifs-freely-moving-mice/featured_huc1e44921928822b27a2d04a916f585a1_303528_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3469,13 +3495,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-07">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3514,9 +3543,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-mouse-v1-digital-twin/" >
-      <img src="/publications/2026-05-mouse-v1-digital-twin/featured_hu530e69300eea0bd9c53862c64c5b859a_166909_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Beyond neural activity prediction: Probing latent representations in mouse V1 digital twins">
-    </a>
+    
+    <img src="/publications/2026-05-mouse-v1-digital-twin/featured_hu530e69300eea0bd9c53862c64c5b859a_166909_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3608,13 +3636,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-07">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3653,9 +3684,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/" >
-      <img src="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/featured_hu833e08145f1e5ee4d03fcb2a255f7c6f_306212_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Visual robustness and neural alignment in a shared foraging task: The Mouse vs. AI benchmark">
-    </a>
+    
+    <img src="/publications/2026-05-mouse-vs-ai-visual-robustness-neural-alignment/featured_hu833e08145f1e5ee4d03fcb2a255f7c6f_306212_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3747,13 +3777,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2026</time>
+    <time datetime="2026-04-23">April 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3792,9 +3825,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-04-bird/" >
-      <img src="/publications/2026-04-bird/featured_hu137d04eaede7209bc3c071f43a9abdf4_298038_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="BIRD: Behavior induction via representation-structure distillation">
-    </a>
+    
+    <img src="/publications/2026-04-bird/featured_hu137d04eaede7209bc3c071f43a9abdf4_298038_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -3886,13 +3918,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2026</time>
+    <time datetime="2026-03-17">March 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -3931,9 +3966,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-03-stress-navigation-trev/" >
-      <img src="/publications/2026-03-stress-navigation-trev/featured_hu7e2aafedeaae2005c38dc0ed32697311_3194202_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Adaptive training for navigation under stress: Impacts of stress exposure and spatial anxiety">
-    </a>
+    
+    <img src="/publications/2026-03-stress-navigation-trev/featured_hu7e2aafedeaae2005c38dc0ed32697311_3194202_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4025,13 +4059,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2026</time>
+    <time datetime="2026-02-23">February 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -4070,9 +4107,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-02-fuzzing-the-brain/" >
-      <img src="/publications/2026-02-fuzzing-the-brain/featured_hu862b6183f71b4ea61c81bb3d61d156fc_84432_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Fuzzing the brain: Automated stress testing for the safety of ML-driven neurostimulation">
-    </a>
+    
+    <img src="/publications/2026-02-fuzzing-the-brain/featured_hu862b6183f71b4ea61c81bb3d61d156fc_84432_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4164,13 +4200,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2025</time>
+    <time datetime="2025-12-04">December 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4209,9 +4248,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-12-smart-raster/" >
-      <img src="/publications/2025-12-smart-raster/featured_huffda2d297896f59981be2806db7ed735_591203_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Static or temporal? Semantic scene simplification to aid wayfinding in immersive simulations of bionic vision">
-    </a>
+    
+    <img src="/publications/2025-12-smart-raster/featured_huffda2d297896f59981be2806db7ed735_591203_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4303,13 +4341,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2025</time>
+    <time datetime="2025-11-28">November 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4348,9 +4389,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-11-look-predict-intercept/" >
-      <img src="/publications/2025-11-look-predict-intercept/featured_huefe1b2263bfb4a64d1f9ce40414a2e63_2524332_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Look, predict, intercept: Visual exposure seeds model-based control in moving-target interception">
-    </a>
+    
+    <img src="/publications/2025-11-look-predict-intercept/featured_huefe1b2263bfb4a64d1f9ce40414a2e63_2524332_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4442,13 +4482,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2025</time>
+    <time datetime="2025-10-12">October 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4487,9 +4530,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-10-ismar-neuroadaptive-xr/" >
-      <img src="/publications/2025-10-ismar-neuroadaptive-xr/featured_hu6a9d25d140f380de22b50dff0a588ce0_146138_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Bionic vision as neuroadaptive XR: Closed-loop perceptual interfaces for neurotechnology">
-    </a>
+    
+    <img src="/publications/2025-10-ismar-neuroadaptive-xr/featured_hu6a9d25d140f380de22b50dff0a588ce0_146138_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4581,13 +4623,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2025</time>
+    <time datetime="2025-10-07">October 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4626,9 +4671,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-10-perceptual-learning-video-game-training/" >
-      <img src="/publications/2025-10-perceptual-learning-video-game-training/featured_hu9e7b6e8f9b81a9da22007b4d843ac127_258769_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Perceptual learning of prosthetic vision using video game training">
-    </a>
+    
+    <img src="/publications/2025-10-perceptual-learning-video-game-training/featured_hu9e7b6e8f9b81a9da22007b4d843ac127_258769_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4720,13 +4764,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2025</time>
+    <time datetime="2025-07-16">July 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4765,9 +4812,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-07-checkerboard-raster/" >
-      <img src="/publications/2025-07-checkerboard-raster/featured_hu18cf8d8367fd370e809f7b938047b9a6_56828_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Simulated prosthetic vision confirms checkerboard as an effective raster pattern for epiretinal implants">
-    </a>
+    
+    <img src="/publications/2025-07-checkerboard-raster/featured_hu18cf8d8367fd370e809f7b938047b9a6_56828_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4859,13 +4905,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2025</time>
+    <time datetime="2025-07-14">July 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -4904,9 +4953,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-07-gaussian-process-thresholds/" >
-      <img src="/publications/2025-07-gaussian-process-thresholds/featured_hu6316b67f870f2ed92edda270ff430b61_64283_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Efficient spatial estimation of perceptual thresholds for retinal implants via Gaussian process regression">
-    </a>
+    
+    <img src="/publications/2025-07-gaussian-process-thresholds/featured_hu6316b67f870f2ed92edda270ff430b61_64283_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -4998,13 +5046,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2025</time>
+    <time datetime="2025-07-14">July 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5043,9 +5094,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-07-hilo-personalization-sighted/" >
-      <img src="/publications/2025-07-hilo-personalization-sighted/featured_hue70167b8aaf56e0966ff3e25d321b857_239240_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Evaluating deep human-in-the-loop optimization for retinal implants using sighted participants">
-    </a>
+    
+    <img src="/publications/2025-07-hilo-personalization-sighted/featured_hue70167b8aaf56e0966ff3e25d321b857_239240_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5137,13 +5187,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2025</time>
+    <time datetime="2025-06-25">June 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5182,9 +5235,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-06-deep-learning-framework-predict-functional-vision/" >
-      <img src="/publications/2025-06-deep-learning-framework-predict-functional-vision/featured_hu5c5b72ba157560411e6a49baf0477195_121082_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="A deep learning framework for predicting functional visual performance in bionic eye users">
-    </a>
+    
+    <img src="/publications/2025-06-deep-learning-framework-predict-functional-vision/featured_hu5c5b72ba157560411e6a49baf0477195_121082_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5276,13 +5328,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2025</time>
+    <time datetime="2025-06-20">June 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5321,9 +5376,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-06-isca-single-spike-anns/" >
-      <img src="/publications/2025-06-isca-single-spike-anns/featured_hu1ce8eb32cc29d6ffd2957a549d0f01bf_144370_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Single spike artificial neural networks">
-    </a>
+    
+    <img src="/publications/2025-06-isca-single-spike-anns/featured_hu1ce8eb32cc29d6ffd2957a549d0f01bf_144370_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5415,13 +5469,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2025</time>
+    <time datetime="2025-03-03">March 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -5460,9 +5517,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-03-assistive-technology-domestic-activities/" >
-      <img src="/publications/2025-03-assistive-technology-domestic-activities/featured_hu6c825c558b1424ec93e4302ff0bcb278_260942_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Assistive technology use in domestic activities by people who are blind">
-    </a>
+    
+    <img src="/publications/2025-03-assistive-technology-domestic-activities/featured_hu6c825c558b1424ec93e4302ff0bcb278_260942_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5554,13 +5610,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2024</time>
+    <time datetime="2024-11-21">November 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -5599,9 +5658,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-11-implant-expectations/" >
-      <img src="/publications/2024-11-implant-expectations/featured_hue70167b8aaf56e0966ff3e25d321b857_333955_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Aligning visual prosthetic development with implantee needs">
-    </a>
+    
+    <img src="/publications/2024-11-implant-expectations/featured_hue70167b8aaf56e0966ff3e25d321b857_333955_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5693,13 +5751,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2024</time>
+    <time datetime="2024-10-21">October 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -5738,9 +5799,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-10-ismar-vision-ai/" >
-      <img src="/publications/2024-10-ismar-vision-ai/featured_hu7468bcaa2067c5db90af78639fa6943a_108428_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="VisionAI - Shopping Assistance for People with Vision Impairments">
-    </a>
+    
+    <img src="/publications/2024-10-ismar-vision-ai/featured_hu7468bcaa2067c5db90af78639fa6943a_108428_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5832,13 +5892,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2024</time>
+    <time datetime="2024-07-15">July 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -5877,9 +5940,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-07-predicting-temporal-dynamics/" >
-      <img src="/publications/2024-07-predicting-temporal-dynamics/featured_hue70167b8aaf56e0966ff3e25d321b857_135647_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Predicting the temporal dynamics of prosthetic vision">
-    </a>
+    
+    <img src="/publications/2024-07-predicting-temporal-dynamics/featured_hue70167b8aaf56e0966ff3e25d321b857_135647_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -5971,13 +6033,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2024</time>
+    <time datetime="2024-05-11">May 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -6016,9 +6081,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-05-beyond-sight-blind-v1-alignment/" >
-      <img src="/publications/2024-05-beyond-sight-blind-v1-alignment/featured_hu763810ca1eaf5f77031cf0ff15295ff9_142548_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Beyond sight: Probing alignment between image models and blind V1">
-    </a>
+    
+    <img src="/publications/2024-05-beyond-sight-blind-v1-alignment/featured_hu763810ca1eaf5f77031cf0ff15295ff9_142548_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6110,13 +6174,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2024</time>
+    <time datetime="2024-04-08">April 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -6155,9 +6222,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-04-argus-pairs/" >
-      <img src="/publications/2024-04-argus-pairs/featured_hucd0815d0d35c551035699c1e6beeaefc_192021_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Axonal stimulation affects the linear summation of single-point perception in three Argus II users">
-    </a>
+    
+    <img src="/publications/2024-04-argus-pairs/featured_hucd0815d0d35c551035699c1e6beeaefc_192021_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6249,13 +6315,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2024</time>
+    <time datetime="2024-03-19">March 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -6294,9 +6363,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-03-explainable-thresholds/" >
-      <img src="/publications/2024-03-explainable-thresholds/featured_hucd6e44c9b3eecce568459506a9789db2_167875_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Explainable machine learning predictions of perceptual sensitivity for retinal prostheses">
-    </a>
+    
+    <img src="/publications/2024-03-explainable-thresholds/featured_hucd6e44c9b3eecce568459506a9789db2_167875_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6388,13 +6456,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2024</time>
+    <time datetime="2024-03-16">March 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -6433,9 +6504,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-03-eye-tracking-mixed-reality/" >
-      <img src="/publications/2024-03-eye-tracking-mixed-reality/featured_hubc149c5ad1f128076a749f394e26ccbf_268636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Eye tracking performance in mobile mixed reality">
-    </a>
+    
+    <img src="/publications/2024-03-eye-tracking-mixed-reality/featured_hubc149c5ad1f128076a749f394e26ccbf_268636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6527,13 +6597,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2024</time>
+    <time datetime="2024-03-11">March 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -6572,9 +6645,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-03-stress-affects-navigation/" >
-      <img src="/publications/2024-03-stress-affects-navigation/featured_hu85bc5eb38cbbb31d3a8f5ede234d60e5_386030_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Stress affects navigation strategies in immersive virtual reality">
-    </a>
+    
+    <img src="/publications/2024-03-stress-affects-navigation/featured_hu85bc5eb38cbbb31d3a8f5ede234d60e5_386030_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6666,13 +6738,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2023</time>
+    <time datetime="2023-12-10">December 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -6711,9 +6786,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-12-v1-monkey-neuroai/" >
-      <img src="/publications/2023-12-v1-monkey-neuroai/featured_hu73e82be02d57f57f4772a79a1325a438_119058_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Explaining V1 properties with a biologically constrained deep learning architecture">
-    </a>
+    
+    <img src="/publications/2023-12-v1-monkey-neuroai/featured_hu73e82be02d57f57f4772a79a1325a438_119058_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6805,13 +6879,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2023</time>
+    <time datetime="2023-12-10">December 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -6850,9 +6927,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-12-hilo-stimulus-encoding/" >
-      <img src="/publications/2023-12-hilo-stimulus-encoding/featured_hue70167b8aaf56e0966ff3e25d321b857_873246_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Human-in-the-loop optimization for deep stimulus encoding in visual prostheses">
-    </a>
+    
+    <img src="/publications/2023-12-hilo-stimulus-encoding/featured_hue70167b8aaf56e0966ff3e25d321b857_873246_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -6944,13 +7020,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2023</time>
+    <time datetime="2023-12-10">December 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -6989,9 +7068,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-12-v1-mouse/" >
-      <img src="/publications/2023-12-v1-mouse/featured_hud5f7f2e3b41b0f609fa54ebe0a30618c_58731_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Multimodal deep learning model unveils behavioral dynamics of V1 activity in freely moving mice">
-    </a>
+    
+    <img src="/publications/2023-12-v1-mouse/featured_hud5f7f2e3b41b0f609fa54ebe0a30618c_58731_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7083,13 +7161,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2023</time>
+    <time datetime="2023-08-25">August 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -7128,9 +7209,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-08-eye-tracking-suite/" >
-      <img src="/publications/2023-08-eye-tracking-suite/featured_hu501d27eb9ca3fa5370e933cdeb5b5100_59398_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="EyeTTS: Evaluating and Calibrating Eye Tracking for Mixed-Reality Locomotion">
-    </a>
+    
+    <img src="/publications/2023-08-eye-tracking-suite/featured_hu501d27eb9ca3fa5370e933cdeb5b5100_59398_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7222,13 +7302,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2023</time>
+    <time datetime="2023-05-18">May 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -7267,9 +7350,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-05-retinal-degeneration/" >
-      <img src="/publications/2023-05-retinal-degeneration/featured_hua4b466be11fd53dd32bbc08d158d68cb_274810_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Retinal ganglion cells undergo cell type--specific functional changes in a computational model of cone-mediated retinal degeneration">
-    </a>
+    
+    <img src="/publications/2023-05-retinal-degeneration/featured_hua4b466be11fd53dd32bbc08d158d68cb_274810_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7361,13 +7443,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2023</time>
+    <time datetime="2023-05-04">May 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -7406,9 +7491,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-05-xr-systematic-review/" >
-      <img src="/publications/2023-05-xr-systematic-review/featured_hud9413827741aec24ee922275aabfb935_111057_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A systematic review of extended reality (XR) for understanding and augmenting vision loss">
-    </a>
+    
+    <img src="/publications/2023-05-xr-systematic-review/featured_hud9413827741aec24ee922275aabfb935_111057_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7500,13 +7584,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2023</time>
+    <time datetime="2023-04-25">April 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -7545,9 +7632,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-04-neuromorphic-lstm/" >
-      <img src="/publications/2023-04-neuromorphic-lstm/featured_hu99e0fc5d598cd5acbee322e571484c6a_423881_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Long-short term memory (LSTM) cells on spiking neuromorphic hardware">
-    </a>
+    
+    <img src="/publications/2023-04-neuromorphic-lstm/featured_hu99e0fc5d598cd5acbee322e571484c6a_423881_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7639,13 +7725,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>April 2023</time>
+    <time datetime="2023-04-01">April 2023</time>
   </span>
   
   
 
+  
   
 
   
@@ -7684,9 +7773,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2023-04-snn-stdp-wta/" >
-      <img src="/publications/2023-04-snn-stdp-wta/featured_hu70137d29d2471252ca399ce1d34c8868_82599_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient multi-scale representation of visual objects using a biologically plausible spike-latency code and winner-take-all inhibition">
-    </a>
+    
+    <img src="/publications/2023-04-snn-stdp-wta/featured_hu70137d29d2471252ca399ce1d34c8868_82599_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7778,13 +7866,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2022</time>
+    <time datetime="2022-12-02">December 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -7823,9 +7914,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-12-brain-like-phosphene-model/" >
-      <img src="/publications/2022-12-brain-like-phosphene-model/featured_hue70167b8aaf56e0966ff3e25d321b857_510119_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Adapting brain-like neural networks for modeling cortical visual prostheses">
-    </a>
+    
+    <img src="/publications/2022-12-brain-like-phosphene-model/featured_hue70167b8aaf56e0966ff3e25d321b857_510119_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -7917,13 +8007,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2022</time>
+    <time datetime="2022-11-29">November 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -7962,9 +8055,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-11-indoor-mobility/" >
-      <img src="/publications/2022-11-indoor-mobility/featured_hue70167b8aaf56e0966ff3e25d321b857_594223_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="The relative importance of depth cues and semantic edges for indoor mobility using simulated prosthetic vision in immersive virtual reality">
-    </a>
+    
+    <img src="/publications/2022-11-indoor-mobility/featured_hue70167b8aaf56e0966ff3e25d321b857_594223_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8056,13 +8148,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2022</time>
+    <time datetime="2022-11-28">November 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8101,9 +8196,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-11-hybrid-neural-autoencoder/" >
-      <img src="/publications/2022-11-hybrid-neural-autoencoder/featured_hu8ec43c8e64ab02242f8ac2c162b39385_1341146_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Hybrid neural autoencoders for stimulus encoding in visual and other sensory neuroprostheses">
-    </a>
+    
+    <img src="/publications/2022-11-hybrid-neural-autoencoder/featured_hu8ec43c8e64ab02242f8ac2c162b39385_1341146_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8195,13 +8289,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2022</time>
+    <time datetime="2022-11-28">November 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8240,9 +8337,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-11-smart-bionic-eye/" >
-      <img src="/publications/2022-11-smart-bionic-eye/featured_hue70167b8aaf56e0966ff3e25d321b857_553419_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Towards a *Smart Bionic Eye*: AI-powered artificial vision for the treatment of incurable blindness">
-    </a>
+    
+    <img src="/publications/2022-11-smart-bionic-eye/featured_hue70167b8aaf56e0966ff3e25d321b857_553419_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8334,13 +8430,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2022</time>
+    <time datetime="2022-09-19">September 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8379,9 +8478,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-09-epiretinal-design/" >
-      <img src="/publications/2022-09-epiretinal-design/featured_hubc6f204ac649d105c320a0e2e1a13e57_2432691_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Greedy optimization of electrode arrangement for epiretinal prostheses">
-    </a>
+    
+    <img src="/publications/2022-09-epiretinal-design/featured_hubc6f204ac649d105c320a0e2e1a13e57_2432691_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8473,13 +8571,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2022</time>
+    <time datetime="2022-08-24">August 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8518,9 +8619,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-08-factors-two-point-argus/" >
-      <img src="/publications/2022-08-factors-two-point-argus/featured_hue70167b8aaf56e0966ff3e25d321b857_202911_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Factors affecting two-point discrimination in Argus II patients">
-    </a>
+    
+    <img src="/publications/2022-08-factors-two-point-argus/featured_hue70167b8aaf56e0966ff3e25d321b857_202911_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8612,13 +8712,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2022</time>
+    <time datetime="2022-06-22">June 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8657,9 +8760,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-06-motion-perception-stdp-h/" >
-      <img src="/publications/2022-06-motion-perception-stdp-h/featured_hu08693bcce7d6c2cd9c254152d8cb6c2a_445287_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Cortical motion perception emerges from dimensionality reduction with evolved spike-timing dependent plasticity rules">
-    </a>
+    
+    <img src="/publications/2022-06-motion-perception-stdp-h/featured_hu08693bcce7d6c2cd9c254152d8cb6c2a_445287_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8751,13 +8853,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2022</time>
+    <time datetime="2022-06-19">June 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8796,9 +8901,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-06-spike-latency-winner-take-all/" >
-      <img src="/publications/2022-06-spike-latency-winner-take-all/featured_hu5f17d67d38b28523a0e563399a0d85fe_67344_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient visual object representation using a biologically plausible spike-latency code and winner-take-all inhibition">
-    </a>
+    
+    <img src="/publications/2022-06-spike-latency-winner-take-all/featured_hu5f17d67d38b28523a0e563399a0d85fe_67344_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -8890,13 +8994,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2022</time>
+    <time datetime="2022-03-07">March 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -8935,9 +9042,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-03-deep-stimulus-encoder/" >
-      <img src="/publications/2022-03-deep-stimulus-encoder/featured_hue70167b8aaf56e0966ff3e25d321b857_248285_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Deep learning-based perceptual stimulus encoder for bionic vision">
-    </a>
+    
+    <img src="/publications/2022-03-deep-stimulus-encoder/featured_hue70167b8aaf56e0966ff3e25d321b857_248285_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9029,13 +9135,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2022</time>
+    <time datetime="2022-03-07">March 2022</time>
   </span>
   
   
 
+  
   
 
   
@@ -9074,9 +9183,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2022-03-immersive-vr/" >
-      <img src="/publications/2022-03-immersive-vr/featured_hu5e96d0ee6aca0dcafb585563c620ecf0_176877_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Immersive virtual reality simulations of bionic vision">
-    </a>
+    
+    <img src="/publications/2022-03-immersive-vr/featured_hu5e96d0ee6aca0dcafb585563c620ecf0_176877_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9168,13 +9276,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2021</time>
+    <time datetime="2021-12-22">December 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -9213,9 +9324,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-learning-to-see-again/" >
-      <img src="/publications/2021-learning-to-see-again/featured_hu1fbaffeff692cfef26054ba2ffca4fa3_116636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Learning to see again: Perceptual learning of simulated abnormal on- off-cell population responses in sighted individuals">
-    </a>
+    
+    <img src="/publications/2021-learning-to-see-again/featured_hu1fbaffeff692cfef26054ba2ffca4fa3_116636_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9307,13 +9417,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2021</time>
+    <time datetime="2021-11-01">November 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -9352,9 +9465,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-biphasic-axon-map/" >
-      <img src="/publications/2021-biphasic-axon-map/featured_hu283fb22e554a6e8f76d10a3bcd50e0b9_44936_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A computational model of phosphene appearance for epiretinal prostheses">
-    </a>
+    
+    <img src="/publications/2021-biphasic-axon-map/featured_hu283fb22e554a6e8f76d10a3bcd50e0b9_44936_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9446,13 +9558,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>September 2021</time>
+    <time datetime="2021-09-27">September 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -9491,9 +9606,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-hba-u-net/" >
-      <img src="/publications/2021-hba-u-net/featured_hub52c2375a1eeb3a8107f8d6c60bb3620_41593_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="U-Net with hierarchical bottleneck attention for landmark detection in fundus images of the degenerated retina">
-    </a>
+    
+    <img src="/publications/2021-hba-u-net/featured_hub52c2375a1eeb3a8107f8d6c60bb3620_41593_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9585,13 +9699,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2021</time>
+    <time datetime="2021-05-04">May 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -9630,9 +9747,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-explainable-ai/" >
-      <img src="/publications/2021-explainable-ai/featured_hue040fabfb91f9bb3cb2dffff8cf511b9_120820_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Explainable AI for retinal prostheses: Predicting electrode deactivation from routine clinical measures">
-    </a>
+    
+    <img src="/publications/2021-explainable-ai/featured_hue040fabfb91f9bb3cb2dffff8cf511b9_120820_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9724,13 +9840,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2021</time>
+    <time datetime="2021-02-23">February 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -9769,9 +9888,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-towards-immersive-vr/" >
-      <img src="/publications/2021-towards-immersive-vr/featured_hu790b6ae7fd4cbb86adc495f8ef1ecf38_520606_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Towards immersive virtual reality simulations of bionic vision">
-    </a>
+    
+    <img src="/publications/2021-towards-immersive-vr/featured_hu790b6ae7fd4cbb86adc495f8ef1ecf38_520606_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -9863,13 +9981,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2021</time>
+    <time datetime="2021-02-22">February 2021</time>
   </span>
   
   
 
+  
   
 
   
@@ -9908,9 +10029,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2021-scene-simplification/" >
-      <img src="/publications/2021-scene-simplification/featured_huc0d029b921c1772c064284aa702772da_95028_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Deep learning-based scene simplification for bionic vision">
-    </a>
+    
+    <img src="/publications/2021-scene-simplification/featured_huc0d029b921c1772c064284aa702772da_95028_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10002,13 +10122,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2019</time>
+    <time datetime="2019-10-10">October 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -10047,9 +10170,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-optimal-surgical-placement/" >
-      <img src="/publications/2019-optimal-surgical-placement/featured_hub18654734195a61b769175fc692b21c3_210304_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Model-based recommendations for optimal surgical placement of epiretinal implants">
-    </a>
+    
+    <img src="/publications/2019-optimal-surgical-placement/featured_hub18654734195a61b769175fc692b21c3_210304_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10141,13 +10263,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2019</time>
+    <time datetime="2019-07-17">July 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -10186,9 +10311,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/" >
-      <img src="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/featured_hua244b7f56814d401e0661a1bc678db5f_42665_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Data-driven models in human neuroscience and neuroengineering">
-    </a>
+    
+    <img src="/publications/2019-data-driven-models-human-neuroscience-neuroengineering/featured_hua244b7f56814d401e0661a1bc678db5f_42665_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10280,13 +10404,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2019</time>
+    <time datetime="2019-06-27">June 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -10325,9 +10452,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/" >
-      <img src="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/featured_hu625b1480fef3fcb1a959299869c10262_431604_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Neural correlates of sparse coding and dimensionality reduction">
-    </a>
+    
+    <img src="/publications/2019-neural-correlates-sparse-coding-dimensionality-reduction/featured_hu625b1480fef3fcb1a959299869c10262_431604_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10419,13 +10545,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2019</time>
+    <time datetime="2019-06-24">June 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -10464,9 +10593,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-axon-map-model/" >
-      <img src="/publications/2019-axon-map-model/featured_hu312c1289ced52dfe0a8a36166915e5d9_93562_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A model of ganglion axon pathways accounts for percepts elicited by retinal implants">
-    </a>
+    
+    <img src="/publications/2019-axon-map-model/featured_hu312c1289ced52dfe0a8a36166915e5d9_93562_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10558,13 +10686,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2019</time>
+    <time datetime="2019-05-20">May 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -10603,9 +10734,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2019-biophysical-model-axonal-stimulation/" >
-      <img src="/publications/2019-biophysical-model-axonal-stimulation/featured_hubc79cd81bd1f6ec77952a9e1fd28a562_37172_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Biophysical model of axonal stimulation in epiretinal visual prostheses">
-    </a>
+    
+    <img src="/publications/2019-biophysical-model-axonal-stimulation/featured_hubc79cd81bd1f6ec77952a9e1fd28a562_37172_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10697,13 +10827,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2019</time>
+    <time datetime="2019-05-10">May 2019</time>
   </span>
   
   
 
+  
   
 
   
@@ -10829,13 +10962,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2018</time>
+    <time datetime="2018-07-13">July 2018</time>
   </span>
   
   
 
+  
   
 
   
@@ -10874,9 +11010,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2018-carlsim4/" >
-      <img src="/publications/2018-carlsim4/featured_hu1997bf28cb61ba8ec469bb961dfa29b9_218339_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters">
-    </a>
+    
+    <img src="/publications/2018-carlsim4/featured_hu1997bf28cb61ba8ec469bb961dfa29b9_218339_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -10968,13 +11103,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2017</time>
+    <time datetime="2017-08-22">August 2017</time>
   </span>
   
   
 
+  
   
 
   
@@ -11013,9 +11151,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2017-learning-to-see-again/" >
-      <img src="/publications/2017-learning-to-see-again/featured_hu0b590a3dfb0869659599faa7986f0370_476950_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies">
-    </a>
+    
+    <img src="/publications/2017-learning-to-see-again/featured_hu0b590a3dfb0869659599faa7986f0370_476950_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11107,13 +11244,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2017</time>
+    <time datetime="2017-07-01">July 2017</time>
   </span>
   
   
 
+  
   
 
   
@@ -11152,9 +11292,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2017-pulse2percept/" >
-      <img src="/publications/2017-pulse2percept/featured_hucf0921d49834fd9af340e5d4b4c32f0c_93305_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="pulse2percept: A Python-based simulation framework for bionic vision">
-    </a>
+    
+    <img src="/publications/2017-pulse2percept/featured_hucf0921d49834fd9af340e5d4b4c32f0c_93305_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11246,13 +11385,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>August 2016</time>
+    <time datetime="2016-08-01">August 2016</time>
   </span>
   
   
 
+  
   
 
   
@@ -11291,9 +11433,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2016-sparse-decomposition-model/" >
-      <img src="/publications/2016-sparse-decomposition-model/featured_hube6c78274a4b04e4d404b6c1ee737e75_101897_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="3D visual response properties of MSTd emerge from an efficient, sparse population code">
-    </a>
+    
+    <img src="/publications/2016-sparse-decomposition-model/featured_hube6c78274a4b04e4d404b6c1ee737e75_101897_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11385,13 +11526,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2015</time>
+    <time datetime="2015-12-01">December 2015</time>
   </span>
   
   
 
+  
   
 
   
@@ -11430,9 +11574,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2015-gpu-visually-guided-robot-navigation/" >
-      <img src="/publications/2015-gpu-visually-guided-robot-navigation/featured_huc9d88b7ba2caae77573f103db7b86e07_87883_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="A GPU-accelerated cortical neural network model for visually guided robot navigation">
-    </a>
+    
+    <img src="/publications/2015-gpu-visually-guided-robot-navigation/featured_huc9d88b7ba2caae77573f103db7b86e07_87883_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11524,13 +11667,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>July 2015</time>
+    <time datetime="2015-07-12">July 2015</time>
   </span>
   
   
 
+  
   
 
   
@@ -11569,9 +11715,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2015-carlsim3/" >
-      <img src="/publications/2015-carlsim3/featured_hue70167b8aaf56e0966ff3e25d321b857_465543_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks">
-    </a>
+    
+    <img src="/publications/2015-carlsim3/featured_hue70167b8aaf56e0966ff3e25d321b857_465543_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11663,13 +11808,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>June 2014</time>
+    <time datetime="2014-06-01">June 2014</time>
   </span>
   
   
 
+  
   
 
   
@@ -11708,9 +11856,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2014-vision-based-robust-road-lane-detection/" >
-      <img src="/publications/2014-vision-based-robust-road-lane-detection/featured_huc55adffa7fe4f47802323f448856a9ea_297210_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Vision-based robust road lane detection in urban environments">
-    </a>
+    
+    <img src="/publications/2014-vision-based-robust-road-lane-detection/featured_huc55adffa7fe4f47802323f448856a9ea_297210_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11802,13 +11949,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>February 2014</time>
+    <time datetime="2014-02-05">February 2014</time>
   </span>
   
   
 
+  
   
 
   
@@ -11847,9 +11997,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2014-efficient-pattern-motion-snn-mt/" >
-      <img src="/publications/2014-efficient-pattern-motion-snn-mt/featured_hu2a06e461a394504b018b380eac5c4e33_193760_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Efficient spiking neural network model of pattern motion selectivity in visual cortex">
-    </a>
+    
+    <img src="/publications/2014-efficient-pattern-motion-snn-mt/featured_hu2a06e461a394504b018b380eac5c4e33_193760_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -11941,13 +12090,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>January 2014</time>
+    <time datetime="2014-01-20">January 2014</time>
   </span>
   
   
 
+  
   
 
   
@@ -11986,9 +12138,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2014-gpgpu-accelerated-parameter-tuning/" >
-      <img src="/publications/2014-gpgpu-accelerated-parameter-tuning/featured_hue70167b8aaf56e0966ff3e25d321b857_486167_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="GPGPU accelerated simulation and parameter tuning for neuromorphic applications">
-    </a>
+    
+    <img src="/publications/2014-gpgpu-accelerated-parameter-tuning/featured_hue70167b8aaf56e0966ff3e25d321b857_486167_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12080,13 +12231,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>December 2013</time>
+    <time datetime="2013-12-01">December 2013</time>
   </span>
   
   
 
+  
   
 
   
@@ -12125,9 +12279,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2013-categorization-mnist-stdp/" >
-      <img src="/publications/2013-categorization-mnist-stdp/featured_hue70167b8aaf56e0966ff3e25d321b857_376849_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like plasticity rule">
-    </a>
+    
+    <img src="/publications/2013-categorization-mnist-stdp/featured_hue70167b8aaf56e0966ff3e25d321b857_376849_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12219,13 +12372,16 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2010</time>
+    <time datetime="2010-11-01">November 2010</time>
   </span>
   
   
 
+  
   
 
   
@@ -12264,9 +12420,8 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2010-neuromorphic-olfactory-networks/" >
-      <img src="/publications/2010-neuromorphic-olfactory-networks/featured_hue70167b8aaf56e0966ff3e25d321b857_428762_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Exploring olfactory sensory networks: Simulations and hardware emulation">
-    </a>
+    
+    <img src="/publications/2010-neuromorphic-olfactory-networks/featured_hue70167b8aaf56e0966ff3e25d321b857_428762_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -12314,10 +12469,7 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -12388,9 +12540,11 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -12460,11 +12614,12 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -12473,17 +12628,18 @@ His research combines computational neuroscience, machine learning and NeuroAI, 
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

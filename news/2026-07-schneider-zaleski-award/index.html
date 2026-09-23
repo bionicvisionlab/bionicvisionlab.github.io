@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -168,7 +171,6 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
@@ -180,21 +182,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -213,6 +220,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -428,10 +437,14 @@
     <h1 class="page-title">Marius Schneider wins Zaleski Discovery Award</h1>
   </div>
   <div class="row mt-2">
-    <div class="col-12 content-prose">
+    
+    <div class="col-12 content-prose has-figure">
       
       
-      <img class="news-figure subtle-black-shadow" src="featured.jpg" alt="">
+      <figure class="news-figure">
+        <img class="subtle-black-shadow" src="featured.jpg" alt="Event-camera view of a city street: scene edges appear as pink and blue events, while a car and two pedestrians, one pulling a suitcase, are outlined in green.">
+        
+      </figure>
       
       <p class="news-summary"><i>The 2026–27 James V. &amp; Beverly R. Zaleski Discovery Award in Robotics and Computing will provide up to $94,000 for Schneider’s project, Residual Event Affordances: Neuromorphic Safety Computation for Mobile Edge Systems.</i></p>
       <p>A cyclist approaches from behind. Farther ahead, a construction barrier blocks the sidewalk. Along an unfamiliar route, an unexpected drop-off appears.</p>
@@ -495,14 +508,15 @@
     <div class="media">
       
         
-        <img class="portrait mr-3" src="/people/schneider_marius/avatar_hu0c067ec45c004f0e29d0bb935e6d100e_528917_250x250_fill_lanczos_center_3.png" itemprop="image" alt="Avatar">
+        <img class="portrait mr-3" src="/people/schneider_marius/avatar_hu0c067ec45c004f0e29d0bb935e6d100e_528917_250x250_fill_lanczos_center_3.png" itemprop="image" alt="">
       
 
       <div class="media-body">
         <p class="card-title" itemprop="name"><a href="/people/schneider_marius/">Marius Schneider</a></p>
         <p class="card-subtitle">Postdoctoral Scholar</p>
         <p class="card-text" itemprop="description">Marius Schneider is a postdoctoral scholar investigating how neurons process sensory information and drive behavior using large-scale neural recordings and computational modeling.</p>
-        <ul class="network-icon" aria-hidden="true">
+        
+        <ul class="network-icon">
           
             
             
@@ -516,8 +530,9 @@
               
             
             <li>
-              <a itemprop="sameAs" href="https://schneidermarius.github.io" target="_blank" rel="noopener">
-                <i class="fas fa-globe"></i>
+              
+              <a itemprop="sameAs" href="https://schneidermarius.github.io" target="_blank" rel="noopener" aria-label="globe">
+                <i class="fas fa-globe" aria-hidden="true"></i>
               </a>
             </li>
           
@@ -531,8 +546,9 @@
               
             
             <li>
-              <a itemprop="sameAs" href="https://schneidermarius.github.io/images/CV_Marius_Schneider_Website.pdf" target="_blank" rel="noopener">
-                <i class="ai ai-cv"></i>
+              
+              <a itemprop="sameAs" href="https://schneidermarius.github.io/images/CV_Marius_Schneider_Website.pdf" target="_blank" rel="noopener" aria-label="cv">
+                <i class="ai ai-cv" aria-hidden="true"></i>
               </a>
             </li>
           
@@ -546,25 +562,9 @@
               
             
             <li>
-              <a itemprop="sameAs" href="https://scholar.google.com/citations?user=mtC7qy8AAAAJ&amp;hl=de" target="_blank" rel="noopener">
-                <i class="ai ai-google-scholar"></i>
-              </a>
-            </li>
-          
-            
-            
-            
               
-            
-            
-            
-            
-            
-              
-            
-            <li>
-              <a itemprop="sameAs" href="https://www.linkedin.com/in/marius-schneider-78755422a/" target="_blank" rel="noopener">
-                <i class="fab fa-linkedin"></i>
+              <a itemprop="sameAs" href="https://scholar.google.com/citations?user=mtC7qy8AAAAJ&amp;hl=de" target="_blank" rel="noopener" aria-label="google-scholar">
+                <i class="ai ai-google-scholar" aria-hidden="true"></i>
               </a>
             </li>
           
@@ -580,8 +580,27 @@
               
             
             <li>
-              <a itemprop="sameAs" href="https://twitter.com/Mars_Schneider" target="_blank" rel="noopener">
-                <i class="fab fa-twitter"></i>
+              
+              <a itemprop="sameAs" href="https://www.linkedin.com/in/marius-schneider-78755422a/" target="_blank" rel="noopener" aria-label="linkedin">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+            
+            
+            
+              
+            
+            
+            
+            
+            
+              
+            
+            <li>
+              
+              <a itemprop="sameAs" href="https://twitter.com/Mars_Schneider" target="_blank" rel="noopener" aria-label="twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
           
@@ -595,8 +614,9 @@
               
             
             <li>
-              <a itemprop="sameAs" href="https://neurotree.org/neurotree/peopleinfo.php?pid=804788" target="_blank" rel="noopener">
-                <i class="fa fa-tree"></i>
+              
+              <a itemprop="sameAs" href="https://neurotree.org/neurotree/peopleinfo.php?pid=804788" target="_blank" rel="noopener" aria-label="tree">
+                <i class="fa fa-tree" aria-hidden="true"></i>
               </a>
             </li>
           
@@ -607,8 +627,6 @@
 
 
 
-
-  </div>
 
 </div>
   </main>
@@ -646,10 +664,7 @@
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -720,9 +735,11 @@
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -792,11 +809,12 @@
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -805,17 +823,18 @@
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
   
+  
 
   
   
@@ -65,6 +66,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -91,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.14beb04e5d09864ffae2fa2a9f5eb4a8.css">
+    <link rel="stylesheet" href="/css/academic.3550b91a09e79a4fb36a30c541cea939.css">
   
 
   
@@ -122,7 +125,7 @@
   
   <meta property="og:site_name" content="Bionic Vision Lab">
   <meta property="og:url" content="https://bionicvisionlab.org/people/turkstra_lily/">
-  <meta property="og:title" content=" | Bionic Vision Lab">
+  <meta property="og:title" content="Lily M. Turkstra | Bionic Vision Lab">
   <meta property="og:description" content=""><meta property="og:image" content="https://bionicvisionlab.org/img/icon-192.png">
   <meta property="twitter:image" content="https://bionicvisionlab.org/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -169,11 +172,10 @@
   <link rel="stylesheet" href="/css/gallery.css"/>
   
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/js/load-photoswipe.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
-  <title> | Bionic Vision Lab</title>
+  <title>Lily M. Turkstra | Bionic Vision Lab</title>
 
 </head>
 
@@ -181,21 +183,26 @@
 
   <a class="skip-to-content" href="#main-content">Skip to main content</a>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-results" id="search" role="dialog" aria-modal="true" aria-labelledby="search-dialog-title">
   <div class="container">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1 id="search-dialog-title">Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <button type="button" class="js-search btn-icon-reset" aria-label="Close search">
+            <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+          </button>
         </div>
       </div>
 
       <div id="search-box">
         
+        <label class="sr-only" for="search-query">Search...</label>
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
@@ -214,6 +221,8 @@
 
 
   
+
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
@@ -549,6 +558,7 @@
     
 
     
+    
   </ul>
 
 </div>
@@ -748,15 +758,16 @@
 
     
 
-<div class="article-tags">
+
+<ul class="article-tags" aria-label="Topics">
   
-  <a class="badge badge-light" href="/tags/blindness-low-vision/">Blindness &amp; Low Vision</a>
+  <li><a class="badge badge-light" href="/tags/blindness-low-vision/">Blindness &amp; Low Vision</a></li>
   
-  <a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a>
+  <li><a class="badge badge-light" href="/tags/visual-perception/">Visual Perception</a></li>
   
-  <a class="badge badge-light" href="/tags/vision-rehabilitation/">Vision Rehabilitation</a>
+  <li><a class="badge badge-light" href="/tags/vision-rehabilitation/">Vision Rehabilitation</a></li>
   
-</div>
+</ul>
 
 
 
@@ -785,6 +796,7 @@
   
   
 
+  
   
 
   
@@ -816,9 +828,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/research/vision-loss-restoration-adaptation/" >
-      <img src="/research/vision-loss-restoration-adaptation/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image">
-    </a>
+    
+    <img src="/research/vision-loss-restoration-adaptation/featured_hu5587ec3242a8b72b6231df93e6c70bc3_4469191_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -928,13 +939,15 @@
   <span class="">
     
     
+    
       
     
-    <time>May 9, 2025</time>
+    <time datetime="2025-05-09">May 9, 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -966,9 +979,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/news/2025-05-wypl-fm-eye-on-vision/" >
-      <img src="/news/2025-05-wypl-fm-eye-on-vision/featured_hu06743b1c9668589e469a68c185fc5568_44765_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Eye on Vision podcast features Lily Turkstra’s research on home-based assistive technology">
-    </a>
+    
+    <img src="/news/2025-05-wypl-fm-eye-on-vision/featured_hu06743b1c9668589e469a68c185fc5568_44765_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1070,13 +1082,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-06">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1115,9 +1130,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/" >
-      <img src="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/featured_hub5ae05a27e3322b8b8cbb1d6ba5b6304_826096_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Evaluating closed-loop EEG feedback for simulated prosthetic vision in immersive VR: a sham-controlled feasibility study">
-    </a>
+    
+    <img src="/publications/2026-10-neuroxr-closed-loop-eeg-prosthetic-vision/featured_hub5ae05a27e3322b8b8cbb1d6ba5b6304_826096_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1209,13 +1223,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>October 2026</time>
+    <time datetime="2026-10-05">October 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1254,9 +1271,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-10-vr-guidance-arrow-map-compass/" >
-      <img src="/publications/2026-10-vr-guidance-arrow-map-compass/featured_hud31b88cda69b65d6d48a3e9594eaf54d_170749_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Actionable guidance outperforms map and compass cues in demanding immersive VR wayfinding">
-    </a>
+    
+    <img src="/publications/2026-10-vr-guidance-arrow-map-compass/featured_hud31b88cda69b65d6d48a3e9594eaf54d_170749_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1348,13 +1364,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2026</time>
+    <time datetime="2026-05-21">May 2026</time>
   </span>
   
   
 
+  
   
 
   
@@ -1393,9 +1412,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2026-05-tvst-argus-gamification/" >
-      <img src="/publications/2026-05-tvst-argus-gamification/featured_hu852cfb2329fcc351b2e86addfc580e9c_135272_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Gamification enhances user engagement and task performance in prosthetic vision testing">
-    </a>
+    
+    <img src="/publications/2026-05-tvst-argus-gamification/featured_hu852cfb2329fcc351b2e86addfc580e9c_135272_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1487,13 +1505,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>March 2025</time>
+    <time datetime="2025-03-03">March 2025</time>
   </span>
   
   
 
+  
   
 
   
@@ -1532,9 +1553,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2025-03-assistive-technology-domestic-activities/" >
-      <img src="/publications/2025-03-assistive-technology-domestic-activities/featured_hu6c825c558b1424ec93e4302ff0bcb278_260942_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="Assistive technology use in domestic activities by people who are blind">
-    </a>
+    
+    <img src="/publications/2025-03-assistive-technology-domestic-activities/featured_hu6c825c558b1424ec93e4302ff0bcb278_260942_350x0_resize_lanczos_3.png" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1626,13 +1646,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>November 2024</time>
+    <time datetime="2024-11-21">November 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -1671,9 +1694,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-11-implant-expectations/" >
-      <img src="/publications/2024-11-implant-expectations/featured_hue70167b8aaf56e0966ff3e25d321b857_333955_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Aligning visual prosthetic development with implantee needs">
-    </a>
+    
+    <img src="/publications/2024-11-implant-expectations/featured_hue70167b8aaf56e0966ff3e25d321b857_333955_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1765,13 +1787,16 @@
   <span class="">
     
     
+    
+      
       
     
-    <time>May 2024</time>
+    <time datetime="2024-05-11">May 2024</time>
   </span>
   
   
 
+  
   
 
   
@@ -1810,9 +1835,8 @@
   
   <div class="col-md-4 hidden-sm d-none d-md-block">
     
-    <a href="/publications/2024-05-beyond-sight-blind-v1-alignment/" >
-      <img src="/publications/2024-05-beyond-sight-blind-v1-alignment/featured_hu763810ca1eaf5f77031cf0ff15295ff9_142548_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="Beyond sight: Probing alignment between image models and blind V1">
-    </a>
+    
+    <img src="/publications/2024-05-beyond-sight-blind-v1-alignment/featured_hu763810ca1eaf5f77031cf0ff15295ff9_142548_350x0_resize_q90_lanczos.jpg" class="bg-white" itemprop="image" alt="">
   </div>
   
 </div>
@@ -1860,10 +1884,7 @@
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjF8qaeyFvA3ec20WeYhHnN6IVo6Q4MI0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -1934,9 +1955,11 @@
     
       
     
+      
     
     
-    <script src="/js/academic.min.1bab73099807d2ac6d87a9276b8d4b18.js"></script>
+    
+    <script src="/js/academic.min.b3f9a0d3a81e36370957af6c8009017b.js"></script>
 
     
 
@@ -2006,11 +2029,12 @@
   
 
   
-<div id="modal" class="modal fade" role="dialog">
+
+<div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title" id="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -2019,17 +2043,18 @@
         <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
+        <button type="button" class="btn btn-outline-primary my-1 js-copy-cite">
+          <i class="fas fa-copy" aria-hidden="true"></i> Copy
+        </button>
+        <a class="btn btn-outline-primary my-1 js-download-cite" download>
+          <i class="fas fa-download" aria-hidden="true"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>
