@@ -17717,74 +17717,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  
-
-  (function () {
-    var list = document.getElementById('publications-list');
-    if (!list) return;
-    var items = list.querySelectorAll('.pub-item');
-    var headings = list.querySelectorAll('.pub-year');
-    var selects = document.querySelectorAll('.pub-filters');
-    var search = document.querySelector('.filter-search');
-    var typeSelect = document.querySelector('.pubtype-select');
-    var status = document.getElementById('pub-count');
-    var statusTimer;
-
-    function apply(announce) {
-      var term = search ? search.value.trim().toLowerCase() : '';
-      var required = [];
-      for (var i = 0; i < selects.length; i++) {
-        var value = selects[i].value;
-        if (value && value !== '*') required.push(value.replace(/^\./, ''));
-      }
-      var years = {};
-      var shown = 0;
-      for (var j = 0; j < items.length; j++) {
-        var item = items[j];
-        var show = true;
-        for (var k = 0; k < required.length && show; k++) {
-          show = item.classList.contains(required[k]);
-        }
-        if (show && term) show = item.textContent.toLowerCase().indexOf(term) !== -1;
-        item.style.display = show ? '' : 'none';
-        if (show) {
-          shown++;
-          years[item.getAttribute('data-year')] = true;
-        }
-      }
-      for (var m = 0; m < headings.length; m++) {
-        var heading = headings[m];
-        heading.style.display = years[heading.getAttribute('data-year')] ? '' : 'none';
-      }
-      
-
-      if (announce && status) {
-        clearTimeout(statusTimer);
-        statusTimer = setTimeout(function () {
-          status.textContent = shown + (shown === 1 ? ' publication' : ' publications') + ' shown';
-        }, 400);
-      }
-    }
-
-     
-    function syncTypeFromHash() {
-      if (!typeSelect) return;
-      var hash = window.location.hash.replace('#', '');
-      typeSelect.value = (hash !== '' && !isNaN(hash)) ? '.pubtype-' + hash : '*';
-      if (!typeSelect.value) typeSelect.value = '*';
-    }
-
-    function applyAndAnnounce() { apply(true); }
-    for (var s = 0; s < selects.length; s++) selects[s].addEventListener('change', applyAndAnnounce);
-    if (search) search.addEventListener('input', applyAndAnnounce);
-    window.addEventListener('hashchange', function () { syncTypeFromHash(); apply(true); });
-
-    syncTypeFromHash();
-    apply();
-  })();
-</script>
   </main>
 
       
@@ -17883,9 +17815,11 @@
     
       
     
+      
     
     
-    <script src="/js/academic.min.2ef9a3f35d3142cbe191b0e59fa42df6.js"></script>
+    
+    <script src="/js/academic.min.ca8eec837a7cb0860d0c9fd1c978e2fc.js"></script>
 
     
 
