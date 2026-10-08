@@ -7,10 +7,22 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 19 Aug 2026 09:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 09:59:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://bionicvisionlab.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Varshney and Turkstra win ISMAR 2026 Best Paper Award</title>
+      <link>https://bionicvisionlab.org/news/2026-10-ismar-best-paper-award/</link>
+      <pubDate>Wed, 07 Oct 2026 09:59:00 +0000</pubDate>
+      
+      <guid>https://bionicvisionlab.org/news/2026-10-ismar-best-paper-award/</guid>
+      <description>&lt;p&gt;Bionic Vision Lab researchers Apurv Varshney and Lily M. Turkstra received a Best Paper Award at the 2026 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) for their paper, Actionable Guidance Outperforms Map and Compass Cues in Demanding Immersive VR Wayfinding. Varshney and Turkstra contributed equally to the work, together with Jiaxin Su, Mable Zhou, Scott T. Grafton, Barry Giesbrecht, Mary Hegarty, and Michael Beyeler.&lt;/p&gt;
+&lt;p&gt;The study compared three common forms of navigation guidance in a demanding immersive VR task: a directional arrow, a minimap, and a compass. Across 42 participants and more than 1,000 navigation trials, the arrow produced the strongest performance, suggesting that guidance designed to directly support the next movement decision can outperform richer spatial information that requires more interpretation.&lt;/p&gt;
+&lt;p&gt;Only eight papers received a Best Paper Award at ISMAR 2026, placing the work among the top 1.1% of the conference’s 754 paper submissions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Emily Joyce named inaugural UC Noyce Graduate Student Fellow</title>
