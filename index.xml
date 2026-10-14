@@ -104,36 +104,36 @@ You can find code for most of our publications at &lt;a href=&#34;https://github
       <guid>https://bionicvisionlab.org/join/</guid>
       <description>&lt;p&gt;We welcome enthusiastic, computationally minded people interested in understanding vision and advancing sight restoration for people living with blindness. We especially value people who know what they want to learn, take initiative, and follow projects through to completion.&lt;/p&gt;
 &lt;p&gt;Before reaching out, please check our &lt;a href=&#34;https://docs.google.com/document/d/12Bvxio92_Eh1rZDP3v00QipCD8cP7Ymt6sk6lueoArw/edit?usp=drive_link&#34;&gt;Lab Manual&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 class=&#34;section-title fill-width&#34;&gt;PhD Position: Machine Learning for Visual Neuroprostheses (Fall 2027)&lt;/h2&gt;
-&lt;p&gt;We are recruiting one PhD student through either the &lt;a href=&#34;https://cs.ucsb.edu/education/graduate/how-to-apply&#34; target=&#34;_blank&#34;&gt;UCSB Department of Computer Science&lt;/a&gt; or &lt;a href=&#34;https://www.dyns.ucsb.edu/graduate/apply&#34;&gt;Dynamical Neuroscience (DYNS)&lt;/a&gt; to join the lab in Fall &amp;lsquo;27.
-Applications are due December 16, 2026.&lt;/p&gt;
-&lt;p&gt;The project focuses on computational models and machine-learning methods for visual neuroprostheses. This includes models that predict &lt;a href=&#34;../publications/2026-02-fuzzing-the-brain/&#34;&gt;safe neural activity&lt;/a&gt;, &lt;a href=&#34;../publications/2022-12-brain-like-phosphene-model/&#34;&gt;visual percepts&lt;/a&gt;, and &lt;a href=&#34;../publications/2026-09-percept-aware-surgical-planning/&#34;&gt;where to place electrodes&lt;/a&gt;, as well as &lt;a href=&#34;../publications/2026-08-deep-neural-activity-shaping&#34;&gt;inverse/control methods&lt;/a&gt; for producing desired percepts.&lt;/p&gt;
-&lt;p&gt;We are looking for someone who is genuinely interested in the neuroengineering problem: how electrical stimulation produces neural activity and perception, and how we can model and control those relationships to create useful vision. You should have strong ML/programming foundations (beyond vibe coding) and want to work closely with real neurotechnology and implant teams.&lt;/p&gt;
-&lt;p&gt;Prior neuroscience or neuroengineering experience is useful, but not required. What matters more is that you are excited by neural interfaces, visual perception, and sight restoration, rather than treating this as another ML dataset.&lt;/p&gt;
-&lt;h2 class=&#34;section-title fill-width&#34;&gt;Potential PhD Position: Low Vision / NeuroXR (Fall 2027)&lt;/h2&gt;
-&lt;p&gt;We may recruit one additional PhD student for Fall &amp;lsquo;27, through either &lt;a href=&#34;https://cs.ucsb.edu/education/graduate/how-to-apply&#34; target=&#34;_blank&#34;&gt;Computer Science&lt;/a&gt; or &lt;a href=&#34;https://psych.ucsb.edu/prospective-students-0&#34; target=&#34;_blank&#34;&gt;Psychological &amp;amp; Brain Sciences&lt;/a&gt; depending on the candidate&amp;rsquo;s background and research direction. This position is contingent on funding and departmental approval.&lt;/p&gt;
-&lt;p&gt;Potential projects fall into one of two broad areas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Vision science and low vision:&lt;/strong&gt; computational psychophysics, active vision, gaze-contingent simulation, and XR-based approaches to understanding central and peripheral vision loss and developing assistive or restorative technologies.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;NeuroXR:&lt;/strong&gt; combining immersive environments with neural sensing, neurofeedback, and closed-loop brain-computer interfaces to study and adapt to brain and behavioral state.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We are especially interested in candidates who are technically strong, self-directed, and excited to work across traditional boundaries between vision science, neuroscience, computing, and immersive technology.&lt;/p&gt;
-&lt;p&gt;Prospective applicants with a strong fit are encouraged to contact us before applying.&lt;/p&gt;
+&lt;h2 class=&#34;section-title fill-width&#34;&gt;PhD Positions (Fall 2027)&lt;/h2&gt;
+&lt;p&gt;We expect to recruit one or two PhD students for Fall 2027 through &lt;a href=&#34;https://cs.ucsb.edu/education/graduate/how-to-apply&#34; target=&#34;_blank&#34;&gt;Computer Science&lt;/a&gt; (Dec 16), &lt;a href=&#34;https://psych.ucsb.edu/prospective-students-0&#34; target=&#34;_blank&#34;&gt;Psychological &amp;amp; Brain Sciences&lt;/a&gt; (Dec 1), or &lt;a href=&#34;https://www.dyns.ucsb.edu/graduate/apply&#34;&gt;Dynamical Neuroscience (DYNS)&lt;/a&gt; (Dec 1).&lt;/p&gt;
+&lt;p&gt;Our current priorities are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Visual neuroprostheses / phosphene modeling:&lt;/strong&gt; computational models that predict and control percepts produced by electrical stimulation (see &lt;a href=&#34;../publications/2026-08-deep-neural-activity-shaping&#34;&gt;Moure et al., 2026&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Low vision / visual psychophysics:&lt;/strong&gt; active vision, gaze-contingent simulation, and visual rehabilitation (see &lt;a href=&#34;../publications/2026-06-vision-loss-scene-understanding/&#34; target=&#34;_blank&#34;&gt;Johnson et al., 2026&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NeuroXR:&lt;/strong&gt; neural interfaces, perceptual augmentation, and VR/AR/MR for studying vision and behavior (see &lt;a href=&#34;../publications/2025-10-ismar-neuroadaptive-xr/&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you contact us before applying, please explain &lt;strong&gt;specifically&lt;/strong&gt; how your background and research interests connect to one of these directions. Generic inquiries or descriptions of unrelated prior work are unlikely to receive a response.&lt;/p&gt;
 &lt;div class=&#34;callout-note&#34;&gt;
   &lt;i class=&#34;fas fa-info-circle fa-lg&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
   &lt;div class=&#34;small&#34;&gt;Because we receive a large volume of prospective-student inquiries, we are unable to respond to every individual message. We do read inquiries from prospective PhD students, but generally respond only when there appears to be an especially strong match with our current openings and research directions. Lack of a response should not be interpreted as discouragement from applying through the normal UCSB admissions process.&lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 class=&#34;section-title fill-width&#34;&gt;Prospective Postdocs&lt;/h2&gt;
-&lt;p&gt;We do not currently have a funded postdoctoral opening, but we are interested in hearing from strong candidates whose research aligns closely with the lab. Areas of particular interest include computational neuroprosthetics and NeuroAI, including models of artificial vision across the retina, LGN, and visual cortex; neural population modeling, digital twins, and closed-loop control; and vision science focused on low vision, central and peripheral vision loss, active visual behavior, and XR-based approaches to studying or augmenting vision.&lt;/p&gt;
-&lt;p&gt;If you expect to graduate within the next year and see a strong fit with our work, please reach out early so we can discuss potential projects and explore fellowship opportunities together.&lt;/p&gt;
+&lt;p&gt;We do not currently have a funded postdoctoral opening, but we are interested in hearing from strong candidates whose research aligns closely with the lab. 
+If you expect to graduate within the next year and see a strong fit with our work, please reach out early so we can discuss potential projects and explore fellowship opportunities together (e.g., &lt;a href=&#34;https://ppfp.ucop.edu/info/&#34; target=&#34;_blank&#34;&gt;PPFP&lt;/a&gt;).&lt;/p&gt;
 &lt;h2 class=&#34;section-title fill-width&#34;&gt;Junior Lab Trainees&lt;/h2&gt;
-&lt;p&gt;For UCSB undergraduates, the Junior Lab Trainee program is the main entry point into the lab. Trainees attend bi-weekly paper discussions and participate reliably in ongoing behavioral studies (XR, psychophysics, and so on).&lt;/p&gt;
-&lt;p&gt;Successful completion of a quarter as a Junior Trainee is often a prerequisite for becoming a Senior Research Assistant, although promotion is not guaranteed.&lt;/p&gt;
+&lt;p&gt;For UCSB undergraduates, the Junior Lab Trainee program is the main entry point into the lab. Trainees attend bi-weekly paper discussions and participate reliably in ongoing behavioral studies (XR, psychophysics, and so on).
+Successful completion of a quarter as a Junior Trainee is often a prerequisite for becoming a Senior Research Assistant, although promotion is not guaranteed.&lt;/p&gt;
 &lt;p&gt;We accept a limited cohort each quarter. To be considered, please &lt;a href=&#34;https://forms.gle/XGuijmyZX9LSedwn6&#34;&gt;join our waitlist&lt;/a&gt;.
 If you already have specialized research experience, you may indicate interest in a Senior RA role on the form.&lt;/p&gt;
 &lt;h2 class=&#34;section-title fill-width&#34;&gt;All Other Positions&lt;/h2&gt;
 &lt;p&gt;We are currently at capacity for Senior RAs and Master&amp;rsquo;s students, and cannot accommodate summer interns, high school students, or remote projects.&lt;/p&gt;
-&lt;p&gt;&lt;small class=&#34;mt-5&#34;&gt;This page was last updated on October 8, 2026.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small class=&#34;mt-5&#34;&gt;This page was last updated on October 14, 2026.&lt;/small&gt;&lt;/p&gt;
 &lt;hr class=&#34;section-rule&#34;&gt;
 &lt;p&gt;
 &lt;div class=&#34;gallery2 caption-position-none caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
